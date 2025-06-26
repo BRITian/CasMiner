@@ -1,0 +1,1098 @@
+# id	AVE(Cas9 Yes)	STD(Cas9 Yes)
+UniRef100_A0A414ZPS3 CRISPR-associated endonuclease Cas9 n=1 Tax=[Eubacterium] rectale TaxID=39491 RepID=A0A414ZPS3_9FIRM	0.948213	0.081492
+UniRef100_A0A414ZLT7 CRISPR-associated endonuclease Cas9 n=1 Tax=[Eubacterium] rectale TaxID=39491 RepID=A0A414ZLT7_9FIRM	0.945795	0.082756
+UniRef100_A0A3G8Y985 CRISPR-associated endonuclease Cas9 n=1 Tax=Epilithonimonas vandammei TaxID=2487072 RepID=A0A3G8Y985_9FLAO	0.948165	0.081278
+UniRef100_A0A417PQK5 CRISPR-associated endonuclease Cas9 n=2 Tax=Ruminococcus sp. OM08-7 TaxID=2292376 RepID=A0A417PQK5_9FIRM	0.948167	0.081717
+UniRef100_A0A1E9DYC7 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus sp. HMSC062B01 TaxID=1739284 RepID=A0A1E9DYC7_9STRE	0.948115	0.081395
+UniRef100_B6W3J8 CRISPR-associated endonuclease Cas9 n=2 Tax=Phocaeicola dorei TaxID=357276 RepID=B6W3J8_9BACT	0.948341	0.080586
+UniRef100_A0A2T5IVF0 CRISPR-associated endonuclease Cas9 n=1 Tax=Nitrosomonas ureae TaxID=44577 RepID=A0A2T5IVF0_9PROT	0.947495	0.081940
+UniRef100_A0A4Q1A910 Type II-B CRISPR-associated RNA-guided endonuclease Cas9/Csx12 n=1 Tax=Arcobacter sp. CECT 9299 TaxID=2044506 RepID=A0A4Q1A910_9PROT	0.948504	0.081150
+UniRef100_A0A428GD61 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus cristatus TaxID=45634 RepID=A0A428GD61_STRCR	0.947651	0.081317
+UniRef100_A0A7Z8WPM5 CRISPR-associated endonuclease Cas9 n=1 Tax=Enterococcus sp. N041.A-2 TaxID=2315836 RepID=A0A7Z8WPM5_9ENTE	0.948221	0.081404
+UniRef100_A0A3R9IHS7 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus cristatus TaxID=45634 RepID=A0A3R9IHS7_STRCR	0.947967	0.081419
+UniRef100_A0A414PBF9 CRISPR-associated endonuclease Cas9 n=1 Tax=Ruminococcus gnavus TaxID=33038 RepID=A0A414PBF9_RUMGN	0.947969	0.081348
+UniRef100_A0A6A8DEB7 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactobacillus reuteri TaxID=1598 RepID=A0A6A8DEB7_LACRE	0.948111	0.081096
+UniRef100_A0A5B0DAS4 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus cristatus TaxID=45634 RepID=A0A5B0DAS4_STRCR	0.947701	0.081300
+UniRef100_A0A4R6CQE3 Type II CRISPR RNA-guided endonuclease Cas9 n=4 Tax=Lactobacillus crispatus TaxID=47770 RepID=A0A4R6CQE3_9LACO	0.945783	0.080725
+UniRef100_A0A0A2YBT2 CRISPR-associated endonuclease Cas9 n=1 Tax=Gallibacterium anatis IPDH697-78 TaxID=1396514 RepID=A0A0A2YBT2_9PAST	0.947817	0.081711
+UniRef100_A0A5C4THT2 CRISPR-associated endonuclease Cas9 n=1 Tax=Fructilactobacillus sanfranciscensis TaxID=1625 RepID=A0A5C4THT2_FRUSA	0.947903	0.081270
+UniRef100_A0A285BZY5 CRISPR-associated endonuclease Cas9 n=1 Tax=Nitrosomonas ureae TaxID=44577 RepID=A0A285BZY5_9PROT	0.947478	0.081999
+UniRef100_A0A428GKX8 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus cristatus TaxID=45634 RepID=A0A428GKX8_STRCR	0.947499	0.081344
+UniRef100_A0A1X3DJK4 CRISPR-associated endonuclease Cas9 n=1 Tax=Neisseria dumasiana TaxID=1931275 RepID=A0A1X3DJK4_9NEIS	0.947883	0.081857
+UniRef100_A0A413U935 CRISPR-associated endonuclease Cas9 n=1 Tax=Holdemanella biformis TaxID=1735 RepID=A0A413U935_9FIRM	0.948143	0.081378
+UniRef100_A0A3A6E5R1 CRISPR-associated endonuclease Cas9 n=1 Tax=Subdoligranulum sp. AF14-43 TaxID=2302959 RepID=A0A3A6E5R1_9FIRM	0.947309	0.082067
+UniRef100_A0A5Z1RQY5 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter coli TaxID=195 RepID=A0A5Z1RQY5_CAMCO	0.947861	0.081561
+UniRef100_A0A5T0EBP6 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter coli TaxID=195 RepID=A0A5T0EBP6_CAMCO	0.947869	0.081556
+UniRef100_A0A7T9ZFB0 CRISPR-associated endonuclease Cas9 n=2 Tax=Pediococcus acidilactici TaxID=1254 RepID=A0A7T9ZFB0_PEDAC	0.947782	0.081198
+UniRef100_A0A8A8L871 Type II CRISPR RNA-guided endonuclease Cas9 n=2 Tax=Lactobacillus TaxID=1578 RepID=A0A8A8L871_LACGS	0.948040	0.081025
+UniRef100_A0A6G2JUX2 CRISPR-associated endonuclease Cas9 n=1 Tax=Acidimicrobiales bacterium TaxID=2201156 RepID=A0A6G2JUX2_9ACTN	0.946473	0.082472
+UniRef100_G6AFY6 CRISPR-associated endonuclease Cas9 n=2 Tax=Prevotella histicola TaxID=470565 RepID=G6AFY6_9BACT	0.948089	0.080995
+UniRef100_A0A5Z2N9G7 CRISPR-associated endonuclease Cas9 n=3 Tax=Campylobacter TaxID=194 RepID=A0A5Z2N9G7_CAMCO	0.947840	0.081563
+UniRef100_K2FGU4 CRISPR-associated endonuclease Cas9 n=1 Tax=uncultured bacterium TaxID=77133 RepID=K2FGU4_9BACT	0.947120	0.082188
+UniRef100_A0A5T1DHP6 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5T1DHP6_CAMJU	0.947853	0.081562
+UniRef100_A0A6B1ZA56 CRISPR-associated endonuclease Cas9 n=1 Tax=Enterococcus hirae TaxID=1354 RepID=A0A6B1ZA56_ENTHR	0.947882	0.081400
+UniRef100_A0A378ZQX4 CRISPR-associated endonuclease Cas9 n=2 Tax=Pannonibacter phragmitetus TaxID=121719 RepID=A0A378ZQX4_9HYPH	0.946778	0.082494
+UniRef100_A0A7X0ZWH5 CRISPR-associated endonuclease Cas9 n=1 Tax=Listeria booriae TaxID=1552123 RepID=A0A7X0ZWH5_9LIST	0.948063	0.081440
+UniRef100_A0A096CIC5 CRISPR-associated endonuclease Cas9 n=1 Tax=Prevotella bivia DNF00320 TaxID=1401068 RepID=A0A096CIC5_9BACT	0.948248	0.081036
+UniRef100_A0A246EN17 CRISPR-associated endonuclease Cas9 n=1 Tax=Prevotella nigrescens TaxID=28133 RepID=A0A246EN17_9BACT	0.948456	0.081108
+UniRef100_A0A3E0IMR1 CRISPR-associated endonuclease Cas9 n=1 Tax=Staphylococcus felis TaxID=46127 RepID=A0A3E0IMR1_9STAP	0.948048	0.081328
+UniRef100_E4ZF34 CRISPR-associated endonuclease Cas9 n=1 Tax=Neisseria lactamica (strain 020-06) TaxID=489653 RepID=E4ZF34_NEIL0	0.947815	0.081788
+UniRef100_A0A174LFF7 CRISPR-associated endonuclease Cas9 n=1 Tax=Anaerostipes hadrus TaxID=649756 RepID=A0A174LFF7_ANAHA	0.556171	0.450665
+UniRef100_A0A0E2EGB1 CRISPR-associated endonuclease Cas9 n=1 Tax=Treponema denticola H-22 TaxID=999432 RepID=A0A0E2EGB1_TREDN	0.948466	0.081414
+UniRef100_A0A1P8JCZ1 CRISPR-associated endonuclease Cas9 n=1 Tax=Prevotella intermedia ATCC 25611 = DSM 20706 TaxID=1122984 RepID=A0A1P8JCZ1_PREIN	0.947974	0.080879
+UniRef100_H1GG18 CRISPR-associated endonuclease Cas9 n=4 Tax=Bacteria TaxID=2 RepID=H1GG18_LISIO	0.947700	0.081386
+UniRef100_A0A173SPI3 CRISPR-associated endonuclease Cas9 n=1 Tax=Anaerostipes hadrus TaxID=649756 RepID=A0A173SPI3_ANAHA	0.557154	0.450554
+UniRef100_A0A015SZB2 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacteroides fragilis str. 3986 N(B)19 TaxID=1339289 RepID=A0A015SZB2_BACFG	0.948086	0.080710
+UniRef100_A0A6N7BTN7 CRISPR-associated endonuclease Cas9 n=1 Tax=Pediococcus pentosaceus TaxID=1255 RepID=A0A6N7BTN7_PEDPE	0.947860	0.081252
+UniRef100_A0A424FJZ2 CRISPR-associated endonuclease Cas9 n=1 Tax=Neisseria meningitidis TaxID=487 RepID=A0A424FJZ2_NEIME	0.947916	0.081728
+UniRef100_A0A414SWS9 CRISPR-associated endonuclease Cas9 n=2 Tax=Roseburia intestinalis TaxID=166486 RepID=A0A414SWS9_9FIRM	0.947855	0.081583
+UniRef100_A0A416U192 CRISPR-associated endonuclease Cas9 n=1 Tax=Blautia sp. AF17-9LB TaxID=2292959 RepID=A0A416U192_9FIRM	0.948022	0.081474
+UniRef100_A0A1M7FGK0 CRISPR-associated endonuclease Cas9 n=1 Tax=Flavobacterium xanthum TaxID=69322 RepID=A0A1M7FGK0_9FLAO	0.948051	0.079885
+UniRef100_A0A4R2H8P7 CRISPR-associated endonuclease Cas9 n=1 Tax=Pedobacter psychrotolerans TaxID=1843235 RepID=A0A4R2H8P7_9SPHI	0.948153	0.080666
+UniRef100_A0A1Y3YN68 CRISPR-associated endonuclease Cas9 n=1 Tax=Pseudoflavonifractor sp. An44 TaxID=1965635 RepID=A0A1Y3YN68_9FIRM	0.907641	0.197923
+UniRef100_W1V0U5 CRISPR-associated endonuclease Cas9 n=5 RepID=W1V0U5_9FIRM	0.948071	0.081062
+UniRef100_A0A396FJM8 CRISPR-associated endonuclease Cas9 n=1 Tax=[Eubacterium] rectale TaxID=39491 RepID=A0A396FJM8_9FIRM	0.948246	0.081536
+UniRef100_A0A3R7ANS9 CRISPR-associated endonuclease Cas9 n=2 Tax=unclassified Clostridium TaxID=2614128 RepID=A0A3R7ANS9_9CLOT	0.948102	0.081320
+UniRef100_A0A5B3G9X6 CRISPR-associated endonuclease Cas9 n=1 Tax=Anaerostipes hadrus TaxID=649756 RepID=A0A5B3G9X6_ANAHA	0.557470	0.450238
+UniRef100_H0UDA8 CRISPR-associated endonuclease Cas9 n=1 Tax=Brevibacillus laterosporus GI-9 TaxID=1118154 RepID=H0UDA8_BRELA	0.947988	0.081498
+UniRef100_A0A496C9Y1 CRISPR-associated endonuclease Cas9 n=1 Tax=Parabacteroides sp. AF19-14 TaxID=2293114 RepID=A0A496C9Y1_9BACT	0.948383	0.080679
+UniRef100_A0A2D3PUG5 CRISPR-associated endonuclease Cas9 n=1 Tax=Fusobacterium pseudoperiodonticum TaxID=2663009 RepID=A0A2D3PUG5_9FUSO	0.948189	0.081255
+UniRef100_A0A3B9U948 CRISPR-associated endonuclease Cas9 n=1 Tax=Prevotella sp. TaxID=59823 RepID=A0A3B9U948_9BACT	0.948040	0.081506
+UniRef100_A0A2G9VFU1 CRISPR-associated endonuclease Cas9 n=1 Tax=Pediococcus damnosus TaxID=51663 RepID=A0A2G9VFU1_9LACO	0.937663	0.080382
+UniRef100_A0A6A8DV75 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactobacillus reuteri TaxID=1598 RepID=A0A6A8DV75_LACRE	0.947978	0.081319
+UniRef100_M2SLU3 CRISPR-associated endonuclease Cas9 n=1 Tax=Treponema denticola US-Trep TaxID=999440 RepID=M2SLU3_TREDN	0.948536	0.081363
+UniRef100_A0A363EBL6 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactobacillus reuteri TaxID=1598 RepID=A0A363EBL6_LACRE	0.948198	0.081092
+UniRef100_A0A1H9APL9 CRISPR-associated endonuclease Cas9 n=1 Tax=Nitrosomonas ureae TaxID=44577 RepID=A0A1H9APL9_9PROT	0.946705	0.082394
+UniRef100_A0A6L5P7C5 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactobacillus reuteri TaxID=1598 RepID=A0A6L5P7C5_LACRE	0.948035	0.081152
+UniRef100_A0A3E4YGD0 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus sp. I-P16 TaxID=1156433 RepID=A0A3E4YGD0_9STRE	0.948076	0.081428
+UniRef100_A0A7U8ATY6 CRISPR-associated endonuclease Cas9 n=2 Tax=Campylobacter TaxID=194 RepID=A0A7U8ATY6_CAMLA	0.948054	0.081522
+UniRef100_A0A2G2BCZ8 CRISPR-associated endonuclease Cas9 n=1 Tax=Marinosulfonomonas sp. TaxID=2030815 RepID=A0A2G2BCZ8_9RHOB	0.947268	0.082022
+UniRef100_A0A264Y3N9 CRISPR-associated endonuclease Cas9 n=1 Tax=Prevotella sp. 885 TaxID=2022527 RepID=A0A264Y3N9_9BACT	0.947997	0.081522
+UniRef100_A0A6L1I4I4 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter lari TaxID=201 RepID=A0A6L1I4I4_CAMLA	0.948000	0.081555
+UniRef100_A0A6A8CY64 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactobacillus reuteri TaxID=1598 RepID=A0A6A8CY64_LACRE	0.947952	0.081333
+UniRef100_A0A133KEN0 CRISPR-associated endonuclease Cas9 n=1 Tax=Anaerococcus tetradius TaxID=33036 RepID=A0A133KEN0_9FIRM	0.948218	0.081350
+UniRef100_A0A417PB84 CRISPR-associated endonuclease Cas9 n=1 Tax=Ruminococcus sp. OM08-7 TaxID=2292376 RepID=A0A417PB84_9FIRM	0.947989	0.081818
+UniRef100_A0A5P8M4Y6 CRISPR-associated endonuclease Cas9 n=2 Tax=Schleiferilactobacillus harbinensis TaxID=304207 RepID=A0A5P8M4Y6_9LACO	0.947703	0.081599
+UniRef100_U6RJS5 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacteroides sp. HPS0048 TaxID=1078089 RepID=U6RJS5_9BACE	0.948128	0.081442
+UniRef100_A0A417JGI3 CRISPR-associated endonuclease Cas9 n=2 Tax=Ruminococcus sp. AM27-16 TaxID=2293192 RepID=A0A417JGI3_9FIRM	0.948182	0.081688
+UniRef100_A0A3S4NP75 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus dysgalactiae subsp. equisimilis TaxID=119602 RepID=A0A3S4NP75_STREQ	0.946966	0.081264
+UniRef100_A0A7G1K4Y9 CRISPR-associated endonuclease Cas9 n=2 Tax=Streptococcus dysgalactiae TaxID=1334 RepID=A0A7G1K4Y9_STREQ	0.947100	0.081348
+UniRef100_A0A4U9YRI6 CRISPR-associated endonuclease Cas9 n=2 Tax=Streptococcus dysgalactiae TaxID=1334 RepID=A0A4U9YRI6_STREQ	0.946181	0.080890
+UniRef100_A0A501VR63 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus sp. D2 TaxID=2589787 RepID=A0A501VR63_9STRE	0.948067	0.081437
+UniRef100_F9Q210 CRISPR-associated endonuclease Cas9 n=2 Tax=Streptococcus TaxID=1301 RepID=F9Q210_STROR	0.948069	0.081403
+UniRef100_A0A3D8IRW0 CRISPR-associated endonuclease Cas9 n=1 Tax=Helicobacter equorum TaxID=361872 RepID=A0A3D8IRW0_9HELI	0.947991	0.081509
+UniRef100_A0A7X2G4Q4 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactobacillus reuteri TaxID=1598 RepID=A0A7X2G4Q4_LACRE	0.948041	0.081195
+UniRef100_A0A330LHI1 CRISPR-associated endonuclease Cas9 n=1 Tax=Latilactobacillus sakei TaxID=1599 RepID=A0A330LHI1_LATSK	0.947493	0.081633
+UniRef100_A0A0C3A2P0 CRISPR-associated endonuclease Cas9 n=1 Tax=Apilactobacillus kunkeei TaxID=148814 RepID=A0A0C3A2P0_9LACO	0.947905	0.081058
+UniRef100_A0A5M0Z0Q6 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter lari TaxID=201 RepID=A0A5M0Z0Q6_CAMLA	0.947985	0.081553
+UniRef100_A0A0A2EHM8 CRISPR-associated endonuclease Cas9 n=1 Tax=Porphyromonadaceae bacterium COT-184 OH4590 TaxID=1517682 RepID=A0A0A2EHM8_9PORP	0.948235	0.080733
+UniRef100_A0A414FSQ5 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacteroides caccae TaxID=47678 RepID=A0A414FSQ5_9BACE	0.947767	0.081135
+UniRef100_A0A1W6N6V9 CRISPR-associated endonuclease Cas9 n=1 Tax=Levilactobacillus brevis TaxID=1580 RepID=A0A1W6N6V9_LEVBR	0.947791	0.081313
+UniRef100_A0A3R6QD81 CRISPR-associated endonuclease Cas9 n=4 Tax=unclassified Roseburia TaxID=2637578 RepID=A0A3R6QD81_9FIRM	0.948254	0.081489
+UniRef100_A0A081Q742 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus mitis TaxID=28037 RepID=A0A081Q742_STRMT	0.947557	0.081353
+UniRef100_A0A2D1UCV3 CRISPR-associated endonuclease Cas9 n=1 Tax=Mycoplasma dispar TaxID=86660 RepID=A0A2D1UCV3_9MOLU	0.869450	0.226342
+UniRef100_A0A1U7LAN8 CRISPR-associated endonuclease Cas9 n=1 Tax=Butyricimonas synergistica TaxID=544644 RepID=A0A1U7LAN8_9BACT	0.946437	0.080924
+UniRef100_A0A2K0XL61 CRISPR-associated endonuclease Cas9 n=1 Tax=Prevotella timonensis TaxID=386414 RepID=A0A2K0XL61_9BACT	0.947937	0.081401
+UniRef100_A0A1X1GV45 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus oralis subsp. tigurinus TaxID=1077464 RepID=A0A1X1GV45_STROR	0.947318	0.081538
+UniRef100_A0A2N0XIB1 CRISPR-associated endonuclease Cas9 n=1 Tax=Chryseobacterium sp. PMSZPI TaxID=1033900 RepID=A0A2N0XIB1_9FLAO	0.948257	0.081250
+UniRef100_A0A416XS73 CRISPR-associated endonuclease Cas9 n=1 Tax=Blautia sp. AF14-40 TaxID=2292958 RepID=A0A416XS73_9FIRM	0.947987	0.081415
+UniRef100_C6S593 CRISPR-associated endonuclease Cas9 n=2 Tax=Neisseria meningitidis TaxID=487 RepID=C6S593_NEIML	0.947908	0.081720
+UniRef100_A0A5R1LE97 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter sp. US12a TaxID=2498116 RepID=A0A5R1LE97_9PROT	0.918614	0.107017
+UniRef100_A0A412ZIC7 CRISPR-associated endonuclease Cas9 n=1 Tax=Phocaeicola dorei TaxID=357276 RepID=A0A412ZIC7_9BACT	0.948349	0.080596
+UniRef100_A0A413GCW1 CRISPR-associated endonuclease Cas9 n=2 Tax=Bacteroidales TaxID=171549 RepID=A0A413GCW1_9BACT	0.948362	0.080537
+UniRef100_A0A3M0MYC4 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactobacillus sp. ESL0233 TaxID=2069354 RepID=A0A3M0MYC4_9LACO	0.947764	0.081166
+UniRef100_A0A3R9TK42 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus mitis TaxID=28037 RepID=A0A3R9TK42_STRMT	0.947613	0.081325
+UniRef100_A0A0F2E4R3 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus oralis subsp. tigurinus TaxID=1077464 RepID=A0A0F2E4R3_STROR	0.948078	0.081388
+UniRef100_A0A428D4V9 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus mitis TaxID=28037 RepID=A0A428D4V9_STRMT	0.948092	0.081431
+UniRef100_A0A2L1CJ81 Type II-B CRISPR-associated RNA-guided endonuclease Cas9/Csx12 n=1 Tax=Francisella novicida TaxID=264 RepID=A0A2L1CJ81_FRANO	0.946408	0.080851
+UniRef100_A0A6I1TVC3 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus mitis TaxID=28037 RepID=A0A6I1TVC3_STRMT	0.948059	0.081401
+UniRef100_UPI001374BA86 type II-B CRISPR-associated RNA-guided endonuclease Cas9/Csx12 n=1 Tax=Legionella pneumophila TaxID=446 RepID=UPI001374BA86	0.947507	0.080781
+UniRef100_UPI0013F60F87 type II-B CRISPR-associated RNA-guided endonuclease Cas9/Csx12 n=1 Tax=Sutterella wadsworthensis TaxID=40545 RepID=UPI0013F60F87	0.946905	0.082160
+UniRef100_UPI0013F65B7E type II-B CRISPR-associated RNA-guided endonuclease Cas9/Csx12 n=2 Tax=Sutterella wadsworthensis TaxID=40545 RepID=UPI0013F65B7E	0.939103	0.090243
+UniRef100_UPI0013F664D5 type II-B CRISPR-associated RNA-guided endonuclease Cas9/Csx12 n=1 Tax=Sutterella wadsworthensis TaxID=40545 RepID=UPI0013F664D5	0.945872	0.082685
+UniRef100_UPI0013F63BB6 type II-B CRISPR-associated RNA-guided endonuclease Cas9/Csx12 n=1 Tax=Sutterella wadsworthensis TaxID=40545 RepID=UPI0013F63BB6	0.945853	0.082651
+UniRef100_UPI0013F66C54 type II-B CRISPR-associated RNA-guided endonuclease Cas9/Csx12 n=2 Tax=Sutterella wadsworthensis TaxID=40545 RepID=UPI0013F66C54	0.939902	0.085393
+UniRef100_UPI001374F28B type II-B CRISPR-associated RNA-guided endonuclease Cas9/Csx12 n=1 Tax=Legionella pneumophila TaxID=446 RepID=UPI001374F28B	0.916986	0.111217
+UniRef100_A0A510TST0 CRISPR-associated endonuclease Cas9 n=2 Tax=Schleiferilactobacillus harbinensis TaxID=304207 RepID=A0A510TST0_9LACO	0.850803	0.290004
+UniRef100_A0A4P7CHQ1 CRISPR-associated endonuclease Cas9 n=2 Tax=Actinobacillus indolicus TaxID=51049 RepID=A0A4P7CHQ1_9PAST	0.947783	0.081698
+UniRef100_A0A133NAH6 CRISPR-associated endonuclease Cas9 n=1 Tax=Fusobacterium nucleatum TaxID=851 RepID=A0A133NAH6_FUSNU	0.947882	0.081257
+UniRef100_A0A3A5PFG2 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacteroides sp. AF39-16AC TaxID=2292936 RepID=A0A3A5PFG2_9BACE	0.948489	0.080795
+UniRef100_A0A378HIZ8 CRISPR-associated endonuclease Cas9 n=1 Tax=Levilactobacillus brevis TaxID=1580 RepID=A0A378HIZ8_LEVBR	0.947763	0.081274
+UniRef100_F5X275 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus pasteurianus (strain ATCC 43144 / JCM 5346 / CDC 1723-81) TaxID=981540 RepID=F5X275_STRPX	0.948028	0.081478
+UniRef100_A0A175A1Y1 CRISPR-associated endonuclease Cas9 n=1 Tax=[Eubacterium] siraeum TaxID=39492 RepID=A0A175A1Y1_9FIRM	0.947789	0.081910
+UniRef100_A0A5C8H6N4 CRISPR-associated endonuclease Cas9 n=1 Tax=Ligilactobacillus salivarius TaxID=1624 RepID=A0A5C8H6N4_9LACO	0.947941	0.081251
+UniRef100_A0A1V9B8M7 CRISPR-associated endonuclease Cas9 n=1 Tax=Geobacillus sp. 46C-IIa TaxID=1963025 RepID=A0A1V9B8M7_9BACI	0.947856	0.081586
+UniRef100_A0A1C3SQ53 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus macedonicus TaxID=59310 RepID=A0A1C3SQ53_STRMC	0.948013	0.081467
+UniRef100_A0A7H9FIP2 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus oralis subsp. oralis TaxID=1891914 RepID=A0A7H9FIP2_STROR	0.947578	0.081357
+UniRef100_A0A4P6RDP4 CRISPR-associated endonuclease Cas9 n=2 Tax=unclassified Bacteroides TaxID=2646097 RepID=A0A4P6RDP4_9BACE	0.948501	0.080785
+UniRef100_A0A374DD87 CRISPR-associated endonuclease Cas9 n=1 Tax=Ruminococcus sp. AM36-18 TaxID=2293209 RepID=A0A374DD87_9FIRM	0.948261	0.081413
+UniRef100_A0A3E4VXZ2 CRISPR-associated endonuclease Cas9 n=1 Tax=Phocaeicola plebeius TaxID=310297 RepID=A0A3E4VXZ2_9BACT	0.948179	0.081649
+UniRef100_A0A4R2GQL6 CRISPR-associated endonuclease Cas9 n=2 Tax=Natronoflexus pectinivorans TaxID=682526 RepID=A0A4R2GQL6_9BACT	0.948115	0.080544
+UniRef100_A0A7M2XH36 CRISPR-associated endonuclease Cas9 n=1 Tax=Novosphingobium sp. ES2-1 TaxID=2780074 RepID=A0A7M2XH36_9SPHN	0.947431	0.082188
+UniRef100_T5JDL4 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactobacillus plantarum EGD-AQ4 TaxID=1382301 RepID=T5JDL4_LACPN	0.946868	0.081802
+UniRef100_A0A558NDW2 CRISPR-associated endonuclease Cas9 n=1 Tax=Weissella cibaria TaxID=137591 RepID=A0A558NDW2_9LACO	0.947540	0.081601
+UniRef100_A0A6H1D308 CRISPR-associated endonuclease Cas9 n=1 Tax=Parabacteroides distasonis TaxID=823 RepID=A0A6H1D308_9BACT	0.948495	0.080560
+UniRef100_A0A1Q6S274 CRISPR-associated endonuclease Cas9 n=1 Tax=Ruminococcus sp. CAG:108-related_41_35 TaxID=1897020 RepID=A0A1Q6S274_9FIRM	0.947459	0.081737
+UniRef100_A0A173VVZ1 CRISPR-associated endonuclease Cas9 n=1 Tax=Roseburia inulinivorans TaxID=360807 RepID=A0A173VVZ1_9FIRM	0.947791	0.081569
+UniRef100_A0A1U9MD17 CRISPR-associated endonuclease Cas9 n=1 Tax=Bartonella apis TaxID=1686310 RepID=A0A1U9MD17_9HYPH	0.947728	0.081859
+UniRef100_A0A4U3MNP2 CRISPR-associated endonuclease Cas9 n=1 Tax=Enterococcus faecalis TaxID=1351 RepID=A0A4U3MNP2_ENTFL	0.947905	0.081342
+UniRef100_A0A373Y0H9 CRISPR-associated endonuclease Cas9 n=1 Tax=Ruminococcus sp. AF16-40 TaxID=2293148 RepID=A0A373Y0H9_9FIRM	0.948004	0.081434
+UniRef100_A0A2T4HDZ0 CRISPR-associated endonuclease Cas9 n=1 Tax=Flavobacterium columnare TaxID=996 RepID=A0A2T4HDZ0_9FLAO	0.948595	0.080604
+UniRef100_A0A0F2D9H7 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus oralis subsp. oralis TaxID=1891914 RepID=A0A0F2D9H7_STROR	0.948042	0.081147
+UniRef100_A0A414WYG2 CRISPR-associated endonuclease Cas9 n=1 Tax=Phocaeicola plebeius TaxID=310297 RepID=A0A414WYG2_9BACT	0.948847	0.080546
+UniRef100_A0A1U9MIU6 CRISPR-associated endonuclease Cas9 n=1 Tax=Bartonella apis TaxID=1686310 RepID=A0A1U9MIU6_9HYPH	0.947740	0.081863
+UniRef100_A0A095ZV18 CRISPR-associated endonuclease Cas9 n=1 Tax=Tissierellia bacterium S5-A11 TaxID=1230730 RepID=A0A095ZV18_9FIRM	0.947731	0.081186
+UniRef100_A0A1Y4IP47 CRISPR-associated endonuclease Cas9 n=1 Tax=Parabacteroides distasonis TaxID=823 RepID=A0A1Y4IP47_9BACT	0.948443	0.080624
+UniRef100_A0A562Q1X7 CRISPR-associated endonuclease Cas9 n=2 Tax=Flavobacterium glaciei TaxID=386300 RepID=A0A562Q1X7_9FLAO	0.948197	0.080494
+UniRef100_A0A7Z7K631 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus agalactiae TaxID=1311 RepID=A0A7Z7K631_STRAG	0.947613	0.081295
+UniRef100_A0A1X1HCB9 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus oralis subsp. oralis TaxID=1891914 RepID=A0A1X1HCB9_STROR	0.948061	0.081404
+UniRef100_A0A7Z7VZG5 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus agalactiae TaxID=1311 RepID=A0A7Z7VZG5_STRAG	0.947785	0.081255
+UniRef100_A0A415T5R8 CRISPR-associated endonuclease Cas9 n=1 Tax=Phocaeicola plebeius TaxID=310297 RepID=A0A415T5R8_9BACT	0.948826	0.080301
+UniRef100_A0A1X1HHH1 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus oralis subsp. oralis TaxID=1891914 RepID=A0A1X1HHH1_STROR	0.948156	0.081427
+UniRef100_A0A373P3F0 CRISPR-associated endonuclease Cas9 n=1 Tax=Blautia sp. OF03-13 TaxID=2292980 RepID=A0A373P3F0_9FIRM	0.948063	0.081479
+UniRef100_A0A0Q0YQ33 CRISPR-associated endonuclease Cas9 n=1 Tax=Geobacillus sp. Sah69 TaxID=1737624 RepID=A0A0Q0YQ33_9BACI	0.947857	0.081529
+UniRef100_A0A5C6KLI9 CRISPR-associated endonuclease Cas9 n=1 Tax=Parabacteroides distasonis TaxID=823 RepID=A0A5C6KLI9_9BACT	0.948518	0.080485
+UniRef100_A0A292RYC5 CRISPR-associated endonuclease Cas9 n=1 Tax=Candidatus Gastranaerophilales bacterium HUM_18 TaxID=1916231 RepID=A0A292RYC5_9BACT	0.945849	0.082384
+UniRef100_F9N3Y3 CRISPR-associated endonuclease Cas9 n=1 Tax=Veillonella sp. oral taxon 780 str. F0422 TaxID=944564 RepID=F9N3Y3_9FIRM	0.947940	0.081465
+UniRef100_A7H5P1 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni subsp. doylei (strain ATCC BAA-1458 / RM4099 / 269.97) TaxID=360109 RepID=A7H5P1_CAMJD	0.947856	0.081552
+UniRef100_A0A1I4VGF9 CRISPR-associated endonuclease Cas9 n=1 Tax=Chryseobacterium oleae TaxID=491207 RepID=A0A1I4VGF9_9FLAO	0.948266	0.081039
+UniRef100_A0A373Y943 CRISPR-associated endonuclease Cas9 n=1 Tax=Ruminococcus sp. AF16-40 TaxID=2293148 RepID=A0A373Y943_9FIRM	0.947502	0.081690
+UniRef100_A0A3E4NYQ9 CRISPR-associated endonuclease Cas9 n=1 Tax=Parabacteroides sp. 20_3 TaxID=469591 RepID=A0A3E4NYQ9_9BACT	0.948502	0.080499
+UniRef100_A0A2A7QQH1 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactobacillus sp. UMNPBX9 TaxID=2042038 RepID=A0A2A7QQH1_9LACO	0.947839	0.081277
+UniRef100_A0A3M0PNE8 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactobacillus sp. ESL0259 TaxID=2069346 RepID=A0A3M0PNE8_9LACO	0.947983	0.081147
+UniRef100_A0A086AYB7 CRISPR-associated endonuclease Cas9 n=1 Tax=Chryseobacterium sp. JM1 TaxID=1233950 RepID=A0A086AYB7_9FLAO	0.948273	0.081097
+UniRef100_J7TMY5 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus salivarius K12 TaxID=1200793 RepID=J7TMY5_STRSL	0.947123	0.081667
+UniRef100_A0A1N7BHN9 CRISPR-associated endonuclease Cas9 n=1 Tax=Chryseobacterium sp. RU33C TaxID=1907398 RepID=A0A1N7BHN9_9FLAO	0.947674	0.081039
+UniRef100_A0A510WL16 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactobacillus casei TaxID=1582 RepID=A0A510WL16_LACCA	0.946784	0.081876
+UniRef100_D4KTZ0 CRISPR-associated endonuclease Cas9 n=1 Tax=Roseburia intestinalis M50/1 TaxID=657315 RepID=D4KTZ0_9FIRM	0.947882	0.081585
+UniRef100_F9HIG7 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus sp. oral taxon 056 str. F0418 TaxID=904294 RepID=F9HIG7_9STRE	0.947614	0.081371
+UniRef100_E0PQK3 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus mitis ATCC 6249 TaxID=864567 RepID=E0PQK3_STRMT	0.948056	0.081401
+UniRef100_A0A0E2EBU7 CRISPR-associated endonuclease Cas9 n=1 Tax=Treponema denticola AL-2 TaxID=999426 RepID=A0A0E2EBU7_TREDN	0.948548	0.081347
+UniRef100_M4R7E0 CRISPR-associated endonuclease Cas9 n=2 Tax=Bibersteinia trehalosi TaxID=47735 RepID=M4R7E0_BIBTR	0.947895	0.081660
+UniRef100_A0A396MQJ8 CRISPR-associated endonuclease Cas9 n=1 Tax=Clostridium sp. AF02-29 TaxID=2292993 RepID=A0A396MQJ8_9CLOT	0.948122	0.081270
+UniRef100_A0A0T7L299 CRISPR-associated endonuclease Cas9 n=1 Tax=Neisseria meningitidis TaxID=487 RepID=A0A0T7L299_NEIME	0.947875	0.081733
+UniRef100_A0A2D8RWN5 CRISPR-associated endonuclease Cas9 n=1 Tax=Parvibaculum sp. TaxID=2024848 RepID=A0A2D8RWN5_9HYPH	0.946843	0.082386
+UniRef100_A0A6N3E6E0 CRISPR-associated endonuclease Cas9/Csn1 n=1 Tax=Collinsella aerofaciens TaxID=74426 RepID=A0A6N3E6E0_9ACTN	0.612472	0.351389
+UniRef100_A0A5Z1EX63 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5Z1EX63_CAMJU	0.947868	0.081554
+UniRef100_M4YX12 CRISPR-associated endonuclease Cas9 n=4 Tax=Streptococcus TaxID=1301 RepID=M4YX12_STREQ	0.947156	0.081367
+UniRef100_A0A450TQE1 CRISPR-associated endonuclease Cas9 n=1 Tax=Candidatus Kentron sp. FW TaxID=2126338 RepID=A0A450TQE1_9GAMM	0.947222	0.082221
+UniRef100_A0A6A4U0D7 CRISPR-associated endonuclease Cas9 n=2 Tax=Streptococcus agalactiae TaxID=1311 RepID=A0A6A4U0D7_STRAG	0.947700	0.081249
+UniRef100_A0A125S8K2 CRISPR-associated endonuclease Cas9 n=3 Tax=Bacteria TaxID=2 RepID=A0A125S8K2_9BACT	0.947960	0.080980
+UniRef100_A0A5T0ILU9 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5T0ILU9_CAMJU	0.947839	0.081566
+UniRef100_A0A5T0YDG4 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5T0YDG4_CAMJU	0.947844	0.081565
+UniRef100_A0A6F9HQD7 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A6F9HQD7_CAMJU	0.947850	0.081561
+UniRef100_F6ITQ2 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactiplantibacillus pentosus MP-10 TaxID=1028490 RepID=F6ITQ2_LACPE	0.947283	0.081618
+UniRef100_A0A6N2Z8E1 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus lutetiensis TaxID=150055 RepID=A0A6N2Z8E1_9STRE	0.948029	0.081487
+UniRef100_A0A6N3B2P4 CRISPR-associated endonuclease Cas9 n=1 Tax=uncultured Clostridium sp. TaxID=59620 RepID=A0A6N3B2P4_9CLOT	0.947356	0.082055
+UniRef100_A0A6F9MZH9 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A6F9MZH9_CAMJU	0.947899	0.081542
+UniRef100_A0A5T0CK64 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5T0CK64_CAMJU	0.947855	0.081557
+UniRef100_A0A7U8IPP0 CRISPR-associated endonuclease Cas9 n=1 Tax=Enterococcus faecium Com12 TaxID=565662 RepID=A0A7U8IPP0_ENTFC	0.947825	0.081337
+UniRef100_A0A5Y8Y6D4 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5Y8Y6D4_CAMJU	0.947873	0.081558
+UniRef100_A0A5T1F7T9 CRISPR-associated endonuclease Cas9 n=2 Tax=Campylobacter TaxID=194 RepID=A0A5T1F7T9_CAMJU	0.947864	0.081554
+UniRef100_A0A5T0KPL4 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5T0KPL4_CAMJU	0.947853	0.081562
+UniRef100_A0A5T0Q020 CRISPR-associated endonuclease Cas9 n=5 Tax=Campylobacter TaxID=194 RepID=A0A5T0Q020_CAMJU	0.947910	0.081540
+UniRef100_A0A1C5S579 CRISPR-associated endonuclease Cas9 n=1 Tax=uncultured Collinsella sp. TaxID=165190 RepID=A0A1C5S579_9ACTN	0.946984	0.082451
+UniRef100_A0A5Z1P226 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5Z1P226_CAMJU	0.947883	0.081543
+UniRef100_A0A5Y8S0A3 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5Y8S0A3_CAMJU	0.947835	0.081566
+UniRef100_A0A5T0D0J5 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5T0D0J5_CAMJU	0.947933	0.081529
+UniRef100_A0A5Y6PB74 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5Y6PB74_CAMJU	0.947848	0.081561
+UniRef100_A0A6C8BAM6 CRISPR-associated endonuclease Cas9 n=2 Tax=Campylobacter TaxID=194 RepID=A0A6C8BAM6_CAMJU	0.947927	0.081533
+UniRef100_A0A6N3CLR3 CRISPR-associated endonuclease Cas9 n=1 Tax=Roseburia intestinalis TaxID=166486 RepID=A0A6N3CLR3_9FIRM	0.947832	0.081488
+UniRef100_A0A6C7NBS8 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A6C7NBS8_CAMJU	0.947880	0.081547
+UniRef100_A0A5Y1PWP5 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5Y1PWP5_CAMJU	0.947859	0.081564
+UniRef100_A0A5T0X7Y5 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5T0X7Y5_CAMJU	0.947859	0.081555
+UniRef100_A0A5T1FMJ5 CRISPR-associated endonuclease Cas9 n=2 Tax=Campylobacter TaxID=194 RepID=A0A5T1FMJ5_CAMJU	0.947865	0.081553
+UniRef100_A0A5T1CW51 CRISPR-associated endonuclease Cas9 n=2 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5T1CW51_CAMJU	0.947908	0.081539
+UniRef100_A0A5M2ZAE9 CRISPR-associated endonuclease Cas9 n=1 Tax=Listeria monocytogenes TaxID=1639 RepID=A0A5M2ZAE9_LISMN	0.947667	0.081393
+UniRef100_A0A5Y9KKS6 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5Y9KKS6_CAMJU	0.947893	0.081544
+UniRef100_A0A5Z1G1Y1 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5Z1G1Y1_CAMJU	0.947869	0.081555
+UniRef100_A0A7T8M087 CRISPR-associated endonuclease Cas9 n=1 Tax=Pediococcus acidilactici TaxID=1254 RepID=A0A7T8M087_PEDAC	0.947671	0.081208
+UniRef100_A0A6F9IW71 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter coli TaxID=195 RepID=A0A6F9IW71_CAMCO	0.947859	0.081556
+UniRef100_A0A3G6JLM5 CRISPR-associated endonuclease Cas9 n=2 Tax=Streptococcus thermophilus TaxID=1308 RepID=A0A3G6JLM5_STRTR	0.946772	0.081879
+UniRef100_A0A5T0F5E8 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5T0F5E8_CAMJU	0.947858	0.081557
+UniRef100_A0A5T1DLT7 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5T1DLT7_CAMJU	0.947862	0.081557
+UniRef100_A0A691BHN9 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A691BHN9_CAMJU	0.947865	0.081551
+UniRef100_A0A6N0A2I2 CRISPR-associated endonuclease Cas9 n=2 Tax=Streptococcus mutans TaxID=1309 RepID=A0A6N0A2I2_STRMG	0.947895	0.081247
+UniRef100_A0A7T9R9S2 CRISPR-associated endonuclease Cas9 n=1 Tax=Sphingobacterium spiritivorum TaxID=258 RepID=A0A7T9R9S2_9SPHI	0.948352	0.080939
+UniRef100_A0A5T1XYJ8 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5T1XYJ8_CAMJU	0.947865	0.081551
+UniRef100_A0A7U8FPG9 CRISPR-associated endonuclease Cas9 n=1 Tax=Enterococcus faecium 1,141,733 TaxID=565659 RepID=A0A7U8FPG9_ENTFC	0.947816	0.081343
+UniRef100_A0A5T1FAC1 CRISPR-associated endonuclease Cas9 n=16 Tax=Proteobacteria TaxID=1224 RepID=A0A5T1FAC1_CAMJU	0.947854	0.081585
+UniRef100_A0A5T1M0Y7 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5T1M0Y7_CAMJU	0.947820	0.081577
+UniRef100_A0A7T8SV63 CRISPR-associated endonuclease Cas9 n=1 Tax=Chryseobacterium indoltheticum TaxID=254 RepID=A0A7T8SV63_9FLAO	0.948331	0.080850
+UniRef100_A0A6A4U0F4 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus agalactiae TaxID=1311 RepID=A0A6A4U0F4_STRAG	0.947702	0.081247
+UniRef100_A0A7U2SDT5 CRISPR-associated endonuclease Cas9 n=1 Tax=Flavobacterium psychrophilum TaxID=96345 RepID=A0A7U2SDT5_FLAPS	0.948330	0.080998
+UniRef100_A0A7U3FDR5 CRISPR-associated endonuclease Cas9 n=1 Tax=Alicyclobacillus sp. TC TaxID=2606450 RepID=A0A7U3FDR5_9BACL	0.947649	0.081691
+UniRef100_A0A5E5QCR6 CRISPR-associated endonuclease Cas9 n=1 Tax=uncultured Gammaproteobacteria bacterium TaxID=86473 RepID=A0A5E5QCR6_9GAMM	0.947957	0.081519
+UniRef100_A0A6F9XM84 CRISPR-associated endonuclease Cas9 n=1 Tax=Ligilactobacillus agilis TaxID=1601 RepID=A0A6F9XM84_9LACO	0.947867	0.081179
+UniRef100_A0A482ZRU2 CRISPR-associated endonuclease Cas9 n=1 Tax=uncultured SUP05 cluster bacterium TaxID=655186 RepID=A0A482ZRU2_9GAMM	0.947884	0.081547
+UniRef100_A0A5E5PVM6 CRISPR-associated endonuclease Cas9 n=2 Tax=Bacteria TaxID=2 RepID=A0A5E5PVM6_9GAMM	0.947889	0.081527
+UniRef100_A0A5Y9M8F7 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5Y9M8F7_CAMJU	0.947872	0.081556
+UniRef100_A0A6N2ZAF0 CRISPR-associated endonuclease Cas9 n=1 Tax=Veillonella ratti TaxID=103892 RepID=A0A6N2ZAF0_9FIRM	0.947622	0.081681
+UniRef100_A0A6F9H8E5 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A6F9H8E5_CAMJU	0.947875	0.081553
+UniRef100_A0A6C8BQW1 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A6C8BQW1_CAMJU	0.947822	0.081577
+UniRef100_A0A7U2NE06 CRISPR-associated endonuclease Cas9 n=1 Tax=Flavobacterium psychrophilum TaxID=96345 RepID=A0A7U2NE06_FLAPS	0.948348	0.081005
+UniRef100_C6SFU3 CRISPR-associated endonuclease Cas9 n=1 Tax=Neisseria meningitidis alpha153 TaxID=663926 RepID=C6SFU3_NEIME	0.947862	0.081754
+UniRef100_A0A6C8A667 CRISPR-associated endonuclease Cas9 n=2 Tax=Campylobacter TaxID=194 RepID=A0A6C8A667_CAMJU	0.947880	0.081552
+UniRef100_A0A5T0FIE6 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5T0FIE6_CAMJU	0.947880	0.081547
+UniRef100_A0A5E6NWL9 CRISPR-associated endonuclease Cas9 n=1 Tax=uncultured Gammaproteobacteria bacterium TaxID=86473 RepID=A0A5E6NWL9_9GAMM	0.943807	0.084765
+UniRef100_A0A5T1BKI0 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter coli TaxID=195 RepID=A0A5T1BKI0_CAMCO	0.947844	0.081560
+UniRef100_A0A3G6JZC2 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus thermophilus TaxID=1308 RepID=A0A3G6JZC2_STRTR	0.947987	0.081449
+UniRef100_A0A5T2CCX5 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter coli TaxID=195 RepID=A0A5T2CCX5_CAMCO	0.947858	0.081562
+UniRef100_A0A7T9LHA3 Type II-B CRISPR-associated RNA-guided endonuclease Cas9/Csx12 n=1 Tax=Sutterella wadsworthensis TaxID=40545 RepID=A0A7T9LHA3_9BURK	0.945824	0.082593
+UniRef100_A0A431G3V8 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A431G3V8_CAMJU	0.947864	0.081553
+UniRef100_A0A7K0FDR1 CRISPR-associated endonuclease Cas9 n=1 Tax=Flavobacterium sp. LC2016-23 TaxID=2666330 RepID=A0A7K0FDR1_9FLAO	0.948075	0.081474
+UniRef100_A0A824NQZ1 Type II CRISPR RNA-guided endonuclease Cas9 n=2 Tax=Campylobacter jejuni TaxID=197 RepID=A0A824NQZ1_CAMJU	0.947889	0.081532
+UniRef100_A0A511IV15 CRISPR-associated endonuclease Cas9 n=1 Tax=Pediococcus parvulus TaxID=54062 RepID=A0A511IV15_9LACO	0.947508	0.081305
+UniRef100_W3XVE3 CRISPR-associated endonuclease Cas9 n=4 Tax=unclassified Streptococcus TaxID=2608887 RepID=W3XVE3_9STRE	0.948161	0.081416
+UniRef100_B0RZQ7 CRISPR-associated endonuclease Cas9 n=1 Tax=Finegoldia magna (strain ATCC 29328 / DSM 20472 / WAL 2508) TaxID=334413 RepID=B0RZQ7_FINM2	0.948106	0.081308
+UniRef100_A0A3A6V1K6 Type II-B CRISPR-associated RNA-guided endonuclease Cas9/Csx12 n=1 Tax=Legionella pneumophila subsp. pneumophila TaxID=91891 RepID=A0A3A6V1K6_LEGPN	0.748312	0.376989
+UniRef100_A0A3R6LRV1 CRISPR-associated endonuclease Cas9 n=2 Tax=Roseburia intestinalis TaxID=166486 RepID=A0A3R6LRV1_9FIRM	0.947829	0.081593
+UniRef100_A0A383TH20 CRISPR-associated endonuclease Cas9 n=1 Tax=Trichococcus shcherbakoviae TaxID=2094020 RepID=A0A383TH20_9LACT	0.947755	0.081597
+UniRef100_F9MP31 CRISPR-associated endonuclease Cas9 n=1 Tax=Megasphaera sp. UPII 135-E TaxID=1000569 RepID=F9MP31_9FIRM	0.947742	0.081467
+UniRef100_A0A7G3BJ89 CRISPR-associated endonuclease Cas9 n=1 Tax=Xanthomarina sp. TaxID=1931211 RepID=A0A7G3BJ89_9FLAO	0.947654	0.081560
+UniRef100_A0A374Q430 CRISPR-associated endonuclease Cas9 n=4 Tax=Bacteria TaxID=2 RepID=A0A374Q430_9BACE	0.909716	0.125793
+UniRef100_A0A447I9V2 CRISPR-associated endonuclease Cas9 n=1 Tax=Devosia sp. M6-77 TaxID=2490941 RepID=A0A447I9V2_9HYPH	0.946886	0.082414
+UniRef100_A0A173V977 CRISPR-associated endonuclease Cas9 n=1 Tax=Roseburia intestinalis TaxID=166486 RepID=A0A173V977_9FIRM	0.947943	0.081550
+UniRef100_A0A379B864 CRISPR-associated endonuclease Cas9 n=2 Tax=Pasteurella multocida TaxID=747 RepID=A0A379B864_PASMD	0.947965	0.081647
+UniRef100_A0A3R6AUX7 CRISPR-associated endonuclease Cas9 n=2 Tax=Roseburia intestinalis TaxID=166486 RepID=A0A3R6AUX7_9FIRM	0.947917	0.081551
+UniRef100_A0A2J6H6X5 CRISPR-associated endonuclease Cas9 n=1 Tax=Mucilaginibacter sp. TaxID=1882438 RepID=A0A2J6H6X5_9SPHI	0.947960	0.081096
+UniRef100_A0A3T2AXJ3 CRISPR-associated endonuclease Cas9 n=3 Tax=Listeria monocytogenes TaxID=1639 RepID=A0A3T2AXJ3_LISMN	0.947669	0.081387
+UniRef100_A0A698TVI8 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A698TVI8_CAMJU	0.947854	0.081562
+UniRef100_A0A5T1UXU0 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter coli TaxID=195 RepID=A0A5T1UXU0_CAMCO	0.947866	0.081555
+UniRef100_A0A697E9A1 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A697E9A1_CAMJU	0.947868	0.081555
+UniRef100_A0A5Y8VXR8 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5Y8VXR8_CAMJU	0.947892	0.081544
+UniRef100_A0A6A8U019 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus salivarius TaxID=1304 RepID=A0A6A8U019_STRSL	0.947952	0.081459
+UniRef100_A0A691PJ17 CRISPR-associated endonuclease Cas9 n=2 Tax=Campylobacter TaxID=194 RepID=A0A691PJ17_CAMCO	0.947861	0.081557
+UniRef100_A0A1Y4PQ68 CRISPR-associated endonuclease Cas9 n=2 Tax=Bacteroidales TaxID=171549 RepID=A0A1Y4PQ68_9BACT	0.948353	0.080591
+UniRef100_A0A6B1NFI9 CRISPR-associated endonuclease Cas9 n=1 Tax=Ligilactobacillus salivarius TaxID=1624 RepID=A0A6B1NFI9_9LACO	0.947745	0.081343
+UniRef100_A0A6C8D1Z9 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A6C8D1Z9_CAMJU	0.947874	0.081551
+UniRef100_A0A5T1C839 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5T1C839_CAMJU	0.947899	0.081541
+UniRef100_A0A5T0F0S2 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5T0F0S2_CAMJU	0.947867	0.081551
+UniRef100_A0A6W1T6T8 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A6W1T6T8_CAMJU	0.947876	0.081549
+UniRef100_A0A3X8TIB9 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A3X8TIB9_CAMJU	0.947871	0.081549
+UniRef100_A0A6H6F6N3 CRISPR-associated endonuclease Cas9 n=2 Tax=Campylobacter TaxID=194 RepID=A0A6H6F6N3_CAMJU	0.947884	0.081541
+UniRef100_A0A5Y6IUR4 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5Y6IUR4_CAMJU	0.947779	0.081588
+UniRef100_A0A5T0ID75 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5T0ID75_CAMJU	0.947854	0.081563
+UniRef100_A0A5T1J679 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter coli TaxID=195 RepID=A0A5T1J679_CAMCO	0.948002	0.081531
+UniRef100_A0A626TR30 CRISPR-associated endonuclease Cas9 n=2 Tax=Campylobacter jejuni TaxID=197 RepID=A0A626TR30_CAMJU	0.947869	0.081553
+UniRef100_A0A5T1CCT5 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5T1CCT5_CAMJU	0.943092	0.079818
+UniRef100_A0A5T0Z6U0 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5T0Z6U0_CAMJU	0.947818	0.081583
+UniRef100_A0A5T0T0M3 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5T0T0M3_CAMJU	0.947857	0.081556
+UniRef100_A0A6N2ZJF4 CRISPR-associated endonuclease Cas9 n=1 Tax=Enterococcus faecium TaxID=1352 RepID=A0A6N2ZJF4_ENTFC	0.947828	0.081335
+UniRef100_A0A5T0MQX4 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5T0MQX4_CAMJU	0.947847	0.081563
+UniRef100_A0A5T2D2V9 CRISPR-associated endonuclease Cas9 n=2 Tax=Campylobacter TaxID=194 RepID=A0A5T2D2V9_CAMJU	0.947868	0.081550
+UniRef100_A0A5Y8ZXH1 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5Y8ZXH1_CAMJU	0.947863	0.081557
+UniRef100_A0A8B2WTK7 Type II CRISPR RNA-guided endonuclease Cas9 n=2 Tax=Neisseria meningitidis TaxID=487 RepID=A0A8B2WTK7_NEIME	0.947918	0.081725
+UniRef100_A0A5E5PRW0 CRISPR-associated endonuclease Cas9 n=1 Tax=uncultured Gammaproteobacteria bacterium TaxID=86473 RepID=A0A5E5PRW0_9GAMM	0.948072	0.081499
+UniRef100_A0A5Y8XP43 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5Y8XP43_CAMJU	0.947835	0.081566
+UniRef100_A0A5T0UFU5 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5T0UFU5_CAMJU	0.947871	0.081549
+UniRef100_A0A5T0G101 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5T0G101_CAMJU	0.947871	0.081550
+UniRef100_A0A691NU33 CRISPR-associated endonuclease Cas9 n=2 Tax=Campylobacter coli TaxID=195 RepID=A0A691NU33_CAMCO	0.947967	0.081596
+UniRef100_A0A401AF54 CRISPR-associated endonuclease Cas9 n=2 Tax=Campylobacter TaxID=194 RepID=A0A401AF54_CAMCO	0.947853	0.081562
+UniRef100_A0A7H0RG19 CRISPR-associated endonuclease Cas9 n=3 Tax=Streptococcus pyogenes TaxID=1314 RepID=A0A7H0RG19_STRPY	0.947390	0.081524
+UniRef100_A0A125S8K3 CRISPR-associated endonuclease Cas9 n=1 Tax=uncultured bacterium TaxID=77133 RepID=A0A125S8K3_9BACT	0.947794	0.081887
+UniRef100_A0A5Y9NZQ1 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5Y9NZQ1_CAMJU	0.947898	0.081541
+UniRef100_A0A1S0Z5C3 CRISPR-associated endonuclease Cas9 n=1 Tax=Salmonella enterica subsp. enterica serovar Saintpaul TaxID=90105 RepID=A0A1S0Z5C3_SALET	0.948110	0.081397
+UniRef100_A0A7U0DMS6 CRISPR-associated endonuclease Cas9 n=2 Tax=Chryseobacterium TaxID=59732 RepID=A0A7U0DMS6_9FLAO	0.947787	0.081112
+UniRef100_G1UFN3 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter lari TaxID=201 RepID=G1UFN3_CAMLA	0.948020	0.081552
+UniRef100_A0A1C6AKB3 CRISPR-associated endonuclease Cas9 n=1 Tax=uncultured Clostridium sp. TaxID=59620 RepID=A0A1C6AKB3_9CLOT	0.948238	0.081692
+UniRef100_A0A7U2KVM8 CRISPR-associated endonuclease Cas9 n=1 Tax=Sulfitobacter pseudonitzschiae TaxID=1402135 RepID=A0A7U2KVM8_9RHOB	0.947119	0.082217
+UniRef100_A0A6F9H4J0 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter coli TaxID=195 RepID=A0A6F9H4J0_CAMCO	0.948030	0.081568
+UniRef100_A0A828WX04 CRISPR-associated protein cas9/csn1, subtype II/nmemi n=2 Tax=Bacillus cereus TaxID=1396 RepID=A0A828WX04_BACCE	0.948099	0.081441
+UniRef100_A0A174QZZ8 CRISPR-associated endonuclease Cas9 n=2 Tax=Phocaeicola vulgatus TaxID=821 RepID=A0A174QZZ8_PHOVU	0.948387	0.080521
+UniRef100_A0A5L3ACR0 CRISPR-associated endonuclease Cas9 n=2 Tax=Listeria monocytogenes TaxID=1639 RepID=A0A5L3ACR0_LISMN	0.947738	0.081348
+UniRef100_A0A4T2GRI1 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus suis TaxID=1307 RepID=A0A4T2GRI1_STRSU	0.947637	0.081352
+UniRef100_A0A3B9CNL6 CRISPR-associated endonuclease Cas9 n=1 Tax=Alistipes sp. TaxID=1872444 RepID=A0A3B9CNL6_9BACT	0.944175	0.080454
+UniRef100_A0A374IB81 CRISPR-associated endonuclease Cas9 n=1 Tax=Roseburia sp. TF10-5 TaxID=2293144 RepID=A0A374IB81_9FIRM	0.947847	0.081544
+UniRef100_A0A7U7CA79 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus thermophilus TaxID=1308 RepID=A0A7U7CA79_STRTR	0.948022	0.081439
+UniRef100_W3XZF8 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus sp. SR4 TaxID=1161417 RepID=W3XZF8_9STRE	0.947950	0.081445
+UniRef100_A0A432I6K0 CRISPR-associated endonuclease Cas9 n=1 Tax=Gammaproteobacteria bacterium TaxID=1913989 RepID=A0A432I6K0_9GAMM	0.947791	0.081543
+UniRef100_A0A417CXY5 CRISPR-associated endonuclease Cas9 n=1 Tax=Ruminococcus sp. AM42-10AC TaxID=2293215 RepID=A0A417CXY5_9FIRM	0.948064	0.081747
+UniRef100_A0A369TWD8 CRISPR-associated endonuclease Cas9 n=1 Tax=Paracoccus versutus TaxID=34007 RepID=A0A369TWD8_PARVE	0.946875	0.082411
+UniRef100_A0A178TEJ9 CRISPR-associated endonuclease Cas9 n=1 Tax=Geobacillus stearothermophilus TaxID=1422 RepID=A0A178TEJ9_GEOSE	0.947853	0.081525
+UniRef100_A0A6A7JUK4 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactobacillus delbrueckii TaxID=1584 RepID=A0A6A7JUK4_9LACO	0.947398	0.081266
+UniRef100_A0A6L6LTB6 CRISPR-associated endonuclease Cas9 n=1 Tax=Ruthenibacterium lactatiformans TaxID=1550024 RepID=A0A6L6LTB6_9FIRM	0.947340	0.082059
+UniRef100_A0A178KKP5 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus sp. CCUG 49591 TaxID=1860161 RepID=A0A178KKP5_9STRE	0.947630	0.081332
+UniRef100_A0A811IFK4 CRISPR-associated endonuclease Cas9 1 n=2 Tax=Streptococcus thermophilus TaxID=1308 RepID=A0A811IFK4_STRTR	0.948042	0.081444
+UniRef100_A0A0A6Y3B0 CRISPR-associated endonuclease Cas9 n=2 Tax=unclassified Capnocytophaga TaxID=2640652 RepID=A0A0A6Y3B0_9FLAO	0.948222	0.080979
+UniRef100_A0A7U7C497 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus thermophilus TaxID=1308 RepID=A0A7U7C497_STRTR	0.946825	0.081857
+UniRef100_A0A250FZD3 CRISPR-associated endonuclease Cas9 n=1 Tax=Capnocytophaga stomatis TaxID=1848904 RepID=A0A250FZD3_9FLAO	0.948056	0.081026
+UniRef100_A0A811IH55 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus thermophilus TaxID=1308 RepID=A0A811IH55_STRTR	0.946828	0.081857
+UniRef100_A0A7U7C619 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus thermophilus TaxID=1308 RepID=A0A7U7C619_STRTR	0.948071	0.081425
+UniRef100_A0A2X3U7E7 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus thermophilus TaxID=1308 RepID=A0A2X3U7E7_STRTR	0.948079	0.081422
+UniRef100_A0A239Y1P3 CRISPR-associated endonuclease Cas9 n=1 Tax=Veillonella rodentium TaxID=248315 RepID=A0A239Y1P3_9FIRM	0.948094	0.081091
+UniRef100_A0A7U7CJ22 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus thermophilus TaxID=1308 RepID=A0A7U7CJ22_STRTR	0.946834	0.081859
+UniRef100_C0WXA2 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactobacillus fermentum ATCC 14931 TaxID=525325 RepID=C0WXA2_LIMFE	0.947531	0.081397
+UniRef100_A0A7J5EKS0 CRISPR-associated endonuclease Cas9 n=3 Tax=Bacteroidetes/Chlorobi group TaxID=68336 RepID=A0A7J5EKS0_9BACT	0.947075	0.082186
+UniRef100_A0A7G8WYM5 Type II-B CRISPR-associated RNA-guided endonuclease Cas9/Csx12 n=1 Tax=Aliarcobacter cryaerophilus TaxID=28198 RepID=A0A7G8WYM5_9PROT	0.948546	0.081155
+UniRef100_A0A3D9BEH5 CRISPR-associated endonuclease Cas9 n=1 Tax=Chryseobacterium piscium TaxID=333702 RepID=A0A3D9BEH5_9FLAO	0.948253	0.080829
+UniRef100_A0A0F6MNW4 CRISPR-associated endonuclease Cas9 n=1 Tax=Treponema denticola OTK TaxID=999434 RepID=A0A0F6MNW4_TREDN	0.948025	0.081885
+UniRef100_A0A1H8NCE1 CRISPR-associated endonuclease Cas9 n=1 Tax=Rhodopseudomonas pseudopalustris TaxID=1513892 RepID=A0A1H8NCE1_9BRAD	0.946709	0.082252
+UniRef100_A0A150MP45 CRISPR-associated endonuclease Cas9 n=1 Tax=Geobacillus stearothermophilus TaxID=1422 RepID=A0A150MP45_GEOSE	0.947858	0.081529
+UniRef100_A0A0W7TPK7 CRISPR-associated endonuclease Cas9 n=1 Tax=Ruthenibacterium lactatiformans TaxID=1550024 RepID=A0A0W7TPK7_9FIRM	0.947278	0.082078
+UniRef100_A0A415PKT9 CRISPR-associated endonuclease Cas9 n=2 Tax=Amedibacillus dolichus TaxID=31971 RepID=A0A415PKT9_9FIRM	0.947852	0.081501
+UniRef100_A0A415XY12 CRISPR-associated endonuclease Cas9 n=4 Tax=Ruminococcus TaxID=1263 RepID=A0A415XY12_9FIRM	0.948248	0.081697
+UniRef100_A0A7U8DM83 CRISPR-associated endonuclease Cas9 n=1 Tax=Listeria monocytogenes TaxID=1639 RepID=A0A7U8DM83_LISMN	0.947700	0.081403
+UniRef100_E0NB23 CRISPR-associated endonuclease Cas9 n=1 Tax=Neisseria meningitidis ATCC 13091 TaxID=862513 RepID=E0NB23_NEIME	0.947913	0.081688
+UniRef100_A0A1V2UL94 CRISPR-associated endonuclease Cas9 n=1 Tax=Enterococcus mundtii TaxID=53346 RepID=A0A1V2UL94_ENTMU	0.947762	0.081516
+UniRef100_A0A1M4Z653 CRISPR-associated endonuclease Cas9 n=1 Tax=Chryseobacterium sp. OV279 TaxID=1500285 RepID=A0A1M4Z653_9FLAO	0.948289	0.080986
+UniRef100_A0A6G0CF54 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacteroides ovatus TaxID=28116 RepID=A0A6G0CF54_BACOV	0.948602	0.080277
+UniRef100_E0PEL3 CRISPR-associated endonuclease Cas9 n=2 Tax=Streptococcus TaxID=1301 RepID=E0PEL3_STREI	0.947545	0.081383
+UniRef100_A0A413AZS6 CRISPR-associated endonuclease Cas9 n=1 Tax=Ruminococcus sp. AF13-37 TaxID=2292246 RepID=A0A413AZS6_9FIRM	0.948488	0.081320
+UniRef100_A0A0E2RF34 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus thermophilus TH1477 TaxID=1436725 RepID=A0A0E2RF34_STRTR	0.948069	0.081420
+UniRef100_A0A3D2ELM2 CRISPR-associated endonuclease Cas9 n=1 Tax=Lachnospiraceae bacterium TaxID=1898203 RepID=A0A3D2ELM2_9FIRM	0.948086	0.081615
+UniRef100_A0A414E5X2 CRISPR-associated endonuclease Cas9 n=1 Tax=Ruminococcus bromii TaxID=40518 RepID=A0A414E5X2_9FIRM	0.947782	0.081472
+UniRef100_A0A417DBS0 CRISPR-associated endonuclease Cas9 n=1 Tax=Ruminococcus sp. AM40-10AC TaxID=2293212 RepID=A0A417DBS0_9FIRM	0.947989	0.082086
+UniRef100_A0A1Y5Z391 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacillus mobilis TaxID=2026190 RepID=A0A1Y5Z391_9BACI	0.947780	0.081503
+UniRef100_A0A373J2B1 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacteroides sp. AM16-15 TaxID=2292939 RepID=A0A373J2B1_9BACE	0.948474	0.080605
+UniRef100_A0A413JZI4 CRISPR-associated endonuclease Cas9 n=1 Tax=Ruminococcus bromii TaxID=40518 RepID=A0A413JZI4_9FIRM	0.946137	0.082238
+UniRef100_E8KVY4 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus vestibularis ATCC 49124 TaxID=889206 RepID=E8KVY4_STRVE	0.948084	0.081411
+UniRef100_A0A267HTZ2 CRISPR-associated endonuclease Cas9 n=1 Tax=Enterococcus canintestini TaxID=317010 RepID=A0A267HTZ2_9ENTE	0.948033	0.081340
+UniRef100_A0A2Z3K5B6 CRISPR-associated endonuclease Cas9 n=2 Tax=Lactobacillus TaxID=1578 RepID=A0A2Z3K5B6_9LACO	0.946198	0.081997
+UniRef100_A0A179YJ40 CRISPR-associated endonuclease Cas9 n=1 Tax=Lacticaseibacillus rhamnosus TaxID=47715 RepID=A0A179YJ40_LACRH	0.945364	0.081264
+UniRef100_A0A6I3PP62 CRISPR-associated endonuclease Cas9 n=1 Tax=Ruminococcus bromii TaxID=40518 RepID=A0A6I3PP62_9FIRM	0.945185	0.082784
+UniRef100_A0A412DTV4 CRISPR-associated endonuclease Cas9 n=1 Tax=Ruminococcus bromii TaxID=40518 RepID=A0A412DTV4_9FIRM	0.948246	0.081414
+UniRef100_A0A412UM29 CRISPR-associated endonuclease Cas9 n=1 Tax=Ruminococcus bromii TaxID=40518 RepID=A0A412UM29_9FIRM	0.945702	0.082882
+UniRef100_A0A3G6TIH8 CRISPR-associated endonuclease Cas9 n=1 Tax=Chryseobacterium bernardetii TaxID=1241978 RepID=A0A3G6TIH8_9FLAO	0.947679	0.081137
+UniRef100_A0A7G1JPQ8 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus suis TaxID=1307 RepID=A0A7G1JPQ8_STRSU	0.947560	0.081362
+UniRef100_A0A4T2GQ30 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus suis TaxID=1307 RepID=A0A4T2GQ30_STRSU	0.946821	0.081649
+UniRef100_A0A2N6PM21 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus sp. UMB0029 TaxID=2069308 RepID=A0A2N6PM21_9STRE	0.947661	0.081290
+UniRef100_A0A644X9Q7 CRISPR-associated endonuclease Cas9 n=1 Tax=bioreactor metagenome TaxID=1076179 RepID=A0A644X9Q7_9ZZZZ	0.946934	0.082228
+UniRef100_A0A644UI78 CRISPR-associated endonuclease Cas9 n=1 Tax=bioreactor metagenome TaxID=1076179 RepID=A0A644UI78_9ZZZZ	0.947808	0.081625
+UniRef100_A0A4U7H5M9 CRISPR-associated endonuclease Cas9 n=5 Tax=Streptococcus pyogenes TaxID=1314 RepID=A0A4U7H5M9_STRPY	0.947697	0.081266
+UniRef100_UPI0007E52A05 CRISPR-ASSOCIATED ENDONUCLEASE CAS9/CSN1 n=1 Tax=Streptococcus pyogenes TaxID=1314 RepID=UPI0007E52A05	0.947627	0.081245
+UniRef100_UPI00065B4609 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus pyogenes TaxID=1314 RepID=UPI00065B4609	0.947627	0.081269
+UniRef100_UPI00077534CF CRISPR-associated endonuclease Cas9 n=1 Tax=Francisella tularensis subsp. novicida (strain U112) TaxID=401614 RepID=UPI00077534CF	0.945857	0.081051
+UniRef100_UPI000775351F CRISPR-associated endonuclease Cas9 n=1 Tax=Francisella tularensis subsp. novicida (strain U112) TaxID=401614 RepID=UPI000775351F	0.945925	0.080943
+UniRef100_UPI001292CD0F CRISPR-associated endonuclease Cas9 n=1 Tax=Neisseria meningitidis serogroup C (strain 8013) TaxID=604162 RepID=UPI001292CD0F	0.947787	0.081743
+UniRef100_UPI0010933737 CRISPR-associated protein,CRISPR-associated endonuclease Cas9 n=1 Tax=Corynebacterium diphtheriae TaxID=1717 RepID=UPI0010933737	0.945705	0.081988
+UniRef100_UPI0007AC51B3 CRISPR-ASSOCIATED ENDONUCLEASE CAS9/CSN1 n=1 Tax=Streptococcus pyogenes TaxID=1314 RepID=UPI0007AC51B3	0.947639	0.081241
+UniRef100_UPI001292CCFE CRISPR-associated endonuclease Cas9 n=2 Tax=Neisseria meningitidis serogroup C (strain 8013) TaxID=604162 RepID=UPI001292CCFE	0.947900	0.081705
+UniRef100_UPI000158B0A1 type II-B CRISPR-associated RNA-guided endonuclease Cas9/Csx12 n=1 Tax=Francisella tularensis TaxID=263 RepID=UPI000158B0A1	0.946329	0.080941
+UniRef100_UPI0012318437 CRISPR-associated endonuclease Cas9/Csn1 n=1 Tax=Streptococcus pyogenes serotype M1 TaxID=301447 RepID=UPI0012318437	0.947703	0.081241
+UniRef100_A0A386IRG9 CRISPR-associated endonuclease Cas9 n=3 Tax=Bacilli TaxID=91061 RepID=A0A386IRG9_STAAU	0.947635	0.081269
+UniRef100_UPI00077DEF9D CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus pyogenes serotype M1 TaxID=301447 RepID=UPI00077DEF9D	0.947627	0.081242
+UniRef100_UPI000EFA302E CRISPR-associated endonuclease Cas9/Csn1 n=1 Tax=Streptococcus pyogenes serotype M1 TaxID=301447 RepID=UPI000EFA302E	0.947495	0.081168
+UniRef100_UPI0003F479BB CRISPR-associated endonuclease Cas9/Csn1 n=2 Tax=Bacteria TaxID=2 RepID=UPI0003F479BB	0.947605	0.081253
+UniRef100_UPI00077DEFD3 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus pyogenes serotype M1 TaxID=301447 RepID=UPI00077DEFD3	0.947637	0.081237
+UniRef100_UPI00018554F2 type II-B CRISPR-associated RNA-guided endonuclease Cas9/Csx12 n=1 Tax=Francisella tularensis TaxID=263 RepID=UPI00018554F2	0.946254	0.080896
+UniRef100_UPI000B4E838A CRISPR-associated endonuclease Cas9/Csn1 n=1 Tax=Streptococcus pyogenes serotype M1 TaxID=301447 RepID=UPI000B4E838A	0.947623	0.081257
+UniRef100_UPI001292CD1F CRISPR-associated endonuclease Cas9 n=1 Tax=Neisseria meningitidis serogroup C (strain 8013) TaxID=604162 RepID=UPI001292CD1F	0.947901	0.081702
+UniRef100_UPI001292CCF6 CRISPR-associated endonuclease Cas9 n=1 Tax=Neisseria meningitidis TaxID=487 RepID=UPI001292CCF6	0.947716	0.081770
+UniRef100_UPI0009B4EBF5 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 / NCTC 11168) TaxID=192222 RepID=UPI0009B4EBF5	0.859189	0.260906
+UniRef100_UPI0004DB2150 CRISPR-ASSOCIATED ENDONUCLEASE CAS9/CSN1 n=1 Tax=Streptococcus pyogenes TaxID=1314 RepID=UPI0004DB2150	0.947624	0.081262
+UniRef100_UPI001658712D CRISPR-associated endonuclease Cas9 1 n=1 Tax=Streptococcus thermophilus (strain ATCC BAA-491 / LMD-9) TaxID=322159 RepID=UPI001658712D	0.948028	0.081453
+UniRef100_UPI0002058F24 type II-B CRISPR-associated RNA-guided endonuclease Cas9/Csx12 n=1 Tax=Francisella tularensis TaxID=263 RepID=UPI0002058F24	0.946201	0.080934
+UniRef100_UPI0007E529DE CRISPR-ASSOCIATED ENDONUCLEASE CAS9/CSN1 n=1 Tax=Streptococcus pyogenes TaxID=1314 RepID=UPI0007E529DE	0.947612	0.081254
+UniRef100_A0A380JR19 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus equi subsp. equi TaxID=148942 RepID=A0A380JR19_9STRE	0.947584	0.081462
+UniRef100_A0A1G9K5U8 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus equinus TaxID=1335 RepID=A0A1G9K5U8_STREI	0.947562	0.081379
+UniRef100_A0A139QZ91 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus oralis TaxID=1303 RepID=A0A139QZ91_STROR	0.948076	0.081396
+UniRef100_J4XAP6 CRISPR-associated endonuclease Cas9 n=1 Tax=Capnocytophaga sp. CM59 TaxID=936370 RepID=J4XAP6_9FLAO	0.948212	0.080863
+UniRef100_A0A139NVJ1 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus oralis TaxID=1303 RepID=A0A139NVJ1_STROR	0.947630	0.081287
+UniRef100_A0A3G3E7S5 CRISPR-associated endonuclease Cas9 n=1 Tax=Limosilactobacillus fermentum TaxID=1613 RepID=A0A3G3E7S5_LIMFE	0.947552	0.081388
+UniRef100_A0A6I6I944 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus equinus TaxID=1335 RepID=A0A6I6I944_STREI	0.947532	0.081397
+UniRef100_A0A414P8F0 CRISPR-associated endonuclease Cas9 n=1 Tax=[Ruminococcus] lactaris TaxID=46228 RepID=A0A414P8F0_9FIRM	0.947973	0.081249
+UniRef100_A0A2K2TI60 CRISPR-associated endonuclease Cas9 n=1 Tax=Limosilactobacillus fermentum TaxID=1613 RepID=A0A2K2TI60_LIMFE	0.947633	0.081342
+UniRef100_A0A291DCL0 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus oralis TaxID=1303 RepID=A0A291DCL0_STROR	0.947619	0.081333
+UniRef100_A0A1E9G6C3 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus sp. HMSC076C08 TaxID=1739270 RepID=A0A1E9G6C3_9STRE	0.948093	0.081427
+UniRef100_A0A6I6CAM2 CRISPR-associated endonuclease Cas9 n=1 Tax=Spiroplasma tabanidicola TaxID=324079 RepID=A0A6I6CAM2_9MOLU	0.948017	0.081521
+UniRef100_A0A7D4L0X7 CRISPR-associated endonuclease Cas9 n=1 Tax=Prevotella melaninogenica TaxID=28132 RepID=A0A7D4L0X7_9BACT	0.948518	0.080481
+UniRef100_A0A5P8PWU7 CRISPR-associated endonuclease Cas9 n=1 Tax=Levilactobacillus zymae TaxID=267363 RepID=A0A5P8PWU7_9LACO	0.948421	0.081257
+UniRef100_A0A427YYW6 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus oralis TaxID=1303 RepID=A0A427YYW6_STROR	0.947595	0.081352
+UniRef100_A0A139PB46 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus oralis TaxID=1303 RepID=A0A139PB46_STROR	0.947608	0.081316
+UniRef100_A0A2N6QMJ5 CRISPR-associated endonuclease Cas9 n=1 Tax=Prevotella buccalis TaxID=28127 RepID=A0A2N6QMJ5_9BACT	0.947845	0.081444
+UniRef100_A0A139NSX3 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus oralis TaxID=1303 RepID=A0A139NSX3_STROR	0.947624	0.081295
+UniRef100_A0A418JLD8 CRISPR-associated endonuclease Cas9 n=1 Tax=Staphylococcus hyicus TaxID=1284 RepID=A0A418JLD8_STAHY	0.948012	0.081498
+UniRef100_A0A0R2E213 CRISPR-associated endonuclease Cas9 n=1 Tax=Limosilactobacillus fermentum TaxID=1613 RepID=A0A0R2E213_LIMFE	0.947575	0.081368
+UniRef100_A0A6N8TPM1 CRISPR-associated endonuclease Cas9 n=1 Tax=Apibacter sp. B2912 TaxID=2656763 RepID=A0A6N8TPM1_9FLAO	0.947703	0.081165
+UniRef100_A0A428BXF1 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus oralis TaxID=1303 RepID=A0A428BXF1_STROR	0.947542	0.081380
+UniRef100_A0A139MDP4 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus oralis TaxID=1303 RepID=A0A139MDP4_STROR	0.948089	0.081448
+UniRef100_A0A381CZA9 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni subsp. doylei TaxID=32021 RepID=A0A381CZA9_CAMJU	0.947813	0.081596
+UniRef100_A0A1H0V2M0 CRISPR-associated endonuclease Cas9 n=2 Tax=Acidovorax cattleyae TaxID=80868 RepID=A0A1H0V2M0_9BURK	0.947038	0.082325
+UniRef100_A0A2N8Z428 CRISPR-associated endonuclease Cas9 n=1 Tax=Limosilactobacillus fermentum TaxID=1613 RepID=A0A2N8Z428_LIMFE	0.947519	0.081462
+UniRef100_A0A2H1YER4 CRISPR-associated endonuclease Cas9 n=1 Tax=Tenacibaculum piscium TaxID=1458515 RepID=A0A2H1YER4_9FLAO	0.948012	0.081458
+UniRef100_UPI00004449F5 type II-B CRISPR-associated RNA-guided endonuclease Cas9/Csx12 n=1 Tax=Legionella pneumophila TaxID=446 RepID=UPI00004449F5	0.742900	0.374452
+UniRef100_UPI00077DF005 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus pyogenes serotype M1 TaxID=301447 RepID=UPI00077DF005	0.947612	0.081249
+UniRef100_UPI000158B3C0 type II-B CRISPR-associated RNA-guided endonuclease Cas9/Csx12 n=1 Tax=Francisella tularensis TaxID=263 RepID=UPI000158B3C0	0.946360	0.080876
+UniRef100_UPI00048121A0 type II-B CRISPR-associated RNA-guided endonuclease Cas9/Csx12 n=1 Tax=Legionella pneumophila TaxID=446 RepID=UPI00048121A0	0.947717	0.080895
+UniRef100_UPI0004855F4D type II-B CRISPR-associated RNA-guided endonuclease Cas9/Csx12 n=1 Tax=Legionella pneumophila TaxID=446 RepID=UPI0004855F4D	0.944823	0.079811
+UniRef100_UPI00048F7868 type II-B CRISPR-associated RNA-guided endonuclease Cas9/Csx12 n=1 Tax=Legionella pneumophila TaxID=446 RepID=UPI00048F7868	0.947513	0.080784
+UniRef100_UPI0005CA9B93 type II-B CRISPR-associated RNA-guided endonuclease Cas9/Csx12 n=1 Tax=Legionella pneumophila TaxID=446 RepID=UPI0005CA9B93	0.906366	0.135385
+UniRef100_A0A2T4HI56 CRISPR-associated endonuclease Cas9 n=1 Tax=Flavobacterium columnare TaxID=996 RepID=A0A2T4HI56_9FLAO	0.948268	0.080704
+UniRef100_A0A4Q1AHA1 CRISPR-associated endonuclease Cas9 n=1 Tax=Halarcobacter ebronensis TaxID=1462615 RepID=A0A4Q1AHA1_9PROT	0.948276	0.081407
+UniRef100_Q1JH43 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus pyogenes serotype M2 (strain MGAS10270) TaxID=370552 RepID=Q1JH43_STRPD	0.947678	0.081269
+UniRef100_A0A3R6H7I5 CRISPR-associated endonuclease Cas9 n=1 Tax=Roseburia sp. AM23-20 TaxID=2292066 RepID=A0A3R6H7I5_9FIRM	0.947791	0.081650
+UniRef100_A0A0D6MWC5 CRISPR-associated endonuclease Cas9 n=1 Tax=Acetobacter aceti NBRC 14818 TaxID=887700 RepID=A0A0D6MWC5_ACEAC	0.945773	0.082870
+UniRef100_A0A3P0Y011 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus agalactiae TaxID=1311 RepID=A0A3P0Y011_STRAG	0.947764	0.081239
+UniRef100_A0A7X4F5I2 CRISPR-associated endonuclease Cas9 n=1 Tax=Synechococcus sp. SB0670_bin_20 TaxID=2604863 RepID=A0A7X4F5I2_9SYNE	0.947443	0.082076
+UniRef100_A0A679FPI8 CRISPR-associated endonuclease Cas9 n=1 Tax=Geobacillus subterraneus TaxID=129338 RepID=A0A679FPI8_9BACI	0.947841	0.081521
+UniRef100_A0A0B2XHU2 CRISPR-associated endonuclease Cas9 n=1 Tax=Latilactobacillus curvatus TaxID=28038 RepID=A0A0B2XHU2_LATCU	0.948258	0.081085
+UniRef100_A0A422LAT0 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactobacillus paracasei TaxID=1597 RepID=A0A422LAT0_LACPA	0.946884	0.081674
+UniRef100_A0A4Y4JYH6 CRISPR-associated endonuclease Cas9 n=1 Tax=Latilactobacillus curvatus TaxID=28038 RepID=A0A4Y4JYH6_LATCU	0.947786	0.081323
+UniRef100_A0A1H4B7Y3 CRISPR-associated endonuclease Cas9 n=1 Tax=Porphyromonadaceae bacterium KH3R12 TaxID=1855397 RepID=A0A1H4B7Y3_9PORP	0.948023	0.080258
+UniRef100_E9FPR9 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus sp. M334 TaxID=563038 RepID=E9FPR9_9STRE	0.947659	0.081315
+UniRef100_A0A4V6LN43 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus dysgalactiae TaxID=1334 RepID=A0A4V6LN43_STRDY	0.947423	0.081528
+UniRef100_A0A017N289 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacteroides fragilis str. S23L17 TaxID=1339329 RepID=A0A017N289_BACFG	0.948108	0.080771
+UniRef100_I0QHG7 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus salivarius PS4 TaxID=1157946 RepID=I0QHG7_STRSL	0.947910	0.081456
+UniRef100_A0A3M0PDZ7 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactobacillus sp. ESL0260 TaxID=2069347 RepID=A0A3M0PDZ7_9LACO	0.947785	0.081244
+UniRef100_A0A373RTM6 CRISPR-associated endonuclease Cas9 n=1 Tax=Blautia sp. AF26-2 TaxID=2292966 RepID=A0A373RTM6_9FIRM	0.947999	0.081424
+UniRef100_A0A7V1WWM4 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacteroidetes bacterium TaxID=1898104 RepID=A0A7V1WWM4_9BACT	0.947945	0.081094
+UniRef100_A0A5S4TWQ6 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus dysgalactiae TaxID=1334 RepID=A0A5S4TWQ6_STRDY	0.947147	0.081403
+UniRef100_A0A2Z6FEZ5 CRISPR-associated endonuclease Cas9 n=1 Tax=Latilactobacillus curvatus TaxID=28038 RepID=A0A2Z6FEZ5_LATCU	0.948223	0.081070
+UniRef100_A0A7D6HU96 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni subsp. jejuni TaxID=32022 RepID=A0A7D6HU96_CAMJU	0.947848	0.081562
+UniRef100_A0A1B2A6P4 CRISPR-associated endonuclease Cas9 n=1 Tax=Latilactobacillus curvatus TaxID=28038 RepID=A0A1B2A6P4_LATCU	0.948174	0.081139
+UniRef100_C5WH61 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus dysgalactiae subsp. equisimilis (strain GGS_124) TaxID=486410 RepID=C5WH61_STRDG	0.946770	0.081156
+UniRef100_A0A7X0EHM8 CRISPR-associated endonuclease Cas9 n=1 Tax=Geobacillus subterraneus TaxID=129338 RepID=A0A7X0EHM8_9BACI	0.947842	0.081576
+UniRef100_A0A385ADN3 CRISPR-associated endonuclease Cas9 n=1 Tax=Latilactobacillus curvatus TaxID=28038 RepID=A0A385ADN3_LATCU	0.948253	0.081104
+UniRef100_A0A4Q5HAA5 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacteroides intestinalis TaxID=329854 RepID=A0A4Q5HAA5_9BACE	0.945582	0.079521
+UniRef100_A0A0B7IQ14 CRISPR-associated endonuclease Cas9 n=1 Tax=Capnocytophaga canis TaxID=1848903 RepID=A0A0B7IQ14_9FLAO	0.948213	0.081045
+UniRef100_A0A5S4TE76 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus dysgalactiae TaxID=1334 RepID=A0A5S4TE76_STRDY	0.947181	0.081408
+UniRef100_A0A0B7IB79 CRISPR-associated endonuclease Cas9 n=1 Tax=Capnocytophaga canis TaxID=1848903 RepID=A0A0B7IB79_9FLAO	0.948226	0.081032
+UniRef100_A0A2D4ZRZ3 CRISPR-associated endonuclease Cas9 n=2 Tax=Bacteroidetes/Chlorobi group TaxID=68336 RepID=A0A2D4ZRZ3_9BACT	0.947743	0.081563
+UniRef100_A0A7X4BXD8 Type II-B CRISPR-associated RNA-guided endonuclease Cas9/Csx12 n=2 Tax=unclassified Nitrospira TaxID=2652172 RepID=A0A7X4BXD8_9BACT	0.873730	0.242276
+UniRef100_A0A642MDU6 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacteroides faecis TaxID=674529 RepID=A0A642MDU6_9BACE	0.948254	0.080788
+UniRef100_A0A379B6M0 CRISPR-associated endonuclease Cas9 n=1 Tax=[Pasteurella] mairii TaxID=757 RepID=A0A379B6M0_9PAST	0.947775	0.081683
+UniRef100_A0A3R6EU27 CRISPR-associated endonuclease Cas9 n=2 Tax=Roseburia inulinivorans TaxID=360807 RepID=A0A3R6EU27_9FIRM	0.947704	0.081578
+UniRef100_A0A412FF55 CRISPR-associated endonuclease Cas9 n=2 Tax=Roseburia inulinivorans TaxID=360807 RepID=A0A412FF55_9FIRM	0.947787	0.081546
+UniRef100_A0A3R7CPN3 CRISPR-associated endonuclease Cas9 n=1 Tax=Bombilactobacillus bombi TaxID=1303590 RepID=A0A3R7CPN3_9LACO	0.947841	0.081315
+UniRef100_A0A642MLQ5 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacteroides faecis TaxID=674529 RepID=A0A642MLQ5_9BACE	0.948277	0.080741
+UniRef100_I0Q2W2 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus oralis SK610 TaxID=1095741 RepID=I0Q2W2_STROR	0.947570	0.081382
+UniRef100_A0A4Q0D683 CRISPR-associated endonuclease Cas9 n=1 Tax=Limosilactobacillus mucosae TaxID=97478 RepID=A0A4Q0D683_LIMMU	0.947307	0.080928
+UniRef100_A0A380IN75 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus agalactiae TaxID=1311 RepID=A0A380IN75_STRAG	0.947788	0.081245
+UniRef100_I1A5G3 CRISPR-associated endonuclease Cas9 n=1 Tax=Mycoplasma canis UFG4 TaxID=1131455 RepID=I1A5G3_9MOLU	0.948164	0.081481
+UniRef100_A0A7V3TW42 CRISPR-associated endonuclease Cas9 n=1 Tax=Planctomycetes bacterium TaxID=2026780 RepID=A0A7V3TW42_9BACT	0.947360	0.081978
+UniRef100_A0A412B536 CRISPR-associated endonuclease Cas9 n=2 Tax=Roseburia inulinivorans TaxID=360807 RepID=A0A412B536_9FIRM	0.947722	0.081564
+UniRef100_A0A7H8V0N3 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus sanguinis TaxID=1305 RepID=A0A7H8V0N3_STRSA	0.947751	0.081175
+UniRef100_A0A3A6JQD7 CRISPR-associated endonuclease Cas9 n=1 Tax=Subdoligranulum sp. OF01-18 TaxID=2302962 RepID=A0A3A6JQD7_9FIRM	0.947386	0.082029
+UniRef100_A0A1X1HQZ5 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus oralis subsp. oralis TaxID=1891914 RepID=A0A1X1HQZ5_STROR	0.947742	0.081277
+UniRef100_A0A1F0AZ94 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus sp. HMSC077D04 TaxID=1715180 RepID=A0A1F0AZ94_9STRE	0.948093	0.081096
+UniRef100_A0A5L4WX38 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter fetus TaxID=196 RepID=A0A5L4WX38_CAMFE	0.947861	0.081558
+UniRef100_A0A6I4XW76 CRISPR-associated endonuclease Cas9 n=1 Tax=Enterococcus faecalis TaxID=1351 RepID=A0A6I4XW76_ENTFL	0.947890	0.081342
+UniRef100_A0A3G6TK07 CRISPR-associated endonuclease Cas9 n=1 Tax=Chryseobacterium balustinum TaxID=246 RepID=A0A3G6TK07_9FLAO	0.948332	0.080854
+UniRef100_A0A0R1ZP43 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactobacillus animalis KCTC 3501 = DSM 20602 TaxID=930942 RepID=A0A0R1ZP43_9LACO	0.947254	0.081511
+UniRef100_A0A3S6QW27 CRISPR-associated endonuclease Cas9 n=1 Tax=Liquorilactobacillus hordei TaxID=468911 RepID=A0A3S6QW27_9LACO	0.948150	0.081355
+UniRef100_A0A427ZWI0 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus sanguinis TaxID=1305 RepID=A0A427ZWI0_STRSA	0.947517	0.081401
+UniRef100_A0A1E9EMZ9 CRISPR-associated endonuclease Cas9 n=1 Tax=Fusobacterium sp. HMSC064B12 TaxID=1739279 RepID=A0A1E9EMZ9_9FUSO	0.947930	0.081272
+UniRef100_A0A495WJ55 CRISPR-associated endonuclease Cas9 n=1 Tax=Coprobacter fastidiosus NSB1 TaxID=1349822 RepID=A0A495WJ55_9BACT	0.944884	0.079231
+UniRef100_A0A5C8GB06 CRISPR-associated endonuclease Cas9 n=1 Tax=Prevotella brunnea TaxID=2508867 RepID=A0A5C8GB06_9BACT	0.947940	0.081406
+UniRef100_A0A242IDM5 CRISPR-associated endonuclease Cas9 n=1 Tax=Enterococcus sp. 10F3_DIV0382 TaxID=1834165 RepID=A0A242IDM5_9ENTE	0.947811	0.081346
+UniRef100_A0A378VHH1 CRISPR-associated endonuclease Cas9 n=1 Tax=Neisseria lactamica TaxID=486 RepID=A0A378VHH1_NEILA	0.947770	0.081803
+UniRef100_A0A2X4AIA2 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus sanguinis TaxID=1305 RepID=A0A2X4AIA2_STRSA	0.947399	0.081374
+UniRef100_A0A7X8I822 CRISPR-associated endonuclease Cas9 n=1 Tax=Spirochaetales bacterium TaxID=2026792 RepID=A0A7X8I822_9SPIR	0.947524	0.081647
+UniRef100_A0A5D0JYU4 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactobacillus sp. SL9-6 TaxID=2604480 RepID=A0A5D0JYU4_9LACO	0.946797	0.080723
+UniRef100_J9E534 CRISPR-associated endonuclease Cas9 n=1 Tax=Alicyclobacillus hesperidum URH17-3-68 TaxID=1200346 RepID=J9E534_9BACL	0.947433	0.081804
+UniRef100_A0A7V7HNN8 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacillus sp. BB51/4 TaxID=2217819 RepID=A0A7V7HNN8_9BACI	0.948076	0.081446
+UniRef100_A0A0R1TGJ3 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactobacillus paracollinoides DSM 15502 = JCM 11969 TaxID=1423785 RepID=A0A0R1TGJ3_9LACO	0.947926	0.081169
+UniRef100_V8BZU1 CRISPR-associated endonuclease Cas9 n=1 Tax=Prevotella oralis CC98A TaxID=1073367 RepID=V8BZU1_9BACT	0.948285	0.081079
+UniRef100_A0A233WAV8 CRISPR-associated endonuclease Cas9 n=1 Tax=Finegoldia magna TaxID=1260 RepID=A0A233WAV8_FINMA	0.948087	0.081321
+UniRef100_A0A2A8BNK9 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacillus wiedmannii TaxID=1890302 RepID=A0A2A8BNK9_9BACI	0.948084	0.081447
+UniRef100_E5C8Y3 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacteroides sp. D2 TaxID=556259 RepID=E5C8Y3_9BACE	0.947062	0.080021
+UniRef100_A0A4Y3JYX6 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactobacillus delbrueckii subsp. delbrueckii TaxID=83684 RepID=A0A4Y3JYX6_9LACO	0.947330	0.081269
+UniRef100_K6RXS8 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactobacillus paracasei TaxID=1597 RepID=K6RXS8_LACPA	0.946708	0.081890
+UniRef100_A0A1S8KM94 CRISPR-associated endonuclease Cas9 n=1 Tax=Dolosigranulum pigrum TaxID=29394 RepID=A0A1S8KM94_9LACT	0.947833	0.081385
+UniRef100_A0A6I0LHY2 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacteroides uniformis TaxID=820 RepID=A0A6I0LHY2_BACUN	0.948516	0.080784
+UniRef100_A0A1M6VU50 CRISPR-associated endonuclease Cas9 n=1 Tax=Chryseobacterium polytrichastri TaxID=1302687 RepID=A0A1M6VU50_9FLAO	0.946169	0.080544
+UniRef100_A0A7Z0G2B1 CRISPR-associated endonuclease Cas9 n=1 Tax=Chryseobacterium sp. H1D6C TaxID=2735912 RepID=A0A7Z0G2B1_9FLAO	0.947411	0.081302
+UniRef100_A0A5C7W1L1 CRISPR-associated endonuclease Cas9 n=1 Tax=Nitrosomonas oligotropha TaxID=42354 RepID=A0A5C7W1L1_9PROT	0.947573	0.081956
+UniRef100_A0A414WCI7 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacteroides uniformis TaxID=820 RepID=A0A414WCI7_BACUN	0.948515	0.080799
+UniRef100_C2G539 CRISPR-associated endonuclease Cas9 n=1 Tax=Sphingobacterium spiritivorum ATCC 33300 TaxID=525372 RepID=C2G539_9SPHI	0.947996	0.081437
+UniRef100_D1VXP4 CRISPR-associated endonuclease Cas9 n=1 Tax=Prevotella timonensis CRIS 5C-B1 TaxID=679189 RepID=D1VXP4_9BACT	0.947831	0.081444
+UniRef100_A0A3A6MAE4 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacteroides sp. OF03-11BH TaxID=2292957 RepID=A0A3A6MAE4_9BACE	0.948532	0.080248
+UniRef100_A0A3N7AG78 CRISPR-associated endonuclease Cas9 n=2 Tax=Chryseobacterium sp. KBW03 TaxID=2153362 RepID=A0A3N7AG78_9FLAO	0.948247	0.081311
+UniRef100_A0A4R5NUJ7 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactobacillus buchneri DSM 20057 TaxID=1423728 RepID=A0A4R5NUJ7_LENBU	0.947549	0.081250
+UniRef100_A0A7D4KNE5 CRISPR-associated endonuclease Cas9 n=1 Tax=Finegoldia magna TaxID=1260 RepID=A0A7D4KNE5_FINMA	0.948121	0.081320
+UniRef100_A0A2U9S6V7 CRISPR-associated endonuclease Cas9 n=1 Tax=Azospirillum ramasamyi TaxID=682998 RepID=A0A2U9S6V7_9PROT	0.947128	0.082318
+UniRef100_A0A233VHR9 CRISPR-associated endonuclease Cas9 n=1 Tax=Finegoldia magna TaxID=1260 RepID=A0A233VHR9_FINMA	0.948104	0.081291
+UniRef100_A0A0D4CLL6 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactobacillus mucosae LM1 TaxID=1130798 RepID=A0A0D4CLL6_LIMMU	0.947862	0.081139
+UniRef100_A0A414IGC8 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacteroides uniformis TaxID=820 RepID=A0A414IGC8_BACUN	0.909222	0.126900
+UniRef100_A0A7J5HN35 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacteroides uniformis TaxID=820 RepID=A0A7J5HN35_BACUN	0.948529	0.080710
+UniRef100_A0A4Q1U5Z2 CRISPR-associated endonuclease Cas9 n=1 Tax=Lacticaseibacillus chiayiensis TaxID=2100821 RepID=A0A4Q1U5Z2_9LACO	0.947207	0.081532
+UniRef100_A0A516GI60 CRISPR-associated endonuclease Cas9 n=1 Tax=Dolosigranulum pigrum TaxID=29394 RepID=A0A516GI60_9LACT	0.947803	0.081402
+UniRef100_A0A1Q6ES56 CRISPR-associated endonuclease Cas9 n=1 Tax=Bifidobacterium sp. 56_9_plus TaxID=1897062 RepID=A0A1Q6ES56_9BIFI	0.947361	0.081813
+UniRef100_A0A2T0GEI7 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus anginosus TaxID=1328 RepID=A0A2T0GEI7_STRAP	0.947986	0.081463
+UniRef100_A0A1G6VAS2 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacillus wiedmannii TaxID=1890302 RepID=A0A1G6VAS2_9BACI	0.948122	0.081433
+UniRef100_A0A1G3HQ03 CRISPR-associated endonuclease Cas9 n=1 Tax=Rhodocyclales bacterium RIFCSPLOWO2_02_FULL_63_24 TaxID=1802018 RepID=A0A1G3HQ03_9RHOO	0.947632	0.082061
+UniRef100_A0A6N8IHC9 CRISPR-associated endonuclease Cas9 n=1 Tax=Gordonibacter urolithinfaciens TaxID=1335613 RepID=A0A6N8IHC9_9ACTN	0.946943	0.082749
+UniRef100_A0A1F1GZW9 CRISPR-associated endonuclease Cas9 n=1 Tax=Neisseria sp. HMSC069H12 TaxID=1739376 RepID=A0A1F1GZW9_9NEIS	0.947889	0.081767
+UniRef100_A0A412QA30 CRISPR-associated endonuclease Cas9 n=1 Tax=Phocaeicola vulgatus TaxID=821 RepID=A0A412QA30_PHOVU	0.948269	0.080591
+UniRef100_A0A2X3T3B3 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus equi subsp. zooepidemicus TaxID=40041 RepID=A0A2X3T3B3_STRSZ	0.947590	0.081459
+UniRef100_A0A414M6F0 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacteroides eggerthii TaxID=28111 RepID=A0A414M6F0_9BACE	0.947716	0.081151
+UniRef100_A0A1D2LU44 CRISPR-associated endonuclease Cas9 n=1 Tax=Brochothrix thermosphacta TaxID=2756 RepID=A0A1D2LU44_BROTH	0.948134	0.081219
+UniRef100_A0A3E4W8P5 CRISPR-associated endonuclease Cas9 n=1 Tax=Phocaeicola vulgatus TaxID=821 RepID=A0A3E4W8P5_PHOVU	0.948420	0.080571
+UniRef100_A0A1D2U437 CRISPR-associated endonuclease Cas9 n=2 Tax=Burkholderiales TaxID=80840 RepID=A0A1D2U437_9BURK	0.947371	0.082163
+UniRef100_A0A7X9XH94 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacteroides eggerthii TaxID=28111 RepID=A0A7X9XH94_9BACE	0.947840	0.080929
+UniRef100_A0A7J5RFY7 CRISPR-associated endonuclease Cas9 n=1 Tax=Phocaeicola vulgatus TaxID=821 RepID=A0A7J5RFY7_PHOVU	0.948364	0.080522
+UniRef100_D0W2Z9 CRISPR-associated endonuclease Cas9 n=1 Tax=Neisseria cinerea ATCC 14685 TaxID=546262 RepID=D0W2Z9_NEICI	0.947879	0.081743
+UniRef100_A0A1R4DXK6 CRISPR-associated endonuclease Cas9 n=1 Tax=Porphyromonas gingivalis TaxID=837 RepID=A0A1R4DXK6_PORGN	0.947984	0.080898
+UniRef100_A0A3L7Z734 CRISPR-associated endonuclease Cas9 n=1 Tax=Parabacteroides sp. CH2-D42-20 TaxID=2320086 RepID=A0A3L7Z734_9BACT	0.948375	0.080705
+UniRef100_U2YFI6 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus anginosus T5 TaxID=1163302 RepID=U2YFI6_STRAP	0.947095	0.081692
+UniRef100_A0A0R2DGS6 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactobacillus rennini DSM 20253 TaxID=1423796 RepID=A0A0R2DGS6_9LACO	0.948016	0.081330
+UniRef100_R5K6G6 CRISPR-associated endonuclease Cas9 n=2 Tax=Bacteroides TaxID=816 RepID=R5K6G6_9BACE	0.947743	0.081075
+UniRef100_A0A413VY27 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacteroides nordii TaxID=291645 RepID=A0A413VY27_9BACE	0.948124	0.081449
+UniRef100_A0A374DTD8 CRISPR-associated endonuclease Cas9 n=1 Tax=Ruminococcus sp. AM34-10LB TaxID=2293206 RepID=A0A374DTD8_9FIRM	0.945864	0.082438
+UniRef100_A0A1X0WR94 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus oralis subsp. tigurinus TaxID=1077464 RepID=A0A1X0WR94_STROR	0.948107	0.081438
+UniRef100_A0A4Q5GQL4 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacteroides eggerthii TaxID=28111 RepID=A0A4Q5GQL4_9BACE	0.947705	0.081130
+UniRef100_A0A1X1FQA2 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus oralis subsp. tigurinus TaxID=1077464 RepID=A0A1X1FQA2_STROR	0.948074	0.081386
+UniRef100_A0A250FPT9 CRISPR-associated endonuclease Cas9 n=1 Tax=Capnocytophaga gingivalis TaxID=1017 RepID=A0A250FPT9_9FLAO	0.947885	0.080501
+UniRef100_A0A415NVW3 CRISPR-associated endonuclease Cas9 n=1 Tax=Phocaeicola vulgatus TaxID=821 RepID=A0A415NVW3_PHOVU	0.948358	0.080558
+UniRef100_A0A242XNH2 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacillus thuringiensis serovar guiyangiensis TaxID=180871 RepID=A0A242XNH2_BACTU	0.947852	0.081511
+UniRef100_A0A5P0XCM9 CRISPR-associated endonuclease Cas9 n=1 Tax=Prevotella copri TaxID=165179 RepID=A0A5P0XCM9_9BACT	0.947971	0.081396
+UniRef100_A0A7X2W5R0 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus salivarius TaxID=1304 RepID=A0A7X2W5R0_STRSL	0.947954	0.081446
+UniRef100_A0A415BMV3 CRISPR-associated endonuclease Cas9 n=1 Tax=Phocaeicola vulgatus TaxID=821 RepID=A0A415BMV3_PHOVU	0.948313	0.080607
+UniRef100_A0A1X1GCS7 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus oralis subsp. tigurinus TaxID=1077464 RepID=A0A1X1GCS7_STROR	0.948010	0.081155
+UniRef100_A0A3D3QUT0 CRISPR-associated endonuclease Cas9 n=1 Tax=Flavobacteriaceae bacterium TaxID=1871037 RepID=A0A3D3QUT0_9FLAO	0.948366	0.080568
+UniRef100_A0A1X1FK70 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus oralis subsp. tigurinus TaxID=1077464 RepID=A0A1X1FK70_STROR	0.948083	0.081389
+UniRef100_F8LWC5 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus thermophilus JIM 8232 TaxID=1051074 RepID=F8LWC5_STRTR	0.948022	0.081458
+UniRef100_A0A173R3H4 CRISPR-associated endonuclease Cas9 n=1 Tax=Eubacterium ramulus TaxID=39490 RepID=A0A173R3H4_EUBRA	0.947975	0.081356
+UniRef100_A0A497Z589 CRISPR-associated endonuclease Cas9 n=1 Tax=Tenacibaculum discolor TaxID=361581 RepID=A0A497Z589_9FLAO	0.948287	0.080911
+UniRef100_Q1JLZ6 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus pyogenes serotype M12 (strain MGAS9429) TaxID=370551 RepID=Q1JLZ6_STRPC	0.947672	0.081276
+UniRef100_A0A2A4L9T5 CRISPR-associated endonuclease Cas9 n=2 Tax=unclassified Campylobacter TaxID=2593542 RepID=A0A2A4L9T5_9PROT	0.947828	0.081566
+UniRef100_A0A562S2Z1 CRISPR-associated endonuclease Cas9 n=1 Tax=Treponema putidum TaxID=221027 RepID=A0A562S2Z1_9SPIR	0.948360	0.081635
+UniRef100_L1NKM1 CRISPR-associated endonuclease Cas9 n=1 Tax=Capnocytophaga sp. oral taxon 380 str. F0488 TaxID=1127693 RepID=L1NKM1_9FLAO	0.948040	0.080482
+UniRef100_Q03JI6 CRISPR-associated endonuclease Cas9 2 n=1 Tax=Streptococcus thermophilus (strain ATCC BAA-491 / LMD-9) TaxID=322159 RepID=CAS9B_STRTD	0.946882	0.081819
+UniRef100_A0A1S5WDD4 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus gallolyticus subsp. gallolyticus DSM 16831 TaxID=1258574 RepID=A0A1S5WDD4_STRGY	0.947331	0.081400
+UniRef100_A0A379EFL8 CRISPR-associated endonuclease Cas9 n=1 Tax=Prevotella disiens TaxID=28130 RepID=A0A379EFL8_9BACT	0.948256	0.081286
+UniRef100_A0A6F9ZIS1 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacteroidaceae bacterium TaxID=2212467 RepID=A0A6F9ZIS1_9BACT	0.947383	0.081753
+UniRef100_A0A7W6PYW7 CRISPR-associated endonuclease Cas9 n=1 Tax=Sphingobium scionense TaxID=1404341 RepID=A0A7W6PYW7_9SPHN	0.947029	0.082367
+UniRef100_A0A646JQU9 CRISPR-associated endonuclease Cas9 n=1 Tax=Companilactobacillus salsicarnum TaxID=2584181 RepID=A0A646JQU9_9LACO	0.947393	0.081460
+UniRef100_A0A3M0NPX5 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactobacillus sp. ESL0225 TaxID=2069351 RepID=A0A3M0NPX5_9LACO	0.947772	0.081154
+UniRef100_A0A2M8M9S1 CRISPR-associated endonuclease Cas9 n=1 Tax=Prevotella intermedia TaxID=28131 RepID=A0A2M8M9S1_PREIN	0.941563	0.079213
+UniRef100_A0A5B8TH54 CRISPR-associated endonuclease Cas9 n=1 Tax=Loigolactobacillus coryniformis TaxID=1610 RepID=A0A5B8TH54_9LACO	0.947822	0.081548
+UniRef100_A0A415CZQ7 CRISPR-associated endonuclease Cas9 n=1 Tax=Collinsella sp. AM09-41 TaxID=2292017 RepID=A0A415CZQ7_9ACTN	0.948169	0.081651
+UniRef100_A0A3S4PKW4 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus milleri TaxID=33040 RepID=A0A3S4PKW4_9STRE	0.946912	0.081620
+UniRef100_A0A2D3L7J5 CRISPR-associated endonuclease Cas9 n=1 Tax=Prevotella intermedia TaxID=28131 RepID=A0A2D3L7J5_PREIN	0.947867	0.080952
+UniRef100_A0A7C4P449 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacteroidales bacterium TaxID=2030927 RepID=A0A7C4P449_9BACT	0.948240	0.081368
+UniRef100_A0A7G2T8M1 CRISPR-associated endonuclease Cas9 n=1 Tax=Leeuwenhoekiella sp. TaxID=1977054 RepID=A0A7G2T8M1_9FLAO	0.948145	0.080918
+UniRef100_A0A563CDP1 CRISPR-associated endonuclease Cas9 n=3 Tax=Candidatus Saccharibacteria TaxID=95818 RepID=A0A563CDP1_9BACT	0.882551	0.183599
+UniRef100_A0A0R1RRH5 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactobacillus fuchuensis DSM 14340 = JCM 11249 TaxID=1423747 RepID=A0A0R1RRH5_9LACO	0.947914	0.081295
+UniRef100_A0A5M5PVK4 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacteroides fragilis TaxID=817 RepID=A0A5M5PVK4_BACFG	0.948092	0.080760
+UniRef100_A0A380G4J1 CRISPR-associated endonuclease Cas9 n=1 Tax=Staphylococcus intermedius NCTC 11048 TaxID=1141106 RepID=A0A380G4J1_STAIN	0.947993	0.081308
+UniRef100_A0A3M6Q171 CRISPR-associated endonuclease Cas9 n=1 Tax=Comamonadaceae bacterium NML970147 TaxID=1076744 RepID=A0A3M6Q171_9BURK	0.947656	0.082049
+UniRef100_E1W6G3 CRISPR-associated endonuclease Cas9 n=1 Tax=Haemophilus parainfluenzae (strain T3T1) TaxID=862965 RepID=E1W6G3_HAEP3	0.947759	0.081697
+UniRef100_L1P954 CRISPR-associated endonuclease Cas9 n=2 Tax=unclassified Capnocytophaga TaxID=2640652 RepID=L1P954_9FLAO	0.948154	0.080486
+UniRef100_A0A5N1GBH1 CRISPR-associated endonuclease Cas9 n=4 Tax=Terrabacteria group TaxID=1783272 RepID=A0A5N1GBH1_STRAP	0.946973	0.081542
+UniRef100_S4F007 CRISPR-associated endonuclease Cas9 n=1 Tax=Enterococcus faecalis WKS-26-18-2 TaxID=1244144 RepID=S4F007_ENTFL	0.947815	0.081348
+UniRef100_A0A2T3G018 CRISPR-associated endonuclease Cas9 n=1 Tax=Faecalibacillus intestinalis TaxID=1982626 RepID=A0A2T3G018_9FIRM	0.948137	0.081393
+UniRef100_R7PQD7 CRISPR-associated endonuclease Cas9 n=1 Tax=Dialister sp. CAG:588 TaxID=1262871 RepID=R7PQD7_9FIRM	0.947532	0.081702
+UniRef100_A0A0X3Y1U5 CRISPR-associated endonuclease Cas9 n=1 Tax=Fusobacterium nucleatum subsp. nucleatum TaxID=76856 RepID=A0A0X3Y1U5_FUSNC	0.948027	0.081251
+UniRef100_A0A416FUL5 CRISPR-associated endonuclease Cas9 n=2 Tax=unclassified Coprobacillus TaxID=2626703 RepID=A0A416FUL5_9FIRM	0.948166	0.081386
+UniRef100_U2QKG2 CRISPR-associated endonuclease Cas9 n=1 Tax=Gemella bergeri ATCC 700627 TaxID=1321820 RepID=U2QKG2_9BACL	0.948408	0.081166
+UniRef100_A0A366SND0 CRISPR-associated endonuclease Cas9 n=1 Tax=Enterococcus cecorum TaxID=44008 RepID=A0A366SND0_9ENTE	0.947970	0.081267
+UniRef100_A0A418J1M8 CRISPR-associated endonuclease Cas9 n=5 Tax=Staphylococcus simulans TaxID=1286 RepID=A0A418J1M8_STASI	0.948119	0.081467
+UniRef100_A0A3D9C7Y1 CRISPR-associated endonuclease Cas9 n=1 Tax=Chryseobacterium sp. 1_F178 TaxID=2258962 RepID=A0A3D9C7Y1_9FLAO	0.948037	0.080764
+UniRef100_A0A2W5BW11 CRISPR-associated endonuclease Cas9 n=1 Tax=Sphingomonas sanxanigenens TaxID=397260 RepID=A0A2W5BW11_9SPHN	0.947348	0.082243
+UniRef100_A0A6L8T4B2 CRISPR-associated endonuclease Cas9 n=1 Tax=Blautia wexlerae TaxID=418240 RepID=A0A6L8T4B2_9FIRM	0.947889	0.081862
+UniRef100_A0A091BWC6 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus equinus JB1 TaxID=1294274 RepID=A0A091BWC6_STREI	0.948074	0.081456
+UniRef100_A0A413A3F6 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus salivarius TaxID=1304 RepID=A0A413A3F6_STRSL	0.948110	0.081412
+UniRef100_U1GXL8 CRISPR-associated endonuclease Cas9 n=1 Tax=Treponema socranskii subsp. socranskii VPI DR56BR1116 = ATCC 35536 TaxID=1125725 RepID=U1GXL8_TRESO	0.948040	0.081695
+UniRef100_J3TRJ9 CRISPR-associated endonuclease Cas9 n=1 Tax=Mycoplasma gallisepticum WI01_2001.043-13-2P TaxID=1159201 RepID=J3TRJ9_MYCGL	0.947947	0.081453
+UniRef100_A0A6N4HMP0 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactobacillus sp. TaxID=1591 RepID=A0A6N4HMP0_9LACO	0.947818	0.081169
+UniRef100_A0A3D4BUF2 CRISPR-associated endonuclease Cas9 n=1 Tax=Cryomorphaceae bacterium TaxID=1898111 RepID=A0A3D4BUF2_9FLAO	0.947712	0.081480
+UniRef100_A0A7Z8YPG2 CRISPR-associated endonuclease Cas9 n=1 Tax=Bergeyella zoohelcum TaxID=1015 RepID=A0A7Z8YPG2_9FLAO	0.948182	0.080747
+UniRef100_A0A1F1HP65 CRISPR-associated endonuclease Cas9 n=1 Tax=Neisseria sp. HMSC073G10 TaxID=1739369 RepID=A0A1F1HP65_9NEIS	0.947804	0.081768
+UniRef100_A0A380ZV95 CRISPR-associated endonuclease Cas9 n=1 Tax=Bergeyella zoohelcum TaxID=1015 RepID=A0A380ZV95_9FLAO	0.948163	0.080706
+UniRef100_A0A644W5N6 CRISPR-associated endonuclease Cas9 n=1 Tax=bioreactor metagenome TaxID=1076179 RepID=A0A644W5N6_9ZZZZ	0.948099	0.081030
+UniRef100_A0A4D7WRR4 CRISPR-associated endonuclease Cas9 n=1 Tax=Neisseria subflava TaxID=28449 RepID=A0A4D7WRR4_NEISU	0.947883	0.081760
+UniRef100_A0A374AGG3 CRISPR-associated endonuclease Cas9 n=1 Tax=Firmicutes bacterium AF12-30 TaxID=2292884 RepID=A0A374AGG3_9FIRM	0.947790	0.081449
+UniRef100_A0A1X1KW87 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus mitis TaxID=28037 RepID=A0A1X1KW87_STRMT	0.947646	0.081331
+UniRef100_A0A373MT51 CRISPR-associated endonuclease Cas9 n=1 Tax=Blautia sp. AF32-4BH TaxID=2292967 RepID=A0A373MT51_9FIRM	0.947984	0.081436
+UniRef100_A0A1X1G0J0 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus oralis subsp. tigurinus TaxID=1077464 RepID=A0A1X1G0J0_STROR	0.947551	0.081323
+UniRef100_A0A2I1YZN8 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus mitis TaxID=28037 RepID=A0A2I1YZN8_STRMT	0.947662	0.081384
+UniRef100_A0A1X0WXP0 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus oralis subsp. tigurinus TaxID=1077464 RepID=A0A1X0WXP0_STROR	0.947521	0.081381
+UniRef100_A0A1X1GD62 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus oralis subsp. tigurinus TaxID=1077464 RepID=A0A1X1GD62_STROR	0.947753	0.081285
+UniRef100_A0A3R9JM73 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus mitis TaxID=28037 RepID=A0A3R9JM73_STRMT	0.948107	0.081411
+UniRef100_A0A1X1GTM7 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus oralis subsp. tigurinus TaxID=1077464 RepID=A0A1X1GTM7_STROR	0.947663	0.081334
+UniRef100_A0A1X1JP06 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus mitis TaxID=28037 RepID=A0A1X1JP06_STRMT	0.947635	0.081333
+UniRef100_A0A6M9FBA3 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus mitis TaxID=28037 RepID=A0A6M9FBA3_STRMT	0.948049	0.081404
+UniRef100_A0A377J007 CRISPR-associated endonuclease Cas9 n=1 Tax=Haemophilus pittmaniae TaxID=249188 RepID=A0A377J007_9PAST	0.947643	0.081732
+UniRef100_A0A2G3NST7 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus macedonicus TaxID=59310 RepID=A0A2G3NST7_STRMC	0.948025	0.081454
+UniRef100_A0A0Q7HTH3 CRISPR-associated endonuclease Cas9 n=1 Tax=Devosia sp. Root436 TaxID=1736537 RepID=A0A0Q7HTH3_9HYPH	0.946572	0.082621
+UniRef100_A0A0N1EBR4 CRISPR-associated endonuclease Cas9 n=1 Tax=Helicobacter pullorum TaxID=35818 RepID=A0A0N1EBR4_9HELI	0.947669	0.081705
+UniRef100_A0A109Q6P7 CRISPR-associated endonuclease Cas9 n=1 Tax=Flavobacterium columnare TaxID=996 RepID=A0A109Q6P7_9FLAO	0.948642	0.080665
+UniRef100_A0A1Y3S1F5 CRISPR-associated endonuclease Cas9 n=2 Tax=Ligilactobacillus salivarius TaxID=1624 RepID=A0A1Y3S1F5_9LACO	0.947919	0.081261
+UniRef100_A0A7X4I744 CRISPR-associated endonuclease Cas9 n=1 Tax=Ligilactobacillus salivarius TaxID=1624 RepID=A0A7X4I744_9LACO	0.947724	0.081366
+UniRef100_A0A4R5F7V0 CRISPR-associated endonuclease Cas9 n=1 Tax=Flavobacterium sp. LB3P52 TaxID=2541724 RepID=A0A4R5F7V0_9FLAO	0.948301	0.079736
+UniRef100_A0A428DL80 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus mitis TaxID=28037 RepID=A0A428DL80_STRMT	0.947578	0.081367
+UniRef100_A0A1X1K6S2 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus mitis TaxID=28037 RepID=A0A1X1K6S2_STRMT	0.947803	0.081273
+UniRef100_A0A2D1KY34 Type II CRISPR RNA-guided endonuclease Cas9 n=2 Tax=Companilactobacillus farciminis TaxID=1612 RepID=A0A2D1KY34_9LACO	0.948098	0.081406
+UniRef100_A0A415DF70 CRISPR-associated endonuclease Cas9 n=1 Tax=Phocaeicola vulgatus TaxID=821 RepID=A0A415DF70_PHOVU	0.948343	0.080541
+UniRef100_A0A0F2DF30 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus mitis TaxID=28037 RepID=A0A0F2DF30_STRMT	0.947646	0.081322
+UniRef100_U7USL1 CRISPR-associated endonuclease Cas9 n=1 Tax=Prevotella sp. BV3P1 TaxID=1111130 RepID=U7USL1_9BACT	0.947974	0.081351
+UniRef100_A0A373GQY7 CRISPR-associated endonuclease Cas9 n=1 Tax=Blautia sp. AM23-13AC TaxID=2292971 RepID=A0A373GQY7_9FIRM	0.947992	0.081443
+UniRef100_A0A6I6WEX7 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus sp. DAT741 TaxID=1940319 RepID=A0A6I6WEX7_9STRE	0.947915	0.081486
+UniRef100_A0A2D1KTD8 Type II CRISPR RNA-guided endonuclease Cas9 n=2 Tax=Companilactobacillus farciminis TaxID=1612 RepID=A0A2D1KTD8_9LACO	0.948013	0.081285
+UniRef100_A0A6N7XWR3 CRISPR-associated endonuclease Cas9 n=1 Tax=Anaerobutyricum soehngenii TaxID=105843 RepID=A0A6N7XWR3_9FIRM	0.948218	0.081433
+UniRef100_A0A7L7L0Y6 CRISPR-associated endonuclease Cas9 n=1 Tax=Companilactobacillus pabuli TaxID=2714036 RepID=A0A7L7L0Y6_9LACO	0.947636	0.081222
+UniRef100_A0A2N9PDE7 CRISPR-associated endonuclease Cas9 n=1 Tax=Flavobacterium columnare TaxID=996 RepID=A0A2N9PDE7_9FLAO	0.948582	0.080659
+UniRef100_A0A2U2MDP8 CRISPR-associated endonuclease Cas9 n=1 Tax=Ligilactobacillus salivarius TaxID=1624 RepID=A0A2U2MDP8_9LACO	0.947544	0.081410
+UniRef100_A0A6N7X6N6 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus alactolyticus TaxID=29389 RepID=A0A6N7X6N6_STRAY	0.947670	0.081306
+UniRef100_A0A415IT92 CRISPR-associated endonuclease Cas9 n=1 Tax=Phocaeicola plebeius TaxID=310297 RepID=A0A415IT92_9BACT	0.948819	0.080423
+UniRef100_A0A6N9ISS0 CRISPR-associated endonuclease Cas9 n=1 Tax=Ligilactobacillus salivarius TaxID=1624 RepID=A0A6N9ISS0_9LACO	0.947723	0.081347
+UniRef100_A0A437UBH1 CRISPR-associated endonuclease Cas9 n=1 Tax=Flavobacterium columnare TaxID=996 RepID=A0A437UBH1_9FLAO	0.948561	0.080667
+UniRef100_A0A1E9MP00 CRISPR-associated endonuclease Cas9 n=1 Tax=Neisseria sp. HMSC068C04 TaxID=1715179 RepID=A0A1E9MP00_9NEIS	0.947847	0.081748
+UniRef100_E1WNY6 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacteroides fragilis (strain 638R) TaxID=862962 RepID=E1WNY6_BACF6	0.948101	0.080751
+UniRef100_A0A1E5TL62 CRISPR-associated endonuclease Cas9 n=1 Tax=Staphylococcus equorum TaxID=246432 RepID=A0A1E5TL62_9STAP	0.948111	0.081454
+UniRef100_A0A417S7J7 CRISPR-associated endonuclease Cas9 n=1 Tax=Blautia sp. OM05-6 TaxID=2292983 RepID=A0A417S7J7_9FIRM	0.948027	0.081443
+UniRef100_I8UMX3 CRISPR-associated endonuclease Cas9 n=1 Tax=Capnocytophaga sp. oral taxon 412 str. F0487 TaxID=1125721 RepID=I8UMX3_9FLAO	0.948237	0.080622
+UniRef100_A0A1X7GNL0 CRISPR-associated endonuclease Cas9 n=2 Tax=Azospirillum oryzae TaxID=286727 RepID=A0A1X7GNL0_9PROT	0.947275	0.082230
+UniRef100_A0A415D8A2 CRISPR-associated endonuclease Cas9 n=1 Tax=[Ruminococcus] lactaris TaxID=46228 RepID=A0A415D8A2_9FIRM	0.947958	0.081299
+UniRef100_A0A7X2QYC3 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus uberis TaxID=1349 RepID=A0A7X2QYC3_STRUB	0.947505	0.081650
+UniRef100_A0A1S6E9Z3 CRISPR-associated endonuclease Cas9 n=2 Tax=Lactobacillus delbrueckii TaxID=1584 RepID=A0A1S6E9Z3_LACDE	0.947206	0.081368
+UniRef100_A0A7X2QGI6 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus uberis TaxID=1349 RepID=A0A7X2QGI6_STRUB	0.948002	0.081497
+UniRef100_A0A449AR60 CRISPR-associated endonuclease Cas9 n=1 Tax=Mycoplasma canis TaxID=29555 RepID=A0A449AR60_9MOLU	0.948174	0.081483
+UniRef100_A0A015Y7X0 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacteroides fragilis str. 2-F-2 #4 TaxID=1339280 RepID=A0A015Y7X0_BACFG	0.948092	0.080761
+UniRef100_A0A7X2Q3K0 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus uberis TaxID=1349 RepID=A0A7X2Q3K0_STRUB	0.948006	0.081497
+UniRef100_A0A0A8GXC3 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter sp. RM16704 TaxID=1500960 RepID=A0A0A8GXC3_9PROT	0.948076	0.081521
+UniRef100_A0A4R1JNP8 CRISPR-associated endonuclease Cas9 n=1 Tax=Flavobacterium sp. 90 TaxID=2135622 RepID=A0A4R1JNP8_9FLAO	0.948078	0.081482
+UniRef100_A0A1F0BNE0 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus sp. HMSC078H03 TaxID=1715086 RepID=A0A1F0BNE0_9STRE	0.947982	0.081438
+UniRef100_A0A6G6GSS4 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactobacillus delbrueckii subsp. bulgaricus TaxID=1585 RepID=A0A6G6GSS4_LACDE	0.947462	0.081132
+UniRef100_A0A0U5KB17 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactobacillus delbrueckii subsp. bulgaricus TaxID=1585 RepID=A0A0U5KB17_LACDE	0.947303	0.081296
+UniRef100_A0A2X3BDU5 CRISPR-associated endonuclease Cas9 n=1 Tax=Helicobacter fennelliae TaxID=215 RepID=A0A2X3BDU5_9HELI	0.947039	0.081939
+UniRef100_A0A2M9SZU9 CRISPR-associated endonuclease Cas9 n=1 Tax=Geobacillus sp. WSUCF-018B TaxID=2055939 RepID=A0A2M9SZU9_9BACI	0.947831	0.081593
+UniRef100_A0A3E4LMJ5 CRISPR-associated endonuclease Cas9 n=1 Tax=[Ruminococcus] lactaris TaxID=46228 RepID=A0A3E4LMJ5_9FIRM	0.947878	0.081266
+UniRef100_A0A1V0GJQ8 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus equinus TaxID=1335 RepID=A0A1V0GJQ8_STREI	0.947976	0.081429
+UniRef100_A0A081R6F9 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus oralis TaxID=1303 RepID=A0A081R6F9_STROR	0.948060	0.081395
+UniRef100_UPI0007707204 type II-B CRISPR-associated RNA-guided endonuclease Cas9/Csx12 n=1 Tax=Legionella pneumophila TaxID=446 RepID=UPI0007707204	0.938600	0.080619
+UniRef100_UPI0008F49770 type II-B CRISPR-associated RNA-guided endonuclease Cas9/Csx12 n=1 Tax=Francisella tularensis TaxID=263 RepID=UPI0008F49770	0.946334	0.080745
+UniRef100_UPI0008FD6C93 type II-B CRISPR-associated RNA-guided endonuclease Cas9/Csx12 n=1 Tax=Francisella tularensis TaxID=263 RepID=UPI0008FD6C93	0.946469	0.080885
+UniRef100_UPI000778347B type II-B CRISPR-associated RNA-guided endonuclease Cas9/Csx12 n=1 Tax=Legionella pneumophila TaxID=446 RepID=UPI000778347B	0.944803	0.079815
+UniRef100_UPI000778102E type II-B CRISPR-associated RNA-guided endonuclease Cas9/Csx12 n=1 Tax=Legionella pneumophila TaxID=446 RepID=UPI000778102E	0.947517	0.081283
+UniRef100_UPI000777E2F8 type II-B CRISPR-associated RNA-guided endonuclease Cas9/Csx12 n=1 Tax=Legionella pneumophila TaxID=446 RepID=UPI000777E2F8	0.939245	0.080374
+UniRef100_UPI0007884AF4 type II-B CRISPR-associated RNA-guided endonuclease Cas9/Csx12 n=1 Tax=Legionella pneumophila TaxID=446 RepID=UPI0007884AF4	0.947478	0.080768
+UniRef100_A0A3R6RHI5 CRISPR-associated endonuclease Cas9 n=1 Tax=Clostridium sp. AM27-31LB TaxID=2293026 RepID=A0A3R6RHI5_9CLOT	0.948132	0.081273
+UniRef100_A0A374FXU4 CRISPR-associated endonuclease Cas9 n=1 Tax=Ruminococcus sp. AM28-29LB TaxID=2293195 RepID=A0A374FXU4_9FIRM	0.945580	0.082590
+UniRef100_A0A366KG04 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactobacillus gasseri TaxID=1596 RepID=A0A366KG04_LACGS	0.948040	0.081026
+UniRef100_A0A689Z9A7 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter coli TaxID=195 RepID=A0A689Z9A7_CAMCO	0.948042	0.081510
+UniRef100_A0A378WA20 CRISPR-associated endonuclease Cas9 n=1 Tax=Neisseria meningitidis TaxID=487 RepID=A0A378WA20_NEIME	0.947917	0.081682
+UniRef100_V8LSG7 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus thermophilus TH1435 TaxID=1415776 RepID=V8LSG7_STRTR	0.946474	0.081881
+UniRef100_V8LWT4 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus thermophilus TH1435 TaxID=1415776 RepID=V8LWT4_STRTR	0.948030	0.081458
+UniRef100_A0A7G1JD66 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus pyogenes TaxID=1314 RepID=A0A7G1JD66_STRPY	0.947663	0.081322
+UniRef100_A0A431PYV0 CRISPR-associated endonuclease Cas9 n=1 Tax=Bradyrhizobiaceae bacterium TaxID=2072420 RepID=A0A431PYV0_9BRAD	0.946410	0.082612
+UniRef100_A0A2I1TF16 CRISPR-associated endonuclease Cas9 n=1 Tax=Veillonella parvula TaxID=29466 RepID=A0A2I1TF16_VEIPA	0.947993	0.081503
+UniRef100_A0A381J1N1 CRISPR-associated endonuclease Cas9 n=1 Tax=Clostridium perfringens TaxID=1502 RepID=A0A381J1N1_CLOPF	0.948050	0.081518
+UniRef100_A0A329ZC87 CRISPR-associated endonuclease Cas9 n=1 Tax=Helicobacter sp. 11-8110 TaxID=2004997 RepID=A0A329ZC87_9HELI	0.947986	0.081503
+UniRef100_A0A174L7S6 CRISPR-associated endonuclease Cas9 n=3 RepID=A0A174L7S6_BACUN	0.911276	0.122415
+UniRef100_A0A5S4TT78 CRISPR-associated endonuclease Cas9 n=3 Tax=Streptococcus pyogenes TaxID=1314 RepID=A0A5S4TT78_STRPY	0.947649	0.081274
+UniRef100_A0A417JBE8 CRISPR-associated endonuclease Cas9 n=2 Tax=Clostridium sp. AM27-31LB TaxID=2293026 RepID=A0A417JBE8_9CLOT	0.948184	0.081187
+UniRef100_A0A395W154 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacteroides ovatus TaxID=28116 RepID=A0A395W154_BACOV	0.948545	0.080245
+UniRef100_A0A8B3IXM8 CRISPR-associated endonuclease Cas9 n=2 Tax=Streptococcus TaxID=1301 RepID=A0A8B3IXM8_STROR	0.948088	0.081430
+UniRef100_Q5L8F8 CRISPR-associated endonuclease Cas9 n=3 Tax=Bacteroides fragilis TaxID=817 RepID=Q5L8F8_BACFN	0.948098	0.080771
+UniRef100_A0A6C7K0G1 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter coli TaxID=195 RepID=A0A6C7K0G1_CAMCO	0.947865	0.081555
+UniRef100_A0A6C2WXF9 CRISPR-associated endonuclease Cas9 n=5 Tax=Streptococcus pyogenes TaxID=1314 RepID=A0A6C2WXF9_STRPY	0.947676	0.081275
+UniRef100_A0A357LB84 CRISPR-associated endonuclease Cas9 n=1 Tax=Parvularcula sp. TaxID=1979207 RepID=A0A357LB84_9PROT	0.947026	0.082258
+UniRef100_A0A1L6H8N6 CRISPR-associated endonuclease Cas9 n=1 Tax=Pediococcus acidilactici TaxID=1254 RepID=A0A1L6H8N6_PEDAC	0.947530	0.081263
+UniRef100_A0A654M6H2 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus infantarius TaxID=102684 RepID=A0A654M6H2_9STRE	0.948045	0.081471
+UniRef100_E6J3R0 CRISPR-associated endonuclease Cas9 n=2 Tax=Streptococcus TaxID=1301 RepID=E6J3R0_STRAP	0.947176	0.081644
+UniRef100_A0A3R9Q9W4 CRISPR-associated endonuclease Cas9 n=3 Tax=Streptococcus TaxID=1301 RepID=A0A3R9Q9W4_STRMT	0.948050	0.081442
+UniRef100_A0A099UFG2 CRISPR-associated endonuclease Cas9 n=1 Tax=Helicobacter typhlonius TaxID=76936 RepID=A0A099UFG2_9HELI	0.947321	0.081797
+UniRef100_A0A4Q5C1A7 CRISPR-associated endonuclease Cas9 n=2 Tax=Streptococcus TaxID=1301 RepID=A0A4Q5C1A7_STRSL	0.947954	0.081448
+UniRef100_A0A450SND8 CRISPR-associated endonuclease Cas9 n=1 Tax=Candidatus Kentron sp. FW TaxID=2126338 RepID=A0A450SND8_9GAMM	0.947409	0.082119
+UniRef100_A0A5T0ZLN2 CRISPR-associated endonuclease Cas9 n=2 Tax=Campylobacter TaxID=194 RepID=A0A5T0ZLN2_CAMJU	0.947941	0.081527
+UniRef100_A0A5Z1D943 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5Z1D943_CAMJU	0.947814	0.081581
+UniRef100_A0A6C7Y035 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A6C7Y035_CAMJU	0.947874	0.081555
+UniRef100_A0A6F9YHI1 CRISPR-associated endonuclease Cas9 n=1 Tax=Ligilactobacillus agilis TaxID=1601 RepID=A0A6F9YHI1_9LACO	0.947829	0.081187
+UniRef100_A0A6D1SUD3 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacillus sp. BH32 TaxID=2528961 RepID=A0A6D1SUD3_9BACI	0.948111	0.081438
+UniRef100_A0A3Z9MCX3 CRISPR-associated endonuclease Cas9 n=3 Tax=Campylobacter TaxID=194 RepID=A0A3Z9MCX3_CAMJU	0.947839	0.081568
+UniRef100_A0A6L2A3G0 CRISPR-associated endonuclease Cas9 n=2 Tax=Campylobacter TaxID=194 RepID=A0A6L2A3G0_CAMJU	0.948039	0.081512
+UniRef100_A0A5Z5AC84 CRISPR-associated endonuclease Cas9 n=2 Tax=Campylobacter TaxID=194 RepID=A0A5Z5AC84_CAMJU	0.947857	0.081565
+UniRef100_A0A5T0SBU3 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5T0SBU3_CAMJU	0.947870	0.081551
+UniRef100_A0A400RT33 CRISPR-associated endonuclease Cas9 n=3 Tax=Campylobacter TaxID=194 RepID=A0A400RT33_CAMJU	0.947832	0.081572
+UniRef100_L9PS87 CRISPR-associated endonuclease Cas9 n=1 Tax=Prevotella nigrescens F0103 TaxID=702439 RepID=L9PS87_9BACT	0.947870	0.080910
+UniRef100_A0A125S8K7 CRISPR-associated endonuclease Cas9 n=3 Tax=Bacteria TaxID=2 RepID=A0A125S8K7_9BACT	0.948389	0.081285
+UniRef100_A0A3T2CPT3 CRISPR-associated endonuclease Cas9 n=1 Tax=Listeria monocytogenes TaxID=1639 RepID=A0A3T2CPT3_LISMN	0.947682	0.081362
+UniRef100_A0A693BH07 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A693BH07_CAMJU	0.947873	0.081550
+UniRef100_A0A690VDT6 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A690VDT6_CAMJU	0.947866	0.081552
+UniRef100_A0A6C7TG94 CRISPR-associated endonuclease Cas9 n=2 Tax=Campylobacter TaxID=194 RepID=A0A6C7TG94_CAMJU	0.947847	0.081561
+UniRef100_A0A412G1V1 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacteroides caccae TaxID=47678 RepID=A0A412G1V1_9BACE	0.947677	0.081234
+UniRef100_A0A3X8S912 CRISPR-associated endonuclease Cas9 n=2 Tax=Campylobacter TaxID=194 RepID=A0A3X8S912_CAMJU	0.947945	0.081525
+UniRef100_A0A696KHU2 CRISPR-associated endonuclease Cas9 n=2 Tax=Campylobacter TaxID=194 RepID=A0A696KHU2_CAMJU	0.947931	0.081532
+UniRef100_A0A7Z9AWJ0 CRISPR-associated endonuclease Cas9 n=2 Tax=Enterococcus hirae TaxID=1354 RepID=A0A7Z9AWJ0_ENTHR	0.947863	0.081414
+UniRef100_A0A5C6L8R5 CRISPR-associated endonuclease Cas9 n=3 Tax=Bacteroides fragilis TaxID=817 RepID=A0A5C6L8R5_BACFG	0.948046	0.080798
+UniRef100_A0A3R7W0W7 CRISPR-associated endonuclease Cas9 n=1 Tax=Prevotella intermedia TaxID=28131 RepID=A0A3R7W0W7_PREIN	0.947933	0.080932
+UniRef100_A0A5Z1R8N9 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5Z1R8N9_CAMJU	0.946836	0.080965
+UniRef100_A0A412KEY2 CRISPR-associated endonuclease Cas9 n=3 Tax=Lachnospiraceae TaxID=186803 RepID=A0A412KEY2_9FIRM	0.947773	0.081545
+UniRef100_A0A4Z0FEA5 CRISPR-associated endonuclease Cas9 n=1 Tax=Flavobacterium columnare TaxID=996 RepID=A0A4Z0FEA5_9FLAO	0.948642	0.080663
+UniRef100_A0A6B2FV80 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactobacillus paragasseri TaxID=2107999 RepID=A0A6B2FV80_9LACO	0.948009	0.081044
+UniRef100_A0A7Z0VGX1 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus agalactiae TaxID=1311 RepID=A0A7Z0VGX1_STRAG	0.947850	0.081213
+UniRef100_A0A5Y9CKA2 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5Y9CKA2_CAMJU	0.947874	0.081547
+UniRef100_A0A5T0Y769 CRISPR-associated endonuclease Cas9 n=3 Tax=Campylobacter TaxID=194 RepID=A0A5T0Y769_CAMJU	0.947271	0.081160
+UniRef100_A0A3X9C3P8 CRISPR-associated endonuclease Cas9 n=2 Tax=Campylobacter TaxID=194 RepID=A0A3X9C3P8_CAMJU	0.947874	0.081558
+UniRef100_A0A1C5TF27 CRISPR-associated endonuclease Cas9 n=1 Tax=uncultured Clostridium sp. TaxID=59620 RepID=A0A1C5TF27_9CLOT	0.947970	0.081641
+UniRef100_A0A1C5U497 CRISPR-associated endonuclease Cas9 n=1 Tax=uncultured Dorea sp. TaxID=286138 RepID=A0A1C5U497_9FIRM	0.948244	0.081676
+UniRef100_A0A400PWM6 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A400PWM6_CAMJU	0.947840	0.081567
+UniRef100_A0A640XIQ4 CRISPR-associated endonuclease Cas9 n=2 Tax=unclassified Candidatus Brocadia TaxID=2685353 RepID=A0A640XIQ4_9BACT	0.809682	0.331660
+UniRef100_A0A693W2I8 CRISPR-associated endonuclease Cas9 n=3 Tax=Campylobacter jejuni TaxID=197 RepID=A0A693W2I8_CAMJU	0.947827	0.081574
+UniRef100_A0A823PLU9 Type II CRISPR RNA-guided endonuclease Cas9 n=3 Tax=Campylobacter TaxID=194 RepID=A0A823PLU9_CAMJU	0.947862	0.081554
+UniRef100_A0A5T1E6M7 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5T1E6M7_CAMJU	0.947866	0.081552
+UniRef100_A0A639UYU4 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A639UYU4_CAMJU	0.947879	0.081552
+UniRef100_A0A5T1W3K9 CRISPR-associated endonuclease Cas9 n=2 Tax=Campylobacter TaxID=194 RepID=A0A5T1W3K9_CAMJU	0.947864	0.081553
+UniRef100_A0A8B1IQU0 CRISPR-associated endonuclease Cas9/Csn1 n=2 Tax=Streptococcus equi TaxID=1336 RepID=A0A8B1IQU0_STRSZ	0.947561	0.081471
+UniRef100_A0A380KDG6 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus dysgalactiae subsp. equisimilis TaxID=119602 RepID=A0A380KDG6_STREQ	0.947281	0.081448
+UniRef100_A0A430U4E2 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A430U4E2_CAMJU	0.947830	0.081570
+UniRef100_A0A6C7QEE3 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A6C7QEE3_CAMJU	0.947870	0.081553
+UniRef100_A0A6V8GVH3 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A6V8GVH3_CAMJU	0.947836	0.081568
+UniRef100_A0A5Y7DVR5 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5Y7DVR5_CAMJU	0.947865	0.081556
+UniRef100_A0A3X8LJN2 CRISPR-associated endonuclease Cas9 n=2 Tax=Campylobacter jejuni TaxID=197 RepID=A0A3X8LJN2_CAMJU	0.947860	0.081554
+UniRef100_A0A3X8Y288 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A3X8Y288_CAMJU	0.947899	0.081542
+UniRef100_A0A5T2BP52 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5T2BP52_CAMJU	0.947838	0.081570
+UniRef100_A0A5Y8ZIQ3 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5Y8ZIQ3_CAMJU	0.947860	0.081553
+UniRef100_A0A1J6PI62 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A1J6PI62_CAMJU	0.947838	0.081569
+UniRef100_A0A1Q6J021 CRISPR-associated endonuclease Cas9 n=1 Tax=Phocaeicola vulgatus TaxID=821 RepID=A0A1Q6J021_PHOVU	0.948436	0.080503
+UniRef100_A0A6G3GAG0 CRISPR-associated endonuclease Cas9 n=2 Tax=Enterococcus faecalis TaxID=1351 RepID=A0A6G3GAG0_ENTFL	0.948247	0.081421
+UniRef100_A0A825QW15 Type II CRISPR RNA-guided endonuclease Cas9 n=2 Tax=Campylobacter TaxID=194 RepID=A0A825QW15_CAMJU	0.947834	0.081571
+UniRef100_A0A5T1ITA9 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5T1ITA9_CAMJU	0.947842	0.081567
+UniRef100_A0A5T0YMX6 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5T0YMX6_CAMJU	0.947846	0.081567
+UniRef100_A0A2R4CZW2 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A2R4CZW2_CAMJU	0.947856	0.081558
+UniRef100_A0A5T0NJT2 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5T0NJT2_CAMJU	0.947159	0.081126
+UniRef100_A0A5T1VCM2 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5T1VCM2_CAMJU	0.947821	0.081576
+UniRef100_A0A1W5ZFX1 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus salivarius TaxID=1304 RepID=A0A1W5ZFX1_STRSL	0.948030	0.081407
+UniRef100_A0A3X9CS74 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A3X9CS74_CAMJU	0.947870	0.081556
+UniRef100_A0A5Y4VLH1 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5Y4VLH1_CAMJU	0.947841	0.081567
+UniRef100_A0A5Y6PBJ2 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5Y6PBJ2_CAMJU	0.948016	0.081581
+UniRef100_A0A2I1TMU5 CRISPR-associated endonuclease Cas9 n=3 Tax=Streptococcus salivarius TaxID=1304 RepID=A0A2I1TMU5_STRSL	0.948046	0.081440
+UniRef100_A0A5T1WS49 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5T1WS49_CAMJU	0.947868	0.081551
+UniRef100_A0A5T1DBW7 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5T1DBW7_CAMJU	0.947809	0.081581
+UniRef100_A0A3R5XC31 CRISPR-associated endonuclease Cas9 n=1 Tax=Parabacteroides distasonis TaxID=823 RepID=A0A3R5XC31_9BACT	0.948510	0.080509
+UniRef100_A0A7U9MFG2 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus canis TaxID=1329 RepID=A0A7U9MFG2_STRCB	0.944212	0.080376
+UniRef100_A0A5T1VZN7 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5T1VZN7_CAMJU	0.947859	0.081558
+UniRef100_A0A0C9Q7U6 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactobacillus paracasei NRIC 0644 TaxID=1435038 RepID=A0A0C9Q7U6_LACPA	0.946888	0.081669
+UniRef100_A0A5M6A8D8 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacteroides cellulosilyticus TaxID=246787 RepID=A0A5M6A8D8_9BACE	0.947426	0.080347
+UniRef100_U2DMI6 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacteroides pyogenes F0041 TaxID=1321819 RepID=U2DMI6_9BACE	0.948435	0.080803
+UniRef100_A0A1M5G4Q6 CRISPR-associated endonuclease Cas9 n=2 Tax=Chryseobacterium vrystaatense TaxID=307480 RepID=A0A1M5G4Q6_9FLAO	0.941638	0.084137
+UniRef100_A0A1H9L9V3 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus gallolyticus TaxID=315405 RepID=A0A1H9L9V3_9STRE	0.948133	0.081452
+UniRef100_A0A369M4E2 CRISPR-associated endonuclease Cas9 n=1 Tax=Gordonibacter pamelaeae TaxID=471189 RepID=A0A369M4E2_9ACTN	0.946459	0.083006
+UniRef100_A0A3P1VI90 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus sp. OH4692_COT-348 TaxID=2491052 RepID=A0A3P1VI90_9STRE	0.948072	0.081437
+UniRef100_A0A139RFX7 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus infantis TaxID=68892 RepID=A0A139RFX7_9STRE	0.948129	0.081415
+UniRef100_R6V444 CRISPR-associated endonuclease Cas9 n=2 Tax=Bacteroides TaxID=816 RepID=R6V444_9BACE	0.948575	0.080495
+UniRef100_E5WV33 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacteroides eggerthii 1_2_48FAA TaxID=665953 RepID=E5WV33_9BACE	0.947847	0.081022
+UniRef100_D6LEV9 CRISPR-associated endonuclease Cas9 n=1 Tax=Fusobacterium periodonticum 1_1_41FAA TaxID=469621 RepID=D6LEV9_9FUSO	0.948137	0.081232
+UniRef100_A0A6G8HXY2 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus sp. CNU G2 TaxID=2686210 RepID=A0A6G8HXY2_9STRE	0.948063	0.081458
+UniRef100_A0A7X4C7L9 CRISPR-associated endonuclease Cas9 n=1 Tax=Synechococcus sp. SB0677_bin_5 TaxID=2604870 RepID=A0A7X4C7L9_9SYNE	0.947303	0.082151
+UniRef100_A0A346MQP0 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactobacillus johnsonii TaxID=33959 RepID=A0A346MQP0_LACJH	0.947956	0.081178
+UniRef100_A0A7U7VV97 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter coli TaxID=195 RepID=A0A7U7VV97_CAMCO	0.948030	0.081522
+UniRef100_A0A3R9KNY9 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus intermedius TaxID=1338 RepID=A0A3R9KNY9_STRIT	0.948001	0.081444
+UniRef100_R5WWQ0 CRISPR-associated endonuclease Cas9 n=1 Tax=Fusobacterium sp. CAG:649 TaxID=1262900 RepID=R5WWQ0_9FUSO	0.947832	0.081281
+UniRef100_A0A3D9B4V7 CRISPR-associated endonuclease Cas9 n=1 Tax=Candidatus Chryseobacterium massiliae TaxID=204089 RepID=A0A3D9B4V7_9FLAO	0.948263	0.080823
+UniRef100_A0A543KVX4 CRISPR-associated endonuclease Cas9 n=1 Tax=Acidovorax temperans TaxID=80878 RepID=A0A543KVX4_9BURK	0.947440	0.082137
+UniRef100_A0A1H8C6J4 CRISPR-associated endonuclease Cas9 n=1 Tax=Chryseobacterium taichungense TaxID=295069 RepID=A0A1H8C6J4_9FLAO	0.947597	0.081109
+UniRef100_A0A7H8Z7P5 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus sp. oral taxon 061 TaxID=712623 RepID=A0A7H8Z7P5_9STRE	0.948024	0.081436
+UniRef100_Q5M542 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus thermophilus (strain ATCC BAA-250 / LMG 18311) TaxID=264199 RepID=Q5M542_STRT2	0.947984	0.081434
+UniRef100_A0A134B2X0 CRISPR-associated endonuclease Cas9 n=1 Tax=Prevotella amnii TaxID=419005 RepID=A0A134B2X0_9BACT	0.948327	0.080451
+UniRef100_A0A2S0LB69 CRISPR-associated endonuclease Cas9 n=1 Tax=Capnocytophaga sp. oral taxon 878 TaxID=1316596 RepID=A0A2S0LB69_9FLAO	0.948257	0.080526
+UniRef100_A0A553LQJ1 CRISPR-associated endonuclease Cas9 n=1 Tax=Geobacillus sp. LEMMJ02 TaxID=2595057 RepID=A0A553LQJ1_9BACI	0.947892	0.081548
+UniRef100_A0A496BKX0 CRISPR-associated endonuclease Cas9 n=1 Tax=Parabacteroides sp. AF27-14 TaxID=2293116 RepID=A0A496BKX0_9BACT	0.948496	0.080530
+UniRef100_A0A367UKE3 CRISPR-associated endonuclease Cas9 n=1 Tax=Thalassospira xianhensis MCCC 1A02616 TaxID=1177929 RepID=A0A367UKE3_9PROT	0.946966	0.082194
+UniRef100_A0A377JJN5 CRISPR-associated endonuclease Cas9 n=1 Tax=Haemophilus parainfluenzae TaxID=729 RepID=A0A377JJN5_HAEPA	0.947840	0.081661
+UniRef100_A0A418W0A6 CRISPR-associated endonuclease Cas9 n=1 Tax=Azospirillum sp. K2W22B-5 TaxID=2320860 RepID=A0A418W0A6_9PROT	0.900598	0.154377
+UniRef100_A0A7K3KDI5 CRISPR-associated endonuclease Cas9 n=1 Tax=Phocaeicola sartorii TaxID=671267 RepID=A0A7K3KDI5_9BACT	0.948393	0.080528
+UniRef100_A0A2T4KGD5 CRISPR-associated endonuclease Cas9 n=3 Tax=Staphylococcus devriesei TaxID=586733 RepID=A0A2T4KGD5_9STAP	0.948087	0.081482
+UniRef100_A0A3M0LVR1 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactobacillus sp. ESL0246 TaxID=2069359 RepID=A0A3M0LVR1_9LACO	0.947793	0.081139
+UniRef100_E0Q490 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus sp. oral taxon 071 str. 73H25AP TaxID=864570 RepID=E0Q490_9STRE	0.947320	0.081540
+UniRef100_A0A5Q3TM58 CRISPR-associated endonuclease Cas9 n=2 Tax=Mycoplasma synoviae TaxID=2109 RepID=A0A5Q3TM58_MYCSY	0.947686	0.081432
+UniRef100_M2CIC2 CRISPR-associated endonuclease Cas9 n=1 Tax=Treponema denticola H1-T TaxID=999431 RepID=M2CIC2_TREDN	0.948396	0.081450
+UniRef100_A0A5N0YUW7 CRISPR-associated endonuclease Cas9 n=1 Tax=Enterococcus durans TaxID=53345 RepID=A0A5N0YUW7_9ENTE	0.947821	0.081394
+UniRef100_A0A377L6V6 CRISPR-associated endonuclease Cas9 n=1 Tax=Enterococcus durans TaxID=53345 RepID=A0A377L6V6_9ENTE	0.947673	0.081512
+UniRef100_A0A562K2P5 CRISPR-associated endonuclease Cas9 n=1 Tax=Sphingobium wenxiniae (strain DSM 21828 / JZ-1) TaxID=595605 RepID=A0A562K2P5_SPHWJ	0.947387	0.082177
+UniRef100_A0A610JKF6 CRISPR-associated endonuclease Cas9 n=2 Tax=Campylobacter TaxID=194 RepID=A0A610JKF6_CAMCO	0.947867	0.081552
+UniRef100_A0A3M0P5H4 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactobacillus sp. ESL0261 TaxID=2069348 RepID=A0A3M0P5H4_9LACO	0.947971	0.081004
+UniRef100_A0A5Q2S6G8 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus dysgalactiae subsp. dysgalactiae TaxID=99822 RepID=A0A5Q2S6G8_STRDY	0.947700	0.081306
+UniRef100_A0A829X528 CRISPR-associated endonuclease Cas9 n=2 Tax=Latilactobacillus sakei TaxID=1599 RepID=A0A829X528_LATSK	0.948185	0.081091
+UniRef100_A0A6M6IHJ7 CRISPR-associated endonuclease Cas9 n=1 Tax=Diaphorobacter sp. JS3050 TaxID=2735554 RepID=A0A6M6IHJ7_9BURK	0.889088	0.180503
+UniRef100_A0A695ZC83 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter coli TaxID=195 RepID=A0A695ZC83_CAMCO	0.947859	0.081559
+UniRef100_A0A5Q2S4F8 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus dysgalactiae subsp. dysgalactiae TaxID=99822 RepID=A0A5Q2S4F8_STRDY	0.947107	0.081352
+UniRef100_A0A5C4P760 CRISPR-associated endonuclease Cas9 n=2 Tax=Streptococcus TaxID=1301 RepID=A0A5C4P760_STRSL	0.948000	0.081424
+UniRef100_A0A7U7UPK6 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter coli TaxID=195 RepID=A0A7U7UPK6_CAMCO	0.948024	0.081571
+UniRef100_A0A5Q2S8X8 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus dysgalactiae subsp. dysgalactiae TaxID=99822 RepID=A0A5Q2S8X8_STRDY	0.947495	0.081395
+UniRef100_A0A7U7XKQ9 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter coli TaxID=195 RepID=A0A7U7XKQ9_CAMCO	0.947849	0.081561
+UniRef100_A0A693DVL6 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter coli TaxID=195 RepID=A0A693DVL6_CAMCO	0.948014	0.081567
+UniRef100_R9I6A5 CRISPR-associated endonuclease Cas9 n=1 Tax=Phocaeicola sartorii TaxID=671267 RepID=R9I6A5_9BACT	0.948308	0.080552
+UniRef100_A0A250ENI5 CRISPR-associated endonuclease Cas9 n=1 Tax=Capnocytophaga sp. H2931 TaxID=1945657 RepID=A0A250ENI5_9FLAO	0.948193	0.080799
+UniRef100_A0A6A8M2X5 CRISPR-associated endonuclease Cas9 n=2 Tax=unclassified Collinsella TaxID=2637548 RepID=A0A6A8M2X5_9ACTN	0.948124	0.081704
+UniRef100_E9DN79 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus sp. C150 TaxID=435842 RepID=E9DN79_9STRE	0.948054	0.081390
+UniRef100_A0A4S2QB06 CRISPR-associated endonuclease Cas9 n=1 Tax=Rodentibacter pneumotropicus TaxID=758 RepID=A0A4S2QB06_9PAST	0.947327	0.081826
+UniRef100_A0A5P3I6W6 CRISPR-associated endonuclease Cas9 n=1 Tax=Mycoplasma gallisepticum TaxID=2096 RepID=A0A5P3I6W6_MYCGL	0.947815	0.081464
+UniRef100_A0A369Z1C7 CRISPR-associated endonuclease Cas9 n=1 Tax=Haemophilus parainfluenzae TaxID=729 RepID=A0A369Z1C7_HAEPA	0.947816	0.081689
+UniRef100_A0A7U7YXZ2 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter coli TaxID=195 RepID=A0A7U7YXZ2_CAMCO	0.947868	0.081557
+UniRef100_A0A1T5BAU6 CRISPR-associated endonuclease Cas9 n=1 Tax=Parabacteroides chartae TaxID=1037355 RepID=A0A1T5BAU6_9BACT	0.948546	0.080300
+UniRef100_A0A654MME4 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter coli TaxID=195 RepID=A0A654MME4_CAMCO	0.947838	0.081569
+UniRef100_A0A823S3V8 Type II CRISPR RNA-guided endonuclease Cas9 n=2 Tax=Campylobacter TaxID=194 RepID=A0A823S3V8_CAMCO	0.947824	0.081574
+UniRef100_A0A420ZW23 CRISPR-associated endonuclease Cas9 n=1 Tax=Nitrosomonas sp. Nm120 TaxID=1945877 RepID=A0A420ZW23_9PROT	0.947592	0.081963
+UniRef100_A0A694VCX7 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter coli TaxID=195 RepID=A0A694VCX7_CAMCO	0.948020	0.081579
+UniRef100_A0A7U8BBQ0 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter coli TaxID=195 RepID=A0A7U8BBQ0_CAMCO	0.947966	0.081593
+UniRef100_A0A4V3RU03 CRISPR-associated endonuclease Cas9 n=1 Tax=Phocaeicola sartorii TaxID=671267 RepID=A0A4V3RU03_9BACT	0.948372	0.080511
+UniRef100_A0A367C9N0 CRISPR-associated endonuclease Cas9 n=2 Tax=Enterococcus durans TaxID=53345 RepID=A0A367C9N0_9ENTE	0.947485	0.081473
+UniRef100_A0A7U9M7C9 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus canis TaxID=1329 RepID=A0A7U9M7C9_STRCB	0.944356	0.080468
+UniRef100_A0A416ZHF4 CRISPR-associated endonuclease Cas9 n=1 Tax=Collinsella sp. AF08-23 TaxID=2292211 RepID=A0A416ZHF4_9ACTN	0.946774	0.082746
+UniRef100_A0A3D0CNW0 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus sp. TaxID=1306 RepID=A0A3D0CNW0_STRSP	0.947738	0.081370
+UniRef100_A0A3D8ZCQ0 CRISPR-associated endonuclease Cas9 n=6 Tax=Staphylococcus pseudintermedius TaxID=283734 RepID=A0A3D8ZCQ0_STAPS	0.947778	0.081339
+UniRef100_A0A3E4Q6Q0 CRISPR-associated endonuclease Cas9 n=3 Tax=Bacteroidales TaxID=171549 RepID=A0A3E4Q6Q0_BACUN	0.948499	0.080803
+UniRef100_A0A6I2UCL7 CRISPR-associated endonuclease Cas9 n=1 Tax=Ruthenibacterium lactatiformans TaxID=1550024 RepID=A0A6I2UCL7_9FIRM	0.947410	0.082014
+UniRef100_A0A0C9PBG0 CRISPR-associated endonuclease Cas9 n=1 Tax=Candidatus Brocadia sinica JPN1 TaxID=1197129 RepID=A0A0C9PBG0_9BACT	0.809887	0.331697
+UniRef100_A0A1Q6FLZ7 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacteroidales bacterium 43_36 TaxID=1897038 RepID=A0A1Q6FLZ7_9BACT	0.948384	0.080683
+UniRef100_A0A3D5PHV7 CRISPR-associated endonuclease Cas9 n=1 Tax=Clostridiales bacterium TaxID=1898207 RepID=A0A3D5PHV7_9FIRM	0.948194	0.081508
+UniRef100_A0A0D8IYR9 CRISPR-associated endonuclease Cas9 n=1 Tax=Ruthenibacterium lactatiformans TaxID=1550024 RepID=A0A0D8IYR9_9FIRM	0.947347	0.082025
+UniRef100_A0A5S9UY33 CRISPR-associated endonuclease Cas9 n=2 Tax=Tenacibaculum maritimum TaxID=107401 RepID=A0A5S9UY33_9FLAO	0.948163	0.081368
+UniRef100_A0A377PZ75 CRISPR-associated endonuclease Cas9 n=2 Tax=Helicobacter pullorum TaxID=35818 RepID=A0A377PZ75_9HELI	0.947672	0.081684
+UniRef100_UPI0013F60FDB type II-B CRISPR-associated RNA-guided endonuclease Cas9/Csx12 n=1 Tax=Sutterella wadsworthensis TaxID=40545 RepID=UPI0013F60FDB	0.944928	0.083141
+UniRef100_UPI0013F62B32 type II-B CRISPR-associated RNA-guided endonuclease Cas9/Csx12 n=1 Tax=Sutterella wadsworthensis TaxID=40545 RepID=UPI0013F62B32	0.945805	0.082725
+UniRef100_A0A2T4MN97 CRISPR-associated endonuclease Cas9 n=4 Tax=Staphylococcus agnetis TaxID=985762 RepID=A0A2T4MN97_9STAP	0.947750	0.081626
+UniRef100_A0A1C0W3U5 CRISPR-associated endonuclease Cas9 n=2 Tax=Helicobacter pullorum TaxID=35818 RepID=A0A1C0W3U5_9HELI	0.947714	0.081662
+UniRef100_UPI0019047671 type II-B CRISPR-associated RNA-guided endonuclease Cas9/Csx12 n=1 Tax=Francisella hispaniensis TaxID=622488 RepID=UPI0019047671	0.944760	0.081893
+UniRef100_A0A1V9QLR1 CRISPR-associated endonuclease Cas9 n=5 Tax=Ligilactobacillus salivarius TaxID=1624 RepID=A0A1V9QLR1_9LACO	0.947742	0.081316
+UniRef100_A0A151A3A4 CRISPR-associated endonuclease Cas9 n=1 Tax=Staphylococcus kloosii TaxID=29384 RepID=A0A151A3A4_9STAP	0.948064	0.081490
+UniRef100_F0FD37 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus sanguinis SK353 TaxID=888815 RepID=F0FD37_STRSA	0.947484	0.081418
+UniRef100_A0A2T4PZB1 CRISPR-associated endonuclease Cas9 n=3 Tax=Staphylococcus warneri TaxID=1292 RepID=A0A2T4PZB1_STAWA	0.948129	0.081447
+UniRef100_A0A2M8TN96 CRISPR-associated endonuclease Cas9 n=1 Tax=Prevotella intermedia TaxID=28131 RepID=A0A2M8TN96_PREIN	0.947966	0.080956
+UniRef100_A0A6N7V3M8 CRISPR-associated endonuclease Cas9 n=1 Tax=Holdemanella porci TaxID=2652276 RepID=A0A6N7V3M8_9FIRM	0.948005	0.081485
+UniRef100_A0A2J8BBT1 CRISPR-associated endonuclease Cas9 n=1 Tax=Megasphaera genomosp. type_2 TaxID=699193 RepID=A0A2J8BBT1_9FIRM	0.947752	0.081586
+UniRef100_A0A5M5X193 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacteroides fragilis TaxID=817 RepID=A0A5M5X193_BACFG	0.948062	0.080781
+UniRef100_A0A328K775 CRISPR-associated endonuclease Cas9 n=1 Tax=Dolosigranulum pigrum TaxID=29394 RepID=A0A328K775_9LACT	0.947824	0.081389
+UniRef100_A0A2D3NBQ5 CRISPR-associated endonuclease Cas9 n=1 Tax=Prevotella intermedia TaxID=28131 RepID=A0A2D3NBQ5_PREIN	0.932933	0.084011
+UniRef100_A0A2D3LIX5 CRISPR-associated endonuclease Cas9 n=1 Tax=Prevotella intermedia TaxID=28131 RepID=A0A2D3LIX5_PREIN	0.947915	0.080974
+UniRef100_A0A2G8IAT9 CRISPR-associated endonuclease Cas9 n=1 Tax=Prevotella intermedia TaxID=28131 RepID=A0A2G8IAT9_PREIN	0.947878	0.080924
+UniRef100_A0A7Y9B1V0 CRISPR-associated endonuclease Cas9 n=1 Tax=Capnocytophaga sp. oral taxon 903 TaxID=2748317 RepID=A0A7Y9B1V0_9FLAO	0.947923	0.080530
+UniRef100_A0A2G9IGK4 CRISPR-associated endonuclease Cas9 n=1 Tax=Prevotella intermedia TaxID=28131 RepID=A0A2G9IGK4_PREIN	0.947960	0.080930
+UniRef100_A0A5C6JFZ5 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacteroides fragilis TaxID=817 RepID=A0A5C6JFZ5_BACFG	0.948100	0.080770
+UniRef100_A0A2A6EP65 CRISPR-associated endonuclease Cas9 n=1 Tax=Prevotella intermedia TaxID=28131 RepID=A0A2A6EP65_PREIN	0.947827	0.081053
+UniRef100_A0A2A4HAP5 CRISPR-associated endonuclease Cas9 n=1 Tax=Staphylococcus delphini TaxID=53344 RepID=A0A2A4HAP5_9STAP	0.948181	0.081230
+UniRef100_A0A2M8TWD6 CRISPR-associated endonuclease Cas9 n=1 Tax=Prevotella intermedia TaxID=28131 RepID=A0A2M8TWD6_PREIN	0.947878	0.080939
+UniRef100_A0A2X2UV58 CRISPR-associated endonuclease Cas9 n=1 Tax=Capnocytophaga ochracea TaxID=1018 RepID=A0A2X2UV58_CAPOC	0.948128	0.080594
+UniRef100_A8AY02 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus gordonii (strain Challis / ATCC 35105 / BCRC 15272 / CH1 / DL1 / V288) TaxID=467705 RepID=A8AY02_STRGC	0.948074	0.081410
+UniRef100_A0A448K7T0 CRISPR-associated endonuclease Cas9 n=1 Tax=Pasteurella aerogenes TaxID=749 RepID=A0A448K7T0_PASAE	0.947976	0.081566
+UniRef100_A0A412XVI5 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacteroides fragilis TaxID=817 RepID=A0A412XVI5_BACFG	0.947544	0.080338
+UniRef100_A0A2D3M501 CRISPR-associated endonuclease Cas9 n=1 Tax=Prevotella intermedia TaxID=28131 RepID=A0A2D3M501_PREIN	0.947841	0.081039
+UniRef100_A0A2X2RBS4 CRISPR-associated endonuclease Cas9 n=1 Tax=Capnocytophaga ochracea TaxID=1018 RepID=A0A2X2RBS4_CAPOC	0.948018	0.080597
+UniRef100_A0A243MDI9 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacillus thuringiensis serovar zhaodongensis TaxID=180896 RepID=A0A243MDI9_BACTU	0.947857	0.081499
+UniRef100_A0A0A2F4C3 CRISPR-associated endonuclease Cas9 n=1 Tax=Porphyromonas gulae TaxID=111105 RepID=A0A0A2F4C3_9PORP	0.947783	0.080650
+UniRef100_A0A509DBS2 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus sp. NCTC 11567 TaxID=2583584 RepID=A0A509DBS2_9STRE	0.947293	0.081449
+UniRef100_A0A3R6HER5 CRISPR-associated endonuclease Cas9 n=1 Tax=Prevotella sp. AM23-5 TaxID=2292054 RepID=A0A3R6HER5_9BACT	0.947993	0.081521
+UniRef100_A0A418G6P6 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus anginosus TaxID=1328 RepID=A0A418G6P6_STRAP	0.946855	0.081610
+UniRef100_R6TGN6 CRISPR-associated endonuclease Cas9 n=1 Tax=Eubacterium rectale CAG:36 TaxID=1263079 RepID=R6TGN6_9FIRM	0.946785	0.082348
+UniRef100_A0A328KW99 CRISPR-associated endonuclease Cas9 n=1 Tax=Dolosigranulum pigrum TaxID=29394 RepID=A0A328KW99_9LACT	0.947838	0.081383
+UniRef100_A0A3E4XG58 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacteroides uniformis TaxID=820 RepID=A0A3E4XG58_BACUN	0.948498	0.080815
+UniRef100_A0A4U9ZD76 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus anginosus TaxID=1328 RepID=A0A4U9ZD76_STRAP	0.947196	0.081651
+UniRef100_A0A2Z3HJ74 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactobacillus kullabergensis TaxID=1218493 RepID=A0A2Z3HJ74_9LACO	0.947883	0.081101
+UniRef100_A0A1F0DMA4 CRISPR-associated endonuclease Cas9 n=1 Tax=Neisseria sp. HMSC056A03 TaxID=1739544 RepID=A0A1F0DMA4_9NEIS	0.947986	0.081666
+UniRef100_A0A3D5CX64 CRISPR-associated endonuclease Cas9 n=1 Tax=Enterococcus sp. TaxID=35783 RepID=A0A3D5CX64_ENTSX	0.947880	0.081400
+UniRef100_A0A4U2N415 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacillus wiedmannii TaxID=1890302 RepID=A0A4U2N415_9BACI	0.948105	0.081437
+UniRef100_A0A3R6WLA1 CRISPR-associated endonuclease Cas9 n=1 Tax=Coprococcus sp. AF16-5 TaxID=2293088 RepID=A0A3R6WLA1_9FIRM	0.947506	0.081692
+UniRef100_A0A1S1DIH5 CRISPR-associated endonuclease Cas9 n=5 Tax=Streptococcus TaxID=1301 RepID=A0A1S1DIH5_9STRE	0.948045	0.081412
+UniRef100_A0A173UVP4 CRISPR-associated endonuclease Cas9 n=1 Tax=Dorea longicatena TaxID=88431 RepID=A0A173UVP4_9FIRM	0.948178	0.081345
+UniRef100_A0A696NCR2 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A696NCR2_CAMJU	0.947883	0.081554
+UniRef100_A0A7I9M921 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A7I9M921_CAMJU	0.913158	0.118434
+UniRef100_A0A5D3EFX9 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacteroides pyogenes TaxID=310300 RepID=A0A5D3EFX9_9BACE	0.948278	0.080499
+UniRef100_A0A372WRV1 CRISPR-associated endonuclease Cas9 n=1 Tax=Subdoligranulum sp. AM23-21AC TaxID=2302961 RepID=A0A372WRV1_9FIRM	0.947330	0.082045
+UniRef100_A0A6N9JZL7 CRISPR-associated endonuclease Cas9 n=1 Tax=Dorea longicatena TaxID=88431 RepID=A0A6N9JZL7_9FIRM	0.948219	0.081541
+UniRef100_A0A381CRM8 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A381CRM8_CAMJU	0.947881	0.081546
+UniRef100_A0A430VB21 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A430VB21_CAMJU	0.947805	0.081579
+UniRef100_A0A2U0QMG7 CRISPR-associated endonuclease Cas9 n=2 Tax=Campylobacter jejuni TaxID=197 RepID=A0A2U0QMG7_CAMJU	0.933884	0.083751
+UniRef100_A0A1F0HBZ7 CRISPR-associated endonuclease Cas9 n=1 Tax=Neisseria sp. HMSC065C04 TaxID=1739524 RepID=A0A1F0HBZ7_9NEIS	0.947713	0.081777
+UniRef100_A0A1Y3ZBY1 CRISPR-associated endonuclease Cas9 n=1 Tax=Parabacteroides johnsonii TaxID=387661 RepID=A0A1Y3ZBY1_9BACT	0.948325	0.080810
+UniRef100_A0A5C4YBX1 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5C4YBX1_CAMJU	0.947996	0.081563
+UniRef100_A0A414T266 CRISPR-associated endonuclease Cas9 n=2 Tax=Dorea longicatena TaxID=88431 RepID=A0A414T266_9FIRM	0.948143	0.081490
+UniRef100_A0A6L8RYH3 CRISPR-associated endonuclease Cas9 n=1 Tax=Dorea longicatena TaxID=88431 RepID=A0A6L8RYH3_9FIRM	0.948034	0.081617
+UniRef100_A0A4Y9GBC9 CRISPR-associated endonuclease Cas9 n=1 Tax=Neisseria sp. WF04 TaxID=2558283 RepID=A0A4Y9GBC9_9NEIS	0.947851	0.081823
+UniRef100_A0A6V6Z0W6 CRISPR-associated endonuclease Cas9 n=1 Tax=Flavobacterium sp. T13(2019) TaxID=2654844 RepID=A0A6V6Z0W6_9FLAO	0.948211	0.079967
+UniRef100_A0A6N9EJD4 CRISPR-associated endonuclease Cas9 n=1 Tax=Synechococcus sp. SB0675_bin_7 TaxID=2604868 RepID=A0A6N9EJD4_9SYNE	0.947365	0.082170
+UniRef100_A0A7X0X8I8 CRISPR-associated endonuclease Cas9 n=1 Tax=Listeria immobilis TaxID=2713502 RepID=A0A7X0X8I8_9LIST	0.947954	0.081338
+UniRef100_S2D876 CRISPR-associated endonuclease Cas9 n=1 Tax=Indibacter alkaliphilus LW1 TaxID=1189612 RepID=S2D876_9BACT	0.948053	0.081141
+UniRef100_J0WLS6 CRISPR-associated endonuclease Cas9 n=1 Tax=Capnocytophaga sp. oral taxon 335 str. F0486 TaxID=1125720 RepID=J0WLS6_9FLAO	0.947912	0.080571
+UniRef100_R7G6K2 CRISPR-associated endonuclease Cas9 n=1 Tax=Eubacterium dolichum CAG:375 TaxID=1263076 RepID=R7G6K2_9FIRM	0.947952	0.081465
+UniRef100_A0A366UCT0 CRISPR-associated endonuclease Cas9 n=1 Tax=Enterococcus hirae TaxID=1354 RepID=A0A366UCT0_ENTHR	0.947871	0.081405
+UniRef100_A0A3D5LKY5 CRISPR-associated endonuclease Cas9 n=1 Tax=Oscillospiraceae bacterium TaxID=2485925 RepID=A0A3D5LKY5_9FIRM	0.948474	0.081460
+UniRef100_A0A690ANS8 CRISPR-associated endonuclease Cas9 n=2 Tax=Campylobacter jejuni TaxID=197 RepID=A0A690ANS8_CAMJU	0.947893	0.081537
+UniRef100_R5FTM9 CRISPR-associated endonuclease Cas9 n=1 Tax=Porphyromonas sp. CAG:1061 TaxID=1262916 RepID=R5FTM9_9PORP	0.850423	0.289667
+UniRef100_A0A5T0P9Z4 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5T0P9Z4_CAMJU	0.947887	0.081548
+UniRef100_A0A7D7GMQ0 CRISPR-associated endonuclease Cas9 n=1 Tax=Carnobacteriaceae bacterium zg84 TaxID=2758033 RepID=A0A7D7GMQ0_9LACT	0.947222	0.081513
+UniRef100_A0A2U0UFR7 CRISPR-associated endonuclease Cas9 n=1 Tax=Prevotella colorans TaxID=1703337 RepID=A0A2U0UFR7_9BACT	0.948261	0.080407
+UniRef100_A0A7X8C2E1 CRISPR-associated endonuclease Cas9 n=1 Tax=Globicatella sulfidifaciens TaxID=136093 RepID=A0A7X8C2E1_9LACT	0.948043	0.081471
+UniRef100_A0A1S1FE71 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus sp. HMSC034B03 TaxID=1715113 RepID=A0A1S1FE71_9STRE	0.948034	0.081430
+UniRef100_A0A431C1E8 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A431C1E8_CAMJU	0.947936	0.081522
+UniRef100_A0A690ZWN1 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A690ZWN1_CAMJU	0.947833	0.081570
+UniRef100_A0A426RA83 CRISPR-associated endonuclease Cas9 n=1 Tax=Chryseobacterium sp. SC28 TaxID=2268028 RepID=A0A426RA83_9FLAO	0.948198	0.081257
+UniRef100_R0P7Y6 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus mitis 13/39 TaxID=1239793 RepID=R0P7Y6_STRMT	0.948053	0.081449
+UniRef100_A0A3X8TXU1 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A3X8TXU1_CAMJU	0.947862	0.081560
+UniRef100_A0A6H6E990 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A6H6E990_CAMJU	0.947872	0.081555
+UniRef100_A0A695HW82 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A695HW82_CAMJU	0.947926	0.081528
+UniRef100_A0A3D5LGP9 CRISPR-associated endonuclease Cas9 n=1 Tax=Roseburia sp. TaxID=2049040 RepID=A0A3D5LGP9_9FIRM	0.947715	0.081569
+UniRef100_A0A5T0PF67 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5T0PF67_CAMJU	0.948037	0.081569
+UniRef100_A0A4Z1BDE9 CRISPR-associated endonuclease Cas9 n=1 Tax=Staphylococcus pragensis TaxID=1611836 RepID=A0A4Z1BDE9_9STAP	0.948143	0.081430
+UniRef100_A0A7K0GA18 CRISPR-associated endonuclease Cas9 n=1 Tax=Enorma sp. HF-1365 TaxID=2606615 RepID=A0A7K0GA18_9ACTN	0.947184	0.082333
+UniRef100_A0A7I9KXS2 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A7I9KXS2_CAMJU	0.947865	0.081553
+UniRef100_A0A5C4YDH0 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A5C4YDH0_CAMJU	0.947854	0.081553
+UniRef100_A0A823LVW7 Type II CRISPR RNA-guided endonuclease Cas9 n=2 Tax=Campylobacter TaxID=194 RepID=A0A823LVW7_CAMJU	0.947915	0.081536
+UniRef100_A9M1K5 CRISPR-associated endonuclease Cas9 n=2 Tax=Neisseria meningitidis TaxID=487 RepID=A9M1K5_NEIM0	0.947937	0.081691
+UniRef100_A0A6I4REG3 CRISPR-associated endonuclease Cas9 n=2 Tax=unclassified Streptococcus TaxID=2608887 RepID=A0A6I4REG3_9STRE	0.947640	0.081432
+UniRef100_A0A1Q6G4F5 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacteroides oleiciplenus TaxID=626931 RepID=A0A1Q6G4F5_9BACE	0.948039	0.080178
+UniRef100_A0A243AJP8 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacillus thuringiensis serovar navarrensis TaxID=339658 RepID=A0A243AJP8_BACTU	0.948070	0.081448
+UniRef100_A0A2A2A9T5 CRISPR-associated endonuclease Cas9 n=1 Tax=Comamonadaceae bacterium NML03-0146 TaxID=2029117 RepID=A0A2A2A9T5_9BURK	0.947291	0.082219
+UniRef100_A0A395UZ50 CRISPR-associated endonuclease Cas9 n=1 Tax=[Eubacterium] rectale TaxID=39491 RepID=A0A395UZ50_9FIRM	0.945760	0.082788
+UniRef100_A0A1F1B9V9 CRISPR-associated endonuclease Cas9 n=1 Tax=Neisseria sp. HMSC055H02 TaxID=1739411 RepID=A0A1F1B9V9_9NEIS	0.947967	0.081675
+UniRef100_A0A4V1QXZ0 CRISPR-associated endonuclease Cas9 n=1 Tax=Fusobacterium necrophorum TaxID=859 RepID=A0A4V1QXZ0_9FUSO	0.948321	0.081379
+UniRef100_A0A414A1L7 CRISPR-associated endonuclease Cas9 n=1 Tax=[Eubacterium] rectale TaxID=39491 RepID=A0A414A1L7_9FIRM	0.948204	0.081486
+UniRef100_A0A412Q7H4 CRISPR-associated endonuclease Cas9 n=1 Tax=[Eubacterium] rectale TaxID=39491 RepID=A0A412Q7H4_9FIRM	0.945692	0.082818
+UniRef100_A0A396FQL1 CRISPR-associated endonuclease Cas9 n=1 Tax=[Eubacterium] rectale TaxID=39491 RepID=A0A396FQL1_9FIRM	0.945826	0.082742
+UniRef100_A0A3D5LVE5 CRISPR-associated endonuclease Cas9 n=1 Tax=Eubacterium sp. TaxID=142586 RepID=A0A3D5LVE5_9FIRM	0.947138	0.081384
+UniRef100_A0A3D6EBI4 CRISPR-associated endonuclease Cas9 n=1 Tax=Porphyromonadaceae bacterium TaxID=2049046 RepID=A0A3D6EBI4_9PORP	0.947975	0.081795
+UniRef100_A0A7C9HDC3 CRISPR-associated endonuclease Cas9 n=1 Tax=Prevotella sp. A2879 TaxID=2608404 RepID=A0A7C9HDC3_9BACT	0.948087	0.081028
+UniRef100_A0A416UYK7 CRISPR-associated endonuclease Cas9 n=1 Tax=Parabacteroides sp. AF17-28 TaxID=2292241 RepID=A0A416UYK7_9BACT	0.948679	0.080259
+UniRef100_A0A1Q6R559 CRISPR-associated endonuclease Cas9 n=1 Tax=Phascolarctobacterium succinatutens TaxID=626940 RepID=A0A1Q6R559_9FIRM	0.948053	0.081491
+UniRef100_A0A7L4TPD1 CRISPR-associated endonuclease Cas9 n=1 Tax=Flavobacterium sp. IR1 TaxID=2026304 RepID=A0A7L4TPD1_9FLAO	0.948235	0.080307
+UniRef100_A0A1R1I348 CRISPR-associated endonuclease Cas9 n=1 Tax=Azonexus hydrophilus TaxID=418702 RepID=A0A1R1I348_9RHOO	0.947557	0.082114
+UniRef100_A0A6M1KZL5 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus equi subsp. ruminatorum TaxID=254358 RepID=A0A6M1KZL5_9STRE	0.947556	0.081474
+UniRef100_A0A134BD56 CRISPR-associated endonuclease Cas9 n=1 Tax=Prevotella sp. DNF00663 TaxID=1384078 RepID=A0A134BD56_9BACT	0.948013	0.081466
+UniRef100_A0A1N7HXF3 CRISPR-associated endonuclease Cas9 n=1 Tax=Chryseobacterium shigense TaxID=297244 RepID=A0A1N7HXF3_9FLAO	0.947758	0.081065
+UniRef100_A0A415K3Z9 CRISPR-associated endonuclease Cas9 n=1 Tax=[Eubacterium] rectale TaxID=39491 RepID=A0A415K3Z9_9FIRM	0.948235	0.081493
+UniRef100_A0A0R2HDR9 CRISPR-associated endonuclease Cas9 n=1 Tax=Pediococcus damnosus TaxID=51663 RepID=A0A0R2HDR9_9LACO	0.937266	0.080329
+UniRef100_A0A250EBH2 CRISPR-associated endonuclease Cas9 n=1 Tax=Capnocytophaga cynodegmi TaxID=28189 RepID=A0A250EBH2_9FLAO	0.948322	0.080983
+UniRef100_A0A413U2Y1 CRISPR-associated endonuclease Cas9 n=1 Tax=[Eubacterium] rectale TaxID=39491 RepID=A0A413U2Y1_9FIRM	0.948184	0.081516
+UniRef100_A0A414HQE9 CRISPR-associated endonuclease Cas9 n=1 Tax=[Eubacterium] rectale TaxID=39491 RepID=A0A414HQE9_9FIRM	0.948204	0.081529
+UniRef100_A0A250F2V3 CRISPR-associated endonuclease Cas9 n=1 Tax=Capnocytophaga sputigena TaxID=1019 RepID=A0A250F2V3_CAPSP	0.947950	0.080533
+UniRef100_A0A660A3R3 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus pyogenes TaxID=1314 RepID=A0A660A3R3_STRPY	0.947412	0.081528
+UniRef100_A0A7G1J6S0 CRISPR-associated endonuclease Cas9 n=2 Tax=Streptococcus pyogenes TaxID=1314 RepID=A0A7G1J6S0_STRPY	0.947662	0.081277
+UniRef100_A0A1Q6K968 CRISPR-associated endonuclease Cas9 n=1 Tax=Clostridiales bacterium 41_12_two_minus TaxID=1897043 RepID=A0A1Q6K968_9FIRM	0.948382	0.081554
+UniRef100_A0A2S9W9Q6 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactiplantibacillus pentosus TaxID=1589 RepID=A0A2S9W9Q6_LACPE	0.847015	0.288628
+UniRef100_A0A2X3V3P8 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus thermophilus TaxID=1308 RepID=A0A2X3V3P8_STRTR	0.946753	0.081884
+UniRef100_A0A239C9W9 CRISPR-associated endonuclease Cas9 n=1 Tax=Belliella buryatensis TaxID=1500549 RepID=A0A239C9W9_9BACT	0.948510	0.080388
+UniRef100_A0A6B1J593 CRISPR-associated endonuclease Cas9 n=2 Tax=Streptococcus pyogenes TaxID=1314 RepID=A0A6B1J593_STRPY	0.947409	0.081528
+UniRef100_A0A829ZF41 CRISPR-associated endonuclease Cas9 2 n=1 Tax=Lactobacillaceae bacterium TaxID=2291323 RepID=A0A829ZF41_9LACT	0.948112	0.081098
+UniRef100_A0A7U7CIH1 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus thermophilus TaxID=1308 RepID=A0A7U7CIH1_STRTR	0.947962	0.081435
+UniRef100_A0A3S5A9U9 CRISPR-associated endonuclease Cas9 n=1 Tax=Capnocytophaga sputigena TaxID=1019 RepID=A0A3S5A9U9_CAPSP	0.948212	0.080490
+UniRef100_A0A7H1DW46 CRISPR-associated endonuclease Cas9 n=1 Tax=Chryseobacterium manosquense TaxID=2754694 RepID=A0A7H1DW46_9FLAO	0.948249	0.080848
+UniRef100_A0A1I6UWB8 CRISPR-associated endonuclease Cas9 n=1 Tax=Porphyromonadaceae bacterium NLAE-zl-C104 TaxID=1855399 RepID=A0A1I6UWB8_9PORP	0.948055	0.081303
+UniRef100_D7IW96 CRISPR-associated endonuclease Cas9 n=2 Tax=Bacteroidales TaxID=171549 RepID=D7IW96_9BACE	0.947992	0.081165
+UniRef100_D2EJF1 CRISPR-associated endonuclease Cas9 n=1 Tax=Pediococcus acidilactici 7_4 TaxID=563194 RepID=D2EJF1_PEDAC	0.947881	0.081438
+UniRef100_A0A7X2B2C7 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacillus thuringiensis TaxID=1428 RepID=A0A7X2B2C7_BACTU	0.948110	0.081442
+UniRef100_A0A250DVH8 CRISPR-associated endonuclease Cas9 n=1 Tax=Geobacillus stearothermophilus TaxID=1422 RepID=A0A250DVH8_GEOSE	0.947888	0.081519
+UniRef100_A0A7X1DES7 CRISPR-associated endonuclease Cas9 n=1 Tax=Listeria farberi TaxID=2713500 RepID=A0A7X1DES7_9LIST	0.947674	0.081426
+UniRef100_A0A2S9VU59 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactiplantibacillus pentosus TaxID=1589 RepID=A0A2S9VU59_LACPE	0.947294	0.081540
+UniRef100_A0A515ITR1 CRISPR-associated endonuclease Cas9 n=2 Tax=Bacteroides TaxID=816 RepID=A0A515ITR1_BACOV	0.948553	0.080249
+UniRef100_A0A7H0RKT0 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus pyogenes TaxID=1314 RepID=A0A7H0RKT0_STRPY	0.947395	0.081531
+UniRef100_A0A6N3WP99 CRISPR-associated endonuclease Cas9 n=2 Tax=Geobacillus TaxID=129337 RepID=A0A6N3WP99_9BACI	0.947857	0.081505
+UniRef100_A0A6C2W828 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus pyogenes TaxID=1314 RepID=A0A6C2W828_STRPY	0.947690	0.081265
+UniRef100_A0A316SQN8 CRISPR-associated endonuclease Cas9 n=1 Tax=Subdoligranulum sp. TaxID=2053618 RepID=A0A316SQN8_9FIRM	0.948211	0.081535
+UniRef100_A0A250FIA9 CRISPR-associated endonuclease Cas9 n=1 Tax=Capnocytophaga sputigena TaxID=1019 RepID=A0A250FIA9_CAPSP	0.947509	0.080320
+UniRef100_A0A0Q9CTQ5 CRISPR-associated endonuclease Cas9 n=1 Tax=Acidovorax sp. Root275 TaxID=1736508 RepID=A0A0Q9CTQ5_9BURK	0.947274	0.082225
+UniRef100_A0A378XLB9 CRISPR-associated endonuclease Cas9 n=1 Tax=Oligella urethralis TaxID=90245 RepID=A0A378XLB9_9BURK	0.947630	0.081831
+UniRef100_A0A2A3N7Z4 CRISPR-associated endonuclease Cas9 n=1 Tax=Capnocytophaga sputigena TaxID=1019 RepID=A0A2A3N7Z4_CAPSP	0.947896	0.080477
+UniRef100_A0A1G6G0J4 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacteroides ovatus TaxID=28116 RepID=A0A1G6G0J4_BACOV	0.948259	0.080473
+UniRef100_A0A380JYP3 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus gallolyticus TaxID=315405 RepID=A0A380JYP3_9STRE	0.948021	0.081459
+UniRef100_A9HKP2 CRISPR-associated endonuclease Cas9 n=2 Tax=Gluconacetobacter diazotrophicus TaxID=33996 RepID=A9HKP2_GLUDA	0.947062	0.082281
+UniRef100_A0A2J9QDJ7 CRISPR-associated endonuclease Cas9 n=3 Tax=Streptococcus TaxID=1301 RepID=A0A2J9QDJ7_STRMG	0.947584	0.081413
+UniRef100_A0A3C0JET5 CRISPR-associated endonuclease Cas9 n=1 Tax=Methylococcaceae bacterium TaxID=1933926 RepID=A0A3C0JET5_9GAMM	0.947901	0.081529
+UniRef100_A0A412RM41 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacteroides cellulosilyticus TaxID=246787 RepID=A0A412RM41_9BACE	0.947364	0.080315
+UniRef100_A0A1S1DBV4 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus sp. HMSC066F01 TaxID=1715134 RepID=A0A1S1DBV4_9STRE	0.947631	0.081358
+UniRef100_H8MA21 CRISPR-associated endonuclease Cas9 n=1 Tax=Riemerella anatipestifer (strain ATCC 11845 / DSM 15868 / JCM 9532 / NCTC 11014) TaxID=693978 RepID=H8MA21_RIEAD	0.947740	0.081578
+UniRef100_A0A510WCH5 CRISPR-associated endonuclease Cas9 n=1 Tax=Enterococcus thailandicus TaxID=417368 RepID=A0A510WCH5_ENTTH	0.947834	0.081300
+UniRef100_A0A416HZK2 CRISPR-associated endonuclease Cas9 n=2 Tax=unclassified Clostridium TaxID=2614128 RepID=A0A416HZK2_9CLOT	0.947721	0.081359
+UniRef100_S3CB04 CRISPR-associated endonuclease Cas9 n=1 Tax=Capnocytophaga sp. oral taxon 336 str. F0502 TaxID=1203603 RepID=S3CB04_9FLAO	0.948238	0.080586
+UniRef100_A0A249SGB5 CRISPR-associated endonuclease Cas9 n=1 Tax=Enterococcus thailandicus TaxID=417368 RepID=A0A249SGB5_ENTTH	0.947855	0.081292
+UniRef100_A0A5R9BZQ0 CRISPR-associated endonuclease Cas9 n=1 Tax=Pediococcus stilesii TaxID=331679 RepID=A0A5R9BZQ0_9LACO	0.947429	0.081416
+UniRef100_A0A449BGR5 CRISPR-associated endonuclease Cas9 n=1 Tax=Mycoplasma arginini TaxID=2094 RepID=A0A449BGR5_MYCAR	0.947745	0.081303
+UniRef100_A0A1E3KQ44 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactiplantibacillus plantarum TaxID=1590 RepID=A0A1E3KQ44_LACPN	0.850150	0.289773
+UniRef100_A0A416S075 CRISPR-associated endonuclease Cas9 n=1 Tax=Blautia sp. AF19-13LB TaxID=2292962 RepID=A0A416S075_9FIRM	0.948048	0.081467
+UniRef100_A0A3A9HW26 CRISPR-associated endonuclease Cas9 n=2 Tax=Eubacteriales TaxID=186802 RepID=A0A3A9HW26_9FIRM	0.947712	0.081612
+UniRef100_A0A0F4LMR6 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactobacillus kimbladii TaxID=1218506 RepID=A0A0F4LMR6_9LACO	0.947838	0.081178
+UniRef100_A0A496M107 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus sp. TaxID=1306 RepID=A0A496M107_STRSP	0.947564	0.081366
+UniRef100_A0A354QSH8 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus sp. TaxID=1306 RepID=A0A354QSH8_STRSP	0.947106	0.081567
+UniRef100_A0A315BCR7 CRISPR-associated endonuclease Cas9 n=1 Tax=Riemerella anatipestifer TaxID=34085 RepID=A0A315BCR7_RIEAN	0.948165	0.080979
+UniRef100_A0A3R6S0A0 CRISPR-associated endonuclease Cas9 n=1 Tax=Clostridium sp. AF34-13 TaxID=2293012 RepID=A0A3R6S0A0_9CLOT	0.948191	0.081354
+UniRef100_A0A3D0CP66 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus sp. TaxID=1306 RepID=A0A3D0CP66_STRSP	0.948084	0.081414
+UniRef100_A0A7H4UGT7 CRISPR-associated endonuclease Cas9 n=2 Tax=Lactiplantibacillus TaxID=2767842 RepID=A0A7H4UGT7_LACPN	0.850349	0.289840
+UniRef100_A0A368UD41 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus gallolyticus TaxID=315405 RepID=A0A368UD41_9STRE	0.947646	0.081330
+UniRef100_A0A372V3U8 CRISPR-associated endonuclease Cas9 n=1 Tax=Subdoligranulum sp. AM16-9 TaxID=2302960 RepID=A0A372V3U8_9FIRM	0.947186	0.082137
+UniRef100_A0A7Z2SHF7 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactiplantibacillus plantarum TaxID=1590 RepID=A0A7Z2SHF7_LACPN	0.850125	0.289757
+UniRef100_A0A3E2SFG3 CRISPR-associated endonuclease Cas9 n=2 Tax=Streptococcus gallolyticus TaxID=315405 RepID=A0A3E2SFG3_9STRE	0.948053	0.081480
+UniRef100_A0A1I7JPD5 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus gallolyticus TaxID=315405 RepID=A0A1I7JPD5_9STRE	0.947586	0.081347
+UniRef100_A0A2S6F9Q4 Type II-B CRISPR-associated RNA-guided endonuclease Cas9/Csx12 n=2 Tax=Legionella pneumophila TaxID=446 RepID=A0A2S6F9Q4_LEGPN	0.947471	0.080762
+UniRef100_T1ZF93 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus intermedius B196 TaxID=862967 RepID=T1ZF93_STRIT	0.948001	0.081441
+UniRef100_A0A2T4TGJ0 CRISPR-associated endonuclease Cas9 n=1 Tax=Prevotella sp. oral taxon 313 TaxID=652722 RepID=A0A2T4TGJ0_9BACT	0.948143	0.080897
+UniRef100_A0A7U9P958 CRISPR-associated endonuclease Cas9 n=1 Tax=Geobacillus sp. MAS1 TaxID=1408282 RepID=A0A7U9P958_9BACI	0.947890	0.081552
+UniRef100_A0A116M370 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus suis TaxID=1307 RepID=A0A116M370_STRSU	0.947426	0.081441
+UniRef100_A0A116RA22 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus suis TaxID=1307 RepID=A0A116RA22_STRSU	0.947574	0.081342
+UniRef100_A0A829ZAM6 CRISPR-associated endonuclease Cas9 n=2 Tax=[Clostridium] cocleatum TaxID=69824 RepID=A0A829ZAM6_9FIRM	0.948375	0.081356
+UniRef100_A0A0Z8JWB5 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus suis TaxID=1307 RepID=A0A0Z8JWB5_STRSU	0.947566	0.081331
+UniRef100_A0A7U7P1J8 CRISPR-associated endonuclease Cas9 n=3 Tax=Listeria TaxID=1637 RepID=A0A7U7P1J8_LISMN	0.947695	0.081423
+UniRef100_A0A5K1Q0J7 CRISPR-associated endonuclease Cas9 n=6 Tax=Listeria monocytogenes TaxID=1639 RepID=A0A5K1Q0J7_LISMN	0.947677	0.081397
+UniRef100_J4K985 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus oralis SK304 TaxID=1161421 RepID=J4K985_STROR	0.947715	0.081313
+UniRef100_A0A111NJ61 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus pneumoniae TaxID=1313 RepID=A0A111NJ61_STREE	0.948100	0.081437
+UniRef100_A0A116L128 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus suis TaxID=1307 RepID=A0A116L128_STRSU	0.947465	0.081458
+UniRef100_A0A7U8GYG1 CRISPR-associated endonuclease Cas9 n=1 Tax=Listeria monocytogenes TaxID=1639 RepID=A0A7U8GYG1_LISMN	0.947761	0.081326
+UniRef100_A0A1Z4BNN5 CRISPR-associated endonuclease Cas9 n=1 Tax=Capnocytophaga endodontalis TaxID=2708117 RepID=A0A1Z4BNN5_9FLAO	0.948216	0.080533
+UniRef100_A0A6I3S820 Type II-B CRISPR-associated RNA-guided endonuclease Cas9/Csx12 n=1 Tax=Parasutterella excrementihominis TaxID=487175 RepID=A0A6I3S820_9BURK	0.936107	0.091114
+UniRef100_A0A4V0EAF4 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus gordonii TaxID=1302 RepID=A0A4V0EAF4_STRGN	0.947576	0.081354
+UniRef100_A0A6L8MXN1 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus suis TaxID=1307 RepID=A0A6L8MXN1_STRSU	0.947423	0.081460
+UniRef100_A0A4S2API0 CRISPR-associated endonuclease Cas9 n=2 Tax=Muribaculaceae TaxID=2005473 RepID=A0A4S2API0_9BACT	0.922234	0.091014
+UniRef100_A0A7U7TVC8 CRISPR-associated endonuclease Cas9 n=1 Tax=Listeria monocytogenes TaxID=1639 RepID=A0A7U7TVC8_LISMN	0.947573	0.081396
+UniRef100_E0F2V7 CRISPR-associated endonuclease Cas9 n=1 Tax=Actinobacillus pleuropneumoniae serovar 10 str. D13039 TaxID=754259 RepID=E0F2V7_ACTPL	0.947659	0.081721
+UniRef100_A0A380M9A5 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus viridans TaxID=78535 RepID=A0A380M9A5_9STRE	0.947175	0.081640
+UniRef100_A0A4T2HD20 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus suis TaxID=1307 RepID=A0A4T2HD20_STRSU	0.946726	0.081238
+UniRef100_A0A6A8MEK5 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactobacillus porci TaxID=2012477 RepID=A0A6A8MEK5_9LACO	0.947534	0.081144
+UniRef100_A0A540UXY0 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus suis TaxID=1307 RepID=A0A540UXY0_STRSU	0.947502	0.081376
+UniRef100_A0A6G7ESW6 CRISPR-associated endonuclease Cas9 n=1 Tax=Macrococcus canis TaxID=1855823 RepID=A0A6G7ESW6_9STAP	0.947989	0.081275
+UniRef100_A0A0B7IR20 CRISPR-associated endonuclease Cas9 n=1 Tax=Capnocytophaga canimorsus TaxID=28188 RepID=A0A0B7IR20_9FLAO	0.948212	0.080817
+UniRef100_A0A2T5XRH2 CRISPR-associated endonuclease Cas9 n=1 Tax=Capnocytophaga leadbetteri TaxID=327575 RepID=A0A2T5XRH2_9FLAO	0.948322	0.080440
+UniRef100_A0A412JRU1 CRISPR-associated endonuclease Cas9 n=3 Tax=Bacteroides TaxID=816 RepID=A0A412JRU1_BACUN	0.948500	0.080808
+UniRef100_A0A116KAQ7 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus suis TaxID=1307 RepID=A0A116KAQ7_STRSU	0.947582	0.081351
+UniRef100_A0A7C8FGL8 CRISPR-associated endonuclease Cas9 n=1 Tax=Roseomonas genomospecies 6 TaxID=214106 RepID=A0A7C8FGL8_9PROT	0.946786	0.082459
+UniRef100_A0A2Z4PMQ5 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus suis TaxID=1307 RepID=A0A2Z4PMQ5_STRSU	0.947542	0.081352
+UniRef100_A0A250G4N4 CRISPR-associated endonuclease Cas9 n=1 Tax=Capnocytophaga canimorsus TaxID=28188 RepID=A0A250G4N4_9FLAO	0.948155	0.080818
+UniRef100_A0A4V0EBF6 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus suis TaxID=1307 RepID=A0A4V0EBF6_STRSU	0.947581	0.081350
+UniRef100_A0A6Z2PIJ1 CRISPR-associated endonuclease Cas9 n=1 Tax=Listeria monocytogenes TaxID=1639 RepID=A0A6Z2PIJ1_LISMN	0.947783	0.081366
+UniRef100_A0A448U436 CRISPR-associated endonuclease Cas9 n=1 Tax=Capnocytophaga canimorsus TaxID=28188 RepID=A0A448U436_9FLAO	0.948112	0.080623
+UniRef100_A0A7Y6VEQ1 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus suis TaxID=1307 RepID=A0A7Y6VEQ1_STRSU	0.947883	0.081516
+UniRef100_A0A4R9C2C8 CRISPR-associated endonuclease Cas9 n=2 Tax=Helcococcus ovis TaxID=72026 RepID=A0A4R9C2C8_9FIRM	0.948298	0.081410
+UniRef100_A0A0Z8GCN2 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus suis TaxID=1307 RepID=A0A0Z8GCN2_STRSU	0.947526	0.081366
+UniRef100_A0A1B3PSQ7 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactobacillus johnsonii TaxID=33959 RepID=A0A1B3PSQ7_LACJH	0.948052	0.081150
+UniRef100_A0A096D253 CRISPR-associated endonuclease Cas9 n=1 Tax=Prevotella amnii DNF00058 TaxID=1401066 RepID=A0A096D253_9BACT	0.948323	0.080442
+UniRef100_A0A4Z1DY29 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus rubneri TaxID=1234680 RepID=A0A4Z1DY29_9STRE	0.948063	0.081405
+UniRef100_A0A6I6R1W8 CRISPR-associated endonuclease Cas9 n=1 Tax=Bifidobacterium adolescentis TaxID=1680 RepID=A0A6I6R1W8_BIFAD	0.947112	0.081913
+UniRef100_A0A2X4R1A3 CRISPR-associated endonuclease Cas9 n=1 Tax=Gemella morbillorum TaxID=29391 RepID=A0A2X4R1A3_9BACL	0.948073	0.081128
+UniRef100_A0A4P7WJK1 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus pasteurianus TaxID=197614 RepID=A0A4P7WJK1_9STRE	0.947510	0.081396
+UniRef100_A0A4Z0GEH8 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactobacillus johnsonii TaxID=33959 RepID=A0A4Z0GEH8_LACJH	0.948049	0.081141
+UniRef100_A0A3Q9V899 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactobacillus johnsonii TaxID=33959 RepID=A0A3Q9V899_LACJH	0.947999	0.081157
+UniRef100_A0A7J5NFJ7 CRISPR-associated endonuclease Cas9 n=2 Tax=Bifidobacterium TaxID=1678 RepID=A0A7J5NFJ7_BIFAD	0.947141	0.081909
+UniRef100_A0A369Z3K3 CRISPR-associated endonuclease Cas9 n=1 Tax=Haemophilus parainfluenzae TaxID=729 RepID=A0A369Z3K3_HAEPA	0.947893	0.081659
+UniRef100_A0A2N2RZT5 CRISPR-associated endonuclease Cas9 n=1 Tax=Betaproteobacteria bacterium HGW-Betaproteobacteria-4 TaxID=2013716 RepID=A0A2N2RZT5_9PROT	0.947570	0.082122
+UniRef100_A0A2I1UN85 CRISPR-associated endonuclease Cas9 n=2 Tax=Bacteria TaxID=2 RepID=A0A2I1UN85_STROR	0.947607	0.081349
+UniRef100_F9DDR2 CRISPR-associated endonuclease Cas9 n=1 Tax=Prevotella nigrescens ATCC 33563 TaxID=997352 RepID=F9DDR2_9BACT	0.948341	0.081325
+UniRef100_A0A0M4G8J7 CRISPR-associated endonuclease Cas9 n=1 Tax=Capnocytophaga sp. oral taxon 323 TaxID=1705617 RepID=A0A0M4G8J7_9FLAO	0.948313	0.080812
+UniRef100_A0A7U7J083 CRISPR-associated endonuclease Cas9 n=1 Tax=Parasaccharibacter apium TaxID=1510841 RepID=A0A7U7J083_9PROT	0.947494	0.082102
+UniRef100_A0A7K2BGD8 CRISPR-associated endonuclease Cas9 n=1 Tax=Acidimicrobiales bacterium TaxID=2201156 RepID=A0A7K2BGD8_9ACTN	0.946558	0.082369
+UniRef100_A0A6L9GMB2 CRISPR-associated endonuclease Cas9 n=1 Tax=Rodentibacter pneumotropicus TaxID=758 RepID=A0A6L9GMB2_9PAST	0.947269	0.081875
+UniRef100_A0A3A6VZU4 CRISPR-associated endonuclease Cas9 n=1 Tax=Veillonella atypica TaxID=39777 RepID=A0A3A6VZU4_9FIRM	0.948484	0.081174
+UniRef100_A0A137PP63 CRISPR-associated endonuclease Cas9 n=1 Tax=Lactobacillus johnsonii TaxID=33959 RepID=A0A137PP63_LACJH	0.948038	0.081142
+UniRef100_A0A1Q6TH32 CRISPR-associated endonuclease Cas9 n=1 Tax=Ruminococcus sp. 37_24 TaxID=1897019 RepID=A0A1Q6TH32_9FIRM	0.948271	0.081412
+UniRef100_A0A2I1TYJ5 CRISPR-associated endonuclease Cas9 n=3 Tax=Bacteria TaxID=2 RepID=A0A2I1TYJ5_STRMT	0.947564	0.081380
+UniRef100_A0A2I1UEE6 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus oralis subsp. dentisani TaxID=1458253 RepID=A0A2I1UEE6_STROR	0.948073	0.081440
+UniRef100_I4ZCD3 CRISPR-associated endonuclease Cas9 n=1 Tax=Prevotella bivia DSM 20514 TaxID=868129 RepID=I4ZCD3_9BACT	0.948240	0.081120
+UniRef100_A0A2N3DDI4 CRISPR-associated endonuclease Cas9 n=1 Tax=Alphaproteobacteria bacterium HGW-Alphaproteobacteria-14 TaxID=2013660 RepID=A0A2N3DDI4_9PROT	0.947347	0.082171
+UniRef100_S3KPV3 CRISPR-associated endonuclease Cas9 n=1 Tax=Treponema denticola SP23 TaxID=999435 RepID=S3KPV3_TREDN	0.948079	0.081845
+UniRef100_A0A7L8W4F6 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus sp. KS 6 TaxID=2598457 RepID=A0A7L8W4F6_9STRE	0.948045	0.081450
+UniRef100_A0A2D8QFT9 CRISPR-associated endonuclease Cas9 n=1 Tax=Tistrella sp. TaxID=2024861 RepID=A0A2D8QFT9_9PROT	0.946750	0.082531
+UniRef100_A0A4R4B4N9 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacillus thuringiensis TaxID=1428 RepID=A0A4R4B4N9_BACTU	0.948110	0.081439
+UniRef100_A0A7H1C4Q0 CRISPR-associated endonuclease Cas9 n=1 Tax=Mannheimia bovis TaxID=2770636 RepID=A0A7H1C4Q0_9PAST	0.947669	0.081794
+UniRef100_A0A1B2IX11 CRISPR-associated endonuclease Cas9 n=1 Tax=Secundilactobacillus paracollinoides TaxID=240427 RepID=A0A1B2IX11_9LACO	0.740424	0.374381
+UniRef100_A0A6L5LPS6 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacillus thuringiensis TaxID=1428 RepID=A0A6L5LPS6_BACTU	0.947961	0.081482
+UniRef100_A0A0V0PNI8 CRISPR-associated endonuclease Cas9 n=1 Tax=Alicyclobacillus tengchongensis TaxID=368812 RepID=A0A0V0PNI8_9BACL	0.947500	0.081755
+UniRef100_A0A1E9CQT0 CRISPR-associated endonuclease Cas9 n=2 Tax=Bacteroides TaxID=816 RepID=A0A1E9CQT0_9BACE	0.948547	0.080467
+UniRef100_Q7NAI2 CRISPR-associated endonuclease Cas9 n=1 Tax=Mycoplasma gallisepticum (strain R(low / passage 15 / clone 2)) TaxID=710127 RepID=Q7NAI2_MYCGA	0.947972	0.081418
+UniRef100_A0A828ZS19 CRISPR-associated protein cas9/csn1, subtype II/nmemi n=2 Tax=Enterococcus faecium TaxID=1352 RepID=A0A828ZS19_ENTFC	0.947826	0.081337
+UniRef100_A0A250EXV0 CRISPR-associated endonuclease Cas9 n=1 Tax=Capnocytophaga canimorsus TaxID=28188 RepID=A0A250EXV0_9FLAO	0.947967	0.080933
+UniRef100_A0A416A6F9 CRISPR-associated endonuclease Cas9 n=1 Tax=Parabacteroides sp. AF48-14 TaxID=2292052 RepID=A0A416A6F9_9BACT	0.948299	0.080895
+UniRef100_A0A417HY10 CRISPR-associated endonuclease Cas9 n=3 Tax=unclassified Blautia TaxID=2648079 RepID=A0A417HY10_9FIRM	0.948062	0.081481
+UniRef100_I3TWJ0 CRISPR-associated endonuclease Cas9 n=1 Tax=Tistrella mobilis (strain KA081020-065) TaxID=1110502 RepID=I3TWJ0_TISMK	0.947088	0.082254
+UniRef100_A0A0E2Q4M6 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus thermophilus M17PTZA496 TaxID=1433289 RepID=A0A0E2Q4M6_STRTR	0.948040	0.081436
+UniRef100_A0A373XMT8 CRISPR-associated endonuclease Cas9 n=1 Tax=Ruminococcus sp. AF17-11 TaxID=2293150 RepID=A0A373XMT8_9FIRM	0.947774	0.081574
+UniRef100_A0A2S0LIZ8 CRISPR-associated endonuclease Cas9 n=1 Tax=Capnocytophaga sp. oral taxon 864 TaxID=1316593 RepID=A0A2S0LIZ8_9FLAO	0.947963	0.080574
+UniRef100_A0A4S2AP11 CRISPR-associated endonuclease Cas9 n=1 Tax=Bacteroides sp. NM69_E16B TaxID=2516960 RepID=A0A4S2AP11_9BACE	0.948489	0.080823
+UniRef100_A0A323UW31 CRISPR-associated endonuclease Cas9 n=1 Tax=Rhodopseudomonas palustris TaxID=1076 RepID=A0A323UW31_RHOPL	0.947357	0.082229
+UniRef100_A1IQ68 CRISPR-associated endonuclease Cas9 n=2 Tax=Neisseria meningitidis TaxID=487 RepID=CAS9_NEIMA	0.947912	0.081726
+UniRef100_A0A6H6GQ40 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A6H6GQ40_CAMJU	0.947842	0.081570
+UniRef100_D7N2B0 CRISPR-associated endonuclease Cas9 n=1 Tax=Neisseria sp. oral taxon 014 str. F0314 TaxID=641149 RepID=D7N2B0_9NEIS	0.947971	0.081703
+UniRef100_A0A6W1V9K0 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A6W1V9K0_CAMJU	0.947873	0.081551
+UniRef100_A0A3S4QG93 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus vestibularis TaxID=1343 RepID=A0A3S4QG93_STRVE	0.948087	0.081409
+UniRef100_A0A3P1Z8E7 CRISPR-associated endonuclease Cas9 n=1 Tax=Tannerella forsythia TaxID=28112 RepID=A0A3P1Z8E7_TANFO	0.948128	0.080849
+UniRef100_A0A387B5A8 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus gwangjuense TaxID=1433513 RepID=A0A387B5A8_9STRE	0.947617	0.081341
+UniRef100_A0A0H3BZZ0 CRISPR-associated endonuclease Cas9 n=1 Tax=Streptococcus pyogenes serotype M49 (strain NZ131) TaxID=471876 RepID=A0A0H3BZZ0_STRPZ	0.947688	0.081284
+UniRef100_A0A6H8NA36 CRISPR-associated endonuclease Cas9 n=1 Tax=Campylobacter jejuni TaxID=197 RepID=A0A6H8NA36_CAMJU	0.947866	0.081552
