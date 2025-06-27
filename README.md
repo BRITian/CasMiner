@@ -60,7 +60,8 @@ mulu_logs = "LOGs/"  # Default recommended, change for custom location
 For example, here set `percentage = "80"`, `tar_rep_id = "5"` for the sequence internal rearrange 80% of the 5th fold data for model training, and the **modified script** is used to build the model with the following command line:  
 
 	python keras_unicas.py 80 5  
- 
+
+![Model_logs](https://github.com/BRITian/CasMiner/blob/main/04_Model_logs/Model_logs.png) 
 
 
 
