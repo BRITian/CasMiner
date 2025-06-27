@@ -61,14 +61,19 @@ For example, here set `percentage = "80"`, `tar_rep_id = "5"` for the sequence i
 
 	python keras_unicas.py 80 5  
 
-![Model_logs](https://github.com/BRITian/CasMiner/blob/main/04_Model_logs/Model_logs.png) 
+# Generalization capability
+We constructed four independent benchmark datasets:  
+> UniRef100 Cas9 dataset (Cas9-100; 1,097 sequences);  
+> Nuclease dataset (208 sequences);  
+> Cas12 and Cas13 dataset (Cas12-13; 316 sequences);  
+> Helicase dataset (570 sequences).  
 
+Evaluation across these four completely independent test datasets demonstrates that **<span style="color:red">CasMiner exhibits significantly stronger generalization capability</span>** compared to both homology-based models and alternative computational approaches.
 
+![Model_Generalization](https://github.com/BRITian/CasMiner/blob/main/05_Model_Generalization/Model_Generalization.png)
 
+# CasMiner prediction
 
-
-Predict the sequence 
-====
 Put the model folder (**CasMiner/MODELs/**), the predicted python file (**CasMiner-Pred.py**) and the amino acid sequences file (**FILE_NAME.fa**, or fasta file with any extension) to be predicted in the same directory, and then enter the python=2.7 environment to run:
 
 **Condition 1**: (Large batch) sequences are only predicted without feature extraction and visualization **[pred_only=1(True)]**:
