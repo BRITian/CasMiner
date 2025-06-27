@@ -98,4 +98,10 @@ In addition to the comment("#") rows, there are three columns. The first column 
 	# id	AVE(Cas9 Yes)	STD(Cas9 Yes)			# (comment row）
 	Q99ZW2-Cas9	0.999692	0.000409
 
-As shown in the example (**Q99ZW2-cas9.fa**) results above, the larger the value in the second column (AVE) and the somaller the value in the third column (STD), the higher the probability that the sequence is Cas9.. 
+As shown in the example (**Q99ZW2-cas9.fa**) results above, the larger the value in the second column (AVE) and the somaller the value in the third column (STD), the higher the probability that the sequence is Cas9.
+
+![Model_Generalization](https://github.com/BRITian/CasMiner/blob/main/06_Model_prediction/Model_prediction.png)
+
+
+
+
