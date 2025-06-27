@@ -63,10 +63,10 @@ For example, here set `percentage = "80"`, `tar_rep_id = "5"` for the sequence i
 
 # Generalization capability
 We constructed four independent benchmark datasets:  
-> UniRef100 Cas9 dataset (Cas9-100; 1,097 sequences);  
-> Nuclease dataset (208 sequences);  
-> Cas12 and Cas13 dataset (Cas12-13; 316 sequences);  
-> Helicase dataset (570 sequences).  
+> - UniRef100 Cas9 dataset (Cas9-100; 1,097 sequences);  
+> - Nuclease dataset (208 sequences);  
+> - Cas12 and Cas13 dataset (Cas12-13; 316 sequences);  
+> - Helicase dataset (570 sequences).  
 
 Evaluation across these four completely independent test datasets demonstrates that **`CasMiner exhibits significantly stronger generalization capability`** compared to both homology-based models and alternative computational approaches.
 
