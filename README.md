@@ -135,6 +135,7 @@ In addition to the comment("#") rows, there are three columns. The first column 
   	P38036-Helicase	0.025560	0.026849
 	A0Q7Q2-Cas12a	0.018125	0.020241
 	E4T0I2-Cas13a	0.025024	0.027344
+ 	...	...	...
 
 As shown in the example (**Q99ZW2-cas9**) results above, the larger the value in the second column (AVE) and the somaller the value in the third column (STD), the higher the probability that the sequence is Cas9.
 
