@@ -36,7 +36,7 @@ And the operating environment, powerful generalization capability, and implement
 Models (**CasMiner**) training were performed via `keras_unicas.py` (https://github.com/BRITian/CasMiner/blob/main/03_Model_training/keras_unicas.py).
 
 ### Script Configuration Guide
-Before running the `keras_unicas.py` script, configure these critical parameters:
+Before running the `keras_unicas.py` script, configure these critical parameters, and the data of **p80_trte**(https://github.com/BRITian/CasMiner/tree/main/03_Model_training/p80_trte) is provided here.:
 
 ```python
 # ===== Command Line Arguments =====
