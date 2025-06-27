@@ -1,0 +1,571 @@
+id,pred_score
+sp|A1Z9L3|DHX8_DROME ATP-dependent RNA helicase DHX8 OS=Drosophila melanogaster OX=7227 GN=pea PE=1 SV=1,0.49645415972109275
+sp|A2PYH4|HFM1_HUMAN Probable ATP-dependent DNA helicase HFM1 OS=Homo sapiens OX=9606 GN=HFM1 PE=1 SV=2,0.47316593774899884
+sp|A4K436|RTEL1_BOVIN Regulator of telomere elongation helicase 1 OS=Bos taurus OX=9913 GN=RTEL1 PE=2 SV=1,0.4850047285085757
+sp|A6ZM04|PIF1_YEAS7 ATP-dependent DNA helicase PIF1 OS=Saccharomyces cerevisiae (strain YJM789) OX=307796 GN=PIF1 PE=3 SV=1,0.47829165008171176
+sp|B2RR83|YTDC2_MOUSE 3'-5' RNA helicase YTHDC2 OS=Mus musculus OX=10090 GN=Ythdc2 PE=1 SV=1,0.45536463174833
+sp|B4LX81|SPNE_DROVI Probable ATP-dependent RNA helicase spindle-E OS=Drosophila virilis OX=7244 GN=spn-E PE=3 SV=1,0.4553860438024533
+sp|B6DMK2|MER3_ORYSJ ATP-dependent DNA helicase MER3 homolog OS=Oryza sativa subsp. japonica OX=39947 GN=MER3 PE=2 SV=1,0.5060989841216262
+sp|B6EU02|JBP2_LEITA Bifunctional helicase and thymine dioxygenase JBP2 OS=Leishmania tarentolae OX=5689 GN=JBP2 PE=1 SV=1,0.46519607624752884
+sp|B6ZLK2|CHD1_CHICK Chromodomain-helicase-DNA-binding protein 1 OS=Gallus gallus OX=9031 GN=CHD1 PE=1 SV=1,0.4880406708187273
+sp|B9DFG3|ISE2_ARATH DExH-box ATP-dependent RNA helicase DExH15 chloroplastic OS=Arabidopsis thaliana OX=3702 GN=ISE2 PE=1 SV=2,0.4529650903354729
+sp|D1KF50|SRS2L_ARATH ATP-dependent DNA helicase SRS2-like protein At4g25120 OS=Arabidopsis thaliana OX=3702 GN=SRS2 PE=1 SV=1,0.5014331098536831
+sp|D3ZVK1|MCM8_RAT DNA helicase MCM8 OS=Rattus norvegicus OX=10116 GN=Mcm8 PE=3 SV=1,0.4790605183177077
+sp|D4A2Z8|DHX36_RAT ATP-dependent DNA/RNA helicase DHX36 OS=Rattus norvegicus OX=10116 GN=Dhx36 PE=1 SV=1,0.43458400611735365
+sp|D4ACP5|RECQ5_RAT ATP-dependent DNA helicase Q5 OS=Rattus norvegicus OX=10116 GN=Recql5 PE=1 SV=1,0.4745875215538273
+sp|E1BPX4|MCM8_BOVIN DNA helicase MCM8 OS=Bos taurus OX=9913 GN=MCM8 PE=3 SV=2,0.4509001001775714
+sp|F1M5F3|MCM9_RAT DNA helicase MCM9 OS=Rattus norvegicus OX=10116 GN=Mcm9 PE=3 SV=2,0.47362791895296047
+sp|F1ND48|FBH1_CHICK F-box DNA helicase 1 OS=Gallus gallus OX=9031 GN=FBH1 PE=2 SV=2,0.4575056071752756
+sp|F1R345|DDX11_DANRE ATP-dependent DNA helicase DDX11 OS=Danio rerio OX=7955 GN=ddx11 PE=2 SV=1,0.47082920428263053
+sp|F4HQE2|RTEL1_ARATH Regulator of telomere elongation helicase 1 homolog OS=Arabidopsis thaliana OX=3702 GN=RTEL1 PE=3 SV=1,0.4620789426620487
+sp|F4IDQ6|NIH_ARATH DExH-box ATP-dependent RNA helicase DExH2 OS=Arabidopsis thaliana OX=3702 GN=NIH PE=1 SV=1,0.4667821684912916
+sp|F4J9M5|CHR12_ARATH Probable ATP-dependent DNA helicase CHR12 OS=Arabidopsis thaliana OX=3702 GN=CHR12 PE=2 SV=1,0.5044797353003444
+sp|F4JAA5|SKI2_ARATH DExH-box ATP-dependent RNA helicase DExH11 OS=Arabidopsis thaliana OX=3702 GN=SKI2 PE=1 SV=1,0.4560763485670318
+sp|F4K128|CHR23_ARATH Probable ATP-dependent DNA helicase CHR23 OS=Arabidopsis thaliana OX=3702 GN=CHR23 PE=2 SV=1,0.4706472801008754
+sp|F4K2E9|PRP16_ARATH Pre-mRNA-splicing factor ATP-dependent RNA helicase DEAH7 OS=Arabidopsis thaliana OX=3702 GN=CUV PE=1 SV=1,0.47078108094908094
+sp|H2KY86|HELQ_CAEEL Helicase POLQ-like OS=Caenorhabditis elegans OX=6239 GN=helq-1 PE=3 SV=1,0.48735429480405046
+sp|I0IUP3|MCM8_CHICK DNA helicase MCM8 OS=Gallus gallus OX=9031 GN=MCM8 PE=1 SV=1,0.4873855287372005
+sp|I0IUP4|MCM9_CHICK DNA helicase MCM9 OS=Gallus gallus OX=9031 GN=MCM9 PE=1 SV=2,0.4193015995451754
+sp|O13768|ERCC3_SCHPO General transcription and DNA repair factor IIH helicase/translocase subunit XPB OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=ptr8 PE=1 SV=1,0.4959704878225484
+sp|O13799|YE02_SCHPO Uncharacterized helicase C17H9.02 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=SPAC17H9.02 PE=1 SV=1,0.4476149079290892
+sp|O13983|HRQ1_SCHPO ATP-dependent helicase hrq1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=hrq1 PE=1 SV=4,0.49683974010329124
+sp|O14139|HRP3_SCHPO Chromodomain helicase hrp3 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=hrp3 PE=1 SV=1,0.5077291527187906
+sp|O14147|CHL1_SCHPO ATP-dependent DNA helicase chl1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=chl1 PE=3 SV=1,0.4742272923601357
+sp|O14232|MTR4_SCHPO ATP-dependent RNA helicase mtr4 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=mtr4 PE=1 SV=1,0.45757676953260346
+sp|O14646|CHD1_HUMAN Chromodomain-helicase-DNA-binding protein 1 OS=Homo sapiens OX=9606 GN=CHD1 PE=1 SV=2,0.518708467011918
+sp|O16102|CHD3_DROME Chromodomain-helicase-DNA-binding protein 3 OS=Drosophila melanogaster OX=7227 GN=Chd3 PE=1 SV=3,0.5412194944157507
+sp|O18017|BLM_CAEEL RecQ-like DNA helicase blm-1 OS=Caenorhabditis elegans OX=6239 GN=him-6 PE=1 SV=2,0.4764885413118259
+sp|O30477|DNAB_RHOMR Replicative DNA helicase DnaB OS=Rhodothermus marinus OX=29549 GN=dnaB PE=3 SV=1,0.43015842827963596
+sp|O42861|FFT3_SCHPO ATP-dependent helicase fft3 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=fft3 PE=1 SV=1,0.46241567507009956
+sp|O45244|DHX16_CAEEL Probable pre-mRNA-splicing factor ATP-dependent RNA helicase mog-4 OS=Caenorhabditis elegans OX=6239 GN=mog-4 PE=1 SV=2,0.49485622367285026
+sp|O60231|DHX16_HUMAN Pre-mRNA-splicing factor ATP-dependent RNA helicase DHX16 OS=Homo sapiens OX=9606 GN=DHX16 PE=1 SV=2,0.4616199867491093
+sp|O60306|AQR_HUMAN RNA helicase aquarius OS=Homo sapiens OX=9606 GN=AQR PE=1 SV=4,0.48084799748148455
+sp|O70133|DHX9_MOUSE ATP-dependent RNA helicase A OS=Mus musculus OX=10090 GN=Dhx9 PE=1 SV=2,0.48539341369344774
+sp|O74465|HRR1_SCHPO Helicase required for RNAi-mediated heterochromatin assembly 1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=hrr1 PE=1 SV=2,0.48155358231190704
+sp|O76743|GLH4_CAEEL ATP-dependent RNA helicase glh-4 OS=Caenorhabditis elegans OX=6239 GN=glh-4 PE=1 SV=2,0.535801047632494
+sp|O88700|BLM_MOUSE RecQ-like DNA helicase BLM OS=Mus musculus OX=10090 GN=Blm PE=1 SV=1,0.44266683814283003
+sp|O94761|RECQ4_HUMAN ATP-dependent DNA helicase Q4 OS=Homo sapiens OX=9606 GN=RECQL4 PE=1 SV=2,0.459202670380449
+sp|O94762|RECQ5_HUMAN ATP-dependent DNA helicase Q5 OS=Homo sapiens OX=9606 GN=RECQL5 PE=1 SV=2,0.48678833336233734
+sp|P07271|PIF1_YEAST ATP-dependent DNA helicase PIF1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=PIF1 PE=1 SV=2,0.47829165008171176
+sp|P12954|SRS2_YEAST ATP-dependent DNA helicase SRS2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SRS2 PE=1 SV=2,0.4918282784920649
+sp|P15938|PRP16_YEAST Pre-mRNA-splicing factor ATP-dependent RNA helicase PRP16 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=PRP16 PE=1 SV=2,0.43578728011343254
+sp|P20095|PRP2_YEAST Pre-mRNA-splicing factor ATP-dependent RNA helicase-like protein PRP2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=PRP2 PE=1 SV=1,0.4900097258269719
+sp|P21372|PRP5_YEAST Pre-mRNA-processing ATP-dependent RNA helicase PRP5 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=PRP5 PE=1 SV=1,0.4435723812446226
+sp|P22516|CHL1_YEAST ATP-dependent DNA helicase CHL1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=CHL1 PE=1 SV=1,0.46249477251061294
+sp|P23249|MOV10_MOUSE Putative helicase MOV-10 OS=Mus musculus OX=10090 GN=Mov10 PE=1 SV=2,0.4849847220735686
+sp|P24384|PRP22_YEAST Pre-mRNA-splicing factor ATP-dependent RNA helicase PRP22 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=PRP22 PE=1 SV=1,0.4707508158764153
+sp|P25439|BRM_DROME ATP-dependent helicase brm OS=Drosophila melanogaster OX=7227 GN=brm PE=1 SV=2,0.42552909635931485
+sp|P30771|RENT1_YEAST ATP-dependent helicase NAM7 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=NAM7 PE=1 SV=1,0.45442732298458716
+sp|P31380|FUN30_YEAST ATP-dependent helicase FUN30 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=FUN30 PE=1 SV=1,0.5388898538400453
+sp|P32644|ECM32_YEAST Putative ATP-dependent RNA helicase ECM32 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=ECM32 PE=1 SV=1,0.4465595922083649
+sp|P35187|SGS1_YEAST ATP-dependent helicase SGS1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SGS1 PE=1 SV=1,0.4546273781362748
+sp|P35207|SKI2_YEAST Antiviral helicase SKI2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SKI2 PE=1 SV=2,0.48520719641175686
+sp|P40201|CHD1_MOUSE Chromodomain-helicase-DNA-binding protein 1 OS=Mus musculus OX=10090 GN=Chd1 PE=1 SV=3,0.4987966795468309
+sp|P40562|MPH1_YEAST ATP-dependent DNA helicase MPH1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=MPH1 PE=1 SV=1,0.45507509960569614
+sp|P42285|MTREX_HUMAN Exosome RNA helicase MTR4 OS=Homo sapiens OX=9606 GN=MTREX PE=1 SV=3,0.4566135800935781
+sp|P47047|MTR4_YEAST ATP-dependent RNA helicase DOB1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=MTR4 PE=1 SV=1,0.48110187971956586
+sp|P51979|HFM1_YEAST ATP-dependent DNA helicase MER3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=HFM1 PE=1 SV=3,0.4753916536779901
+sp|P54132|BLM_HUMAN RecQ-like DNA helicase BLM OS=Homo sapiens OX=9606 GN=BLM PE=1 SV=1,0.46320302324576573
+sp|P79051|RHP16_SCHPO ATP-dependent helicase rhp16 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=rhp16 PE=3 SV=2,0.4738992642508271
+sp|P90897|RDE12_CAEEL DEAD-box ATP-dependent RNA helicase rde-12 OS=Caenorhabditis elegans OX=6239 GN=rde-12 PE=1 SV=4,0.48421359988169194
+sp|P9WMR3|DNAB_MYCTU Replicative DNA helicase DnaB OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=dnaB PE=1 SV=1,0.46387939059990196
+sp|Q00578|RAD25_YEAST General transcription and DNA repair factor IIH helicase/translocase subunit XPB/SSL2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SSL2 PE=1 SV=1,0.4539378771247694
+sp|Q04217|DHR1_YEAST Probable ATP-dependent RNA helicase DHR1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=ECM16 PE=1 SV=1,0.45487721934753816
+sp|Q05471|SWR1_YEAST Helicase SWR1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SWR1 PE=1 SV=1,0.4747326025617401
+sp|Q05549|HRQ1_YEAST ATP-dependent helicase HRQ1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=HRQ1 PE=1 SV=1,0.5067050245051496
+sp|Q05B79|DHX36_BOVIN ATP-dependent DNA/RNA helicase DHX36 OS=Bos taurus OX=9913 GN=DHX36 PE=1 SV=1,0.4769967738472423
+sp|Q06554|IRC20_YEAST Uncharacterized ATP-dependent helicase IRC20 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=IRC20 PE=1 SV=1,0.4525470674736909
+sp|Q08211|DHX9_HUMAN ATP-dependent RNA helicase A OS=Homo sapiens OX=9606 GN=DHX9 PE=1 SV=4,0.4968950716981916
+sp|Q08562|ULS1_YEAST ATP-dependent helicase ULS1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=ULS1 PE=1 SV=1,0.520207902663341
+sp|Q09811|HUS2_SCHPO ATP-dependent DNA helicase hus2/rqh1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=rqh1 PE=1 SV=1,0.45006025291661594
+sp|Q09820|RENT1_SCHPO ATP-dependent helicase upf1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=upf1 PE=3 SV=2,0.49497912709922104
+sp|Q0V8H6|MOV10_BOVIN Putative helicase MOV-10 OS=Bos taurus OX=9913 GN=MOV10 PE=2 SV=1,0.48076545499347484
+sp|Q0VGM9|RTEL1_MOUSE Regulator of telomere elongation helicase 1 OS=Mus musculus OX=10090 GN=Rtel1 PE=1 SV=2,0.4914887495646631
+sp|Q12389|DBP10_YEAST ATP-dependent RNA helicase DBP10 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=DBP10 PE=1 SV=2,0.4308414326725142
+sp|Q13206|DDX10_HUMAN Probable ATP-dependent RNA helicase DDX10 OS=Homo sapiens OX=9606 GN=DDX10 PE=1 SV=2,0.46921531832919866
+sp|Q14147|DHX34_HUMAN Probable ATP-dependent RNA helicase DHX34 OS=Homo sapiens OX=9606 GN=DHX34 PE=1 SV=2,0.4992830662268913
+sp|Q14527|HLTF_HUMAN Helicase-like transcription factor OS=Homo sapiens OX=9606 GN=HLTF PE=1 SV=2,0.5423606648228706
+sp|Q14562|DHX8_HUMAN ATP-dependent RNA helicase DHX8 OS=Homo sapiens OX=9606 GN=DHX8 PE=1 SV=1,0.4885539967017906
+sp|Q14BI7|TDRD9_MOUSE ATP-dependent RNA helicase TDRD9 OS=Mus musculus OX=10090 GN=Tdrd9 PE=1 SV=3,0.4601559227835024
+sp|Q19546|WRN_CAEEL ATP-dependent helicase wrn-1 OS=Caenorhabditis elegans OX=6239 GN=wrn-1 PE=3 SV=2,0.49946174505807067
+sp|Q1XG89|TDR12_BOMMO Putative ATP-dependent RNA helicase TDRD12 OS=Bombyx mori OX=7091 GN=TDRD12 PE=1 SV=2,0.5082447480478097
+sp|Q21489|CHL1_CAEEL ATP-dependent DNA helicase chl-1 OS=Caenorhabditis elegans OX=6239 GN=chl-1 PE=3 SV=2,0.4461632971894268
+sp|Q22307|DHX9_CAEEL ATP-dependent RNA helicase A OS=Caenorhabditis elegans OX=6239 GN=rha-1 PE=2 SV=3,0.46758005033233485
+sp|Q22516|CHD3_CAEEL Chromodomain-helicase-DNA-binding protein 3 homolog OS=Caenorhabditis elegans OX=6239 GN=chd-3 PE=2 SV=2,0.47419522369347505
+sp|Q28141|DHX9_BOVIN ATP-dependent RNA helicase A OS=Bos taurus OX=9913 GN=DHX9 PE=1 SV=1,0.47797496447730353
+sp|Q2KHI9|MCM9_MOUSE DNA helicase MCM9 OS=Mus musculus OX=10090 GN=Mcm9 PE=1 SV=2,0.47509729957513885
+sp|Q2VPA6|HELQ_MOUSE Helicase POLQ-like OS=Mus musculus OX=10090 GN=Helq PE=1 SV=2,0.4504443796108524
+sp|Q381V6|PIF4_TRYB2 ATP-dependent DNA helicase PIF4 OS=Trypanosoma brucei brucei (strain 927/4 GUTat10.1) OX=185431 GN=PIF4 PE=3 SV=1,0.4788583532577433
+sp|Q384Y0|PIF2_TRYB2 ATP-dependent DNA helicase PIF2 OS=Trypanosoma brucei brucei (strain 927/4 GUTat10.1) OX=185431 GN=PIF2 PE=1 SV=1,0.4772328464020524
+sp|Q384Y1|PIF1_TRYB2 ATP-dependent DNA helicase PIF1 OS=Trypanosoma brucei brucei (strain 927/4 GUTat10.1) OX=185431 GN=PIF1 PE=1 SV=1,0.5102319153320353
+sp|Q3MHU3|TDRD9_RAT ATP-dependent RNA helicase TDRD9 OS=Rattus norvegicus OX=10116 GN=Tdrd9 PE=2 SV=3,0.46086992153625933
+sp|Q4TVV3|DDX46_DANRE Probable ATP-dependent RNA helicase DDX46 OS=Danio rerio OX=7955 GN=ddx46 PE=2 SV=1,0.5300609059051378
+sp|Q569Z5|DDX46_MOUSE Probable ATP-dependent RNA helicase DDX46 OS=Mus musculus OX=10090 GN=Ddx46 PE=1 SV=2,0.48259239108609703
+sp|Q57X81|JBP2_TRYB2 Bifunctional helicase and thymine dioxygenase JBP2 OS=Trypanosoma brucei brucei (strain 927/4 GUTat10.1) OX=185431 GN=JBP2 PE=1 SV=1,0.4821391625751674
+sp|Q580X6|PIF5_TRYB2 ATP-dependent DNA helicase PIF5 OS=Trypanosoma brucei brucei (strain 927/4 GUTat10.1) OX=185431 GN=PIF5 PE=1 SV=1,0.4692643008637735
+sp|Q59RQ0|PIF1_CANAL ATP-dependent DNA helicase PIF1 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=PIF1 PE=1 SV=2,0.4643036954919242
+sp|Q5BJS0|DHX30_RAT ATP-dependent RNA helicase DHX30 OS=Rattus norvegicus OX=10116 GN=Dhx30 PE=1 SV=1,0.4592556407777218
+sp|Q5D892|MER3_ARATH DExH-box ATP-dependent RNA helicase DExH17 OS=Arabidopsis thaliana OX=3702 GN=MER3 PE=2 SV=1,0.47224903535549295
+sp|Q5R874|DHX9_PONAB ATP-dependent RNA helicase A OS=Pongo abelii OX=9601 GN=DHX9 PE=2 SV=1,0.4968950716981916
+sp|Q5RJZ1|RTEL1_RAT Regulator of telomere elongation helicase 1 OS=Rattus norvegicus OX=10116 GN=Rtel1 PE=2 SV=2,0.4871401246500934
+sp|Q60848|HELLS_MOUSE Lymphocyte-specific helicase OS=Mus musculus OX=10090 GN=Hells PE=1 SV=2,0.500100570917795
+sp|Q68FK8|DHX9_XENLA ATP-dependent RNA helicase A protein OS=Xenopus laevis OX=8355 GN=dhx9 PE=2 SV=1,0.49757178486946485
+sp|Q6AXC6|DDX11_MOUSE ATP-dependent DNA helicase DDX11 OS=Mus musculus OX=10090 GN=Ddx11 PE=1 SV=2,0.46560250982337487
+sp|Q6H1L8|RTEL1_MUSSP Regulator of telomere elongation helicase 1 OS=Mus spretus OX=10096 GN=Rtel1 PE=2 SV=1,0.48885292091459076
+sp|Q6J5K9|ARMI_DROME Probable RNA helicase armi OS=Drosophila melanogaster OX=7227 GN=armi PE=1 SV=4,0.4843804847380241
+sp|Q6NVF4|HELB_MOUSE DNA helicase B OS=Mus musculus OX=10090 GN=Helb PE=1 SV=2,0.48087144927127334
+sp|Q6P158|DHX57_HUMAN Putative ATP-dependent RNA helicase DHX57 OS=Homo sapiens OX=9606 GN=DHX57 PE=1 SV=2,0.5147115276918163
+sp|Q6PCN7|HLTF_MOUSE Helicase-like transcription factor OS=Mus musculus OX=10090 GN=Hltf PE=1 SV=1,0.5346753296447634
+sp|Q75NR7|RECQ4_MOUSE ATP-dependent DNA helicase Q4 OS=Mus musculus OX=10090 GN=Recql4 PE=2 SV=2,0.4531606761849523
+sp|Q7L014|DDX46_HUMAN Probable ATP-dependent RNA helicase DDX46 OS=Homo sapiens OX=9606 GN=DDX46 PE=1 SV=2,0.4809239742657006
+sp|Q7L2E3|DHX30_HUMAN ATP-dependent RNA helicase DHX30 OS=Homo sapiens OX=9606 GN=DHX30 PE=1 SV=1,0.45804824642240943
+sp|Q7Z478|DHX29_HUMAN ATP-dependent RNA helicase DHX29 OS=Homo sapiens OX=9606 GN=DHX29 PE=1 SV=2,0.5056085592339561
+sp|Q810A7|DDX42_MOUSE ATP-dependent RNA helicase DDX42 OS=Mus musculus OX=10090 GN=Ddx42 PE=1 SV=3,0.4627770954183756
+sp|Q86WJ1|CHD1L_HUMAN Chromodomain-helicase-DNA-binding protein 1-like OS=Homo sapiens OX=9606 GN=CHD1L PE=1 SV=3,0.43479987385445185
+sp|Q86XP3|DDX42_HUMAN ATP-dependent RNA helicase DDX42 OS=Homo sapiens OX=9606 GN=DDX42 PE=1 SV=1,0.46055486708093274
+sp|Q8GYD9|SDE3_ARATH Probable RNA helicase SDE3 OS=Arabidopsis thaliana OX=3702 GN=SDE3 PE=1 SV=1,0.5036843446282789
+sp|Q8H0U8|RH42_ARATH DEAD-box ATP-dependent RNA helicase 42 OS=Arabidopsis thaliana OX=3702 GN=RH42 PE=1 SV=2,0.4369675615891261
+sp|Q8IY21|DDX60_HUMAN Probable ATP-dependent RNA helicase DDX60 OS=Homo sapiens OX=9606 GN=DDX60 PE=1 SV=3,0.48937660276202133
+sp|Q8IY37|DHX37_HUMAN Probable ATP-dependent RNA helicase DHX37 OS=Homo sapiens OX=9606 GN=DHX37 PE=1 SV=1,0.44797484944647925
+sp|Q8K2I9|FBH1_MOUSE F-box DNA helicase 1 OS=Mus musculus OX=10090 GN=Fbh1 PE=1 SV=1,0.4633037036193006
+sp|Q8L840|RQL4A_ARATH ATP-dependent DNA helicase Q-like 4A OS=Arabidopsis thaliana OX=3702 GN=RECQL4A PE=2 SV=1,0.47888789985142244
+sp|Q8NDG6|TDRD9_HUMAN ATP-dependent RNA helicase TDRD9 OS=Homo sapiens OX=9606 GN=TDRD9 PE=1 SV=3,0.4324944639350995
+sp|Q8NFZ0|FBH1_HUMAN F-box DNA helicase 1 OS=Homo sapiens OX=9606 GN=FBH1 PE=1 SV=2,0.4747969790151492
+sp|Q8NG08|HELB_HUMAN DNA helicase B OS=Homo sapiens OX=9606 GN=HELB PE=1 SV=2,0.48457444969199515
+sp|Q8R5F7|IFIH1_MOUSE Interferon-induced helicase C domain-containing protein 1 OS=Mus musculus OX=10090 GN=Ifih1 PE=1 SV=1,0.4675821425044196
+sp|Q8TDD1|DDX54_HUMAN ATP-dependent RNA helicase DDX54 OS=Homo sapiens OX=9606 GN=DDX54 PE=1 SV=2,0.47836197195489716
+sp|Q8TDG4|HELQ_HUMAN Helicase POLQ-like OS=Homo sapiens OX=9606 GN=HELQ PE=1 SV=2,0.45703962637443085
+sp|Q8VHK9|DHX36_MOUSE ATP-dependent DNA/RNA helicase DHX36 OS=Mus musculus OX=10090 GN=Dhx36 PE=1 SV=2,0.4374232771373244
+sp|Q8VID5|RECQ5_MOUSE ATP-dependent DNA helicase Q5 OS=Mus musculus OX=10090 GN=Recql5 PE=1 SV=1,0.4833115753547087
+sp|Q8VY00|ESP3_ARATH Pre-mRNA-splicing factor ATP-dependent RNA helicase DEAH1 OS=Arabidopsis thaliana OX=3702 GN=ESP3 PE=1 SV=1,0.5041831818038116
+sp|Q92355|SEN1_SCHPO Helicase sen1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=sen1 PE=1 SV=1,0.47569270998223945
+sp|Q92620|PRP16_HUMAN Pre-mRNA-splicing factor ATP-dependent RNA helicase PRP16 OS=Homo sapiens OX=9606 GN=DHX38 PE=1 SV=2,0.42336263481142156
+sp|Q93575|RTEL1_CAEEL Regulator of telomere elongation helicase 1 homolog OS=Caenorhabditis elegans OX=6239 GN=rtel-1 PE=3 SV=3,0.5025770447927966
+sp|Q95216|HLTF_RABIT Helicase-like transcription factor OS=Oryctolagus cuniculus OX=9986 GN=HLTF PE=1 SV=1,0.5424970292370279
+sp|Q966L9|GLH2_CAEEL ATP-dependent RNA helicase glh-2 OS=Caenorhabditis elegans OX=6239 GN=glh-2 PE=1 SV=1,0.4560583080200247
+sp|Q96FC9|DDX11_HUMAN ATP-dependent DNA helicase DDX11 OS=Homo sapiens OX=9606 GN=DDX11 PE=1 SV=1,0.4438476020445107
+sp|Q99MV5|M10L1_MOUSE RNA helicase Mov10l1 OS=Mus musculus OX=10090 GN=Mov10l1 PE=1 SV=1,0.49672856929404724
+sp|Q99NG0|ARIP4_MOUSE Helicase ARIP4 OS=Mus musculus OX=10090 GN=Rad54l2 PE=1 SV=1,0.4518525402164626
+sp|Q99PU8|DHX30_MOUSE ATP-dependent RNA helicase DHX30 OS=Mus musculus OX=10090 GN=Dhx30 PE=1 SV=1,0.47799676627675763
+sp|Q9BUQ8|DDX23_HUMAN Probable ATP-dependent RNA helicase DDX23 OS=Homo sapiens OX=9606 GN=DDX23 PE=1 SV=3,0.49134928829150665
+sp|Q9BXT6|M10L1_HUMAN RNA helicase Mov10l1 OS=Homo sapiens OX=9606 GN=MOV10L1 PE=1 SV=1,0.5159412014924525
+sp|Q9BYX4|IFIH1_HUMAN Interferon-induced helicase C domain-containing protein 1 OS=Homo sapiens OX=9606 GN=IFIH1 PE=1 SV=3,0.513365676985176
+sp|Q9CWU0|TDR12_MOUSE Putative ATP-dependent RNA helicase TDRD12 OS=Mus musculus OX=10090 GN=Tdrd12 PE=1 SV=2,0.4980953496827397
+sp|Q9CWV1|MCM8_MOUSE DNA helicase MCM8 OS=Mus musculus OX=10090 GN=Mcm8 PE=1 SV=3,0.4668930938076371
+sp|Q9CXF7|CHD1L_MOUSE Chromodomain-helicase-DNA-binding protein 1-like OS=Mus musculus OX=10090 GN=Chd1l PE=1 SV=1,0.4309881191900678
+sp|Q9CZU3|MTREX_MOUSE Exosome RNA helicase MTR4 OS=Mus musculus OX=10090 GN=Mtrex PE=1 SV=1,0.48459904539229526
+sp|Q9DEY9|BLM_XENLA RecQ-like DNA helicase BLM OS=Xenopus laevis OX=8355 GN=blm PE=2 SV=1,0.4386918915521477
+sp|Q9FT70|RQL4B_ARATH ATP-dependent DNA helicase Q-like 4B OS=Arabidopsis thaliana OX=3702 GN=RECQL4B PE=2 SV=1,0.5027199430215706
+sp|Q9H2U1|DHX36_HUMAN ATP-dependent DNA/RNA helicase DHX36 OS=Homo sapiens OX=9606 GN=DHX36 PE=1 SV=2,0.4746109467610868
+sp|Q9H6S0|YTDC2_HUMAN 3'-5' RNA helicase YTHDC2 OS=Homo sapiens OX=9606 GN=YTHDC2 PE=1 SV=2,0.49448601138298753
+sp|Q9H8H2|DDX31_HUMAN ATP-dependent DNA helicase DDX31 OS=Homo sapiens OX=9606 GN=DDX31 PE=1 SV=2,0.48859254465675284
+sp|Q9HCE1|MOV10_HUMAN Helicase MOV-10 OS=Homo sapiens OX=9606 GN=MOV10 PE=1 SV=2,0.4732043558807502
+sp|Q9I920|BLM_CHICK RecQ-like DNA helicase BLM OS=Gallus gallus OX=9031 GN=BLM PE=1 SV=2,0.44446675476314307
+sp|Q9JIK5|DDX21_MOUSE Nucleolar RNA helicase 2 OS=Mus musculus OX=10090 GN=Ddx21 PE=1 SV=3,0.5008485104486079
+sp|Q9JJY4|DDX20_MOUSE Probable ATP-dependent RNA helicase DDX20 OS=Mus musculus OX=10090 GN=Ddx20 PE=1 SV=2,0.4740304295285053
+sp|Q9NRZ9|HELLS_HUMAN Lymphoid-specific helicase OS=Homo sapiens OX=9606 GN=HELLS PE=1 SV=1,0.45072744878336835
+sp|Q9NXL9|MCM9_HUMAN DNA helicase MCM9 OS=Homo sapiens OX=9606 GN=MCM9 PE=1 SV=4,0.45980131332762597
+sp|Q9NZ71|RTEL1_HUMAN Regulator of telomere elongation helicase 1 OS=Homo sapiens OX=9606 GN=RTEL1 PE=1 SV=2,0.47176715909235084
+sp|Q9P7C7|PRP11_SCHPO Pre-mRNA-processing ATP-dependent RNA helicase prp11 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=prp11 PE=1 SV=1,0.4746016418627031
+sp|Q9SF37|MCM8_ARATH Probable DNA helicase MCM8 OS=Arabidopsis thaliana OX=3702 GN=MCM8 PE=2 SV=2,0.46981730098307595
+sp|Q9UHI6|DDX20_HUMAN Probable ATP-dependent RNA helicase DDX20 OS=Homo sapiens OX=9606 GN=DDX20 PE=1 SV=2,0.4680104792034034
+sp|Q9UJA3|MCM8_HUMAN DNA helicase MCM8 OS=Homo sapiens OX=9606 GN=MCM8 PE=1 SV=2,0.43713108663335587
+sp|Q9US25|HRP1_SCHPO Chromodomain helicase hrp1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=hrp1 PE=1 SV=1,0.4928478410955622
+sp|Q9USU3|FBH1_SCHPO F-box DNA helicase protein 1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=fbh1 PE=1 SV=2,0.48643374105947407
+sp|Q9UT23|MPH1_SCHPO ATP-dependent DNA helicase fml1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=fml1 PE=1 SV=2,0.4811363632481651
+sp|Q9UUA2|PIF1_SCHPO ATP-dependent DNA helicase pfh1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=pfh1 PE=1 SV=1,0.4837843856346792
+sp|Q9VDA0|FANCM_DROME DEAD-box ATP-dependent DNA helicase Fancm OS=Drosophila melanogaster OX=7227 GN=Fancm PE=1 SV=2,0.5269909217706303
+sp|Q9VF26|SPNE_DROME Probable ATP-dependent RNA helicase spindle-E OS=Drosophila melanogaster OX=7227 GN=spn-E PE=2 SV=1,0.4941277571526823
+sp|Q9VGI8|BLM_DROME RecQ-like DNA helicase Blm OS=Drosophila melanogaster OX=7227 GN=Blm PE=1 SV=1,0.4626923603745393
+sp|Q9VSE2|HELQ_DROME Helicase POLQ-like OS=Drosophila melanogaster OX=7227 GN=mus301 PE=1 SV=1,0.5270678089523636
+sp|Q9W484|RTEL1_DROME Regulator of telomere elongation helicase 1 homolog OS=Drosophila melanogaster OX=7227 GN=Rtel1 PE=1 SV=1,0.49455494937740985
+sp|Q9XIF2|MTR4_ARATH DExH-box ATP-dependent RNA helicase DExH9 OS=Arabidopsis thaliana OX=3702 GN=MTR4 PE=2 SV=1,0.46985351344923687
+sp|Q9Y4B4|ARIP4_HUMAN Helicase ARIP4 OS=Homo sapiens OX=9606 GN=RAD54L2 PE=1 SV=4,0.4556526539999902
+sp|Q9ZVW2|HEN2_ARATH DExH-box ATP-dependent RNA helicase DExH10 OS=Arabidopsis thaliana OX=3702 GN=HEN2 PE=1 SV=2,0.44909038322496747
+sp|A0A0P0V4R0|RTEL1_ORYSJ Regulator of telomere elongation helicase 1 homolog OS=Oryza sativa subsp. japonica OX=39947 GN=RTEL1 PE=2 SV=1,0.517308752153812
+sp|A1D8E4|CHL1_NEOFI ATP-dependent DNA helicase chl1 OS=Neosartorya fischeri (strain ATCC 1020 / DSM 3700 / CBS 544.65 / FGSC A1164 / JCM 1740 / NRRL 181 / WB 181) OX=331117 GN=chl1 PE=3 SV=1,0.48608600331693397
+sp|A2A4P0|DHX8_MOUSE ATP-dependent RNA helicase DHX8 OS=Mus musculus OX=10090 GN=Dhx8 PE=2 SV=1,0.4838308846932018
+sp|A2Q8R2|MPH1_ASPNC ATP-dependent DNA helicase mph1 OS=Aspergillus niger (strain ATCC MYA-4892 / CBS 513.88 / FGSC A1513) OX=425011 GN=mph1 PE=3 SV=2,0.4981607744350298
+sp|A2QY22|CHL1_ASPNC ATP-dependent DNA helicase chl1 OS=Aspergillus niger (strain ATCC MYA-4892 / CBS 513.88 / FGSC A1513) OX=425011 GN=chl1 PE=3 SV=1,0.4747103647526578
+sp|A3LN13|CHL1_PICST ATP-dependent DNA helicase CHL1 OS=Scheffersomyces stipitis (strain ATCC 58785 / CBS 6054 / NBRC 10063 / NRRL Y-11545) OX=322104 GN=CHL1 PE=3 SV=2,0.4930728130943105
+sp|A4H7G5|JBP2_LEIBR Bifunctional helicase and thymine dioxygenase JBP2 OS=Leishmania braziliensis OX=5660 GN=JBP2 PE=3 SV=1,0.4761843501485536
+sp|A4HVU6|JBP2_LEIIN Bifunctional helicase and thymine dioxygenase JBP2 OS=Leishmania infantum OX=5671 GN=JBP2 PE=3 SV=2,0.4666455472276308
+sp|A5DNW6|CHL1_PICGU ATP-dependent DNA helicase CHL1 OS=Meyerozyma guilliermondii (strain ATCC 6260 / CBS 566 / DSM 6381 / JCM 1539 / NBRC 10279 / NRRL Y-324) OX=294746 GN=CHL1 PE=3 SV=2,0.47986600222373904
+sp|A5DUW8|CHL1_LODEL ATP-dependent DNA helicase CHL1 OS=Lodderomyces elongisporus (strain ATCC 11503 / CBS 2605 / JCM 1781 / NBRC 1676 / NRRL YB-4239) OX=379508 GN=CHL1 PE=3 SV=1,0.5070313936437494
+sp|A6ZWN8|CHL1_YEAS7 ATP-dependent DNA helicase CHL1 OS=Saccharomyces cerevisiae (strain YJM789) OX=307796 GN=CHL1 PE=3 SV=1,0.46249477251061294
+sp|A8MPP1|D11L8_HUMAN Putative ATP-dependent DNA helicase DDX11-like protein 8 OS=Homo sapiens OX=9606 GN=DDX11L8 PE=1 SV=1,0.44818616625411695
+sp|A8WS58|RTEL1_CAEBR Regulator of telomere elongation helicase 1 homolog OS=Caenorhabditis briggsae OX=6238 GN=rtel-1 PE=3 SV=1,0.48759276621430603
+sp|A9X4T1|CHD1_BOMMO Chromodomain-helicase-DNA-binding protein 1 OS=Bombyx mori OX=7091 GN=CHD1 PE=1 SV=1,0.46327714537934095
+sp|B3M383|SPNE_DROAN Probable ATP-dependent RNA helicase spindle-E OS=Drosophila ananassae OX=7217 GN=spn-E PE=3 SV=1,0.45552891355634356
+sp|B3MSG8|RTEL1_DROAN Regulator of telomere elongation helicase 1 homolog OS=Drosophila ananassae OX=7217 GN=GF20802 PE=3 SV=1,0.4983843339948721
+sp|B3NSW1|RTEL1_DROER Regulator of telomere elongation helicase 1 homolog OS=Drosophila erecta OX=7220 GN=GG18780 PE=3 SV=1,0.49237857189623263
+sp|B3P3W1|SPNE_DROER Probable ATP-dependent RNA helicase spindle-E OS=Drosophila erecta OX=7220 GN=spn-E PE=3 SV=1,0.4711250711589866
+sp|B4GEU5|SPNE_DROPE Probable ATP-dependent RNA helicase spindle-E OS=Drosophila persimilis OX=7234 GN=spn-E PE=3 SV=1,0.45861436259739796
+sp|B4GU19|RTEL1_DROPE Regulator of telomere elongation helicase 1 homolog OS=Drosophila persimilis OX=7234 GN=GL14463 PE=3 SV=1,0.4976772470854446
+sp|B4HLH4|SPNE_DROSE Probable ATP-dependent RNA helicase spindle-E OS=Drosophila sechellia OX=7238 GN=spn-E PE=3 SV=1,0.4946503221760111
+sp|B4I0K4|RTEL1_DROSE Regulator of telomere elongation helicase 1 homolog OS=Drosophila sechellia OX=7238 GN=GM12432 PE=3 SV=1,0.4893293786177139
+sp|B4JNS2|RTEL1_DROGR Regulator of telomere elongation helicase 1 homolog OS=Drosophila grimshawi OX=7222 GN=GH24089 PE=3 SV=1,0.49344584634488675
+sp|B4K5R2|SPNE_DROMO Probable ATP-dependent RNA helicase spindle-E OS=Drosophila mojavensis OX=7230 GN=spn-E PE=3 SV=1,0.450297093384474
+sp|B4L1Z2|RTEL1_DROMO Regulator of telomere elongation helicase 1 homolog OS=Drosophila mojavensis OX=7230 GN=GI15901 PE=3 SV=1,0.4927155255143979
+sp|B4M891|RTEL1_DROVI Regulator of telomere elongation helicase 1 homolog OS=Drosophila virilis OX=7244 GN=GJ16649 PE=3 SV=1,0.4932801284960878
+sp|B4NBB0|SPNE_DROWI Probable ATP-dependent RNA helicase spindle-E OS=Drosophila willistoni OX=7260 GN=spn-E PE=3 SV=1,0.452149499027159
+sp|B4NDG5|RTEL1_DROWI Regulator of telomere elongation helicase 1 homolog OS=Drosophila willistoni OX=7260 GN=GK24923 PE=3 SV=1,0.49381668023139513
+sp|B4PRJ9|SPNE_DROYA Probable ATP-dependent RNA helicase spindle-E OS=Drosophila yakuba OX=7245 GN=spn-E PE=3 SV=1,0.4608504371195467
+sp|B4PZB4|RTEL1_DROYA Regulator of telomere elongation helicase 1 homolog OS=Drosophila yakuba OX=7245 GN=GE16425 PE=3 SV=1,0.4907991236498448
+sp|B6SFA4|MAA3_ARATH Probable helicase MAGATAMA 3 OS=Arabidopsis thaliana OX=3702 GN=MAA3 PE=2 SV=1,0.4500131417663688
+sp|B8A4F4|TDRD9_DANRE ATP-dependent RNA helicase TDRD9 OS=Danio rerio OX=7955 GN=tdrd9 PE=2 SV=1,0.4705951241619728
+sp|D3Z4R1|HFM1_MOUSE Probable ATP-dependent DNA helicase HFM1 OS=Mus musculus OX=10090 GN=Hfm1 PE=3 SV=2,0.4835552426618562
+sp|F1N2W9|MCM9_BOVIN DNA helicase MCM9 OS=Bos taurus OX=9913 GN=MCM9 PE=3 SV=2,0.4579189266702846
+sp|F4IJV4|DEAH6_ARATH Probable pre-mRNA-splicing factor ATP-dependent RNA helicase DEAH6 OS=Arabidopsis thaliana OX=3702 GN=MEE29 PE=2 SV=1,0.47618894418546454
+"sp|F4INA9|RECG_ARATH ATP-dependent DNA helicase homolog RECG, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=RECG PE=3 SV=1",0.475483808583219
+sp|I3XHK1|FANCM_ARATH DEAD-box ATP-dependent RNA helicase FANCM OS=Arabidopsis thaliana OX=3702 GN=FANCM PE=2 SV=1,0.45142436661379615
+sp|O13559|YRF14_YEAST Y' element ATP-dependent helicase protein 1 copy 4 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YRF1-4 PE=2 SV=1,0.4763346850627459
+sp|O13682|SWR1_SCHPO Helicase swr1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=swr1 PE=3 SV=1,0.4704876384479427
+sp|O13762|YF2C_SCHPO Uncharacterized ATP-dependent helicase C17A2.12 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=SPAC17A2.12 PE=3 SV=1,0.4537927280491838
+sp|O42643|PRP22_SCHPO Pre-mRNA-splicing factor ATP-dependent RNA helicase prp22 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=prp22 PE=1 SV=1,0.5225113453100599
+sp|O46072|KZ_DROME Probable ATP-dependent RNA helicase kurz OS=Drosophila melanogaster OX=7227 GN=kz PE=1 SV=1,0.5105765373050304
+sp|O51767|HRPA_BORBU ATP-dependent RNA helicase HrpA OS=Borreliella burgdorferi (strain ATCC 35210 / DSM 4680 / CIP 102532 / B31) OX=224326 GN=hrpA PE=1 SV=1,0.4744833176806827
+sp|O60177|YG42_SCHPO Uncharacterized ATP-dependent helicase C23E6.02 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=SPBC23E6.02 PE=3 SV=1,0.46398318198442384
+sp|O74842|FFT2_SCHPO ATP-dependent helicase fft2 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=fft2 PE=1 SV=1,0.4611205467106865
+sp|P0C928|RTEL1_DANRE Regulator of telomere elongation helicase 1 OS=Danio rerio OX=7955 GN=rtel1 PE=3 SV=1,0.5079988611704307
+sp|P0CX20|YRF11_YEAST Y' element ATP-dependent helicase protein 1 copy 1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YRF1-1 PE=2 SV=1,0.4698872605915756
+sp|P24307|HELI_NPVAC DNA replication helicase OS=Autographa californica nuclear polyhedrosis virus OX=46015 GN=HELI PE=1 SV=2,0.4719577814982031
+sp|P34498|MOG1_CAEEL Probable pre-mRNA-splicing factor ATP-dependent RNA helicase mog-1 OS=Caenorhabditis elegans OX=6239 GN=mog-1 PE=1 SV=2,0.4567223618252783
+sp|P40105|YRF12_YEAST Y' element ATP-dependent helicase protein 1 copy 2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YRF1-2 PE=2 SV=2,0.48515635229788906
+sp|P43329|HRPA_ECOLI ATP-dependent RNA helicase HrpA OS=Escherichia coli (strain K12) OX=83333 GN=hrpA PE=1 SV=3,0.4826585931922805
+sp|P43610|IRC5_YEAST Uncharacterized ATP-dependent helicase IRC5 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=IRC5 PE=1 SV=2,0.4672710889334528
+sp|P59966|DNAB_MYCBO Replicative DNA helicase DnaB OS=Mycobacterium bovis (strain ATCC BAA-935 / AF2122/97) OX=233413 GN=dnaB PE=3 SV=1,0.46387939059990196
+sp|P87114|FFT1_SCHPO ATP-dependent helicase fft1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=fft1 PE=3 SV=1,0.5076823001025701
+sp|Q08995|YP204_YEAST Y' element ATP-dependent helicase YPR204W OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YPR204W PE=2 SV=1,0.460826151642459
+sp|Q09530|MOG5_CAEEL Probable pre-mRNA-splicing factor ATP-dependent RNA helicase mog-5 OS=Caenorhabditis elegans OX=6239 GN=mog-5 PE=1 SV=1,0.5019872715204748
+sp|Q09719|DBP10_SCHPO ATP-dependent RNA helicase dbp10 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=dbp10 PE=1 SV=1,0.5044572823127239
+sp|Q0V9Q6|MCM8_XENTR DNA helicase MCM8 OS=Xenopus tropicalis OX=8364 GN=mcm8 PE=2 SV=1,0.45016785751517013
+sp|Q0WVW7|RQL5_ARATH ATP-dependent DNA helicase Q-like 5 OS=Arabidopsis thaliana OX=3702 GN=RECQL5 PE=2 SV=2,0.4607366031253708
+sp|Q10213|SRS2_SCHPO ATP-dependent DNA helicase srs2 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=srs2 PE=1 SV=1,0.46531198843001353
+sp|Q10332|YBMA_SCHPO Uncharacterized ATP-dependent helicase C582.10c OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=SPBC582.10c PE=1 SV=1,0.4380489160570306
+sp|Q10752|CDC28_SCHPO Pre-mRNA-splicing factor ATP-dependent RNA helicase-like protein cdc28 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=cdc28 PE=3 SV=2,0.49765304402055704
+sp|Q16X92|RTEL1_AEDAE Regulator of telomere elongation helicase 1 homolog OS=Aedes aegypti OX=7159 GN=AAEL008960 PE=3 SV=1,0.4675629391252587
+sp|Q17R09|PRP16_BOVIN Pre-mRNA-splicing factor ATP-dependent RNA helicase PRP16 OS=Bos taurus OX=9913 GN=DHX38 PE=2 SV=1,0.418426151331014
+sp|Q2NKY8|DHX30_BOVIN ATP-dependent RNA helicase DHX30 OS=Bos taurus OX=9913 GN=DHX30 PE=2 SV=1,0.5068571766860291
+sp|Q2URJ5|MPH1_ASPOR ATP-dependent DNA helicase mph1 OS=Aspergillus oryzae (strain ATCC 42149 / RIB 40) OX=510516 GN=mph1 PE=3 SV=2,0.4582610493880766
+sp|Q383A1|PIF3_TRYB2 ATP-dependent DNA helicase PIF3 OS=Trypanosoma brucei brucei (strain 927/4 GUTat10.1) OX=185431 GN=PIF3 PE=3 SV=1,0.4728770365202651
+sp|Q38953|DEAH5_ARATH Probable pre-mRNA-splicing factor ATP-dependent RNA helicase DEAH5 OS=Arabidopsis thaliana OX=3702 GN=At3g26560 PE=1 SV=2,0.5254673359719823
+sp|Q3B7N1|CHD1L_BOVIN Chromodomain-helicase-DNA-binding protein 1-like OS=Bos taurus OX=9913 GN=CHD1L PE=2 SV=1,0.42134447235592637
+sp|Q4DCH3|JBP2_TRYCC Bifunctional helicase and thymine dioxygenase JBP2 OS=Trypanosoma cruzi (strain CL Brener) OX=353153 GN=JBP2 PE=3 SV=1,0.46398726347300256
+sp|Q4QFY1|JBP2_LEIMA Bifunctional helicase and thymine dioxygenase JBP2 OS=Leishmania major OX=5664 GN=JBP2 PE=3 SV=2,0.4696282332243505
+sp|Q54MA9|KU70_DICDI ATP-dependent DNA helicase ku70 OS=Dictyostelium discoideum OX=44689 GN=ku70 PE=3 SV=1,0.49218228328076924
+sp|Q553B1|DDX46_DICDI ATP-dependent RNA helicase ddx46 OS=Dictyostelium discoideum OX=44689 GN=helB1 PE=2 SV=1,0.44421198670969014
+sp|Q55418|DNAB_SYNY3 Replicative DNA helicase DnaB OS=Synechocystis sp. (strain PCC 6803 / Kazusa) OX=1111708 GN=dnaB PE=1 SV=1,0.46782069934217857
+sp|Q57YG0|PIF7_TRYB2 ATP-dependent DNA helicase PIF7 OS=Trypanosoma brucei brucei (strain 927/4 GUTat10.1) OX=185431 GN=PIF7 PE=3 SV=1,0.4598588709424928
+sp|Q580W5|XPB_TRYB2 TFIIH basal transcription factor complex helicase/translocase XPB subunit OS=Trypanosoma brucei brucei (strain 927/4 GUTat10.1) OX=185431 GN=XPB PE=1 SV=1,0.524353901873748
+sp|Q58524|HELS_METJA ATP-dependent DNA helicase Hel308 OS=Methanocaldococcus jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 / NBRC 100440) OX=243232 GN=hel308 PE=3 SV=1,0.45590067755872843
+sp|Q587J7|TDR12_HUMAN Putative ATP-dependent RNA helicase TDRD12 OS=Homo sapiens OX=9606 GN=TDRD12 PE=1 SV=2,0.4914933786259407
+sp|Q59U81|SWR1_CANAL Helicase SWR1 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=SWR1 PE=3 SV=2,0.4483783140175364
+sp|Q5AD67|CHL1_CANAL ATP-dependent DNA helicase CHL1 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=CHL1 PE=3 SV=1,0.4680598643541958
+sp|Q5F310|MCM8_XENLA DNA helicase MCM8 OS=Xenopus laevis OX=8355 GN=mcm8 PE=2 SV=2,0.4825657874203126
+sp|Q5F485|DDX42_CHICK ATP-dependent RNA helicase DDX42 OS=Gallus gallus OX=9031 GN=DDX42 PE=2 SV=1,0.4538295661522526
+sp|Q5H9U9|DDX6L_HUMAN Probable ATP-dependent RNA helicase DDX60-like OS=Homo sapiens OX=9606 GN=DDX60L PE=1 SV=3,0.46856818872250533
+sp|Q5JGV6|HELS_THEKO ATP-dependent DNA helicase Hel308 OS=Thermococcus kodakarensis (strain ATCC BAA-918 / JCM 12380 / KOD1) OX=69014 GN=hel308 PE=3 SV=1,0.49315024439513694
+sp|Q5R607|DHX30_PONAB ATP-dependent RNA helicase DHX30 OS=Pongo abelii OX=9601 GN=DHX30 PE=2 SV=1,0.4592556407777218
+sp|Q5R6D8|DDX46_PONAB Probable ATP-dependent RNA helicase DDX46 OS=Pongo abelii OX=9601 GN=DDX46 PE=2 SV=1,0.48259239108609703
+sp|Q5R746|YTDC2_PONAB 3'-5' RNA helicase YTHDC2 OS=Pongo abelii OX=9601 GN=YTHDC2 PE=2 SV=2,0.49448601138298753
+sp|Q5R7D1|DDX42_PONAB ATP-dependent RNA helicase DDX42 OS=Pongo abelii OX=9601 GN=DDX42 PE=2 SV=1,0.46055486708093274
+sp|Q5RC67|DDX23_PONAB Probable ATP-dependent RNA helicase DDX23 OS=Pongo abelii OX=9601 GN=DDX23 PE=2 SV=1,0.49134928829150665
+sp|Q5RE34|RTEL1_PONAB Regulator of telomere elongation helicase 1 OS=Pongo abelii OX=9601 GN=RTEL1 PE=2 SV=1,0.4808414832532478
+sp|Q5ZI74|DHX30_CHICK ATP-dependent RNA helicase DHX30 OS=Gallus gallus OX=9031 GN=DHX30 PE=2 SV=1,0.5012445884429454
+sp|Q5ZKD7|MOV10_CHICK Putative helicase MOV-10 OS=Gallus gallus OX=9031 GN=MOV10 PE=2 SV=1,0.4898438639180664
+sp|Q60EX7|CHR19_ORYSJ Probable ATP-dependent DNA helicase CHR719 OS=Oryza sativa subsp. japonica OX=39947 GN=CHR719 PE=1 SV=1,0.5172439369049959
+sp|Q62780|DDX46_RAT Probable ATP-dependent RNA helicase DDX46 OS=Rattus norvegicus OX=10116 GN=Ddx46 PE=1 SV=1,0.48259239108609703
+sp|Q67724|RDRP_HASV Methyltransferase/helicase/RNA-directed RNA polymerase OS=Helicoverpa armigera stunt virus OX=37206 PE=2 SV=1,0.4385804488784844
+sp|Q6CA87|SWR1_YARLI Helicase SWR1 OS=Yarrowia lipolytica (strain CLIB 122 / E 150) OX=284591 GN=SWR1 PE=3 SV=1,0.49533656464807974
+sp|Q6FPQ3|MPH1_CANGA ATP-dependent DNA helicase MPH1 OS=Candida glabrata (strain ATCC 2001 / BCRC 20586 / JCM 3761 / NBRC 0622 / NRRL Y-65 / CBS 138) OX=284593 GN=MPH1 PE=3 SV=1,0.48311601212647914
+sp|Q6NRM6|MCM9_XENLA DNA helicase MCM9 OS=Xenopus laevis OX=8355 GN=mcm9 PE=1 SV=1,0.44396222703712235
+sp|Q6P5D3|DHX57_MOUSE Putative ATP-dependent RNA helicase DHX57 OS=Mus musculus OX=10090 GN=Dhx57 PE=1 SV=2,0.4665534063033252
+sp|Q6PGC1|DHX29_MOUSE ATP-dependent RNA helicase DHX29 OS=Mus musculus OX=10090 GN=Dhx29 PE=1 SV=1,0.4629084378186076
+sp|Q759G7|SWR1_EREGS Helicase SWR1 OS=Eremothecium gossypii (strain ATCC 10895 / CBS 109.51 / FGSC 9923 / NRRL Y-1056) OX=284811 GN=SWR1 PE=3 SV=2,0.4468181409562639
+sp|Q75AA7|MPH1_EREGS ATP-dependent DNA helicase MPH1 OS=Eremothecium gossypii (strain ATCC 10895 / CBS 109.51 / FGSC 9923 / NRRL Y-1056) OX=284811 GN=MPH1 PE=3 SV=2,0.49310865016679695
+sp|Q767K6|DHX16_PIG Pre-mRNA-splicing factor ATP-dependent RNA helicase DHX16 OS=Sus scrofa OX=9823 GN=DHX16 PE=3 SV=1,0.47799375863948024
+sp|Q7QEI1|RTEL1_ANOGA Regulator of telomere elongation helicase 1 homolog OS=Anopheles gambiae OX=7165 GN=AGAP000634 PE=3 SV=5,0.46298032004125844
+sp|Q7YR39|DHX16_PANTR Pre-mRNA-splicing factor ATP-dependent RNA helicase DHX16 OS=Pan troglodytes OX=9598 GN=DHX16 PE=3 SV=1,0.46829955141589497
+sp|Q7ZU90|CHD1L_DANRE Chromodomain-helicase-DNA-binding protein 1-like OS=Danio rerio OX=7955 GN=chd1l PE=2 SV=1,0.45396887296346905
+sp|Q80Y44|DDX10_MOUSE Probable ATP-dependent RNA helicase DDX10 OS=Mus musculus OX=10090 GN=Ddx10 PE=1 SV=2,0.46763119682082466
+sp|Q86B47|Y8611_DROME Probable ATP-dependent RNA helicase CG8611 OS=Drosophila melanogaster OX=7227 GN=CG8611 PE=1 SV=1,0.4858963026566667
+sp|Q8CFQ3|AQR_MOUSE RNA helicase aquarius OS=Mus musculus OX=10090 GN=Aqr PE=1 SV=2,0.48084799748148455
+sp|Q8IBN8|DDX31_PLAF7 ATP-dependent DNA helicase DDX31 OS=Plasmodium falciparum (isolate 3D7) OX=36329 GN=DDX31 PE=1 SV=1,0.4808657484687003
+sp|Q8K4L0|DDX54_MOUSE ATP-dependent RNA helicase DDX54 OS=Mus musculus OX=10090 GN=Ddx54 PE=1 SV=1,0.4986192178694671
+sp|Q8YZA1|DNAB_NOSS1 Replicative DNA helicase DnaB OS=Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576) OX=103690 GN=dnaB PE=3 SV=1,0.4899638549683156
+sp|Q92771|DDX12_HUMAN Putative ATP-dependent DNA helicase DDX12 OS=Homo sapiens OX=9606 GN=DDX12P PE=5 SV=3,0.4981033580386597
+sp|Q94BR5|CHR28_ARATH Helicase-like transcription factor CHR28 OS=Arabidopsis thaliana OX=3702 GN=CHR28 PE=1 SV=1,0.43644437157956406
+sp|Q9DBV3|DHX34_MOUSE Probable ATP-dependent RNA helicase DHX34 OS=Mus musculus OX=10090 GN=Dhx34 PE=1 SV=2,0.49856480560883404
+sp|Q9FT69|RQSIM_ARATH ATP-dependent DNA helicase Q-like SIM OS=Arabidopsis thaliana OX=3702 GN=RECQSIM PE=2 SV=1,0.4735678409880199
+sp|Q9GZR7|DDX24_HUMAN ATP-dependent RNA helicase DDX24 OS=Homo sapiens OX=9606 GN=DDX24 PE=1 SV=1,0.46981840066426916
+sp|Q9LHE4|CHR27_ARATH Helicase-like transcription factor CHR27 OS=Arabidopsis thaliana OX=3702 GN=CHR27 PE=1 SV=1,0.4488146563209901
+sp|Q9P774|PRP16_SCHPO Pre-mRNA-splicing factor ATP-dependent RNA helicase prp16 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=prp16 PE=3 SV=2,0.4747791247573513
+sp|Q9VL52|SOYB_DROME Putative ATP-dependent RNA helicase SoYb OS=Drosophila melanogaster OX=7227 GN=SoYb PE=2 SV=3,0.4991643882570006
+sp|Q9VNP5|BOYB_DROME Putative ATP-dependent RNA helicase BoYb OS=Drosophila melanogaster OX=7227 GN=BoYb PE=2 SV=1,0.49894209058181377
+sp|A1CNV8|DRS1_ASPCL ATP-dependent RNA helicase drs1 OS=Aspergillus clavatus (strain ATCC 1007 / CBS 513.65 / DSM 816 / NCTC 3887 / NRRL 1 / QM 1276 / 107) OX=344612 GN=drs1 PE=3 SV=1,0.43642274031636336
+sp|A1CQA9|PRP5_ASPCL Pre-mRNA-processing ATP-dependent RNA helicase prp5 OS=Aspergillus clavatus (strain ATCC 1007 / CBS 513.65 / DSM 816 / NCTC 3887 / NRRL 1 / QM 1276 / 107) OX=344612 GN=prp5 PE=3 SV=1,0.48301103730786193
+sp|A1CS00|MPH1_ASPCL ATP-dependent DNA helicase mph1 OS=Aspergillus clavatus (strain ATCC 1007 / CBS 513.65 / DSM 816 / NCTC 3887 / NRRL 1 / QM 1276 / 107) OX=344612 GN=mph1 PE=3 SV=1,0.4634854943933348
+sp|A1CTZ2|DBP4_ASPCL ATP-dependent RNA helicase dbp4 OS=Aspergillus clavatus (strain ATCC 1007 / CBS 513.65 / DSM 816 / NCTC 3887 / NRRL 1 / QM 1276 / 107) OX=344612 GN=dbp4 PE=3 SV=1,0.46202201550331595
+sp|A1CTZ6|DBP10_ASPCL ATP-dependent RNA helicase dbp10 OS=Aspergillus clavatus (strain ATCC 1007 / CBS 513.65 / DSM 816 / NCTC 3887 / NRRL 1 / QM 1276 / 107) OX=344612 GN=dbp10 PE=3 SV=1,0.44199601506061037
+sp|A1D1R8|DRS1_NEOFI ATP-dependent RNA helicase drs1 OS=Neosartorya fischeri (strain ATCC 1020 / DSM 3700 / CBS 544.65 / FGSC A1164 / JCM 1740 / NRRL 181 / WB 181) OX=331117 GN=drs1 PE=3 SV=1,0.45257522061446864
+sp|A1D373|PRP5_NEOFI Pre-mRNA-processing ATP-dependent RNA helicase prp5 OS=Neosartorya fischeri (strain ATCC 1020 / DSM 3700 / CBS 544.65 / FGSC A1164 / JCM 1740 / NRRL 181 / WB 181) OX=331117 GN=prp5 PE=3 SV=1,0.48364751525396094
+sp|A1D4V5|MPH1_NEOFI ATP-dependent DNA helicase mph1 OS=Neosartorya fischeri (strain ATCC 1020 / DSM 3700 / CBS 544.65 / FGSC A1164 / JCM 1740 / NRRL 181 / WB 181) OX=331117 GN=mph1 PE=3 SV=1,0.49535241868484353
+sp|A1DNF9|DBP4_NEOFI ATP-dependent RNA helicase dbp4 OS=Neosartorya fischeri (strain ATCC 1020 / DSM 3700 / CBS 544.65 / FGSC A1164 / JCM 1740 / NRRL 181 / WB 181) OX=331117 GN=dbp4 PE=3 SV=1,0.454254661594921
+sp|A1DNG2|DBP10_NEOFI ATP-dependent RNA helicase dbp10 OS=Neosartorya fischeri (strain ATCC 1020 / DSM 3700 / CBS 544.65 / FGSC A1164 / JCM 1740 / NRRL 181 / WB 181) OX=331117 GN=dbp10 PE=3 SV=1,0.424431807037079
+sp|A2QAX7|DRS1_ASPNC ATP-dependent RNA helicase drs1 OS=Aspergillus niger (strain ATCC MYA-4892 / CBS 513.88 / FGSC A1513) OX=425011 GN=drs1 PE=3 SV=1,0.47644692582124276
+sp|A2QIL2|PRP28_ASPNC Pre-mRNA-splicing ATP-dependent RNA helicase prp28 OS=Aspergillus niger (strain ATCC MYA-4892 / CBS 513.88 / FGSC A1513) OX=425011 GN=prp28 PE=3 SV=1,0.46389918639054883
+sp|A2QQA8|PRP5_ASPNC Pre-mRNA-processing ATP-dependent RNA helicase prp5 OS=Aspergillus niger (strain ATCC MYA-4892 / CBS 513.88 / FGSC A1513) OX=425011 GN=prp5 PE=3 SV=2,0.48440573536783815
+sp|A2QRY2|DBP10_ASPNC ATP-dependent RNA helicase dbp10 OS=Aspergillus niger (strain ATCC MYA-4892 / CBS 513.88 / FGSC A1513) OX=425011 GN=dbp10 PE=3 SV=1,0.42183097840419015
+sp|A2QS00|DBP4_ASPNC ATP-dependent RNA helicase dbp4 OS=Aspergillus niger (strain ATCC MYA-4892 / CBS 513.88 / FGSC A1513) OX=425011 GN=dbp4 PE=3 SV=1,0.44423748574937716
+sp|A2RUV5|HFM1_XENTR Probable ATP-dependent DNA helicase HFM1 OS=Xenopus tropicalis OX=8364 GN=hfm1 PE=2 SV=1,0.47296737123347016
+sp|A2XVF7|RH13_ORYSI DEAD-box ATP-dependent RNA helicase 13 OS=Oryza sativa subsp. indica OX=39946 GN=OsI_016050 PE=3 SV=2,0.4265104643872047
+sp|A2YV85|RH29_ORYSI DEAD-box ATP-dependent RNA helicase 29 OS=Oryza sativa subsp. indica OX=39946 GN=OsI_028228 PE=2 SV=2,0.48184374171172495
+sp|A3BT52|RH29_ORYSJ DEAD-box ATP-dependent RNA helicase 29 OS=Oryza sativa subsp. japonica OX=39947 GN=Os08g0416100 PE=2 SV=2,0.48184374171172495
+sp|A3GG51|MAK5_PICST ATP-dependent RNA helicase MAK5 OS=Scheffersomyces stipitis (strain ATCC 58785 / CBS 6054 / NBRC 10063 / NRRL Y-11545) OX=322104 GN=MAK5 PE=3 SV=2,0.491282065684966
+sp|A3GH78|MPH1_PICST ATP-dependent DNA helicase MPH1 OS=Scheffersomyces stipitis (strain ATCC 58785 / CBS 6054 / NBRC 10063 / NRRL Y-11545) OX=322104 GN=MPH1 PE=3 SV=3,0.4573433580338051
+sp|A3KMI0|DHX29_XENLA ATP-dependent RNA helicase dhx29 OS=Xenopus laevis OX=8355 GN=dhx29 PE=2 SV=1,0.48088468962444525
+sp|A3LQ55|PRP5_PICST Pre-mRNA-processing ATP-dependent RNA helicase PRP5 OS=Scheffersomyces stipitis (strain ATCC 58785 / CBS 6054 / NBRC 10063 / NRRL Y-11545) OX=322104 GN=PRP5 PE=3 SV=2,0.4500768005627044
+sp|A3LZT3|DBP10_PICST ATP-dependent RNA helicase DBP10 OS=Scheffersomyces stipitis (strain ATCC 58785 / CBS 6054 / NBRC 10063 / NRRL Y-11545) OX=322104 GN=DBP10 PE=3 SV=2,0.46924671418294905
+sp|A4IHD2|ARIP4_XENTR Helicase ARIP4 OS=Xenopus tropicalis OX=8364 GN=rad54l2 PE=2 SV=1,0.4677415137256827
+sp|A4QX49|DBP7_PYRO7 ATP-dependent RNA helicase DBP7 OS=Pyricularia oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) OX=242507 GN=DBP7 PE=3 SV=1,0.45842755746474184
+sp|A4R5B8|DBP10_PYRO7 ATP-dependent RNA helicase DBP10 OS=Pyricularia oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) OX=242507 GN=DBP10 PE=3 SV=1,0.44526011030120666
+sp|A4RN08|MPH1_PYRO7 ATP-dependent DNA helicase MPH1 OS=Pyricularia oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) OX=242507 GN=MPH1 PE=3 SV=1,0.4774568452428508
+sp|A4RN46|PRP5_PYRO7 Pre-mRNA-processing ATP-dependent RNA helicase PRP5 OS=Pyricularia oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958) OX=242507 GN=PRP5 PE=3 SV=1,0.4657824747719792
+sp|A5DDF4|PRP5_PICGU Pre-mRNA-processing ATP-dependent RNA helicase PRP5 OS=Meyerozyma guilliermondii (strain ATCC 6260 / CBS 566 / DSM 6381 / JCM 1539 / NBRC 10279 / NRRL Y-324) OX=294746 GN=PRP5 PE=3 SV=2,0.49509885360176364
+sp|A5DLR3|DBP10_PICGU ATP-dependent RNA helicase DBP10 OS=Meyerozyma guilliermondii (strain ATCC 6260 / CBS 566 / DSM 6381 / JCM 1539 / NBRC 10279 / NRRL Y-324) OX=294746 GN=DBP10 PE=3 SV=2,0.4423321921994175
+sp|A5DUB2|MAK5_LODEL ATP-dependent RNA helicase MAK5 OS=Lodderomyces elongisporus (strain ATCC 11503 / CBS 2605 / JCM 1781 / NBRC 1676 / NRRL YB-4239) OX=379508 GN=MAK5 PE=3 SV=1,0.44566952253498066
+sp|A5DZT7|DBP10_LODEL ATP-dependent RNA helicase DBP10 OS=Lodderomyces elongisporus (strain ATCC 11503 / CBS 2605 / JCM 1781 / NBRC 1676 / NRRL YB-4239) OX=379508 GN=DBP10 PE=3 SV=1,0.47776874594066226
+sp|A5E058|PRP5_LODEL Pre-mRNA-processing ATP-dependent RNA helicase PRP5 OS=Lodderomyces elongisporus (strain ATCC 11503 / CBS 2605 / JCM 1781 / NBRC 1676 / NRRL YB-4239) OX=379508 GN=PRP5 PE=3 SV=1,0.4623317770370785
+sp|A6QUM7|DBP10_AJECN ATP-dependent RNA helicase DBP10 OS=Ajellomyces capsulatus (strain NAm1 / WU24) OX=2059318 GN=DBP10 PE=3 SV=1,0.43138296739359183
+sp|A6RIS1|MPH1_BOTFB ATP-dependent DNA helicase MPH1 OS=Botryotinia fuckeliana (strain B05.10) OX=332648 GN=mph1 PE=3 SV=2,0.5317727203203001
+sp|A6RJA2|PRP28_BOTFB Pre-mRNA-splicing ATP-dependent RNA helicase prp28 OS=Botryotinia fuckeliana (strain B05.10) OX=332648 GN=prp28 PE=3 SV=2,0.4272893060678792
+sp|A6RSH5|DBP7_BOTFB ATP-dependent RNA helicase dbp7 OS=Botryotinia fuckeliana (strain B05.10) OX=332648 GN=dbp7 PE=3 SV=1,0.46204450140543785
+sp|A6RUH2|DRS1_BOTFB ATP-dependent RNA helicase drs1 OS=Botryotinia fuckeliana (strain B05.10) OX=332648 GN=drs1 PE=3 SV=1,0.4602951159751414
+sp|A6RW79|PRP5_BOTFB Pre-mRNA-processing ATP-dependent RNA helicase prp5 OS=Botryotinia fuckeliana (strain B05.10) OX=332648 GN=prp5 PE=3 SV=2,0.4514040914515353
+sp|A6ZLH6|PRP5_YEAS7 Pre-mRNA-processing ATP-dependent RNA helicase PRP5 OS=Saccharomyces cerevisiae (strain YJM789) OX=307796 GN=PRP5 PE=3 SV=1,0.4458554746168357
+sp|A6ZVS0|MPH1_YEAS7 ATP-dependent DNA helicase MPH1 OS=Saccharomyces cerevisiae (strain YJM789) OX=307796 GN=MPH1 PE=3 SV=1,0.45507509960569614
+sp|A6ZXU0|DBP10_YEAS7 ATP-dependent RNA helicase DBP10 OS=Saccharomyces cerevisiae (strain YJM789) OX=307796 GN=DBP10 PE=3 SV=1,0.4308414326725142
+sp|A7EFH4|MPH1_SCLS1 ATP-dependent DNA helicase mph1 OS=Sclerotinia sclerotiorum (strain ATCC 18683 / 1980 / Ss-1) OX=665079 GN=mph1 PE=3 SV=1,0.500885329420435
+sp|A7EGG4|PRP28_SCLS1 Pre-mRNA-splicing ATP-dependent RNA helicase prp28 OS=Sclerotinia sclerotiorum (strain ATCC 18683 / 1980 / Ss-1) OX=665079 GN=prp28 PE=3 SV=1,0.4383002254729254
+sp|A7ENE0|PRP5_SCLS1 Pre-mRNA-processing ATP-dependent RNA helicase prp5 OS=Sclerotinia sclerotiorum (strain ATCC 18683 / 1980 / Ss-1) OX=665079 GN=prp5 PE=3 SV=1,0.5071245996787116
+sp|A7ERG1|CHL1_SCLS1 ATP-dependent DNA helicase CHL1 OS=Sclerotinia sclerotiorum (strain ATCC 18683 / 1980 / Ss-1) OX=665079 GN=CHL1 PE=3 SV=1,0.47634258954503056
+sp|A7ESL7|DBP10_SCLS1 ATP-dependent RNA helicase dbp10 OS=Sclerotinia sclerotiorum (strain ATCC 18683 / 1980 / Ss-1) OX=665079 GN=dbp10 PE=3 SV=2,0.4393272544934847
+sp|A7ESL8|DBP4_SCLS1 ATP-dependent RNA helicase dbp4 OS=Sclerotinia sclerotiorum (strain ATCC 18683 / 1980 / Ss-1) OX=665079 GN=dbp4 PE=3 SV=1,0.46693825961792185
+sp|A7F4L5|DRS1_SCLS1 ATP-dependent RNA helicase drs1 OS=Sclerotinia sclerotiorum (strain ATCC 18683 / 1980 / Ss-1) OX=665079 GN=drs1 PE=3 SV=1,0.462323976801405
+sp|A7F8V8|DBP7_SCLS1 ATP-dependent RNA helicase dbp7 OS=Sclerotinia sclerotiorum (strain ATCC 18683 / 1980 / Ss-1) OX=665079 GN=dbp7 PE=3 SV=1,0.45601161848136246
+sp|A7TGW7|DBP10_VANPO ATP-dependent RNA helicase DBP10 OS=Vanderwaltozyma polyspora (strain ATCC 22028 / DSM 70294 / BCRC 21397 / CBS 2163 / NBRC 10782 / NRRL Y-8283 / UCD 57-17) OX=436907 GN=DBP10 PE=3 SV=1,0.49243686970186135
+sp|A7TJK8|PRP5_VANPO Pre-mRNA-processing ATP-dependent RNA helicase PRP5 OS=Vanderwaltozyma polyspora (strain ATCC 22028 / DSM 70294 / BCRC 21397 / CBS 2163 / NBRC 10782 / NRRL Y-8283 / UCD 57-17) OX=436907 GN=PRP5 PE=3 SV=1,0.48013458854076313
+sp|A7TSV4|MPH1_VANPO ATP-dependent DNA helicase MPH1 OS=Vanderwaltozyma polyspora (strain ATCC 22028 / DSM 70294 / BCRC 21397 / CBS 2163 / NBRC 10782 / NRRL Y-8283 / UCD 57-17) OX=436907 GN=MPH1 PE=3 SV=1,0.4510347893488996
+sp|A7TTL0|CHL1_VANPO ATP-dependent DNA helicase CHL1 OS=Vanderwaltozyma polyspora (strain ATCC 22028 / DSM 70294 / BCRC 21397 / CBS 2163 / NBRC 10782 / NRRL Y-8283 / UCD 57-17) OX=436907 GN=CHL1 PE=3 SV=1,0.45105001382311743
+sp|A7UXD4|CHL1_NEUCR ATP-dependent DNA helicase chl1 OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987) OX=367110 GN=chl1 PE=3 SV=2,0.5270372817359811
+sp|B0W9F4|RTEL1_CULQU Regulator of telomere elongation helicase 1 homolog OS=Culex quinquefasciatus OX=7176 GN=CPIJ003765 PE=3 SV=1,0.4774917670222727
+sp|B0XDC4|SPNE_CULQU Probable ATP-dependent RNA helicase spindle-E OS=Culex quinquefasciatus OX=7176 GN=spn-E PE=3 SV=1,0.45147822231063633
+sp|B0XMV6|MPH1_ASPFC ATP-dependent DNA helicase mph1 OS=Aspergillus fumigatus (strain CBS 144.89 / FGSC A1163 / CEA10) OX=451804 GN=mph1 PE=3 SV=1,0.47002527575901837
+sp|B4JT42|SPNE_DROGR Probable ATP-dependent RNA helicase spindle-E OS=Drosophila grimshawi OX=7222 GN=spn-E PE=3 SV=1,0.4822765321834222
+sp|F1QDI9|MCM9_DANRE DNA helicase MCM9 OS=Danio rerio OX=7955 GN=mcm9 PE=3 SV=2,0.4185929843000413
+sp|F4HYJ7|DEXH3_ARATH DExH-box ATP-dependent RNA helicase DExH3 OS=Arabidopsis thaliana OX=3702 GN=At1g48650 PE=3 SV=1,0.4557871545291541
+"sp|F4I9Q5|DEXH7_ARATH DExH-box ATP-dependent RNA helicase DExH7, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=At1g58060 PE=2 SV=1",0.48018200960951013
+sp|F4ILR7|DEXH1_ARATH DExH-box ATP-dependent RNA helicase DExH1 OS=Arabidopsis thaliana OX=3702 GN=At2g35920 PE=2 SV=1,0.47520419824750637
+"sp|F4IM84|DEXH5_ARATH DExH-box ATP-dependent RNA helicase DExH5, mitochondrial OS=Arabidopsis thaliana OX=3702 GN=At2g01130 PE=3 SV=1",0.4528426683850954
+sp|F4INY4|HVT1_ARATH DExH-box ATP-dependent RNA helicase DExH6 OS=Arabidopsis thaliana OX=3702 GN=HVT1 PE=2 SV=1,0.49890751705807057
+sp|F4IV45|CHR10_ARATH Probable helicase CHR10 OS=Arabidopsis thaliana OX=3702 GN=CHR10 PE=3 SV=1,0.4649173218458477
+"sp|F4JFJ3|Y3206_ARATH ATP-dependent DNA helicase At3g02060, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=At3g02060 PE=2 SV=1",0.45395201732120716
+sp|F4JMJ3|DEAH8_ARATH Probable pre-mRNA-splicing factor ATP-dependent RNA helicase DEAH8 OS=Arabidopsis thaliana OX=3702 GN=At4g16680 PE=2 SV=2,0.4803734363725318
+"sp|F4KGU4|DEAHC_ARATH ATP-dependent RNA helicase DEAH12, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=At5g10370 PE=3 SV=1",0.5017898850841993
+sp|F5HEN8|HELI_HCMVM DNA replication helicase OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=HELI PE=3 SV=1,0.487995002305834
+sp|F6RIX4|MCM9_XENTR DNA helicase MCM9 OS=Xenopus tropicalis OX=8364 GN=mcm9 PE=3 SV=1,0.4390007625746671
+sp|O22243|C3H31_ARATH DExH-box ATP-dependent RNA helicase DExH8 OS=Arabidopsis thaliana OX=3702 GN=At2g47680 PE=2 SV=2,0.46710674401780516
+sp|O49289|RH29_ARATH Putative DEAD-box ATP-dependent RNA helicase 29 OS=Arabidopsis thaliana OX=3702 GN=RH29 PE=3 SV=1,0.4729873581126352
+sp|O59801|SKI2_SCHPO Putative ATP-dependent RNA helicase C550.03c OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=SPCC550.03c PE=3 SV=1,0.49554191148842597
+sp|O60114|YG65_SCHPO Uncharacterized helicase C15C4.05 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=SPBC15C4.05 PE=3 SV=1,0.45504129112220687
+sp|O94536|UCP12_SCHPO Putative ATP-dependent RNA helicase ucp12 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=ucp12 PE=3 SV=1,0.5056195414663888
+sp|P03214|HELI_EBVB9 DNA replication helicase OS=Epstein-Barr virus (strain B95-8) OX=10377 GN=HELI PE=3 SV=1,0.4814244914349384
+sp|P0C2N8|DRS1_NEUCR ATP-dependent RNA helicase drs1 OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987) OX=367110 GN=drh-11 PE=3 SV=1,0.468492910683134
+sp|P0C9A2|H962L_ASFP4 Putative RNA Helicase B962L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-084 PE=3 SV=1,0.5264706387804741
+sp|P0C9A3|H962L_ASFWA Putative RNA Helicase B962L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-082 PE=3 SV=1,0.5264706387804741
+sp|P0C9A4|H962L_ASFK5 Putative RNA Helicase B962L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-084 PE=3 SV=1,0.528253817357638
+"sp|P0CE10|DEAHB_ARATH ATP-dependent RNA helicase DEAH11, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=At4g01020 PE=3 SV=1",0.49927387537020557
+sp|P0CO19|SWR1_CRYNB Helicase SWR1 OS=Cryptococcus neoformans var. neoformans serotype D (strain B-3501A) OX=283643 GN=SWR1 PE=3 SV=1,0.447781940541333
+sp|P0CQ82|DBP4_CRYNJ ATP-dependent RNA helicase DBP4 OS=Cryptococcus neoformans var. neoformans serotype D (strain JEC21 / ATCC MYA-565) OX=214684 GN=DBP4 PE=3 SV=2,0.479236041504504
+sp|P0CQ83|DBP4_CRYNB ATP-dependent RNA helicase DBP4 OS=Cryptococcus neoformans var. neoformans serotype D (strain B-3501A) OX=283643 GN=DBP4 PE=3 SV=1,0.48400990265050486
+sp|P0CQ93|DRS1_CRYNB ATP-dependent RNA helicase DRS1 OS=Cryptococcus neoformans var. neoformans serotype D (strain B-3501A) OX=283643 GN=DRS1 PE=3 SV=1,0.435157062047209
+sp|P0CQ94|DBP7_CRYNJ ATP-dependent RNA helicase DBP7 OS=Cryptococcus neoformans var. neoformans serotype D (strain JEC21 / ATCC MYA-565) OX=214684 GN=DBP7 PE=3 SV=1,0.45119048711279525
+sp|P0CQ98|PRP5_CRYNJ Pre-mRNA-processing ATP-dependent RNA helicase PRP5 OS=Cryptococcus neoformans var. neoformans serotype D (strain JEC21 / ATCC MYA-565) OX=214684 GN=PRP5 PE=3 SV=1,0.5202714602998957
+sp|P0CR06|DBP10_CRYNJ ATP-dependent RNA helicase DBP10 OS=Cryptococcus neoformans var. neoformans serotype D (strain JEC21 / ATCC MYA-565) OX=214684 GN=DBP10 PE=3 SV=1,0.44806139689145397
+sp|P10189|HELI_HHV11 DNA replication helicase OS=Human herpesvirus 1 (strain 17) OX=10299 GN=HELI PE=3 SV=3,0.46028012788405
+sp|P16736|HELI_HCMVA DNA replication helicase OS=Human cytomegalovirus (strain AD169) OX=10360 GN=HELI PE=3 SV=1,0.48932491620664686
+sp|P28934|HELI_EHV1B DNA replication helicase OS=Equine herpesvirus 1 (strain Ab4p) OX=31520 GN=HELI PE=3 SV=1,0.49687583803651064
+sp|P30015|LHR_ECOLI Probable ATP-dependent helicase Lhr OS=Escherichia coli (strain K12) OX=83333 GN=lhr PE=3 SV=2,0.4443336445734865
+sp|P34305|RHA2_CAEEL Putative ATP-dependent RNA helicase rha-2 OS=Caenorhabditis elegans OX=6239 GN=rha-2 PE=3 SV=2,0.5040240140991308
+sp|P37024|HRPB_ECOLI ATP-dependent RNA helicase HrpB OS=Escherichia coli (strain K12) OX=83333 GN=hrpB PE=1 SV=3,0.4554574331827835
+sp|P40434|YIR7_YEAST Y' element ATP-dependent helicase YIL177C OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YIL177C PE=2 SV=1,0.4698030937915762
+sp|P40889|YJW5_YEAST Y' element ATP-dependent helicase YJL225C OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YJL225C PE=2 SV=2,0.4698030937915762
+sp|P47264|Y018_MYCGE Uncharacterized ATP-dependent helicase MG018 OS=Mycoplasma genitalium (strain ATCC 33530 / DSM 19775 / NCTC 10195 / G37) OX=243273 GN=MG018 PE=3 SV=3,0.4852364328220329
+sp|P94593|YWQA_BACSU Uncharacterized ATP-dependent helicase YwqA OS=Bacillus subtilis (strain 168) OX=224308 GN=ywqA PE=1 SV=2,0.48557750950829737
+sp|P9WMR1|HELY_MYCTU Probable helicase HelY OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=helY PE=1 SV=1,0.4649779749305327
+sp|Q03099|YMN3_YEAST Y' element ATP-dependent helicase YML133C OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YML133C PE=2 SV=1,0.4703200678105421
+sp|Q05983|RDRP_RBDVR Methyltransferase/helicase/RNA-directed RNA polymerase OS=Raspberry bushy dwarf virus (isolate Malling Jewel raspberry/R15) OX=652675 PE=3 SV=1,0.4385306993591291
+sp|Q06698|YL419_YEAST Putative ATP-dependent RNA helicase YLR419W OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YLR419W PE=1 SV=1,0.4969876604255193
+sp|Q07888|YL067_YEAST Y' element ATP-dependent helicase YLL067C OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YLL067C PE=2 SV=2,0.4698226484675216
+sp|Q09475|YP93_CAEEL Uncharacterized helicase C28H8.3 OS=Caenorhabditis elegans OX=6239 GN=C28H8.3 PE=3 SV=2,0.45861221846465466
+sp|Q0CMM5|DBP4_ASPTN ATP-dependent RNA helicase dbp4 OS=Aspergillus terreus (strain NIH 2624 / FGSC A1156) OX=341663 GN=dbp4 PE=3 SV=2,0.5152237914894776
+sp|Q0CMM8|DBP10_ASPTN ATP-dependent RNA helicase dbp10 OS=Aspergillus terreus (strain NIH 2624 / FGSC A1156) OX=341663 GN=dbp10 PE=3 SV=1,0.4462980791191928
+sp|Q0CWI2|MPH1_ASPTN ATP-dependent DNA helicase mph1 OS=Aspergillus terreus (strain NIH 2624 / FGSC A1156) OX=341663 GN=mph1 PE=3 SV=2,0.455114371530003
+sp|Q0CZN5|DRS1_ASPTN ATP-dependent RNA helicase drs1 OS=Aspergillus terreus (strain NIH 2624 / FGSC A1156) OX=341663 GN=drs1 PE=3 SV=1,0.5070489098200963
+sp|Q0D1K3|PRP5_ASPTN Pre-mRNA-processing ATP-dependent RNA helicase prp5 OS=Aspergillus terreus (strain NIH 2624 / FGSC A1156) OX=341663 GN=prp5 PE=3 SV=1,0.4765389078425751
+sp|Q0INC5|RH28_ORYSJ DEAD-box ATP-dependent RNA helicase 28 OS=Oryza sativa subsp. japonica OX=39947 GN=Os12g0481100 PE=2 SV=2,0.44981438472903534
+sp|Q0J7Y8|RH45_ORYSJ DEAD-box ATP-dependent RNA helicase 45 OS=Oryza sativa subsp. japonica OX=39947 GN=Os08g0154200 PE=3 SV=2,0.4286354800611576
+sp|Q0U6X2|MAK5_PHANO ATP-dependent RNA helicase MAK5 OS=Phaeosphaeria nodorum (strain SN15 / ATCC MYA-4574 / FGSC 10173) OX=321614 GN=MAK5 PE=3 SV=1,0.4738979736408578
+sp|Q0UHM7|DBP7_PHANO ATP-dependent RNA helicase DBP7 OS=Phaeosphaeria nodorum (strain SN15 / ATCC MYA-4574 / FGSC 10173) OX=321614 GN=DBP7 PE=3 SV=1,0.5030022222657078
+sp|Q0UMB6|DBP10_PHANO ATP-dependent RNA helicase DBP10 OS=Phaeosphaeria nodorum (strain SN15 / ATCC MYA-4574 / FGSC 10173) OX=321614 GN=DBP10 PE=3 SV=1,0.4540721021608512
+sp|Q0UMB9|DBP4_PHANO ATP-dependent RNA helicase DBP4 OS=Phaeosphaeria nodorum (strain SN15 / ATCC MYA-4574 / FGSC 10173) OX=321614 GN=DBP4 PE=3 SV=1,0.44885705445353585
+sp|Q0UN57|PRP5_PHANO Pre-mRNA-processing ATP-dependent RNA helicase PRP5 OS=Phaeosphaeria nodorum (strain SN15 / ATCC MYA-4574 / FGSC 10173) OX=321614 GN=PRP5 PE=3 SV=2,0.45925980452703125
+sp|Q0V1Z7|DRS1_PHANO ATP-dependent RNA helicase DRS1 OS=Phaeosphaeria nodorum (strain SN15 / ATCC MYA-4574 / FGSC 10173) OX=321614 GN=DRS1 PE=3 SV=1,0.44634961169278775
+sp|Q16JS8|SPNE_AEDAE Probable ATP-dependent RNA helicase spindle-E OS=Aedes aegypti OX=7159 GN=spn-E PE=3 SV=1,0.478610794476077
+sp|Q1DHB2|PRP5_COCIM Pre-mRNA-processing ATP-dependent RNA helicase PRP5 OS=Coccidioides immitis (strain RS) OX=246410 GN=PRP5 PE=3 SV=1,0.5229489070542097
+sp|Q1DMX8|PRP28_COCIM Pre-mRNA-splicing ATP-dependent RNA helicase PRP28 OS=Coccidioides immitis (strain RS) OX=246410 GN=PRP28 PE=3 SV=2,0.48927662975323266
+sp|Q1DY43|MPH1_COCIM ATP-dependent DNA helicase MPH1 OS=Coccidioides immitis (strain RS) OX=246410 GN=MPH1 PE=3 SV=1,0.4507964035539077
+sp|Q1E2B2|DRS1_COCIM ATP-dependent RNA helicase DRS1 OS=Coccidioides immitis (strain RS) OX=246410 GN=DRS1 PE=3 SV=1,0.46522411722094326
+sp|Q1E5T3|CHL1_COCIM ATP-dependent DNA helicase CHL1 OS=Coccidioides immitis (strain RS) OX=246410 GN=CHL1 PE=3 SV=1,0.4577752974484395
+sp|Q1EB31|DBP4_COCIM ATP-dependent RNA helicase DBP4 OS=Coccidioides immitis (strain RS) OX=246410 GN=DBP4 PE=3 SV=1,0.4606020029335307
+sp|Q1EB38|DBP10_COCIM ATP-dependent RNA helicase DBP10 OS=Coccidioides immitis (strain RS) OX=246410 GN=DBP10 PE=3 SV=1,0.5002354280662812
+sp|Q1LXK4|M10B1_DANRE Putative helicase mov-10-B.1 OS=Danio rerio OX=7955 GN=mov10b.1 PE=2 SV=2,0.5110045142236672
+sp|Q1LXK5|M10B2_DANRE Putative helicase mov-10-B.2 OS=Danio rerio OX=7955 GN=mov10b.2 PE=3 SV=1,0.48476279149906726
+sp|Q296Q5|SPNE_DROPS Probable ATP-dependent RNA helicase spindle-E OS=Drosophila pseudoobscura pseudoobscura OX=46245 GN=spn-E PE=3 SV=2,0.46881097223598833
+sp|Q29FS3|RTEL1_DROPS Regulator of telomere elongation helicase 1 homolog OS=Drosophila pseudoobscura pseudoobscura OX=46245 GN=GA17940 PE=3 SV=2,0.4976772470854446
+sp|Q2GZU7|DBP7_CHAGB ATP-dependent RNA helicase DBP7 OS=Chaetomium globosum (strain ATCC 6205 / CBS 148.51 / DSM 1962 / NBRC 6347 / NRRL 1970) OX=306901 GN=DBP7 PE=3 SV=1,0.48512131384832347
+sp|Q2H2J1|DBP4_CHAGB ATP-dependent RNA helicase DBP4 OS=Chaetomium globosum (strain ATCC 6205 / CBS 148.51 / DSM 1962 / NBRC 6347 / NRRL 1970) OX=306901 GN=DBP4 PE=3 SV=1,0.48835107646173115
+sp|Q2HAD8|PRP5_CHAGB Pre-mRNA-processing ATP-dependent RNA helicase PRP5 OS=Chaetomium globosum (strain ATCC 6205 / CBS 148.51 / DSM 1962 / NBRC 6347 / NRRL 1970) OX=306901 GN=PRP5 PE=3 SV=1,0.47322466517094486
+sp|Q2HG76|MPH1_CHAGB ATP-dependent DNA helicase MPH1 OS=Chaetomium globosum (strain ATCC 6205 / CBS 148.51 / DSM 1962 / NBRC 6347 / NRRL 1970) OX=306901 GN=MPH1 PE=3 SV=1,0.44864502522076294
+sp|Q2U2J6|PRP5_ASPOR Pre-mRNA-processing ATP-dependent RNA helicase prp5 OS=Aspergillus oryzae (strain ATCC 42149 / RIB 40) OX=510516 GN=prp5 PE=3 SV=1,0.46089874476823245
+sp|Q2UH00|PRP28_ASPOR Pre-mRNA-splicing ATP-dependent RNA helicase prp28 OS=Aspergillus oryzae (strain ATCC 42149 / RIB 40) OX=510516 GN=prp28 PE=3 SV=1,0.454216993156218
+sp|Q2UHC1|DBP10_ASPOR ATP-dependent RNA helicase dbp10 OS=Aspergillus oryzae (strain ATCC 42149 / RIB 40) OX=510516 GN=dbp10 PE=3 SV=1,0.4414384083246693
+sp|Q2UQI6|DRS1_ASPOR ATP-dependent RNA helicase drs1 OS=Aspergillus oryzae (strain ATCC 42149 / RIB 40) OX=510516 GN=drs1 PE=3 SV=2,0.5027228275602719
+sp|Q3E7X8|YE077_YEAST Y' element ATP-dependent helicase YEL077C OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YEL077C PE=2 SV=1,0.4823205256792772
+sp|Q4HZ42|DBP10_GIBZE ATP-dependent RNA helicase DBP10 OS=Gibberella zeae (strain ATCC MYA-4620 / CBS 123657 / FGSC 9075 / NRRL 31084 / PH-1) OX=229533 GN=DBP10 PE=3 SV=1,0.46927124727719893
+sp|Q4IAK7|SWR1_GIBZE Helicase SWR1 OS=Gibberella zeae (strain ATCC MYA-4620 / CBS 123657 / FGSC 9075 / NRRL 31084 / PH-1) OX=229533 GN=SWR1 PE=3 SV=1,0.4264293164537549
+sp|Q4IP34|PRP5_GIBZE Pre-mRNA-processing ATP-dependent RNA helicase PRP5 OS=Gibberella zeae (strain ATCC MYA-4620 / CBS 123657 / FGSC 9075 / NRRL 31084 / PH-1) OX=229533 GN=PRP5 PE=3 SV=3,0.44796785480848716
+sp|Q4P0Y5|DBP7_USTMA ATP-dependent RNA helicase DBP7 OS=Ustilago maydis (strain 521 / FGSC 9021) OX=237631 GN=DBP7 PE=3 SV=1,0.48141682603360003
+sp|Q4P3W3|DBP10_USTMA ATP-dependent RNA helicase DBP10 OS=Ustilago maydis (strain 521 / FGSC 9021) OX=237631 GN=DBP10 PE=3 SV=1,0.4702581455400697
+sp|Q4P5U4|DBP4_USTMA ATP-dependent RNA helicase DBP4 OS=Ustilago maydis (strain 521 / FGSC 9021) OX=237631 GN=DBP4 PE=3 SV=2,0.47184530190018975
+sp|Q4P9P3|DRS1_USTMA ATP-dependent RNA helicase DRS1 OS=Ustilago maydis (strain 521 / FGSC 9021) OX=237631 GN=DRS1 PE=3 SV=1,0.4832232160884947
+sp|Q4PFD9|PRP5_USTMA Pre-mRNA-processing ATP-dependent RNA helicase PRP5 OS=Ustilago maydis (strain 521 / FGSC 9021) OX=237631 GN=PRP5 PE=3 SV=1,0.5060486700602748
+sp|Q4WAS9|SWR1_ASPFU Helicase swr1 OS=Aspergillus fumigatus (strain ATCC MYA-4609 / CBS 101355 / FGSC A1100 / Af293) OX=330879 GN=swr1 PE=3 SV=1,0.4848829372384559
+sp|Q4WRV2|DRS1_ASPFU ATP-dependent RNA helicase drs1 OS=Aspergillus fumigatus (strain ATCC MYA-4609 / CBS 101355 / FGSC A1100 / Af293) OX=330879 GN=drs1 PE=3 SV=1,0.4589449045543866
+sp|Q4WT99|PRP5_ASPFU Pre-mRNA-processing ATP-dependent RNA helicase prp5 OS=Aspergillus fumigatus (strain ATCC MYA-4609 / CBS 101355 / FGSC A1100 / Af293) OX=330879 GN=prp5 PE=3 SV=1,0.48839204367277306
+sp|Q54CD8|DDX54_DICDI ATP-dependent RNA helicase ddx54 OS=Dictyostelium discoideum OX=44689 GN=helA PE=3 SV=1,0.47225822862059547
+sp|Q54F05|DHX8_DICDI ATP-dependent RNA helicase dhx8 OS=Dictyostelium discoideum OX=44689 GN=dhx8 PE=3 SV=1,0.47717814870039177
+sp|Q54IV3|DDX42_DICDI Probable ATP-dependent RNA helicase ddx42 OS=Dictyostelium discoideum OX=44689 GN=ddx42 PE=3 SV=1,0.4606399403146338
+sp|Q54MH3|DHX16_DICDI Putative pre-mRNA-splicing factor ATP-dependent RNA helicase DHX16 OS=Dictyostelium discoideum OX=44689 GN=dhx16 PE=3 SV=1,0.4898185634184816
+sp|Q54Q94|DDX10_DICDI Probable ATP-dependent RNA helicase ddx10 OS=Dictyostelium discoideum OX=44689 GN=ddx10 PE=3 SV=1,0.4501516460483463
+sp|Q54TD7|DDX24_DICDI ATP-dependent RNA helicase ddx24 OS=Dictyostelium discoideum OX=44689 GN=ddx24 PE=3 SV=1,0.47055277101285947
+sp|Q54Y81|DDX23_DICDI ATP-dependent RNA helicase ddx23 OS=Dictyostelium discoideum OX=44689 GN=helB2 PE=2 SV=1,0.45096138775797795
+sp|Q54ZI9|DDX20_DICDI Probable ATP-dependent RNA helicase ddx20 OS=Dictyostelium discoideum OX=44689 GN=ddx20 PE=3 SV=2,0.47033891621949214
+sp|Q55681|RECG_SYNY3 ATP-dependent DNA helicase RecG OS=Synechocystis sp. (strain PCC 6803 / Kazusa) OX=1111708 GN=recG PE=3 SV=1,0.423498787092832
+sp|Q5A1A0|MPH1_CANAL ATP-dependent DNA helicase MPH1 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=MPH1 PE=3 SV=2,0.4264619738508307
+sp|Q5ADL0|PRP5_CANAL Pre-mRNA-processing ATP-dependent RNA helicase PRP5 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=PRP5 PE=3 SV=1,0.47386697951266626
+sp|Q5ANB2|DBP10_CANAL ATP-dependent RNA helicase DBP10 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=DBP10 PE=3 SV=1,0.4621041541132657
+sp|Q5ARK3|SWR1_EMENI Helicase swr1 OS=Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 / M139) OX=227321 GN=swr1 PE=3 SV=2,0.5009837264496182
+sp|Q5BDW4|PRP5_EMENI Pre-mRNA-processing ATP-dependent RNA helicase prp5 OS=Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 / M139) OX=227321 GN=prp5 PE=3 SV=1,0.46847492803874063
+sp|Q5BFU1|DBP4_EMENI ATP-dependent RNA helicase dbp4 OS=Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 / M139) OX=227321 GN=dbp4 PE=3 SV=1,0.4647603254471697
+sp|Q5BFU7|DBP10_EMENI ATP-dependent RNA helicase dbp10 OS=Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 / M139) OX=227321 GN=dbp10 PE=3 SV=1,0.43657614156113106
+sp|Q5RDL2|DDX24_PONAB ATP-dependent RNA helicase DDX24 OS=Pongo abelii OX=9601 GN=DDX24 PE=2 SV=1,0.4812273844152565
+sp|Q5UQU2|YR350_MIMIV Putative ATP-dependent RNA helicase R350 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R350 PE=1 SV=1,0.4398992744052271
+sp|Q5ZJF6|DDX10_CHICK Probable ATP-dependent RNA helicase DDX10 OS=Gallus gallus OX=9031 GN=DDX10 PE=2 SV=1,0.49338501351074243
+sp|Q6BKC2|SWR1_DEBHA Helicase SWR1 OS=Debaryomyces hansenii (strain ATCC 36239 / CBS 767 / BCRC 21394 / JCM 1990 / NBRC 0083 / IGC 2968) OX=284592 GN=SWR1 PE=3 SV=2,0.46627592368396376
+sp|Q6BL34|DBP10_DEBHA ATP-dependent RNA helicase DBP10 OS=Debaryomyces hansenii (strain ATCC 36239 / CBS 767 / BCRC 21394 / JCM 1990 / NBRC 0083 / IGC 2968) OX=284592 GN=DBP10 PE=3 SV=2,0.46974310201241215
+sp|Q6BML1|PRP5_DEBHA Pre-mRNA-processing ATP-dependent RNA helicase PRP5 OS=Debaryomyces hansenii (strain ATCC 36239 / CBS 767 / BCRC 21394 / JCM 1990 / NBRC 0083 / IGC 2968) OX=284592 GN=PRP5 PE=3 SV=2,0.4490724505756127
+sp|Q6BRF0|MPH1_DEBHA ATP-dependent DNA helicase MPH1 OS=Debaryomyces hansenii (strain ATCC 36239 / CBS 767 / BCRC 21394 / JCM 1990 / NBRC 0083 / IGC 2968) OX=284592 GN=MPH1 PE=3 SV=2,0.45179025850020366
+sp|Q6BZD9|CHL1_DEBHA ATP-dependent DNA helicase CHL1 OS=Debaryomyces hansenii (strain ATCC 36239 / CBS 767 / BCRC 21394 / JCM 1990 / NBRC 0083 / IGC 2968) OX=284592 GN=CHL1 PE=3 SV=2,0.5078449596961064
+sp|Q6C7X8|DBP10_YARLI ATP-dependent RNA helicase DBP10 OS=Yarrowia lipolytica (strain CLIB 122 / E 150) OX=284591 GN=DBP10 PE=3 SV=1,0.47241708873930505
+sp|Q6CAX3|CHL1_YARLI ATP-dependent DNA helicase CHL1 OS=Yarrowia lipolytica (strain CLIB 122 / E 150) OX=284591 GN=CHL1 PE=3 SV=1,0.5241176204562571
+sp|Q6CCZ1|PRP5_YARLI Pre-mRNA-processing ATP-dependent RNA helicase PRP5 OS=Yarrowia lipolytica (strain CLIB 122 / E 150) OX=284591 GN=PRP5 PE=3 SV=1,0.5427133312753643
+sp|Q6CIF0|CHL1_KLULA ATP-dependent DNA helicase CHL1 OS=Kluyveromyces lactis (strain ATCC 8585 / CBS 2359 / DSM 70799 / NBRC 1267 / NRRL Y-1140 / WM37) OX=284590 GN=CHL1 PE=3 SV=1,0.45471215992520625
+sp|Q6CIR0|DBP10_KLULA ATP-dependent RNA helicase DBP10 OS=Kluyveromyces lactis (strain ATCC 8585 / CBS 2359 / DSM 70799 / NBRC 1267 / NRRL Y-1140 / WM37) OX=284590 GN=DBP10 PE=3 SV=1,0.46171381310238807
+sp|Q6CJ38|SWR1_KLULA Helicase SWR1 OS=Kluyveromyces lactis (strain ATCC 8585 / CBS 2359 / DSM 70799 / NBRC 1267 / NRRL Y-1140 / WM37) OX=284590 GN=SWR1 PE=3 SV=1,0.4603837257529561
+sp|Q6CKI1|PRP5_KLULA Pre-mRNA-processing ATP-dependent RNA helicase PRP5 OS=Kluyveromyces lactis (strain ATCC 8585 / CBS 2359 / DSM 70799 / NBRC 1267 / NRRL Y-1140 / WM37) OX=284590 GN=PRP5 PE=3 SV=1,0.4571742624583181
+sp|Q6CQX2|MPH1_KLULA ATP-dependent DNA helicase MPH1 OS=Kluyveromyces lactis (strain ATCC 8585 / CBS 2359 / DSM 70799 / NBRC 1267 / NRRL Y-1140 / WM37) OX=284590 GN=MPH1 PE=3 SV=2,0.4635401278164993
+sp|Q6FK48|SWR1_CANGA Helicase SWR1 OS=Candida glabrata (strain ATCC 2001 / BCRC 20586 / JCM 3761 / NBRC 0622 / NRRL Y-65 / CBS 138) OX=284593 GN=SWR1 PE=3 SV=1,0.511061902167045
+sp|Q6FKT4|CHL1_CANGA ATP-dependent DNA helicase CHL1 OS=Candida glabrata (strain ATCC 2001 / BCRC 20586 / JCM 3761 / NBRC 0622 / NRRL Y-65 / CBS 138) OX=284593 GN=CHL1 PE=3 SV=1,0.4740999969007072
+sp|Q6FML5|PRP5_CANGA Pre-mRNA-processing ATP-dependent RNA helicase PRP5 OS=Candida glabrata (strain ATCC 2001 / BCRC 20586 / JCM 3761 / NBRC 0622 / NRRL Y-65 / CBS 138) OX=284593 GN=PRP5 PE=3 SV=1,0.4743392782728335
+sp|Q6FNA2|DBP10_CANGA ATP-dependent RNA helicase DBP10 OS=Candida glabrata (strain ATCC 2001 / BCRC 20586 / JCM 3761 / NBRC 0622 / NRRL Y-65 / CBS 138) OX=284593 GN=DBP10 PE=3 SV=1,0.4793541713206298
+sp|Q6K7R9|RH48_ORYSJ DEAD-box ATP-dependent RNA helicase 48 OS=Oryza sativa subsp. japonica OX=39947 GN=Os02g0826100 PE=2 SV=1,0.4834101239551461
+sp|Q750G3|CHL1_EREGS ATP-dependent DNA helicase CHL1 OS=Eremothecium gossypii (strain ATCC 10895 / CBS 109.51 / FGSC 9923 / NRRL Y-1056) OX=284811 GN=CHL1 PE=3 SV=1,0.4927786395105555
+sp|Q754U8|PRP5_EREGS Pre-mRNA-processing ATP-dependent RNA helicase PRP5 OS=Eremothecium gossypii (strain ATCC 10895 / CBS 109.51 / FGSC 9923 / NRRL Y-1056) OX=284811 GN=PRP5 PE=3 SV=2,0.4548225525915607
+sp|Q757U8|DBP10_EREGS ATP-dependent RNA helicase DBP10 OS=Eremothecium gossypii (strain ATCC 10895 / CBS 109.51 / FGSC 9923 / NRRL Y-1056) OX=284811 GN=DBP10 PE=3 SV=1,0.4735936504746613
+sp|Q7QCW2|SPNE_ANOGA Probable ATP-dependent RNA helicase spindle-E OS=Anopheles gambiae OX=7165 GN=spn-E PE=3 SV=5,0.4872570726626618
+sp|Q7RZ35|DBP4_NEUCR ATP-dependent RNA helicase dbp-4 OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987) OX=367110 GN=dbp-4 PE=3 SV=1,0.48433101596809663
+sp|Q7RZH4|MAK5_NEUCR ATP-dependent RNA helicase mak-5 OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987) OX=367110 GN=mak-5 PE=3 SV=1,0.4370350448363994
+sp|Q7S873|DBP7_NEUCR ATP-dependent RNA helicase dbp-7 OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987) OX=367110 GN=dbp-7 PE=3 SV=1,0.4813348387833906
+sp|Q7S9J4|DBP10_NEUCR ATP-dependent RNA helicase dbp-10 OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987) OX=367110 GN=dbp-10 PE=3 SV=1,0.4172986509259781
+sp|Q7SDF3|MPH1_NEUCR ATP-dependent DNA helicase mph1 OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987) OX=367110 GN=mph1 PE=3 SV=1,0.5011721656116955
+sp|Q7SH33|PRP5_NEUCR Pre-mRNA-processing ATP-dependent RNA helicase prp-5 OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987) OX=367110 GN=prp-5 PE=3 SV=1,0.5007339366362339
+sp|Q7ZY47|DDX42_XENLA ATP-dependent RNA helicase DDX42 OS=Xenopus laevis OX=8355 GN=ddx42 PE=2 SV=1,0.49727839190338874
+sp|Q84UQ1|RH42_ORYSJ DEAD-box ATP-dependent RNA helicase 42 OS=Oryza sativa subsp. japonica OX=39947 GN=Os08g0159900 PE=2 SV=1,0.4783083545590589
+sp|Q869P0|DDX31_DICDI ATP-dependent DNA helicase DDX31 OS=Dictyostelium discoideum OX=44689 GN=ddx31 PE=3 SV=2,0.4599859835349998
+sp|Q86AS0|Y4399_DICDI Probable helicase DDB_G0274399 OS=Dictyostelium discoideum OX=44689 GN=DDB_G0274399 PE=3 SV=1,0.49403069233275476
+sp|Q89443|H962L_ASFB7 Putative RNA helicase B962L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-072 PE=2 SV=1,0.5285941988228609
+sp|Q8NJM2|DBP10_ASPFU ATP-dependent RNA helicase dbp10 OS=Aspergillus fumigatus (strain ATCC MYA-4609 / CBS 101355 / FGSC A1100 / Af293) OX=330879 GN=dbp10 PE=3 SV=1,0.4263436732547054
+sp|Q8V9U2|H962L_ASFM2 Putative RNA Helicase B962L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-080 PE=3 SV=1,0.528253817357638
+sp|Q93Y39|RH13_ARATH DEAD-box ATP-dependent RNA helicase 13 OS=Arabidopsis thaliana OX=3702 GN=RH13 PE=2 SV=3,0.43270742513464844
+sp|Q99208|YL066_YEAST Y' element ATP-dependent helicase YLL066C OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YLL066C PE=2 SV=2,0.4703200678105421
+"sp|Q9C6G0|DEXH4_ARATH DExH-box ATP-dependent RNA helicase DExH4, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=At1g58050 PE=3 SV=1",0.5043873375956092
+sp|Q9C813|DEAHD_ARATH ATP-dependent RNA helicase DEAH13 OS=Arabidopsis thaliana OX=3702 GN=FAS4 PE=2 SV=1,0.46387611083952146
+sp|Q9ESV0|DDX24_MOUSE ATP-dependent RNA helicase DDX24 OS=Mus musculus OX=10090 GN=Ddx24 PE=1 SV=2,0.47998949237938826
+sp|Q9FNM7|RH26_ARATH DEAD-box ATP-dependent RNA helicase 26 OS=Arabidopsis thaliana OX=3702 GN=RH26 PE=1 SV=2,0.45585618564747976
+sp|Q9HDY4|YK16_SCHPO Putative ATP-dependent RNA helicase PB1A10.06c OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=SPAPB1A10.06c PE=3 SV=1,0.4768176192124859
+sp|Q9P7T8|YIW2_SCHPO Uncharacterized helicase C694.02 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=SPAC694.02 PE=3 SV=1,0.45416649600764036
+sp|Q9SF41|RH45_ARATH DEAD-box ATP-dependent RNA helicase 45 OS=Arabidopsis thaliana OX=3702 GN=RH45 PE=3 SV=1,0.5011581088478259
+sp|Q9SQV1|RH40_ARATH DEAD-box ATP-dependent RNA helicase 40 OS=Arabidopsis thaliana OX=3702 GN=RH40 PE=2 SV=1,0.4549027319493673
+sp|Q9UTL9|YIV5_SCHPO Uncharacterized ATP-dependent helicase C144.05 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=SPAC144.05 PE=3 SV=1,0.49709686954304133
+sp|A4KX71|HELI1_HVAVE Putative ATP-dependent RNA helicase OS=Heliothis virescens ascovirus 3e OX=260797 GN=ORF15 PE=3 SV=1,0.4924782868299776
+sp|F5HIG1|HEPA_HCMVM DNA helicase/primase complex-associated protein OS=Human cytomegalovirus (strain Merlin) OX=295027 GN=UL102 PE=3 SV=1,0.47524438189241175
+sp|O27830|HELX_METTH Uncharacterized ATP-dependent helicase MTH_1802 OS=Methanothermobacter thermautotrophicus (strain ATCC 29096 / DSM 1053 / JCM 10044 / NBRC 100330 / Delta H) OX=187420 GN=MTH_1802 PE=3 SV=1,0.4389282739921941
+sp|O55768|VF184_IIV6 Putative helicase 184R OS=Invertebrate iridescent virus 6 OX=176652 GN=IIV6-184R PE=3 SV=1,0.46919581133866506
+sp|O80792|RH33_ARATH Putative DEAD-box ATP-dependent RNA helicase 33 OS=Arabidopsis thaliana OX=3702 GN=RH33 PE=3 SV=1,0.4921915531094745
+sp|P09303|HELI_VZVD DNA replication helicase OS=Varicella-zoster virus (strain Dumas) OX=10338 GN=HELI PE=3 SV=1,0.454512280696871
+sp|P0C7L7|YUM14_USTMA Putative DEAH-box ATP-dependent helicase UM11114 OS=Ustilago maydis (strain 521 / FGSC 9021) OX=237631 GN=UMAG_11114 PE=3 SV=1,0.5268189510539271
+sp|P0C8H0|VF859_ASFK5 Probable helicase A859L OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-052 PE=3 SV=1,0.4620271215864166
+sp|P0C8H1|VF859_ASFM2 Probable helicase A859L OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-048 PE=3 SV=1,0.4662475063296888
+sp|P0C8H2|VF859_ASFP4 Probable helicase A859L OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-052 PE=3 SV=1,0.4602552892556729
+sp|P0C8H3|VF859_ASFWA Probable helicase A859L OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-050 PE=3 SV=1,0.4602552892556729
+sp|P0CA09|PRIM_ASFWA Putative helicase/primase complex protein OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-057 PE=3 SV=1,0.4248819163150882
+sp|P0CA10|PRIM_ASFK5 Putative helicase/primase complex protein OS=African swine fever virus (isolate Pig/Kenya/KEN-50/1950) OX=561445 GN=Ken-059 PE=3 SV=1,0.4235158941011166
+sp|P0CA11|PRIM_ASFP4 Putative helicase/primase complex protein OS=African swine fever virus (isolate Tick/South Africa/Pretoriuskop Pr4/1996) OX=561443 GN=Pret-059 PE=3 SV=1,0.4248819163150882
+sp|P0CA12|PRIM_ASFM2 Putative helicase/primase complex protein OS=African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) OX=10500 GN=Mal-055 PE=3 SV=1,0.42487425504304477
+sp|P16827|HEPA_HCMVA DNA helicase/primase complex-associated protein OS=Human cytomegalovirus (strain AD169) OX=10360 GN=UL102 PE=2 SV=2,0.47524438189241175
+sp|P28277|HELI_HHV2H DNA replication helicase OS=Human herpesvirus 2 (strain HG52) OX=10315 GN=HELI PE=3 SV=2,0.4676912891907829
+sp|P45018|HRPA_HAEIN ATP-dependent RNA helicase HrpA homolog OS=Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd) OX=71421 GN=hrpA PE=3 SV=2,0.4968478176748377
+sp|P47386|Y140_MYCGE Uncharacterized ATP-dependent helicase MG140 OS=Mycoplasma genitalium (strain ATCC 33530 / DSM 19775 / NCTC 10195 / G37) OX=243273 GN=MG140 PE=3 SV=1,0.4567124082600089
+sp|P52356|HELI_HHV6U DNA replication helicase OS=Human herpesvirus 6A (strain Uganda-1102) OX=10370 GN=HELI PE=3 SV=1,0.43788038061190243
+sp|P52357|HELI_HHV7J DNA replication helicase OS=Human herpesvirus 7 (strain JI) OX=57278 GN=HELI PE=3 SV=1,0.47716984458640593
+sp|P52450|HELI_HHV6Z DNA replication helicase OS=Human herpesvirus 6B (strain Z29) OX=36351 GN=HELI PE=3 SV=1,0.43788038061190243
+sp|P75033|Y153_MYCPN Uncharacterized ATP-dependent helicase MG140 homolog OS=Mycoplasma pneumoniae (strain ATCC 29342 / M129 / Subtype 1) OX=272634 GN=MPN_153 PE=3 SV=1,0.46666278766801106
+sp|P75093|Y020_MYCPN Uncharacterized ATP-dependent helicase MPN_020 OS=Mycoplasma pneumoniae (strain ATCC 29342 / M129 / Subtype 1) OX=272634 GN=MPN_020 PE=3 SV=1,0.486198785852123
+sp|P95949|HELX_SACS2 Uncharacterized ATP-dependent helicase SSO0112 OS=Saccharolobus solfataricus (strain ATCC 35092 / DSM 1617 / JCM 11322 / P2) OX=273057 GN=SSO0112 PE=3 SV=1,0.4764297673569499
+sp|Q06VC2|HELI1_TNAVC Putative ATP-dependent RNA helicase OS=Trichoplusia ni ascovirus 2c OX=328615 GN=ORF161 PE=3 SV=1,0.4627744321341303
+sp|Q09449|YQ12_CAEEL Uncharacterized ATP-dependent helicase C05C10.2 OS=Caenorhabditis elegans OX=6239 GN=C05C10.2 PE=3 SV=2,0.49507367782112105
+sp|Q0E592|HELI1_SFAVA Putative ATP-dependent RNA helicase OS=Spodoptera frugiperda ascovirus 1a OX=113370 GN=ORF9 PE=3 SV=1,0.48122741641121647
+sp|Q196T9|VF184_IIV3 Putative helicase 121R OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-121R PE=3 SV=1,0.4996802000071334
+sp|Q196X3|VF022_IIV3 Putative helicase 087L OS=Invertebrate iridescent virus 3 OX=345201 GN=IIV3-087L PE=3 SV=1,0.49174340256009985
+sp|Q54XN7|Y8827_DICDI Uncharacterized helicase DDB_G0278827 OS=Dictyostelium discoideum OX=44689 GN=DDB_G0278827 PE=3 SV=1,0.4606787828696644
+sp|Q57742|HELX_METJA Uncharacterized ATP-dependent helicase MJ0294 OS=Methanocaldococcus jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 / NBRC 100440) OX=243232 GN=MJ0294 PE=3 SV=1,0.44834672040367285
+sp|Q58796|Y1401_METJA Probable ATP-dependent helicase MJ1401 OS=Methanocaldococcus jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 / NBRC 100440) OX=243232 GN=MJ1401 PE=3 SV=1,0.43037844170230294
+sp|Q5UP58|YR592_MIMIV Putative helicase R592 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R592 PE=4 SV=1,0.41871685376327616
+sp|Q5UP79|YR008_MIMIV Uncharacterized putative helicase R8 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R8 PE=3 SV=1,0.4850716790495293
+sp|Q5UPJ4|YL115_MIMIV Putative helicase L115 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L115 PE=4 SV=1,0.4995809749751388
+sp|Q5UQ22|YL207_MIMIV Putative helicase L207/L206 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L206 PE=4 SV=2,0.4991367994882468
+sp|Q5UQW0|YL377_MIMIV Putative ATP-dependent RNA helicase L377 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_L377 PE=1 SV=1,0.4759834021576701
+sp|Q5UR20|YR366_MIMIV Putative ATP-dependent RNA helicase R366 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R366 PE=3 SV=1,0.4362947741296697
+sp|Q65143|VF859_ASFB7 Probable helicase A859L OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-040 PE=3 SV=1,0.4602552892556729
+sp|Q65146|PRIM_ASFB7 Putative helicase/primase complex protein OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-047 PE=2 SV=1,0.4248819163150882
+sp|Q6GZV3|O22R_FRG3G Putative helicase 022R OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-022R PE=4 SV=1,0.4629098276334752
+sp|Q6GZW6|009L_FRG3G Putative helicase 009L OS=Frog virus 3 (isolate Goorha) OX=654924 GN=FV3-009L PE=4 SV=1,0.5049501954763379
+sp|Q6S6U7|HELI_EHV1V DNA replication helicase OS=Equine herpesvirus 1 (strain V592) OX=310273 GN=HELI PE=3 SV=1,0.49687583803651064
+sp|Q6UDG9|HELI_PSHV1 DNA replication helicase OS=Psittacid herpesvirus 1 (isolate Amazon parrot/-/97-0001/1997) OX=670426 GN=HELI PE=3 SV=1,0.4906676972822172
+sp|Q83950|V143_NPVOP ATP-dependent DNA helicase P143 OS=Orgyia pseudotsugata multicapsid polyhedrosis virus OX=262177 GN=P143 PE=3 SV=1,0.4920501484782375
+sp|Q9E6R1|HELI_GAHVM DNA replication helicase OS=Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) OX=10389 GN=HELI PE=3 SV=1,0.46800360559589316
+sp|Q9J3N5|HELI_VZVO DNA replication helicase OS=Varicella-zoster virus (strain Oka vaccine) OX=341980 GN=HELI PE=3 SV=1,0.4530939651336013
+sp|Q9QSK4|VF022_IIV6 Putative helicase 022L OS=Invertebrate iridescent virus 6 OX=176652 GN=NTP1 PE=3 SV=1,0.4856601299230228
+sp|Q9ZBD8|HELY_MYCLE Probable helicase HelY OS=Mycobacterium leprae (strain TN) OX=272631 GN=helY PE=3 SV=1,0.46945173421884673
