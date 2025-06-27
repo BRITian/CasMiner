@@ -57,7 +57,7 @@ mulu_models = "MODELs/"  # Default recommended, change for custom location
 mulu_logs = "LOGs/"  # Default recommended, change for custom location
 ```
 ### Running script
-For example, here set `percentage = "80"`, `tar_rep_id = "5"` for the sequence internal rearrange 80% of the 5th fold data for model training, that will be modified script for the following commands for model construction:  
+For example, here set `percentage = "80"`, `tar_rep_id = "5"` for the sequence internal rearrange 80% of the 5th fold data for model training, and the modified script is used to build the model with the following command line:  
 
 	python keras_unicas.py 80 5  
  
