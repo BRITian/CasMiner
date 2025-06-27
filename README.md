@@ -68,7 +68,7 @@ We constructed four independent benchmark datasets:
 > Cas12 and Cas13 dataset (Cas12-13; 316 sequences);  
 > Helicase dataset (570 sequences).  
 
-Evaluation across these four completely independent test datasets demonstrates that **<span style="color:red">CasMiner exhibits significantly stronger generalization capability</span>** compared to both homology-based models and alternative computational approaches.
+Evaluation across these four completely independent test datasets demonstrates that **`CasMiner exhibits significantly stronger generalization capability`** compared to both homology-based models and alternative computational approaches.
 
 ![Model_Generalization](https://github.com/BRITian/CasMiner/blob/main/05_Model_Generalization/Model_Generalization.png)
 
