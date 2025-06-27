@@ -1,0 +1,130 @@
+==========  ./MODELs/p30/Best_model_R1_p30.h5  ==========
+ Final_metrics_Test : [0.7527839896006462, 0.5012820512820513]
+ Final_metrics_Train : [0.7539226646970708, 0.49928612221587665]
+              precision    recall  f1-score   support
+
+           0       0.50      0.99      0.67       195
+           1       0.67      0.01      0.02       195
+
+   micro avg       0.50      0.50      0.50       390
+   macro avg       0.58      0.50      0.34       390
+weighted avg       0.58      0.50      0.34       390
+AUC
+0.502120315581854
+==========  ./MODELs/p30/Best_model_R2_p30.h5  ==========
+ Final_metrics_Test : [0.7576406631714259, 0.5230769230769231]
+ Final_metrics_Train : [0.7604271079185416, 0.5231296402055968]
+              precision    recall  f1-score   support
+
+           0       0.52      0.65      0.58       195
+           1       0.53      0.40      0.46       195
+
+   micro avg       0.52      0.52      0.52       390
+   macro avg       0.52      0.52      0.52       390
+weighted avg       0.52      0.52      0.52       390
+AUC
+0.5266633793556871
+==========  ./MODELs/p30/Best_model_R3_p30.h5  ==========
+ Final_metrics_Test : [0.11438247825090701, 0.982051282051282]
+ Final_metrics_Train : [0.13285270060116328, 0.970873786407767]
+              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.98       195
+           1       1.00      0.96      0.98       195
+
+   micro avg       0.98      0.98      0.98       390
+   macro avg       0.98      0.98      0.98       390
+weighted avg       0.98      0.98      0.98       390
+AUC
+0.9986127547666009
+==========  ./MODELs/p30/Best_model_R4_p30.h5  ==========
+ Final_metrics_Test : [0.17910577750358825, 0.9538461538461539]
+ Final_metrics_Train : [0.15593303266012756, 0.9637350084644124]
+              precision    recall  f1-score   support
+
+           0       0.97      0.94      0.95       195
+           1       0.94      0.97      0.95       195
+
+   micro avg       0.95      0.95      0.95       390
+   macro avg       0.95      0.95      0.95       390
+weighted avg       0.95      0.95      0.95       390
+AUC
+0.9912031558185405
+==========  ./MODELs/p30/Best_model_R5_p30.h5  ==========
+ Final_metrics_Test : [0.33435447002068547, 0.9461538461538461]
+ Final_metrics_Train : [0.3196775546964409, 0.9588806396344945]
+              precision    recall  f1-score   support
+
+           0       0.91      0.98      0.95       195
+           1       0.98      0.91      0.94       195
+
+   micro avg       0.95      0.95      0.95       390
+   macro avg       0.95      0.95      0.95       390
+weighted avg       0.95      0.95      0.95       390
+AUC
+0.979362261669954
+==========  ./MODELs/p30/Best_model_R6_p30.h5  ==========
+ Final_metrics_Test : [0.13882719484659342, 0.9897435897435898]
+ Final_metrics_Train : [0.1327179435753332, 0.9834380354083381]
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99       195
+           1       1.00      0.98      0.99       195
+
+   micro avg       0.99      0.99      0.99       390
+   macro avg       0.99      0.99      0.99       390
+weighted avg       0.99      0.99      0.99       390
+AUC
+0.9961242603550295
+==========  ./MODELs/p30/Best_model_R7_p30.h5  ==========
+ Final_metrics_Test : [0.8106031313384932, 0.6314432989690721]
+ Final_metrics_Train : [0.7993312287548361, 0.6431221461187214]
+              precision    recall  f1-score   support
+
+           0       0.58      1.00      0.73       194
+           1       1.00      0.26      0.42       194
+
+   micro avg       0.63      0.63      0.63       388
+   macro avg       0.79      0.63      0.57       388
+weighted avg       0.79      0.63      0.57       388
+AUC
+0.7507638962695292
+==========  ./MODELs/p30/Best_model_R8_p30.h5  ==========
+ Final_metrics_Test : [0.12706382611055964, 0.9768041237113402]
+ Final_metrics_Train : [0.1121719588087574, 0.9814497716894978]
+              precision    recall  f1-score   support
+
+           0       0.98      0.97      0.98       194
+           1       0.97      0.98      0.98       194
+
+   micro avg       0.98      0.98      0.98       388
+   macro avg       0.98      0.98      0.98       388
+weighted avg       0.98      0.98      0.98       388
+AUC
+0.9969112020405995
+==========  ./MODELs/p30/Best_model_R9_p30.h5  ==========
+ Final_metrics_Test : [0.2057707057785742, 0.9690721649484536]
+ Final_metrics_Train : [0.20271738866964975, 0.968607305936073]
+              precision    recall  f1-score   support
+
+           0       0.95      0.99      0.97       194
+           1       0.99      0.95      0.97       194
+
+   micro avg       0.97      0.97      0.97       388
+   macro avg       0.97      0.97      0.97       388
+weighted avg       0.97      0.97      0.97       388
+AUC
+0.9935965564884685
+==========  ./MODELs/p30/Best_model_R10_p30.h5  ==========
+ Final_metrics_Test : [0.14796683622389725, 0.9948453608247423]
+ Final_metrics_Train : [0.15093979817819378, 0.992865296803653]
+              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99       194
+           1       1.00      0.99      0.99       194
+
+   micro avg       0.99      0.99      0.99       388
+   macro avg       0.99      0.99      0.99       388
+weighted avg       0.99      0.99      0.99       388
+AUC
+0.9995018067807419
