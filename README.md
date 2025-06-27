@@ -31,6 +31,34 @@ And the operating environment, powerful generalization capability, and implement
 6. pip install matplotlib==2.2.5
 7. git clone https://github.com/BRITian/CasMiner
 
+# Model construction
+
+
+### Script Configuration Guide
+Before running the `keras_A.py` script, configure these critical parameters:
+
+```python
+# ===== Command Line Arguments =====
+# Line 40: Set training data percentage (e.g., 80 for 80% of data)
+percentage = sys.argv[1]  # Replace with integer value [10, 20, 30, 40, 50, 60, 70, 80(provided), 90, 100]
+
+# Line 41: Set training fold number/repetition ID
+tar_rep_id = sys.argv[2]  # Replace with integer fold number
+
+# ===== Path Configuration =====
+# Line 59: Training data directory path
+# %s will be replaced by the percentage value above
+# Format: p{percentage}_trte/ (e.g., p50_trte/)
+mulu_train = "p%s_trte/" % percentage  # Modify path pattern if needed
+
+# Line 60: Model save directory
+mulu_models = "MODELs/"  # Default recommended, change for custom location
+
+# Line 61: Training logs directory
+mulu_logs = "LOGs/"  # Default recommended, change for custom location
+```
+
+
 Predict the sequence 
 ====
 Put the model folder (**CasMiner/MODELs/**), the predicted python file (**CasMiner-Pred.py**) and the amino acid sequences file (**FILE_NAME.fa**, or fasta file with any extension) to be predicted in the same directory, and then enter the python=2.7 environment to run:
