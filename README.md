@@ -8,7 +8,7 @@
 >> (3) Training datasets (**./03_Model_training/**); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(4) Model training logs (**./04_Model_logs/**);  
 >> (5) Generalization ability (**./05_Model_Generalization/**);&nbsp;&nbsp;&nbsp;&nbsp;(6) Model prediction (**./06_Model_prediction/**).
   
-And the operating environment, model construction, powerful generalization capability, and implementation with **CasMiner** prediction were presented.
+And the `operating environment`, `model construction`, `powerful generalization capability`, and implementation with `**CasMiner** prediction` were presented.
 
 ![CasMiner](https://github.com/BRITian/CasMiner/blob/main/01_CasMiner/CasMiner.PNG)
 
