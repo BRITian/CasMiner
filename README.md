@@ -33,22 +33,21 @@ And the operating environment, powerful generalization capability, and implement
 
 # Model construction
 
+Models (**CasMiner**) training were performed via `keras_unicas.py` (https://github.com/BRITian/CasMiner/blob/main/03_Model_training/keras_unicas.py).
 
 ### Script Configuration Guide
-Before running the `keras_A.py` script, configure these critical parameters:
+Before running the `keras_unicas.py` script, configure these critical parameters:
 
 ```python
 # ===== Command Line Arguments =====
-# Line 40: Set training data percentage (e.g., 80 for 80% of data)
+# Line 40: Set training data shuffle percentage (e.g., 80 for 80% of data)
 percentage = sys.argv[1]  # Replace with integer value [10, 20, 30, 40, 50, 60, 70, 80(provided), 90, 100]
 
-# Line 41: Set training fold number/repetition ID
-tar_rep_id = sys.argv[2]  # Replace with integer fold number
+# Line 41: Set target fold number (0-9 for 10 folds)
+tar_rep_id = sys.argv[2]  # Replace with integer fold number [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 # ===== Path Configuration =====
-# Line 59: Training data directory path
-# %s will be replaced by the percentage value above
-# Format: p{percentage}_trte/ (e.g., p50_trte/)
+# Line 59: Training data directory path          # Format: p{percentage}_trte/ (e.g., p80_trte/)
 mulu_train = "p%s_trte/" % percentage  # Modify path pattern if needed
 
 # Line 60: Model save directory
@@ -57,6 +56,14 @@ mulu_models = "MODELs/"  # Default recommended, change for custom location
 # Line 61: Training logs directory
 mulu_logs = "LOGs/"  # Default recommended, change for custom location
 ```
+### Running script
+For example, here set `percentage = "80"`, `tar_rep_id = "5"` for the sequence internal rearrange 80% of the 5th fold data for model training, that will be modified script for the following commands for model construction:  
+
+	python keras_unicas.py 80 5  
+ 
+
+
+
 
 
 Predict the sequence 
