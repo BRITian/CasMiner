@@ -1,10 +1,10 @@
 # CasMiner
-A deep learning tool for high-throughput mining and rational design of efficient Cas9
-# CasMiner
 
 Introduction
 ====
-**CasMiner** is a deep learning tool for high-throughput mining and rational design of efficient Cas9, and can recognize functional regions of the Cas9 sequence.. Here, we provided CasMiner's p80 model (**CasMiner/MODELs/p80/*.h5**), prediction example sequence (**MPEPE/Example/*.fa**) and its result example (**CasMiner/Example/2022_1_28_Cas9-Pred/*.res** or **CasMiner/Example/2022_1_28_Cas9-Pred/*.csv and CasMiner/Example/2022_1_28_Cas9-Pred/*.png**).
+**CasMiner** is a deep learning tool for the high-throughput mining of Cas9 sequences and the rational design of optimized variants, capable of pinpointing key functional regions.
+
+> Here, we provided CasMiner's p80 model (**CasMiner/MODELs/p80/*.h5**), prediction example sequence (**MPEPE/Example/*.fa**) and its result example (**CasMiner/Example/2022_1_28_Cas9-Pred/*.res** or **CasMiner/Example/2022_1_28_Cas9-Pred/*.csv and CasMiner/Example/2022_1_28_Cas9-Pred/*.png**).
 
 System requirement
 =====
