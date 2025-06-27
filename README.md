@@ -10,7 +10,7 @@ Introduction
 >> (5) Generalization ability (**./05_Model_Generalization/**);&nbsp;&nbsp;&nbsp;&nbsp;(6) Model prediction (**./06_Model_prediction/**);  
 >> (7) Related images (**./07_Related_images/**).
 
-![CasMiner](https://github.com/BRITian/CasMiner/blob/main/CasMiner.PNG)
+![CasMiner](https://github.com/BRITian/CasMiner/blob/main/01_CasMiner/CasMiner.PNG)
 
 System requirement
 =====
