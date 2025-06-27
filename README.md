@@ -36,7 +36,7 @@ And the operating environment, powerful generalization capability, and implement
 Models (**CasMiner**) training were performed via `keras_unicas.py` (https://github.com/BRITian/CasMiner/blob/main/03_Model_training/keras_unicas.py).
 
 ### Script Configuration Guide
-Before running the `keras_unicas.py` script, configure these critical parameters, and the data of **p80_trte**(https://github.com/BRITian/CasMiner/tree/main/03_Model_training/p80_trte) is provided here.:
+Before running the `keras_unicas.py` script, configure these critical parameters, and the data of **p80_trte**(https://github.com/BRITian/CasMiner/tree/main/03_Model_training/p80_trte) is provided here:
 
 ```python
 # ===== Command Line Arguments =====
@@ -74,31 +74,69 @@ Evaluation across these four completely independent test datasets demonstrates t
 
 # CasMiner prediction
 
-Put the model folder (**CasMiner/MODELs/**), the predicted python file (**CasMiner-Pred.py**) and the amino acid sequences file (**FILE_NAME.fa**, or fasta file with any extension) to be predicted in the same directory, and then enter the python=2.7 environment to run:
+Models (**CasMiner**) Prediction was performed via `CasMiner-Pred.py` (https://github.com/BRITian/CasMiner/blob/main/06_Model_prediction/CasMiner-Pred.py).
+### Script Configuration Guide
+Before running the `CasMiner-Pred.py` script, configure these critical parameters:
+```python
+# ===== Command Line Arguments =====
+# Line 145: Input the sequence file to be predicted (e.g., NH_Cas9_Cas12-13.fa, (https://github.com/BRITian/CasMiner/blob/main/06_Model_prediction/NH_Cas9_Cas12-13.fa))
+infile = sys.argv[1]  # Replace with fasta file
 
-**Condition 1**: (Large batch) sequences are only predicted without feature extraction and visualization **[pred_only=1(True)]**:
+# Line 146: Enter the name of the model
+shuffle_p = sys.argv[2]  # model name [p10, p20, p30, p40, p50, p60, p70, p80(CasMiner), p90, p100]
 
-	python CasMiner-Pred.py FILE_NAME.fa 1
+# Line 150 and Line 153: (Optional) Whether to extract features or not
+do_cam = int(sys.argv[3])  # Default is 0 (no extraction), please enter 1 if you need to extract features.
+
+# Line 151: (Optional) Whether the input file needs to be re-encoded
+recoding = int(sys.argv[4])  # Default is 0 (no re-encoded), please enter 1 if you need to re-encode sequences.
+
+# ===== Path Configuration =====
+# Line 162: Model save directory          # Format: p{shuffle_p}/ (e.g., p80/)
+model_dir = '/data1/xuguoshun/lab_work/CRISPR-Cas9/01_model_ana/MODELs/%s' % shuffle_p  # Modify path pattern if needed
+
+# Line 163: Prediction result save directory
+all_pred_dir = "./Pred_res"  # Default recommended, change for custom location
+```
+
+### Running script
+Download the model folder (**01_CasMiner/p80/**(https://github.com/BRITian/CasMiner/tree/main/01_CasMiner/p80)), the predicted python file (**CasMiner-Pred.py**), and prepare the amino acid sequences file (**FILE_NAME.fa**, or fasta file with any extension) to be predicted, and then enter the python=2.7 environment to run:
+
+**Condition 1**: (Large batch) sequences are only predicted without feature extraction and visualization **[do_cam=0(False)]**:
+
+	python CasMiner-Pred.py FILE_NAME.fa  # python CasMiner-Pred.py NH_Cas9_Cas12-13.fa  
+
+ or
+
+ 	python CasMiner-Pred.py FILE_NAME.fa 0  # python CasMiner-Pred.py NH_Cas9_Cas12-13.fa 0
+  
+**Condition 2**: (Small batch) sequence(s) is/are predicted, feature extraction and visualization **[do_cam=0(True)]**:
+
+	python CasMiner-Pred.py FILE_NAME.fa 1  # python CasMiner-Pred.py NH_Cas9_Cas12-13.fa 1
+
+**Condition 3**: Sequences needs to be re-encoded and predicted without feature extraction and visualization **[do_cam=0(False)]**:
+
+	python CasMiner-Pred.py FILE_NAME.fa 0 1  # python CasMiner-Pred.py NH_Cas9_Cas12-13.fa 0 1
+
  
-**Condition 2**: (Large batch) sequence(s) is/are predicted, feature extraction and visualization **[pred_only=0(False)]**:
+Simple sequence prediction, the prediction results will be saved in the "Mp80_pred_FILE_NAME.res" file, such as "Mp80_pred_NH_Cas9_Cas12-13.res"(https://github.com/BRITian/CasMiner/blob/main/06_Model_prediction/Mp80_CasPred_NH_Cas9_Cas12-13/Mp80_pred_NH_Cas9_Cas12-13.res).
 
-	python CasMiner-Pred.py FILE_NAME.fa 0
+Sequence features are extracted and all predictions will be saved in the "Mp80_CasPred_FILE_NAME" folder, such as "Mp80_CasPred_NH_Cas9_Cas12-13"(https://github.com/BRITian/CasMiner/tree/main/06_Model_prediction/Mp80_CasPred_NH_Cas9_Cas12-13).
 
-The prediction result of the final model will be recorded in "Year_Month_Day_Cas9-Pred/Pred_p80_FILE_NAME.res"  **[pred_only=0** or **1]**
 
-The feature extraction result of the final model will be recorded in "Year_Month_Day_Cas9-Pred/SEQ_NAME.csv"  **[pred_only=0]**
-
-The prediction result of the final model will be recorded in "Year_Month_Day_Cas9-Pred/SEQ_NAME.png"  **[pred_only=0]**
-
-Result analysis 
+### Result analysis 
 ====
 In addition to the comment("#") rows, there are three columns. The first column is the IDs of the predicted sequences, the second column is the average value of Cas9-Yes probability (AVE) predicted by 10 models, and the third column is the average value (AVE) predicted by 10 models that the sequence is Standard deviation of probability of Cas9-Yes (STD) :
 
-	# === Predict the probability of Cas9 protein ===	# (comment row)
 	# id	AVE(Cas9 Yes)	STD(Cas9 Yes)			# (comment row）
-	Q99ZW2-Cas9	0.999692	0.000409
+	Q99ZW2-Cas9	0.999605	0.000599
+ 	J7RUA5-Cas9	0.999492	0.000552
+ 	P08956-Nuclease	0.021309	0.019243
+  	P38036-Helicase	0.025560	0.026849
+	A0Q7Q2-Cas12a	0.018125	0.020241
+	E4T0I2-Cas13a	0.025024	0.027344
 
-As shown in the example (**Q99ZW2-cas9.fa**) results above, the larger the value in the second column (AVE) and the somaller the value in the third column (STD), the higher the probability that the sequence is Cas9.
+As shown in the example (**Q99ZW2-cas9**) results above, the larger the value in the second column (AVE) and the somaller the value in the third column (STD), the higher the probability that the sequence is Cas9.
 
 ![Model_Generalization](https://github.com/BRITian/CasMiner/blob/main/06_Model_prediction/Model_prediction.png)
 
