@@ -1,7 +1,6 @@
 # CasMiner
 
-Introduction
-====
+# Introduction
 **CasMiner** is a deep learning tool for the high-throughput mining of Cas9 sequences and the rational design of optimized variants, capable of pinpointing key functional regions.
 
 > Here, we provided:
@@ -9,12 +8,13 @@ Introduction
 >> (3) Training datasets (**./03_Model_training/**); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(4) Model training logs (**./04_Model_logs/**);  
 >> (5) Generalization ability (**./05_Model_Generalization/**);&nbsp;&nbsp;&nbsp;&nbsp;(6) Model prediction (**./06_Model_prediction/**).
   
-And the environment and usage of running CasMiner are introduced.
+And the operating environment, powerful generalization capability, and implementation with **CasMiner** prediction were presented.
 
 ![CasMiner](https://github.com/BRITian/CasMiner/blob/main/01_CasMiner/CasMiner.PNG)
 
-System requirement
-=====
+
+# Operating environment
+### System requirement
 1. Python 2.7
 2. tensorflow 1.15.0
 3. keras 2.1.5
@@ -22,8 +22,7 @@ System requirement
 5. opencv-python 4.1.2.30
 6. matplotlib 2.2.5
 
-Quick Start to install the required program
-=====
+### Quick Start to install the required program
 1. Install the python 2.7 (from Anaconda https://www.anaconda.com/)
 2. pip install tensorflow==1.15.0 (python=2.7)
 3. pip install keras==2.1.5
