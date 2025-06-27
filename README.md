@@ -5,12 +5,9 @@ Introduction
 **CasMiner** is a deep learning tool for the high-throughput mining of Cas9 sequences and the rational design of optimized variants, capable of pinpointing key functional regions.
 
 > Here, we provided:
->> (1) CasMiner(p80) model (**./01_CasMiner/p80/*.h5**);  
->> (2) CasMiner homology models (**./02_homology_models/p*/*.h5**);  
->> (3) Training datasets (**./03_Model_training/**);  
->> (4) Model training logs (**./04_Model_logs/**);  
->> (5) Generalization ability (**./05_Model_Generalization/**);  
->> (6) Model prediction (**./06_Model_prediction/**);  
+>> (1) CasMiner(p80) model (**./01_CasMiner/p80/*.h5**);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2) CasMiner homology models (**./02_homology_models/p*/*.h5**);  
+>> (3) Training datasets (**./03_Model_training/**); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(4) Model training logs (**./04_Model_logs/**);  
+>> (5) Generalization ability (**./05_Model_Generalization/**);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(6) Model prediction (**./06_Model_prediction/**);  
 >> (7) Related images (**./07_Related_images/**).
 
 ![CasMiner](https://github.com/BRITian/CasMiner/blob/main/CasMiner.PNG)
