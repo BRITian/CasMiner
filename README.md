@@ -126,7 +126,7 @@ Sequence features are extracted and all predictions will be saved in the "Mp80_C
 
 # Result analysis 
 ### View prediction result
-In addition to the comment("#") rows, there are three columns. The first column is the IDs of the predicted sequences, the second column is the average value of Cas9-Yes probability (AVE) predicted by 10 models, and the third column is the average value (AVE) predicted by 10 models that the sequence is Standard deviation of probability of Cas9-Yes (STD) :
+In addition to the comment (#) row, there are three columns. The first column is the ID of the predicted sequence, the second column is the average of the Cas9-Yes probabilities predicted by the 10 models `(AVE(Cas9 Yes))`, and the third column is the standard deviation of the Cas9-Yes probabilities predicted by the 10 models `(STD(Cas9 Yes))`:
 
 	# id	AVE(Cas9 Yes)	STD(Cas9 Yes)			# (comment row）
 	Q99ZW2-Cas9	0.999605	0.000599
