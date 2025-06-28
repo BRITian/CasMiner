@@ -138,8 +138,10 @@ In addition to the comment("#") rows, there are three columns. The first column 
  	...	...	...
 
 As shown in the example (**Q99ZW2-Cas9**) results above, the larger the value in the second column (AVE) and the somaller the value in the third column (STD), the higher the probability that the sequence is Cas9.
+
+
 ### Feature visualization
-**Casminer** can extract information from the last layer of a **Convolutional Neural Network (CNN)** and obtain features of the sequence, which are subsequently visualized and analyzed.
+**Casminer** can extract information from the last layer of a **Convolutional Neural Network (CNN)** and obtain features of the sequence(s), which are subsequently visualized and analyzed.
 ![Model_Generalization](https://github.com/BRITian/CasMiner/blob/main/06_Model_prediction/Model_prediction.png)
 
 
