@@ -22,7 +22,7 @@ And the `operating environment`, `model construction`, `powerful generalization 
 5. opencv-python 4.1.2.30
 6. matplotlib 2.2.5
 
-### Quick Start to install the required program
+### Quick start to install the required program
 1. Install the python 2.7 (from Anaconda https://www.anaconda.com/)
 2. pip install tensorflow==1.15.0 (python=2.7)
 3. pip install keras==2.1.5
@@ -35,7 +35,7 @@ And the `operating environment`, `model construction`, `powerful generalization 
 
 Models (**CasMiner**) training were performed via `keras_unicas.py` (https://github.com/BRITian/CasMiner/blob/main/03_Model_training/keras_unicas.py).
 
-### Script Configuration Guide
+### Script configuration guide
 Before running the `keras_unicas.py` script, configure these critical parameters, and the data of **p80_trte**(https://github.com/BRITian/CasMiner/tree/main/03_Model_training/p80_trte) is provided here:
 
 ```python
@@ -75,7 +75,7 @@ Evaluation across these four completely independent test datasets demonstrates t
 # CasMiner prediction
 
 Models (**CasMiner**) Prediction was performed via `CasMiner-Pred.py` (https://github.com/BRITian/CasMiner/blob/main/06_Model_prediction/CasMiner-Pred.py).
-### Script Configuration Guide
+### Script configuration guide
 Before running the `CasMiner-Pred.py` script, configure these critical parameters:
 ```python
 # ===== Command Line Arguments =====
@@ -124,7 +124,8 @@ Simple sequence prediction, the prediction results will be saved in the "Mp80_pr
 Sequence features are extracted and all predictions will be saved in the "Mp80_CasPred_FILE_NAME" folder, such as "Mp80_CasPred_NH_Cas9_Cas12-13"(https://github.com/BRITian/CasMiner/tree/main/06_Model_prediction/Mp80_CasPred_NH_Cas9_Cas12-13).
 
 
-### Result analysis 
+# Result analysis 
+### View prediction result
 In addition to the comment("#") rows, there are three columns. The first column is the IDs of the predicted sequences, the second column is the average value of Cas9-Yes probability (AVE) predicted by 10 models, and the third column is the average value (AVE) predicted by 10 models that the sequence is Standard deviation of probability of Cas9-Yes (STD) :
 
 	# id	AVE(Cas9 Yes)	STD(Cas9 Yes)			# (comment row）
@@ -137,7 +138,8 @@ In addition to the comment("#") rows, there are three columns. The first column 
  	...	...	...
 
 As shown in the example (**Q99ZW2-Cas9**) results above, the larger the value in the second column (AVE) and the somaller the value in the third column (STD), the higher the probability that the sequence is Cas9.
-
+### Feature visualization
+**Casminer** can extract information from the last layer of a **Convolutional Neural Network (CNN)** and obtain features of the sequence, which are subsequently visualized and analyzed.
 ![Model_Generalization](https://github.com/BRITian/CasMiner/blob/main/06_Model_prediction/Model_prediction.png)
 
 
