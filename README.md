@@ -146,8 +146,3 @@ As shown in the example (**Q99ZW2-Cas9**) results above, the larger the value in
 ![Model_Generalization](https://github.com/BRITian/CasMiner/blob/main/06_Model_prediction/Model_prediction.png)  
 
 
-# Reference
-Guoshun Xu#, Suzhen Li#, Xiaopu Ren, Yekun Ding, Xinli Pang, Xu Liu, Qiaoling Tang, Tao Tu, Yuan Wang, Huiying Luo, Bin Yao, Jian Tian*, Rumei Chen*, Feifei Guan*, **CasMiner: a deep learning tool for high-throughput mining and rational design of efficient Cas9**
-
-
-
