@@ -6,7 +6,8 @@
 > Here, we provided:
 >> (1) CasMiner(p80) model (**./01_CasMiner/p80/*.h5**);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2) Homology models (**./02_homology_models/**);  
 >> (3) Training datasets (**./03_Model_training/**); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(4) Model training logs (**./04_Model_logs/**);  
->> (5) Generalization ability (**./05_Model_Generalization/**);&nbsp;&nbsp;&nbsp;&nbsp;(6) Model prediction (**./06_Model_prediction/**).
+>> (5) Generalization ability (**./05_Model_Generalization/**);&nbsp;&nbsp;&nbsp;&nbsp;(6) Model prediction (**./06_Model_prediction/**);  
+>> (7) Supplementary tables(**./07_Supplementary_tables/**)
   
 And the `operating environment`, `model construction`, `powerful generalization capability`, and implementation with `**CasMiner** prediction` were presented.
 
@@ -142,8 +143,11 @@ As shown in the example (**Q99ZW2-Cas9**) results above, the larger the value in
 
 ### Feature visualization
 **Casminer** can extract information from the last layer of a **Convolutional Neural Network (CNN)** and obtain features of the sequence(s), which are subsequently visualized and analyzed.
-![Model_Generalization](https://github.com/BRITian/CasMiner/blob/main/06_Model_prediction/Model_prediction.png)
+![Model_Generalization](https://github.com/BRITian/CasMiner/blob/main/06_Model_prediction/Model_prediction.png)  
 
+
+# Reference
+Guoshun Xu#, Suzhen Li#, Xiaopu Ren, Yekun Ding, Xinli Pang, Xu Liu, Qiaoling Tang, Tao Tu, Yuan Wang, Huiying Luo, Bin Yao, Jian Tian*, Rumei Chen*, Feifei Guan*, **CasMiner: a deep learning tool for high-throughput mining and rational design of efficient Cas9**
 
 
 
