@@ -1,0 +1,4434 @@
+	>>> BM dir: BM-Swiss
+	>>> Target dir: ['fold_1', 'fold_10', 'fold_2', 'fold_3', 'fold_4']
+
+
+
+
+@@@ fold_1 @@@
+python /data2/xuguoshun/MPBert3/mpbert_classification_1x_v3.py --config_path /data2/xuguoshun/MPBert3/config_2048.yaml --do_train True --do_eval True --description classification --num_class 2 --epoch_num 200 --early_stopping_rounds 50 --frozen_bert False --device_id 6 --data_url BM-Swiss/fold_1/mr_data/ --load_checkpoint_url /data2/xuguoshun/MPBert3/uniref_50_2048.ckpt --output_url BM-Swiss/fold_1/saved_models --task_name Swiss --train_batch_size 32
+3 <src.bert_model.BertConfig object at 0xfffd6deafa10>
+{'bert_net_cfg': <src.bert_model.BertConfig object at 0xfffd6deafa10>,
+ 'concat_hidden_size': 512,
+ 'concat_layer_num': 1,
+ 'config_path': '/data2/xuguoshun/MPBert3/config_2048.yaml',
+ 'cut_layer_num': 0,
+ 'data_spilt_num': 3,
+ 'data_url': 'BM-Swiss/fold_1/mr_data/',
+ 'dataset_format': 'mindrecord',
+ 'description': 'classification',
+ 'device_id': 6,
+ 'device_target': 'Ascend',
+ 'do_eval': True,
+ 'do_predict': False,
+ 'do_train': True,
+ 'dssp_hidden_size': 128,
+ 'dssp_layer_num': 1,
+ 'early_stopping_rounds': 50,
+ 'enable_modelarts': False,
+ 'enable_profiling': False,
+ 'epoch_num': 200,
+ 'eval_batch_size': 1,
+ 'eval_data_shuffle': 'false',
+ 'file_format': 'MINDIR',
+ 'frozen_bert': False,
+ 'label_percent': '1:1',
+ 'load_checkpoint_url': '/data2/xuguoshun/MPBert3/uniref_50_2048.ckpt',
+ 'load_pretrain': True,
+ 'loss_gamma': 2.0,
+ 'loss_name': 'CrossEntropy',
+ 'metrics': 'ACC',
+ 'num_class': 2,
+ 'optimizer_cfg': {'AdamWeightDecay': {'decay_filter': <function extra_operations.<locals>.create_filter_fun.<locals>.<lambda> at 0xfffd6df97ef0>,
+ 'end_learning_rate': 1e-10,
+ 'eps': 1e-06,
+ 'learning_rate': 1e-05,
+ 'power': 1.0,
+ 'weight_decay': 1e-05},
+ 'Lamb': {'decay_filter': <function extra_operations.<locals>.create_filter_fun.<locals>.<lambda> at 0xfffd6df97dd0>,
+ 'end_learning_rate': 1e-10,
+ 'learning_rate': 2e-05,
+ 'power': 1.0,
+ 'weight_decay': 0.01},
+ 'Momentum': {'learning_rate': 2e-05, 'momentum': 0.9},
+ 'optimizer': 'AdamWeightDecay'},
+ 'output_url': 'BM-Swiss/fold_1/saved_models',
+ 'print_predict': False,
+ 'pssm_hidden_size': 128,
+ 'pssm_layer_num': 1,
+ 'return_csv': False,
+ 'return_sequence': False,
+ 'task_name': 'Swiss',
+ 'train_batch_size': 32,
+ 'train_data_shuffle': 'true',
+ 'use_pynative_mode': False,
+ 'vocab_file': '',
+ 'with_lstm': False}
+ >>> Eval: Val file is val.mindrecord.
+ >>> Eval: Test file is test.mindrecord.
+==============================================================
+processor_name: Ascend
+test_name: Swiss
+batch_size: 32
+ >>> Train: Train file is train.mindrecord.
+ >>> Train: Val file is val.mindrecord.
+***Epoch: 0***
+Current epoch percent: 1.000, step: 109
+Train loss: 0.5773676
+Train epoch time: 93770.907 ms, per step time: 860.284 ms
+Validation accuracy: 0.9051282051282051
+New best accuracy: 0.9051282051282051, saved best model to :
+BM-Swiss/fold_1/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 1***
+Current epoch percent: 1.000, step: 218
+Train loss: 0.20162801
+Train epoch time: 37568.073 ms, per step time: 344.661 ms
+Validation accuracy: 0.9846153846153847
+New best accuracy: 0.9846153846153847, saved best model to :
+BM-Swiss/fold_1/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 2***
+Current epoch percent: 1.000, step: 327
+Train loss: 0.13657808
+Train epoch time: 37590.662 ms, per step time: 344.868 ms
+Validation accuracy: 0.9948717948717949
+New best accuracy: 0.9948717948717949, saved best model to :
+BM-Swiss/fold_1/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 3***
+Current epoch percent: 1.000, step: 436
+Train loss: 0.024602158
+Train epoch time: 37597.512 ms, per step time: 344.931 ms
+Validation accuracy: 0.9974358974358974
+New best accuracy: 0.9974358974358974, saved best model to :
+BM-Swiss/fold_1/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 4***
+Current epoch percent: 1.000, step: 545
+Train loss: 0.012022769
+Train epoch time: 37591.518 ms, per step time: 344.876 ms
+Validation accuracy: 1.0
+New best accuracy: 1.0, saved best model to :
+BM-Swiss/fold_1/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 5***
+Current epoch percent: 1.000, step: 654
+Train loss: 0.011905245
+Train epoch time: 37579.171 ms, per step time: 344.763 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 1 epochs (best acc = 1.0).
+***Epoch: 6***
+Current epoch percent: 1.000, step: 763
+Train loss: 0.006130766
+Train epoch time: 37575.643 ms, per step time: 344.731 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 2 epochs (best acc = 1.0).
+***Epoch: 7***
+Current epoch percent: 1.000, step: 872
+Train loss: 0.0057179118
+Train epoch time: 37593.647 ms, per step time: 344.896 ms
+Validation accuracy: 0.9923076923076923
+No improvement in accuracy for 3 epochs (best acc = 1.0).
+***Epoch: 8***
+Current epoch percent: 1.000, step: 981
+Train loss: 0.0037118245
+Train epoch time: 37586.070 ms, per step time: 344.826 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 4 epochs (best acc = 1.0).
+***Epoch: 9***
+Current epoch percent: 1.000, step: 1090
+Train loss: 0.0035088097
+Train epoch time: 37585.291 ms, per step time: 344.819 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 5 epochs (best acc = 1.0).
+***Epoch: 10***
+Current epoch percent: 1.000, step: 1199
+Train loss: 0.002515251
+Train epoch time: 37600.042 ms, per step time: 344.955 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 6 epochs (best acc = 1.0).
+***Epoch: 11***
+Current epoch percent: 1.000, step: 1308
+Train loss: 0.0020453506
+Train epoch time: 37580.342 ms, per step time: 344.774 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 7 epochs (best acc = 1.0).
+***Epoch: 12***
+Current epoch percent: 1.000, step: 1417
+Train loss: 0.0016544622
+Train epoch time: 37577.006 ms, per step time: 344.743 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 8 epochs (best acc = 1.0).
+***Epoch: 13***
+Current epoch percent: 1.000, step: 1526
+Train loss: 0.0017634567
+Train epoch time: 37584.099 ms, per step time: 344.808 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 9 epochs (best acc = 1.0).
+***Epoch: 14***
+Current epoch percent: 1.000, step: 1635
+Train loss: 0.001199549
+Train epoch time: 37591.176 ms, per step time: 344.873 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 10 epochs (best acc = 1.0).
+***Epoch: 15***
+Current epoch percent: 1.000, step: 1744
+Train loss: 0.0011124851
+Train epoch time: 37579.170 ms, per step time: 344.763 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 11 epochs (best acc = 1.0).
+***Epoch: 16***
+Current epoch percent: 1.000, step: 1853
+Train loss: 0.0011414287
+Train epoch time: 37586.647 ms, per step time: 344.832 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 12 epochs (best acc = 1.0).
+***Epoch: 17***
+Current epoch percent: 1.000, step: 1962
+Train loss: 0.0009648744
+Train epoch time: 37584.900 ms, per step time: 344.816 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 13 epochs (best acc = 1.0).
+***Epoch: 18***
+Current epoch percent: 1.000, step: 2071
+Train loss: 0.00070039014
+Train epoch time: 37581.605 ms, per step time: 344.785 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 14 epochs (best acc = 1.0).
+***Epoch: 19***
+Current epoch percent: 1.000, step: 2180
+Train loss: 0.00058914174
+Train epoch time: 37578.288 ms, per step time: 344.755 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 15 epochs (best acc = 1.0).
+***Epoch: 20***
+Current epoch percent: 1.000, step: 2289
+Train loss: 0.00047187041
+Train epoch time: 37585.421 ms, per step time: 344.820 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 16 epochs (best acc = 1.0).
+***Epoch: 21***
+Current epoch percent: 1.000, step: 2398
+Train loss: 0.00045044295
+Train epoch time: 37579.621 ms, per step time: 344.767 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 17 epochs (best acc = 1.0).
+***Epoch: 22***
+Current epoch percent: 1.000, step: 2507
+Train loss: 0.00033752437
+Train epoch time: 37581.259 ms, per step time: 344.782 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 18 epochs (best acc = 1.0).
+***Epoch: 23***
+Current epoch percent: 1.000, step: 2616
+Train loss: 0.00031987135
+Train epoch time: 37577.056 ms, per step time: 344.744 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 19 epochs (best acc = 1.0).
+***Epoch: 24***
+Current epoch percent: 1.000, step: 2725
+Train loss: 0.00027702504
+Train epoch time: 37586.164 ms, per step time: 344.827 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 20 epochs (best acc = 1.0).
+***Epoch: 25***
+Current epoch percent: 1.000, step: 2834
+Train loss: 0.0002507059
+Train epoch time: 37572.082 ms, per step time: 344.698 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 21 epochs (best acc = 1.0).
+***Epoch: 26***
+Current epoch percent: 1.000, step: 2943
+Train loss: 0.00024609675
+Train epoch time: 37582.573 ms, per step time: 344.794 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 22 epochs (best acc = 1.0).
+***Epoch: 27***
+Current epoch percent: 1.000, step: 3052
+Train loss: 0.00026536867
+Train epoch time: 37584.839 ms, per step time: 344.815 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 23 epochs (best acc = 1.0).
+***Epoch: 28***
+Current epoch percent: 1.000, step: 3161
+Train loss: 0.00019974427
+Train epoch time: 37580.968 ms, per step time: 344.780 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 24 epochs (best acc = 1.0).
+***Epoch: 29***
+Current epoch percent: 1.000, step: 3270
+Train loss: 0.00019770552
+Train epoch time: 37619.728 ms, per step time: 345.135 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 25 epochs (best acc = 1.0).
+***Epoch: 30***
+Current epoch percent: 1.000, step: 3379
+Train loss: 0.00016525826
+Train epoch time: 37612.251 ms, per step time: 345.067 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 26 epochs (best acc = 1.0).
+***Epoch: 31***
+Current epoch percent: 1.000, step: 3488
+Train loss: 0.0001614403
+Train epoch time: 37603.525 ms, per step time: 344.986 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 27 epochs (best acc = 1.0).
+***Epoch: 32***
+Current epoch percent: 1.000, step: 3597
+Train loss: 0.00014085422
+Train epoch time: 37594.450 ms, per step time: 344.903 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 28 epochs (best acc = 1.0).
+***Epoch: 33***
+Current epoch percent: 1.000, step: 3706
+Train loss: 0.00016891325
+Train epoch time: 37586.992 ms, per step time: 344.835 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 29 epochs (best acc = 1.0).
+***Epoch: 34***
+Current epoch percent: 1.000, step: 3815
+Train loss: 0.00013176547
+Train epoch time: 37582.706 ms, per step time: 344.795 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 30 epochs (best acc = 1.0).
+***Epoch: 35***
+Current epoch percent: 1.000, step: 3924
+Train loss: 0.00012483698
+Train epoch time: 37591.156 ms, per step time: 344.873 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 31 epochs (best acc = 1.0).
+***Epoch: 36***
+Current epoch percent: 1.000, step: 4033
+Train loss: 0.00012336984
+Train epoch time: 37589.090 ms, per step time: 344.854 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 32 epochs (best acc = 1.0).
+***Epoch: 37***
+Current epoch percent: 1.000, step: 4142
+Train loss: 0.00012728116
+Train epoch time: 37587.604 ms, per step time: 344.840 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 33 epochs (best acc = 1.0).
+***Epoch: 38***
+Current epoch percent: 1.000, step: 4251
+Train loss: 0.0001002087
+Train epoch time: 37577.186 ms, per step time: 344.745 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 34 epochs (best acc = 1.0).
+***Epoch: 39***
+Current epoch percent: 1.000, step: 4360
+Train loss: 0.000105210725
+Train epoch time: 37591.764 ms, per step time: 344.879 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 35 epochs (best acc = 1.0).
+***Epoch: 40***
+Current epoch percent: 1.000, step: 4469
+Train loss: 9.0211135e-05
+Train epoch time: 37586.051 ms, per step time: 344.826 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 36 epochs (best acc = 1.0).
+***Epoch: 41***
+Current epoch percent: 1.000, step: 4578
+Train loss: 8.785688e-05
+Train epoch time: 37604.602 ms, per step time: 344.996 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 37 epochs (best acc = 1.0).
+***Epoch: 42***
+Current epoch percent: 1.000, step: 4687
+Train loss: 8.7654014e-05
+Train epoch time: 37583.877 ms, per step time: 344.806 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 38 epochs (best acc = 1.0).
+***Epoch: 43***
+Current epoch percent: 1.000, step: 4796
+Train loss: 0.00010662502
+Train epoch time: 37586.875 ms, per step time: 344.834 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 39 epochs (best acc = 1.0).
+***Epoch: 44***
+Current epoch percent: 1.000, step: 4905
+Train loss: 6.8617344e-05
+Train epoch time: 37589.061 ms, per step time: 344.854 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 40 epochs (best acc = 1.0).
+***Epoch: 45***
+Current epoch percent: 1.000, step: 5014
+Train loss: 6.4568216e-05
+Train epoch time: 37585.979 ms, per step time: 344.825 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 41 epochs (best acc = 1.0).
+***Epoch: 46***
+Current epoch percent: 1.000, step: 5123
+Train loss: 6.0414837e-05
+Train epoch time: 37582.569 ms, per step time: 344.794 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 42 epochs (best acc = 1.0).
+***Epoch: 47***
+Current epoch percent: 1.000, step: 5232
+Train loss: 6.341718e-05
+Train epoch time: 37584.329 ms, per step time: 344.810 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 43 epochs (best acc = 1.0).
+***Epoch: 48***
+Current epoch percent: 1.000, step: 5341
+Train loss: 5.5214652e-05
+Train epoch time: 37586.139 ms, per step time: 344.827 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 44 epochs (best acc = 1.0).
+***Epoch: 49***
+Current epoch percent: 1.000, step: 5450
+Train loss: 5.389601e-05
+Train epoch time: 37585.976 ms, per step time: 344.825 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 45 epochs (best acc = 1.0).
+***Epoch: 50***
+Current epoch percent: 1.000, step: 5559
+Train loss: 4.8215203e-05
+Train epoch time: 37582.416 ms, per step time: 344.793 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 46 epochs (best acc = 1.0).
+***Epoch: 51***
+Current epoch percent: 1.000, step: 5668
+Train loss: 4.6874164e-05
+Train epoch time: 37580.165 ms, per step time: 344.772 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 47 epochs (best acc = 1.0).
+***Epoch: 52***
+Current epoch percent: 1.000, step: 5777
+Train loss: 4.4374647e-05
+Train epoch time: 37585.140 ms, per step time: 344.818 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 48 epochs (best acc = 1.0).
+***Epoch: 53***
+Current epoch percent: 1.000, step: 5886
+Train loss: 4.4218123e-05
+Train epoch time: 37579.658 ms, per step time: 344.768 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 49 epochs (best acc = 1.0).
+***Epoch: 54***
+Current epoch percent: 1.000, step: 5995
+Train loss: 3.985231e-05
+Train epoch time: 37585.900 ms, per step time: 344.825 ms
+
+Validation accuracy: 1.0
+No improvement in accuracy for 50 epochs (best acc = 1.0).
+Early stopping due to no improvement.
+Find the newest checkpoint:  /data2/xuguoshun/Enzymes/BM_works/Bert_Casp80/01A__Swiss_BM__equal/BM-Swiss/fold_1/saved_models/Swiss_Best_Model.ckpt
+======Val======
+** BM-Swiss/fold_1/mr_data/val.mindrecord
+
+========================================
+                  model data  AUC  ACC  precision  Recall   F1  MCC  Sensitivity  Specificity
+model  Swiss_Best_Model       1.0  1.0        1.0     1.0  1.0  1.0          1.0          1.0
+========================================
+
+======Test======
+** BM-Swiss/fold_1/mr_data/test.mindrecord
+
+========================================
+                  model data  AUC  ACC  precision  Recall   F1  MCC  Sensitivity  Specificity
+model  Swiss_Best_Model       1.0  1.0        1.0     1.0  1.0  1.0          1.0          1.0
+========================================
+
+FINISH !!!
+
+
+
+@@@ fold_10 @@@
+python /data2/xuguoshun/MPBert3/mpbert_classification_1x_v3.py --config_path /data2/xuguoshun/MPBert3/config_2048.yaml --do_train True --do_eval True --description classification --num_class 2 --epoch_num 200 --early_stopping_rounds 50 --frozen_bert False --device_id 6 --data_url BM-Swiss/fold_10/mr_data/ --load_checkpoint_url /data2/xuguoshun/MPBert3/uniref_50_2048.ckpt --output_url BM-Swiss/fold_10/saved_models --task_name Swiss --train_batch_size 32
+3 <src.bert_model.BertConfig object at 0xfffdfcdcfcd0>
+{'bert_net_cfg': <src.bert_model.BertConfig object at 0xfffdfcdcfcd0>,
+ 'concat_hidden_size': 512,
+ 'concat_layer_num': 1,
+ 'config_path': '/data2/xuguoshun/MPBert3/config_2048.yaml',
+ 'cut_layer_num': 0,
+ 'data_spilt_num': 3,
+ 'data_url': 'BM-Swiss/fold_10/mr_data/',
+ 'dataset_format': 'mindrecord',
+ 'description': 'classification',
+ 'device_id': 6,
+ 'device_target': 'Ascend',
+ 'do_eval': True,
+ 'do_predict': False,
+ 'do_train': True,
+ 'dssp_hidden_size': 128,
+ 'dssp_layer_num': 1,
+ 'early_stopping_rounds': 50,
+ 'enable_modelarts': False,
+ 'enable_profiling': False,
+ 'epoch_num': 200,
+ 'eval_batch_size': 1,
+ 'eval_data_shuffle': 'false',
+ 'file_format': 'MINDIR',
+ 'frozen_bert': False,
+ 'label_percent': '1:1',
+ 'load_checkpoint_url': '/data2/xuguoshun/MPBert3/uniref_50_2048.ckpt',
+ 'load_pretrain': True,
+ 'loss_gamma': 2.0,
+ 'loss_name': 'CrossEntropy',
+ 'metrics': 'ACC',
+ 'num_class': 2,
+ 'optimizer_cfg': {'AdamWeightDecay': {'decay_filter': <function extra_operations.<locals>.create_filter_fun.<locals>.<lambda> at 0xfffdfceb7ef0>,
+ 'end_learning_rate': 1e-10,
+ 'eps': 1e-06,
+ 'learning_rate': 1e-05,
+ 'power': 1.0,
+ 'weight_decay': 1e-05},
+ 'Lamb': {'decay_filter': <function extra_operations.<locals>.create_filter_fun.<locals>.<lambda> at 0xfffdfceb7dd0>,
+ 'end_learning_rate': 1e-10,
+ 'learning_rate': 2e-05,
+ 'power': 1.0,
+ 'weight_decay': 0.01},
+ 'Momentum': {'learning_rate': 2e-05, 'momentum': 0.9},
+ 'optimizer': 'AdamWeightDecay'},
+ 'output_url': 'BM-Swiss/fold_10/saved_models',
+ 'print_predict': False,
+ 'pssm_hidden_size': 128,
+ 'pssm_layer_num': 1,
+ 'return_csv': False,
+ 'return_sequence': False,
+ 'task_name': 'Swiss',
+ 'train_batch_size': 32,
+ 'train_data_shuffle': 'true',
+ 'use_pynative_mode': False,
+ 'vocab_file': '',
+ 'with_lstm': False}
+ >>> Eval: Val file is val.mindrecord.
+ >>> Eval: Test file is test.mindrecord.
+==============================================================
+processor_name: Ascend
+test_name: Swiss
+batch_size: 32
+ >>> Train: Train file is train.mindrecord.
+ >>> Train: Val file is val.mindrecord.
+***Epoch: 0***
+Current epoch percent: 1.000, step: 109
+Train loss: 0.56243664
+Train epoch time: 73303.951 ms, per step time: 672.513 ms
+Validation accuracy: 0.9407216494845361
+New best accuracy: 0.9407216494845361, saved best model to :
+BM-Swiss/fold_10/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 1***
+Current epoch percent: 1.000, step: 218
+Train loss: 0.23946717
+Train epoch time: 37598.069 ms, per step time: 344.936 ms
+Validation accuracy: 0.9974226804123711
+New best accuracy: 0.9974226804123711, saved best model to :
+BM-Swiss/fold_10/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 2***
+Current epoch percent: 1.000, step: 327
+Train loss: 0.07521263
+Train epoch time: 37590.752 ms, per step time: 344.869 ms
+Validation accuracy: 1.0
+New best accuracy: 1.0, saved best model to :
+BM-Swiss/fold_10/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 3***
+Current epoch percent: 1.000, step: 436
+Train loss: 0.03460694
+Train epoch time: 37603.714 ms, per step time: 344.988 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 1 epochs (best acc = 1.0).
+***Epoch: 4***
+Current epoch percent: 1.000, step: 545
+Train loss: 0.016083054
+Train epoch time: 37596.839 ms, per step time: 344.925 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 2 epochs (best acc = 1.0).
+***Epoch: 5***
+Current epoch percent: 1.000, step: 654
+Train loss: 0.01501154
+Train epoch time: 37602.507 ms, per step time: 344.977 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 3 epochs (best acc = 1.0).
+***Epoch: 6***
+Current epoch percent: 1.000, step: 763
+Train loss: 0.0066426196
+Train epoch time: 37601.475 ms, per step time: 344.968 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 4 epochs (best acc = 1.0).
+***Epoch: 7***
+Current epoch percent: 1.000, step: 872
+Train loss: 0.004623863
+Train epoch time: 37605.127 ms, per step time: 345.001 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 5 epochs (best acc = 1.0).
+***Epoch: 8***
+Current epoch percent: 1.000, step: 981
+Train loss: 0.0035152743
+Train epoch time: 37606.449 ms, per step time: 345.013 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 6 epochs (best acc = 1.0).
+***Epoch: 9***
+Current epoch percent: 1.000, step: 1090
+Train loss: 0.0039604083
+Train epoch time: 37614.300 ms, per step time: 345.085 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 7 epochs (best acc = 1.0).
+***Epoch: 10***
+Current epoch percent: 1.000, step: 1199
+Train loss: 0.003986385
+Train epoch time: 37614.612 ms, per step time: 345.088 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 8 epochs (best acc = 1.0).
+***Epoch: 11***
+Current epoch percent: 1.000, step: 1308
+Train loss: 0.003714239
+Train epoch time: 37597.610 ms, per step time: 344.932 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 9 epochs (best acc = 1.0).
+***Epoch: 12***
+Current epoch percent: 1.000, step: 1417
+Train loss: 0.0018619061
+Train epoch time: 37600.013 ms, per step time: 344.954 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 10 epochs (best acc = 1.0).
+***Epoch: 13***
+Current epoch percent: 1.000, step: 1526
+Train loss: 0.0013472743
+Train epoch time: 37601.165 ms, per step time: 344.965 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 11 epochs (best acc = 1.0).
+***Epoch: 14***
+Current epoch percent: 1.000, step: 1635
+Train loss: 0.0013039001
+Train epoch time: 37586.751 ms, per step time: 344.833 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 12 epochs (best acc = 1.0).
+***Epoch: 15***
+Current epoch percent: 1.000, step: 1744
+Train loss: 0.0019704283
+Train epoch time: 37600.986 ms, per step time: 344.963 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 13 epochs (best acc = 1.0).
+***Epoch: 16***
+Current epoch percent: 1.000, step: 1853
+Train loss: 0.013770858
+Train epoch time: 37596.845 ms, per step time: 344.925 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 14 epochs (best acc = 1.0).
+***Epoch: 17***
+Current epoch percent: 1.000, step: 1962
+Train loss: 0.00071975845
+Train epoch time: 37595.109 ms, per step time: 344.909 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 15 epochs (best acc = 1.0).
+***Epoch: 18***
+Current epoch percent: 1.000, step: 2071
+Train loss: 0.00052647246
+Train epoch time: 37596.170 ms, per step time: 344.919 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 16 epochs (best acc = 1.0).
+***Epoch: 19***
+Current epoch percent: 1.000, step: 2180
+Train loss: 0.0004283758
+Train epoch time: 37595.430 ms, per step time: 344.912 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 17 epochs (best acc = 1.0).
+***Epoch: 20***
+Current epoch percent: 1.000, step: 2289
+Train loss: 0.00039795134
+Train epoch time: 37596.744 ms, per step time: 344.924 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 18 epochs (best acc = 1.0).
+***Epoch: 21***
+Current epoch percent: 1.000, step: 2398
+Train loss: 0.0003702503
+Train epoch time: 37589.238 ms, per step time: 344.855 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 19 epochs (best acc = 1.0).
+***Epoch: 22***
+Current epoch percent: 1.000, step: 2507
+Train loss: 0.00029945208
+Train epoch time: 37593.693 ms, per step time: 344.896 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 20 epochs (best acc = 1.0).
+***Epoch: 23***
+Current epoch percent: 1.000, step: 2616
+Train loss: 0.00026553555
+Train epoch time: 37598.280 ms, per step time: 344.938 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 21 epochs (best acc = 1.0).
+***Epoch: 24***
+Current epoch percent: 1.000, step: 2725
+Train loss: 0.00032573403
+Train epoch time: 37601.360 ms, per step time: 344.967 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 22 epochs (best acc = 1.0).
+***Epoch: 25***
+Current epoch percent: 1.000, step: 2834
+Train loss: 0.00024505012
+Train epoch time: 37594.682 ms, per step time: 344.905 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 23 epochs (best acc = 1.0).
+***Epoch: 26***
+Current epoch percent: 1.000, step: 2943
+Train loss: 0.00020289439
+Train epoch time: 37611.244 ms, per step time: 345.057 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 24 epochs (best acc = 1.0).
+***Epoch: 27***
+Current epoch percent: 1.000, step: 3052
+Train loss: 0.0001983025
+Train epoch time: 37610.102 ms, per step time: 345.047 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 25 epochs (best acc = 1.0).
+***Epoch: 28***
+Current epoch percent: 1.000, step: 3161
+Train loss: 0.00018124789
+Train epoch time: 37620.031 ms, per step time: 345.138 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 26 epochs (best acc = 1.0).
+***Epoch: 29***
+Current epoch percent: 1.000, step: 3270
+Train loss: 0.00016098583
+Train epoch time: 37595.321 ms, per step time: 344.911 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 27 epochs (best acc = 1.0).
+***Epoch: 30***
+Current epoch percent: 1.000, step: 3379
+Train loss: 0.00014672417
+Train epoch time: 37600.085 ms, per step time: 344.955 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 28 epochs (best acc = 1.0).
+***Epoch: 31***
+Current epoch percent: 1.000, step: 3488
+Train loss: 0.00015879178
+Train epoch time: 37609.107 ms, per step time: 345.038 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 29 epochs (best acc = 1.0).
+***Epoch: 32***
+Current epoch percent: 1.000, step: 3597
+Train loss: 0.00014876938
+Train epoch time: 37609.512 ms, per step time: 345.041 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 30 epochs (best acc = 1.0).
+***Epoch: 33***
+Current epoch percent: 1.000, step: 3706
+Train loss: 0.00014355435
+Train epoch time: 37611.206 ms, per step time: 345.057 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 31 epochs (best acc = 1.0).
+***Epoch: 34***
+Current epoch percent: 1.000, step: 3815
+Train loss: 0.00011739513
+Train epoch time: 37603.981 ms, per step time: 344.991 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 32 epochs (best acc = 1.0).
+***Epoch: 35***
+Current epoch percent: 1.000, step: 3924
+Train loss: 0.00011397215
+Train epoch time: 37605.084 ms, per step time: 345.001 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 33 epochs (best acc = 1.0).
+***Epoch: 36***
+Current epoch percent: 1.000, step: 4033
+Train loss: 0.00010105749
+Train epoch time: 37588.254 ms, per step time: 344.846 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 34 epochs (best acc = 1.0).
+***Epoch: 37***
+Current epoch percent: 1.000, step: 4142
+Train loss: 0.000104440274
+Train epoch time: 37592.845 ms, per step time: 344.888 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 35 epochs (best acc = 1.0).
+***Epoch: 38***
+Current epoch percent: 1.000, step: 4251
+Train loss: 9.8729666e-05
+Train epoch time: 37601.300 ms, per step time: 344.966 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 36 epochs (best acc = 1.0).
+***Epoch: 39***
+Current epoch percent: 1.000, step: 4360
+Train loss: 9.329908e-05
+Train epoch time: 37593.931 ms, per step time: 344.898 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 37 epochs (best acc = 1.0).
+***Epoch: 40***
+Current epoch percent: 1.000, step: 4469
+Train loss: 8.322668e-05
+Train epoch time: 37589.926 ms, per step time: 344.862 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 38 epochs (best acc = 1.0).
+***Epoch: 41***
+Current epoch percent: 1.000, step: 4578
+Train loss: 7.902501e-05
+Train epoch time: 37598.398 ms, per step time: 344.939 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 39 epochs (best acc = 1.0).
+***Epoch: 42***
+Current epoch percent: 1.000, step: 4687
+Train loss: 7.9967336e-05
+Train epoch time: 37591.941 ms, per step time: 344.880 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 40 epochs (best acc = 1.0).
+***Epoch: 43***
+Current epoch percent: 1.000, step: 4796
+Train loss: 6.771213e-05
+Train epoch time: 37591.933 ms, per step time: 344.880 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 41 epochs (best acc = 1.0).
+***Epoch: 44***
+Current epoch percent: 1.000, step: 4905
+Train loss: 7.712451e-05
+Train epoch time: 37595.264 ms, per step time: 344.911 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 42 epochs (best acc = 1.0).
+***Epoch: 45***
+Current epoch percent: 1.000, step: 5014
+Train loss: 6.135731e-05
+Train epoch time: 37587.938 ms, per step time: 344.843 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 43 epochs (best acc = 1.0).
+***Epoch: 46***
+Current epoch percent: 1.000, step: 5123
+Train loss: 6.0291746e-05
+Train epoch time: 37587.086 ms, per step time: 344.836 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 44 epochs (best acc = 1.0).
+***Epoch: 47***
+Current epoch percent: 1.000, step: 5232
+Train loss: 5.4745164e-05
+Train epoch time: 37594.308 ms, per step time: 344.902 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 45 epochs (best acc = 1.0).
+***Epoch: 48***
+Current epoch percent: 1.000, step: 5341
+Train loss: 5.1835978e-05
+Train epoch time: 37596.339 ms, per step time: 344.921 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 46 epochs (best acc = 1.0).
+***Epoch: 49***
+Current epoch percent: 1.000, step: 5450
+Train loss: 5.0360897e-05
+Train epoch time: 37602.815 ms, per step time: 344.980 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 47 epochs (best acc = 1.0).
+***Epoch: 50***
+Current epoch percent: 1.000, step: 5559
+Train loss: 4.983922e-05
+Train epoch time: 37607.302 ms, per step time: 345.021 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 48 epochs (best acc = 1.0).
+***Epoch: 51***
+Current epoch percent: 1.000, step: 5668
+Train loss: 4.2873384e-05
+Train epoch time: 37609.330 ms, per step time: 345.040 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 49 epochs (best acc = 1.0).
+***Epoch: 52***
+Current epoch percent: 1.000, step: 5777
+Train loss: 4.4825312e-05
+Train epoch time: 37595.291 ms, per step time: 344.911 ms
+
+Validation accuracy: 1.0
+No improvement in accuracy for 50 epochs (best acc = 1.0).
+Early stopping due to no improvement.
+Find the newest checkpoint:  /data2/xuguoshun/Enzymes/BM_works/Bert_Casp80/01A__Swiss_BM__equal/BM-Swiss/fold_10/saved_models/Swiss_Best_Model.ckpt
+======Val======
+** BM-Swiss/fold_10/mr_data/val.mindrecord
+
+========================================
+                  model data  AUC  ACC  precision  Recall   F1  MCC  Sensitivity  Specificity
+model  Swiss_Best_Model       1.0  1.0        1.0     1.0  1.0  1.0          1.0          1.0
+========================================
+
+======Test======
+** BM-Swiss/fold_10/mr_data/test.mindrecord
+
+========================================
+                  model data  AUC  ACC  precision  Recall   F1  MCC  Sensitivity  Specificity
+model  Swiss_Best_Model       1.0  1.0        1.0     1.0  1.0  1.0          1.0          1.0
+========================================
+
+FINISH !!!
+
+
+
+@@@ fold_2 @@@
+python /data2/xuguoshun/MPBert3/mpbert_classification_1x_v3.py --config_path /data2/xuguoshun/MPBert3/config_2048.yaml --do_train True --do_eval True --description classification --num_class 2 --epoch_num 200 --early_stopping_rounds 50 --frozen_bert False --device_id 6 --data_url BM-Swiss/fold_2/mr_data/ --load_checkpoint_url /data2/xuguoshun/MPBert3/uniref_50_2048.ckpt --output_url BM-Swiss/fold_2/saved_models --task_name Swiss --train_batch_size 32
+3 <src.bert_model.BertConfig object at 0xfffc5bfdeb10>
+{'bert_net_cfg': <src.bert_model.BertConfig object at 0xfffc5bfdeb10>,
+ 'concat_hidden_size': 512,
+ 'concat_layer_num': 1,
+ 'config_path': '/data2/xuguoshun/MPBert3/config_2048.yaml',
+ 'cut_layer_num': 0,
+ 'data_spilt_num': 3,
+ 'data_url': 'BM-Swiss/fold_2/mr_data/',
+ 'dataset_format': 'mindrecord',
+ 'description': 'classification',
+ 'device_id': 6,
+ 'device_target': 'Ascend',
+ 'do_eval': True,
+ 'do_predict': False,
+ 'do_train': True,
+ 'dssp_hidden_size': 128,
+ 'dssp_layer_num': 1,
+ 'early_stopping_rounds': 50,
+ 'enable_modelarts': False,
+ 'enable_profiling': False,
+ 'epoch_num': 200,
+ 'eval_batch_size': 1,
+ 'eval_data_shuffle': 'false',
+ 'file_format': 'MINDIR',
+ 'frozen_bert': False,
+ 'label_percent': '1:1',
+ 'load_checkpoint_url': '/data2/xuguoshun/MPBert3/uniref_50_2048.ckpt',
+ 'load_pretrain': True,
+ 'loss_gamma': 2.0,
+ 'loss_name': 'CrossEntropy',
+ 'metrics': 'ACC',
+ 'num_class': 2,
+ 'optimizer_cfg': {'AdamWeightDecay': {'decay_filter': <function extra_operations.<locals>.create_filter_fun.<locals>.<lambda> at 0xfffc5c0c7ef0>,
+ 'end_learning_rate': 1e-10,
+ 'eps': 1e-06,
+ 'learning_rate': 1e-05,
+ 'power': 1.0,
+ 'weight_decay': 1e-05},
+ 'Lamb': {'decay_filter': <function extra_operations.<locals>.create_filter_fun.<locals>.<lambda> at 0xfffc5c0c7dd0>,
+ 'end_learning_rate': 1e-10,
+ 'learning_rate': 2e-05,
+ 'power': 1.0,
+ 'weight_decay': 0.01},
+ 'Momentum': {'learning_rate': 2e-05, 'momentum': 0.9},
+ 'optimizer': 'AdamWeightDecay'},
+ 'output_url': 'BM-Swiss/fold_2/saved_models',
+ 'print_predict': False,
+ 'pssm_hidden_size': 128,
+ 'pssm_layer_num': 1,
+ 'return_csv': False,
+ 'return_sequence': False,
+ 'task_name': 'Swiss',
+ 'train_batch_size': 32,
+ 'train_data_shuffle': 'true',
+ 'use_pynative_mode': False,
+ 'vocab_file': '',
+ 'with_lstm': False}
+ >>> Eval: Val file is val.mindrecord.
+ >>> Eval: Test file is test.mindrecord.
+==============================================================
+processor_name: Ascend
+test_name: Swiss
+batch_size: 32
+ >>> Train: Train file is train.mindrecord.
+ >>> Train: Val file is val.mindrecord.
+***Epoch: 0***
+Current epoch percent: 1.000, step: 109
+Train loss: 0.6052581
+Train epoch time: 73130.240 ms, per step time: 670.920 ms
+Validation accuracy: 0.8282051282051283
+New best accuracy: 0.8282051282051283, saved best model to :
+BM-Swiss/fold_2/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 1***
+Current epoch percent: 1.000, step: 218
+Train loss: 0.19708821
+Train epoch time: 37569.988 ms, per step time: 344.679 ms
+Validation accuracy: 0.9794871794871794
+New best accuracy: 0.9794871794871794, saved best model to :
+BM-Swiss/fold_2/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 2***
+Current epoch percent: 1.000, step: 327
+Train loss: 0.07309227
+Train epoch time: 37567.708 ms, per step time: 344.658 ms
+Validation accuracy: 0.9974358974358974
+New best accuracy: 0.9974358974358974, saved best model to :
+BM-Swiss/fold_2/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 3***
+Current epoch percent: 1.000, step: 436
+Train loss: 0.024959814
+Train epoch time: 37563.786 ms, per step time: 344.622 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 1 epochs (best acc = 0.9974358974358974).
+***Epoch: 4***
+Current epoch percent: 1.000, step: 545
+Train loss: 0.01383224
+Train epoch time: 37571.009 ms, per step time: 344.688 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 2 epochs (best acc = 0.9974358974358974).
+***Epoch: 5***
+Current epoch percent: 1.000, step: 654
+Train loss: 0.023940926
+Train epoch time: 37574.264 ms, per step time: 344.718 ms
+Validation accuracy: 1.0
+New best accuracy: 1.0, saved best model to :
+BM-Swiss/fold_2/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 6***
+Current epoch percent: 1.000, step: 763
+Train loss: 0.009695751
+Train epoch time: 37573.955 ms, per step time: 344.715 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 1 epochs (best acc = 1.0).
+***Epoch: 7***
+Current epoch percent: 1.000, step: 872
+Train loss: 0.00547096
+Train epoch time: 37571.195 ms, per step time: 344.690 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 2 epochs (best acc = 1.0).
+***Epoch: 8***
+Current epoch percent: 1.000, step: 981
+Train loss: 0.003494526
+Train epoch time: 37575.831 ms, per step time: 344.732 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 3 epochs (best acc = 1.0).
+***Epoch: 9***
+Current epoch percent: 1.000, step: 1090
+Train loss: 0.0028178599
+Train epoch time: 37567.821 ms, per step time: 344.659 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 4 epochs (best acc = 1.0).
+***Epoch: 10***
+Current epoch percent: 1.000, step: 1199
+Train loss: 0.0023078094
+Train epoch time: 37586.037 ms, per step time: 344.826 ms
+Validation accuracy: 0.9923076923076923
+No improvement in accuracy for 5 epochs (best acc = 1.0).
+***Epoch: 11***
+Current epoch percent: 1.000, step: 1308
+Train loss: 0.0016021868
+Train epoch time: 37566.758 ms, per step time: 344.649 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 6 epochs (best acc = 1.0).
+***Epoch: 12***
+Current epoch percent: 1.000, step: 1417
+Train loss: 0.0218381
+Train epoch time: 37594.608 ms, per step time: 344.905 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 7 epochs (best acc = 1.0).
+***Epoch: 13***
+Current epoch percent: 1.000, step: 1526
+Train loss: 0.0013686458
+Train epoch time: 37592.625 ms, per step time: 344.886 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 8 epochs (best acc = 1.0).
+***Epoch: 14***
+Current epoch percent: 1.000, step: 1635
+Train loss: 0.0010712775
+Train epoch time: 37579.194 ms, per step time: 344.763 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 9 epochs (best acc = 1.0).
+***Epoch: 15***
+Current epoch percent: 1.000, step: 1744
+Train loss: 0.0013619817
+Train epoch time: 37579.610 ms, per step time: 344.767 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 10 epochs (best acc = 1.0).
+***Epoch: 16***
+Current epoch percent: 1.000, step: 1853
+Train loss: 0.00070916314
+Train epoch time: 37567.382 ms, per step time: 344.655 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 11 epochs (best acc = 1.0).
+***Epoch: 17***
+Current epoch percent: 1.000, step: 1962
+Train loss: 0.0006921922
+Train epoch time: 37565.491 ms, per step time: 344.638 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 12 epochs (best acc = 1.0).
+***Epoch: 18***
+Current epoch percent: 1.000, step: 2071
+Train loss: 0.0005078006
+Train epoch time: 37571.598 ms, per step time: 344.694 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 13 epochs (best acc = 1.0).
+***Epoch: 19***
+Current epoch percent: 1.000, step: 2180
+Train loss: 0.00048460343
+Train epoch time: 37574.115 ms, per step time: 344.717 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 14 epochs (best acc = 1.0).
+***Epoch: 20***
+Current epoch percent: 1.000, step: 2289
+Train loss: 0.00036539653
+Train epoch time: 37592.023 ms, per step time: 344.881 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 15 epochs (best acc = 1.0).
+***Epoch: 21***
+Current epoch percent: 1.000, step: 2398
+Train loss: 0.0003577338
+Train epoch time: 37606.179 ms, per step time: 345.011 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 16 epochs (best acc = 1.0).
+***Epoch: 22***
+Current epoch percent: 1.000, step: 2507
+Train loss: 0.00029093333
+Train epoch time: 37656.921 ms, per step time: 345.476 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 17 epochs (best acc = 1.0).
+***Epoch: 23***
+Current epoch percent: 1.000, step: 2616
+Train loss: 0.0002922044
+Train epoch time: 37662.381 ms, per step time: 345.526 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 18 epochs (best acc = 1.0).
+***Epoch: 24***
+Current epoch percent: 1.000, step: 2725
+Train loss: 0.0002797871
+Train epoch time: 37641.280 ms, per step time: 345.333 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 19 epochs (best acc = 1.0).
+***Epoch: 25***
+Current epoch percent: 1.000, step: 2834
+Train loss: 0.00022720393
+Train epoch time: 37634.340 ms, per step time: 345.269 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 20 epochs (best acc = 1.0).
+***Epoch: 26***
+Current epoch percent: 1.000, step: 2943
+Train loss: 0.0005120555
+Train epoch time: 37559.785 ms, per step time: 344.585 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 21 epochs (best acc = 1.0).
+***Epoch: 27***
+Current epoch percent: 1.000, step: 3052
+Train loss: 0.00040382313
+Train epoch time: 37561.135 ms, per step time: 344.598 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 22 epochs (best acc = 1.0).
+***Epoch: 28***
+Current epoch percent: 1.000, step: 3161
+Train loss: 0.0029999707
+Train epoch time: 37576.157 ms, per step time: 344.735 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 23 epochs (best acc = 1.0).
+***Epoch: 29***
+Current epoch percent: 1.000, step: 3270
+Train loss: 0.00026134241
+Train epoch time: 37568.154 ms, per step time: 344.662 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 24 epochs (best acc = 1.0).
+***Epoch: 30***
+Current epoch percent: 1.000, step: 3379
+Train loss: 0.00024039063
+Train epoch time: 37571.032 ms, per step time: 344.688 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 25 epochs (best acc = 1.0).
+***Epoch: 31***
+Current epoch percent: 1.000, step: 3488
+Train loss: 0.00022742634
+Train epoch time: 37566.690 ms, per step time: 344.649 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 26 epochs (best acc = 1.0).
+***Epoch: 32***
+Current epoch percent: 1.000, step: 3597
+Train loss: 0.00024504086
+Train epoch time: 37578.875 ms, per step time: 344.760 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 27 epochs (best acc = 1.0).
+***Epoch: 33***
+Current epoch percent: 1.000, step: 3706
+Train loss: 0.00015670262
+Train epoch time: 37558.426 ms, per step time: 344.573 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 28 epochs (best acc = 1.0).
+***Epoch: 34***
+Current epoch percent: 1.000, step: 3815
+Train loss: 0.00014530073
+Train epoch time: 37573.656 ms, per step time: 344.712 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 29 epochs (best acc = 1.0).
+***Epoch: 35***
+Current epoch percent: 1.000, step: 3924
+Train loss: 0.0001317767
+Train epoch time: 37571.837 ms, per step time: 344.696 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 30 epochs (best acc = 1.0).
+***Epoch: 36***
+Current epoch percent: 1.000, step: 4033
+Train loss: 0.00012485591
+Train epoch time: 37567.905 ms, per step time: 344.660 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 31 epochs (best acc = 1.0).
+***Epoch: 37***
+Current epoch percent: 1.000, step: 4142
+Train loss: 0.00018021854
+Train epoch time: 37564.563 ms, per step time: 344.629 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 32 epochs (best acc = 1.0).
+***Epoch: 38***
+Current epoch percent: 1.000, step: 4251
+Train loss: 0.00011111875
+Train epoch time: 37565.070 ms, per step time: 344.634 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 33 epochs (best acc = 1.0).
+***Epoch: 39***
+Current epoch percent: 1.000, step: 4360
+Train loss: 9.6010794e-05
+Train epoch time: 37597.552 ms, per step time: 344.932 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 34 epochs (best acc = 1.0).
+***Epoch: 40***
+Current epoch percent: 1.000, step: 4469
+Train loss: 0.0001001555
+Train epoch time: 37610.899 ms, per step time: 345.054 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 35 epochs (best acc = 1.0).
+***Epoch: 41***
+Current epoch percent: 1.000, step: 4578
+Train loss: 8.014253e-05
+Train epoch time: 37592.590 ms, per step time: 344.886 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 36 epochs (best acc = 1.0).
+***Epoch: 42***
+Current epoch percent: 1.000, step: 4687
+Train loss: 0.00011887432
+Train epoch time: 37617.013 ms, per step time: 345.110 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 37 epochs (best acc = 1.0).
+***Epoch: 43***
+Current epoch percent: 1.000, step: 4796
+Train loss: 8.1144535e-05
+Train epoch time: 37618.374 ms, per step time: 345.123 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 38 epochs (best acc = 1.0).
+***Epoch: 44***
+Current epoch percent: 1.000, step: 4905
+Train loss: 7.950494e-05
+Train epoch time: 37608.672 ms, per step time: 345.034 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 39 epochs (best acc = 1.0).
+***Epoch: 45***
+Current epoch percent: 1.000, step: 5014
+Train loss: 7.331818e-05
+Train epoch time: 37615.825 ms, per step time: 345.099 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 40 epochs (best acc = 1.0).
+***Epoch: 46***
+Current epoch percent: 1.000, step: 5123
+Train loss: 7.9594334e-05
+Train epoch time: 37585.722 ms, per step time: 344.823 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 41 epochs (best acc = 1.0).
+***Epoch: 47***
+Current epoch percent: 1.000, step: 5232
+Train loss: 7.1015245e-05
+Train epoch time: 37595.363 ms, per step time: 344.912 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 42 epochs (best acc = 1.0).
+***Epoch: 48***
+Current epoch percent: 1.000, step: 5341
+Train loss: 6.434426e-05
+Train epoch time: 37587.498 ms, per step time: 344.839 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 43 epochs (best acc = 1.0).
+***Epoch: 49***
+Current epoch percent: 1.000, step: 5450
+Train loss: 6.271286e-05
+Train epoch time: 37586.102 ms, per step time: 344.827 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 44 epochs (best acc = 1.0).
+***Epoch: 50***
+Current epoch percent: 1.000, step: 5559
+Train loss: 6.154607e-05
+Train epoch time: 37576.674 ms, per step time: 344.740 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 45 epochs (best acc = 1.0).
+***Epoch: 51***
+Current epoch percent: 1.000, step: 5668
+Train loss: 5.2331434e-05
+Train epoch time: 37562.649 ms, per step time: 344.611 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 46 epochs (best acc = 1.0).
+***Epoch: 52***
+Current epoch percent: 1.000, step: 5777
+Train loss: 5.5929537e-05
+Train epoch time: 37564.036 ms, per step time: 344.624 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 47 epochs (best acc = 1.0).
+***Epoch: 53***
+Current epoch percent: 1.000, step: 5886
+Train loss: 4.73845e-05
+Train epoch time: 37571.753 ms, per step time: 344.695 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 48 epochs (best acc = 1.0).
+***Epoch: 54***
+Current epoch percent: 1.000, step: 5995
+Train loss: 4.3882843e-05
+Train epoch time: 37569.631 ms, per step time: 344.676 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 49 epochs (best acc = 1.0).
+***Epoch: 55***
+Current epoch percent: 1.000, step: 6104
+Train loss: 4.1320025e-05
+Train epoch time: 37562.619 ms, per step time: 344.611 ms
+
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 50 epochs (best acc = 1.0).
+Early stopping due to no improvement.
+Find the newest checkpoint:  /data2/xuguoshun/Enzymes/BM_works/Bert_Casp80/01A__Swiss_BM__equal/BM-Swiss/fold_2/saved_models/Swiss_Best_Model.ckpt
+======Val======
+** BM-Swiss/fold_2/mr_data/val.mindrecord
+
+========================================
+                  model data  AUC  ACC  precision  Recall   F1  MCC  Sensitivity  Specificity
+model  Swiss_Best_Model       1.0  1.0        1.0     1.0  1.0  1.0          1.0          1.0
+========================================
+
+======Test======
+** BM-Swiss/fold_2/mr_data/test.mindrecord
+
+========================================
+                  model data  AUC  ACC  precision  Recall   F1  MCC  Sensitivity  Specificity
+model  Swiss_Best_Model       1.0  1.0        1.0     1.0  1.0  1.0          1.0          1.0
+========================================
+
+FINISH !!!
+
+
+
+@@@ fold_3 @@@
+python /data2/xuguoshun/MPBert3/mpbert_classification_1x_v3.py --config_path /data2/xuguoshun/MPBert3/config_2048.yaml --do_train True --do_eval True --description classification --num_class 2 --epoch_num 200 --early_stopping_rounds 50 --frozen_bert False --device_id 6 --data_url BM-Swiss/fold_3/mr_data/ --load_checkpoint_url /data2/xuguoshun/MPBert3/uniref_50_2048.ckpt --output_url BM-Swiss/fold_3/saved_models --task_name Swiss --train_batch_size 32
+3 <src.bert_model.BertConfig object at 0xfffc081b0d10>
+{'bert_net_cfg': <src.bert_model.BertConfig object at 0xfffc081b0d10>,
+ 'concat_hidden_size': 512,
+ 'concat_layer_num': 1,
+ 'config_path': '/data2/xuguoshun/MPBert3/config_2048.yaml',
+ 'cut_layer_num': 0,
+ 'data_spilt_num': 3,
+ 'data_url': 'BM-Swiss/fold_3/mr_data/',
+ 'dataset_format': 'mindrecord',
+ 'description': 'classification',
+ 'device_id': 6,
+ 'device_target': 'Ascend',
+ 'do_eval': True,
+ 'do_predict': False,
+ 'do_train': True,
+ 'dssp_hidden_size': 128,
+ 'dssp_layer_num': 1,
+ 'early_stopping_rounds': 50,
+ 'enable_modelarts': False,
+ 'enable_profiling': False,
+ 'epoch_num': 200,
+ 'eval_batch_size': 1,
+ 'eval_data_shuffle': 'false',
+ 'file_format': 'MINDIR',
+ 'frozen_bert': False,
+ 'label_percent': '1:1',
+ 'load_checkpoint_url': '/data2/xuguoshun/MPBert3/uniref_50_2048.ckpt',
+ 'load_pretrain': True,
+ 'loss_gamma': 2.0,
+ 'loss_name': 'CrossEntropy',
+ 'metrics': 'ACC',
+ 'num_class': 2,
+ 'optimizer_cfg': {'AdamWeightDecay': {'decay_filter': <function extra_operations.<locals>.create_filter_fun.<locals>.<lambda> at 0xfffc08297ef0>,
+ 'end_learning_rate': 1e-10,
+ 'eps': 1e-06,
+ 'learning_rate': 1e-05,
+ 'power': 1.0,
+ 'weight_decay': 1e-05},
+ 'Lamb': {'decay_filter': <function extra_operations.<locals>.create_filter_fun.<locals>.<lambda> at 0xfffc08297dd0>,
+ 'end_learning_rate': 1e-10,
+ 'learning_rate': 2e-05,
+ 'power': 1.0,
+ 'weight_decay': 0.01},
+ 'Momentum': {'learning_rate': 2e-05, 'momentum': 0.9},
+ 'optimizer': 'AdamWeightDecay'},
+ 'output_url': 'BM-Swiss/fold_3/saved_models',
+ 'print_predict': False,
+ 'pssm_hidden_size': 128,
+ 'pssm_layer_num': 1,
+ 'return_csv': False,
+ 'return_sequence': False,
+ 'task_name': 'Swiss',
+ 'train_batch_size': 32,
+ 'train_data_shuffle': 'true',
+ 'use_pynative_mode': False,
+ 'vocab_file': '',
+ 'with_lstm': False}
+ >>> Eval: Val file is val.mindrecord.
+ >>> Eval: Test file is test.mindrecord.
+==============================================================
+processor_name: Ascend
+test_name: Swiss
+batch_size: 32
+ >>> Train: Train file is train.mindrecord.
+ >>> Train: Val file is val.mindrecord.
+***Epoch: 0***
+Current epoch percent: 1.000, step: 109
+Train loss: 0.4946725
+Train epoch time: 73382.134 ms, per step time: 673.231 ms
+Validation accuracy: 0.941025641025641
+New best accuracy: 0.941025641025641, saved best model to :
+BM-Swiss/fold_3/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 1***
+Current epoch percent: 1.000, step: 218
+Train loss: 0.19507733
+Train epoch time: 37601.905 ms, per step time: 344.972 ms
+Validation accuracy: 0.9871794871794872
+New best accuracy: 0.9871794871794872, saved best model to :
+BM-Swiss/fold_3/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 2***
+Current epoch percent: 1.000, step: 327
+Train loss: 0.07296458
+Train epoch time: 37599.386 ms, per step time: 344.948 ms
+Validation accuracy: 0.9897435897435898
+New best accuracy: 0.9897435897435898, saved best model to :
+BM-Swiss/fold_3/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 3***
+Current epoch percent: 1.000, step: 436
+Train loss: 0.026612742
+Train epoch time: 37603.185 ms, per step time: 344.983 ms
+Validation accuracy: 0.9923076923076923
+New best accuracy: 0.9923076923076923, saved best model to :
+BM-Swiss/fold_3/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 4***
+Current epoch percent: 1.000, step: 545
+Train loss: 0.0170993
+Train epoch time: 37599.054 ms, per step time: 344.945 ms
+Validation accuracy: 0.9897435897435898
+No improvement in accuracy for 1 epochs (best acc = 0.9923076923076923).
+***Epoch: 5***
+Current epoch percent: 1.000, step: 654
+Train loss: 0.009981974
+Train epoch time: 37604.840 ms, per step time: 344.999 ms
+Validation accuracy: 0.9948717948717949
+New best accuracy: 0.9948717948717949, saved best model to :
+BM-Swiss/fold_3/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 6***
+Current epoch percent: 1.000, step: 763
+Train loss: 0.007416212
+Train epoch time: 37601.242 ms, per step time: 344.966 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 1 epochs (best acc = 0.9948717948717949).
+***Epoch: 7***
+Current epoch percent: 1.000, step: 872
+Train loss: 0.0050139385
+Train epoch time: 37610.229 ms, per step time: 345.048 ms
+Validation accuracy: 0.9974358974358974
+New best accuracy: 0.9974358974358974, saved best model to :
+BM-Swiss/fold_3/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 8***
+Current epoch percent: 1.000, step: 981
+Train loss: 0.006714037
+Train epoch time: 37619.198 ms, per step time: 345.130 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 1 epochs (best acc = 0.9974358974358974).
+***Epoch: 9***
+Current epoch percent: 1.000, step: 1090
+Train loss: 0.0037640876
+Train epoch time: 37618.434 ms, per step time: 345.123 ms
+Validation accuracy: 0.9897435897435898
+No improvement in accuracy for 2 epochs (best acc = 0.9974358974358974).
+***Epoch: 10***
+Current epoch percent: 1.000, step: 1199
+Train loss: 0.003075465
+Train epoch time: 37596.578 ms, per step time: 344.923 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 3 epochs (best acc = 0.9974358974358974).
+***Epoch: 11***
+Current epoch percent: 1.000, step: 1308
+Train loss: 0.0037773435
+Train epoch time: 37612.803 ms, per step time: 345.072 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 4 epochs (best acc = 0.9974358974358974).
+***Epoch: 12***
+Current epoch percent: 1.000, step: 1417
+Train loss: 0.003532344
+Train epoch time: 37601.926 ms, per step time: 344.972 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 5 epochs (best acc = 0.9974358974358974).
+***Epoch: 13***
+Current epoch percent: 1.000, step: 1526
+Train loss: 0.010212657
+Train epoch time: 37603.954 ms, per step time: 344.990 ms
+Validation accuracy: 0.9923076923076923
+No improvement in accuracy for 6 epochs (best acc = 0.9974358974358974).
+***Epoch: 14***
+Current epoch percent: 1.000, step: 1635
+Train loss: 0.0015615022
+Train epoch time: 37612.912 ms, per step time: 345.073 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 7 epochs (best acc = 0.9974358974358974).
+***Epoch: 15***
+Current epoch percent: 1.000, step: 1744
+Train loss: 0.0008776835
+Train epoch time: 37633.559 ms, per step time: 345.262 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 8 epochs (best acc = 0.9974358974358974).
+***Epoch: 16***
+Current epoch percent: 1.000, step: 1853
+Train loss: 0.00083033065
+Train epoch time: 37657.729 ms, per step time: 345.484 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 9 epochs (best acc = 0.9974358974358974).
+***Epoch: 17***
+Current epoch percent: 1.000, step: 1962
+Train loss: 0.0009825546
+Train epoch time: 37598.892 ms, per step time: 344.944 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 10 epochs (best acc = 0.9974358974358974).
+***Epoch: 18***
+Current epoch percent: 1.000, step: 2071
+Train loss: 0.0006541187
+Train epoch time: 37599.285 ms, per step time: 344.948 ms
+Validation accuracy: 0.9923076923076923
+No improvement in accuracy for 11 epochs (best acc = 0.9974358974358974).
+***Epoch: 19***
+Current epoch percent: 1.000, step: 2180
+Train loss: 0.0005770043
+Train epoch time: 37619.093 ms, per step time: 345.129 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 12 epochs (best acc = 0.9974358974358974).
+***Epoch: 20***
+Current epoch percent: 1.000, step: 2289
+Train loss: 0.000418461
+Train epoch time: 37617.443 ms, per step time: 345.114 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 13 epochs (best acc = 0.9974358974358974).
+***Epoch: 21***
+Current epoch percent: 1.000, step: 2398
+Train loss: 0.0003740649
+Train epoch time: 37654.505 ms, per step time: 345.454 ms
+Validation accuracy: 0.9923076923076923
+No improvement in accuracy for 14 epochs (best acc = 0.9974358974358974).
+***Epoch: 22***
+Current epoch percent: 1.000, step: 2507
+Train loss: 0.00046791346
+Train epoch time: 37620.303 ms, per step time: 345.140 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 15 epochs (best acc = 0.9974358974358974).
+***Epoch: 23***
+Current epoch percent: 1.000, step: 2616
+Train loss: 0.00033118602
+Train epoch time: 37603.869 ms, per step time: 344.990 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 16 epochs (best acc = 0.9974358974358974).
+***Epoch: 24***
+Current epoch percent: 1.000, step: 2725
+Train loss: 0.0002953838
+Train epoch time: 37607.716 ms, per step time: 345.025 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 17 epochs (best acc = 0.9974358974358974).
+***Epoch: 25***
+Current epoch percent: 1.000, step: 2834
+Train loss: 0.00027850614
+Train epoch time: 37605.411 ms, per step time: 345.004 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 18 epochs (best acc = 0.9974358974358974).
+***Epoch: 26***
+Current epoch percent: 1.000, step: 2943
+Train loss: 0.00024123759
+Train epoch time: 37606.334 ms, per step time: 345.012 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 19 epochs (best acc = 0.9974358974358974).
+***Epoch: 27***
+Current epoch percent: 1.000, step: 3052
+Train loss: 0.00023300148
+Train epoch time: 37616.997 ms, per step time: 345.110 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 20 epochs (best acc = 0.9974358974358974).
+***Epoch: 28***
+Current epoch percent: 1.000, step: 3161
+Train loss: 0.00021797098
+Train epoch time: 37608.837 ms, per step time: 345.035 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 21 epochs (best acc = 0.9974358974358974).
+***Epoch: 29***
+Current epoch percent: 1.000, step: 3270
+Train loss: 0.00019391137
+Train epoch time: 37602.071 ms, per step time: 344.973 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 22 epochs (best acc = 0.9974358974358974).
+***Epoch: 30***
+Current epoch percent: 1.000, step: 3379
+Train loss: 0.00019524246
+Train epoch time: 37604.294 ms, per step time: 344.994 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 23 epochs (best acc = 0.9974358974358974).
+***Epoch: 31***
+Current epoch percent: 1.000, step: 3488
+Train loss: 0.00018339555
+Train epoch time: 37606.527 ms, per step time: 345.014 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 24 epochs (best acc = 0.9974358974358974).
+***Epoch: 32***
+Current epoch percent: 1.000, step: 3597
+Train loss: 0.00015578617
+Train epoch time: 37605.416 ms, per step time: 345.004 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 25 epochs (best acc = 0.9974358974358974).
+***Epoch: 33***
+Current epoch percent: 1.000, step: 3706
+Train loss: 0.00015599087
+Train epoch time: 37608.894 ms, per step time: 345.036 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 26 epochs (best acc = 0.9974358974358974).
+***Epoch: 34***
+Current epoch percent: 1.000, step: 3815
+Train loss: 0.0001379948
+Train epoch time: 37599.724 ms, per step time: 344.952 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 27 epochs (best acc = 0.9974358974358974).
+***Epoch: 35***
+Current epoch percent: 1.000, step: 3924
+Train loss: 0.00012645038
+Train epoch time: 37626.417 ms, per step time: 345.196 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 28 epochs (best acc = 0.9974358974358974).
+***Epoch: 36***
+Current epoch percent: 1.000, step: 4033
+Train loss: 0.000117425276
+Train epoch time: 37602.368 ms, per step time: 344.976 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 29 epochs (best acc = 0.9974358974358974).
+***Epoch: 37***
+Current epoch percent: 1.000, step: 4142
+Train loss: 0.00010743875
+Train epoch time: 37598.487 ms, per step time: 344.940 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 30 epochs (best acc = 0.9974358974358974).
+***Epoch: 38***
+Current epoch percent: 1.000, step: 4251
+Train loss: 9.808188e-05
+Train epoch time: 37638.030 ms, per step time: 345.303 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 31 epochs (best acc = 0.9974358974358974).
+***Epoch: 39***
+Current epoch percent: 1.000, step: 4360
+Train loss: 9.658441e-05
+Train epoch time: 37607.568 ms, per step time: 345.024 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 32 epochs (best acc = 0.9974358974358974).
+***Epoch: 40***
+Current epoch percent: 1.000, step: 4469
+Train loss: 0.00010055858
+Train epoch time: 37609.667 ms, per step time: 345.043 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 33 epochs (best acc = 0.9974358974358974).
+***Epoch: 41***
+Current epoch percent: 1.000, step: 4578
+Train loss: 9.127266e-05
+Train epoch time: 37620.067 ms, per step time: 345.138 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 34 epochs (best acc = 0.9974358974358974).
+***Epoch: 42***
+Current epoch percent: 1.000, step: 4687
+Train loss: 9.0962494e-05
+Train epoch time: 37610.677 ms, per step time: 345.052 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 35 epochs (best acc = 0.9974358974358974).
+***Epoch: 43***
+Current epoch percent: 1.000, step: 4796
+Train loss: 8.451919e-05
+Train epoch time: 37622.661 ms, per step time: 345.162 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 36 epochs (best acc = 0.9974358974358974).
+***Epoch: 44***
+Current epoch percent: 1.000, step: 4905
+Train loss: 7.185071e-05
+Train epoch time: 37610.895 ms, per step time: 345.054 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 37 epochs (best acc = 0.9974358974358974).
+***Epoch: 45***
+Current epoch percent: 1.000, step: 5014
+Train loss: 6.090656e-05
+Train epoch time: 37656.395 ms, per step time: 345.472 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 38 epochs (best acc = 0.9974358974358974).
+***Epoch: 46***
+Current epoch percent: 1.000, step: 5123
+Train loss: 6.649038e-05
+Train epoch time: 37621.630 ms, per step time: 345.153 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 39 epochs (best acc = 0.9974358974358974).
+***Epoch: 47***
+Current epoch percent: 1.000, step: 5232
+Train loss: 5.957295e-05
+Train epoch time: 37627.712 ms, per step time: 345.208 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 40 epochs (best acc = 0.9974358974358974).
+***Epoch: 48***
+Current epoch percent: 1.000, step: 5341
+Train loss: 5.9811373e-05
+Train epoch time: 37663.098 ms, per step time: 345.533 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 41 epochs (best acc = 0.9974358974358974).
+***Epoch: 49***
+Current epoch percent: 1.000, step: 5450
+Train loss: 5.347505e-05
+Train epoch time: 37629.599 ms, per step time: 345.226 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 42 epochs (best acc = 0.9974358974358974).
+***Epoch: 50***
+Current epoch percent: 1.000, step: 5559
+Train loss: 5.341167e-05
+Train epoch time: 37629.553 ms, per step time: 345.225 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 43 epochs (best acc = 0.9974358974358974).
+***Epoch: 51***
+Current epoch percent: 1.000, step: 5668
+Train loss: 5.462577e-05
+Train epoch time: 37623.158 ms, per step time: 345.167 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 44 epochs (best acc = 0.9974358974358974).
+***Epoch: 52***
+Current epoch percent: 1.000, step: 5777
+Train loss: 4.213212e-05
+Train epoch time: 37614.606 ms, per step time: 345.088 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 45 epochs (best acc = 0.9974358974358974).
+***Epoch: 53***
+Current epoch percent: 1.000, step: 5886
+Train loss: 4.9377195e-05
+Train epoch time: 37605.819 ms, per step time: 345.008 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 46 epochs (best acc = 0.9974358974358974).
+***Epoch: 54***
+Current epoch percent: 1.000, step: 5995
+Train loss: 4.0180144e-05
+Train epoch time: 37604.132 ms, per step time: 344.992 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 47 epochs (best acc = 0.9974358974358974).
+***Epoch: 55***
+Current epoch percent: 1.000, step: 6104
+Train loss: 4.1506144e-05
+Train epoch time: 37615.089 ms, per step time: 345.093 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 48 epochs (best acc = 0.9974358974358974).
+***Epoch: 56***
+Current epoch percent: 1.000, step: 6213
+Train loss: 3.772526e-05
+Train epoch time: 37637.962 ms, per step time: 345.302 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 49 epochs (best acc = 0.9974358974358974).
+***Epoch: 57***
+Current epoch percent: 1.000, step: 6322
+Train loss: 3.1895397e-05
+Train epoch time: 37615.054 ms, per step time: 345.092 ms
+
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 50 epochs (best acc = 0.9974358974358974).
+Early stopping due to no improvement.
+Find the newest checkpoint:  /data2/xuguoshun/Enzymes/BM_works/Bert_Casp80/01A__Swiss_BM__equal/BM-Swiss/fold_3/saved_models/Swiss_Best_Model.ckpt
+======Val======
+** BM-Swiss/fold_3/mr_data/val.mindrecord
+
+========================================
+                  model data       AUC       ACC  precision    Recall        F1       MCC  Sensitivity  Specificity
+model  Swiss_Best_Model       0.999921  0.997436   0.997449  0.997436  0.997436  0.994885          1.0     0.994872
+========================================
+
+======Test======
+** BM-Swiss/fold_3/mr_data/test.mindrecord
+
+========================================
+                  model data       AUC       ACC  precision    Recall        F1       MCC  Sensitivity  Specificity
+model  Swiss_Best_Model       0.999921  0.997436   0.997449  0.997436  0.997436  0.994885          1.0     0.994872
+========================================
+
+FINISH !!!
+
+
+
+@@@ fold_4 @@@
+python /data2/xuguoshun/MPBert3/mpbert_classification_1x_v3.py --config_path /data2/xuguoshun/MPBert3/config_2048.yaml --do_train True --do_eval True --description classification --num_class 2 --epoch_num 200 --early_stopping_rounds 50 --frozen_bert False --device_id 6 --data_url BM-Swiss/fold_4/mr_data/ --load_checkpoint_url /data2/xuguoshun/MPBert3/uniref_50_2048.ckpt --output_url BM-Swiss/fold_4/saved_models --task_name Swiss --train_batch_size 32
+3 <src.bert_model.BertConfig object at 0xfffd4f660ad0>
+{'bert_net_cfg': <src.bert_model.BertConfig object at 0xfffd4f660ad0>,
+ 'concat_hidden_size': 512,
+ 'concat_layer_num': 1,
+ 'config_path': '/data2/xuguoshun/MPBert3/config_2048.yaml',
+ 'cut_layer_num': 0,
+ 'data_spilt_num': 3,
+ 'data_url': 'BM-Swiss/fold_4/mr_data/',
+ 'dataset_format': 'mindrecord',
+ 'description': 'classification',
+ 'device_id': 6,
+ 'device_target': 'Ascend',
+ 'do_eval': True,
+ 'do_predict': False,
+ 'do_train': True,
+ 'dssp_hidden_size': 128,
+ 'dssp_layer_num': 1,
+ 'early_stopping_rounds': 50,
+ 'enable_modelarts': False,
+ 'enable_profiling': False,
+ 'epoch_num': 200,
+ 'eval_batch_size': 1,
+ 'eval_data_shuffle': 'false',
+ 'file_format': 'MINDIR',
+ 'frozen_bert': False,
+ 'label_percent': '1:1',
+ 'load_checkpoint_url': '/data2/xuguoshun/MPBert3/uniref_50_2048.ckpt',
+ 'load_pretrain': True,
+ 'loss_gamma': 2.0,
+ 'loss_name': 'CrossEntropy',
+ 'metrics': 'ACC',
+ 'num_class': 2,
+ 'optimizer_cfg': {'AdamWeightDecay': {'decay_filter': <function extra_operations.<locals>.create_filter_fun.<locals>.<lambda> at 0xfffd4f747ef0>,
+ 'end_learning_rate': 1e-10,
+ 'eps': 1e-06,
+ 'learning_rate': 1e-05,
+ 'power': 1.0,
+ 'weight_decay': 1e-05},
+ 'Lamb': {'decay_filter': <function extra_operations.<locals>.create_filter_fun.<locals>.<lambda> at 0xfffd4f747dd0>,
+ 'end_learning_rate': 1e-10,
+ 'learning_rate': 2e-05,
+ 'power': 1.0,
+ 'weight_decay': 0.01},
+ 'Momentum': {'learning_rate': 2e-05, 'momentum': 0.9},
+ 'optimizer': 'AdamWeightDecay'},
+ 'output_url': 'BM-Swiss/fold_4/saved_models',
+ 'print_predict': False,
+ 'pssm_hidden_size': 128,
+ 'pssm_layer_num': 1,
+ 'return_csv': False,
+ 'return_sequence': False,
+ 'task_name': 'Swiss',
+ 'train_batch_size': 32,
+ 'train_data_shuffle': 'true',
+ 'use_pynative_mode': False,
+ 'vocab_file': '',
+ 'with_lstm': False}
+ >>> Eval: Val file is val.mindrecord.
+ >>> Eval: Test file is test.mindrecord.
+==============================================================
+processor_name: Ascend
+test_name: Swiss
+batch_size: 32
+ >>> Train: Train file is train.mindrecord.
+ >>> Train: Val file is val.mindrecord.
+***Epoch: 0***
+Current epoch percent: 1.000, step: 109
+Train loss: 0.55911565
+Train epoch time: 70505.750 ms, per step time: 646.842 ms
+Validation accuracy: 0.9153846153846154
+New best accuracy: 0.9153846153846154, saved best model to :
+BM-Swiss/fold_4/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 1***
+Current epoch percent: 1.000, step: 218
+Train loss: 0.24455726
+Train epoch time: 37580.183 ms, per step time: 344.772 ms
+Validation accuracy: 0.9974358974358974
+New best accuracy: 0.9974358974358974, saved best model to :
+BM-Swiss/fold_4/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 2***
+Current epoch percent: 1.000, step: 327
+Train loss: 0.08795065
+Train epoch time: 37576.284 ms, per step time: 344.737 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 1 epochs (best acc = 0.9974358974358974).
+***Epoch: 3***
+Current epoch percent: 1.000, step: 436
+Train loss: 0.053808577
+Train epoch time: 37579.451 ms, per step time: 344.766 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 2 epochs (best acc = 0.9974358974358974).
+***Epoch: 4***
+Current epoch percent: 1.000, step: 545
+Train loss: 0.01893726
+Train epoch time: 37576.651 ms, per step time: 344.740 ms
+Validation accuracy: 1.0
+New best accuracy: 1.0, saved best model to :
+BM-Swiss/fold_4/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 5***
+Current epoch percent: 1.000, step: 654
+Train loss: 0.011988698
+Train epoch time: 37582.456 ms, per step time: 344.793 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 1 epochs (best acc = 1.0).
+***Epoch: 6***
+Current epoch percent: 1.000, step: 763
+Train loss: 0.07106768
+Train epoch time: 37604.580 ms, per step time: 344.996 ms
+Validation accuracy: 0.9871794871794872
+No improvement in accuracy for 2 epochs (best acc = 1.0).
+***Epoch: 7***
+Current epoch percent: 1.000, step: 872
+Train loss: 0.0055883364
+Train epoch time: 37618.222 ms, per step time: 345.121 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 3 epochs (best acc = 1.0).
+***Epoch: 8***
+Current epoch percent: 1.000, step: 981
+Train loss: 0.004494911
+Train epoch time: 37626.008 ms, per step time: 345.193 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 4 epochs (best acc = 1.0).
+***Epoch: 9***
+Current epoch percent: 1.000, step: 1090
+Train loss: 0.0056427754
+Train epoch time: 37620.484 ms, per step time: 345.142 ms
+Validation accuracy: 0.9923076923076923
+No improvement in accuracy for 5 epochs (best acc = 1.0).
+***Epoch: 10***
+Current epoch percent: 1.000, step: 1199
+Train loss: 0.0069193877
+Train epoch time: 37591.831 ms, per step time: 344.879 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 6 epochs (best acc = 1.0).
+***Epoch: 11***
+Current epoch percent: 1.000, step: 1308
+Train loss: 0.0023030008
+Train epoch time: 37573.920 ms, per step time: 344.715 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 7 epochs (best acc = 1.0).
+***Epoch: 12***
+Current epoch percent: 1.000, step: 1417
+Train loss: 0.0020602369
+Train epoch time: 37586.199 ms, per step time: 344.828 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 8 epochs (best acc = 1.0).
+***Epoch: 13***
+Current epoch percent: 1.000, step: 1526
+Train loss: 0.0019514362
+Train epoch time: 37589.111 ms, per step time: 344.854 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 9 epochs (best acc = 1.0).
+***Epoch: 14***
+Current epoch percent: 1.000, step: 1635
+Train loss: 0.18318519
+Train epoch time: 37582.581 ms, per step time: 344.794 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 10 epochs (best acc = 1.0).
+***Epoch: 15***
+Current epoch percent: 1.000, step: 1744
+Train loss: 0.0010270072
+Train epoch time: 37582.767 ms, per step time: 344.796 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 11 epochs (best acc = 1.0).
+***Epoch: 16***
+Current epoch percent: 1.000, step: 1853
+Train loss: 0.00090896216
+Train epoch time: 37587.722 ms, per step time: 344.841 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 12 epochs (best acc = 1.0).
+***Epoch: 17***
+Current epoch percent: 1.000, step: 1962
+Train loss: 0.0007676751
+Train epoch time: 37579.485 ms, per step time: 344.766 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 13 epochs (best acc = 1.0).
+***Epoch: 18***
+Current epoch percent: 1.000, step: 2071
+Train loss: 0.0022747235
+Train epoch time: 37585.279 ms, per step time: 344.819 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 14 epochs (best acc = 1.0).
+***Epoch: 19***
+Current epoch percent: 1.000, step: 2180
+Train loss: 0.0010107369
+Train epoch time: 37586.593 ms, per step time: 344.831 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 15 epochs (best acc = 1.0).
+***Epoch: 20***
+Current epoch percent: 1.000, step: 2289
+Train loss: 0.00071866356
+Train epoch time: 37583.367 ms, per step time: 344.802 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 16 epochs (best acc = 1.0).
+***Epoch: 21***
+Current epoch percent: 1.000, step: 2398
+Train loss: 0.00043398305
+Train epoch time: 37590.575 ms, per step time: 344.868 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 17 epochs (best acc = 1.0).
+***Epoch: 22***
+Current epoch percent: 1.000, step: 2507
+Train loss: 0.001160157
+Train epoch time: 37596.543 ms, per step time: 344.922 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 18 epochs (best acc = 1.0).
+***Epoch: 23***
+Current epoch percent: 1.000, step: 2616
+Train loss: 0.00049945747
+Train epoch time: 37587.679 ms, per step time: 344.841 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 19 epochs (best acc = 1.0).
+***Epoch: 24***
+Current epoch percent: 1.000, step: 2725
+Train loss: 0.00034628768
+Train epoch time: 37584.734 ms, per step time: 344.814 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 20 epochs (best acc = 1.0).
+***Epoch: 25***
+Current epoch percent: 1.000, step: 2834
+Train loss: 0.00026814948
+Train epoch time: 37584.340 ms, per step time: 344.810 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 21 epochs (best acc = 1.0).
+***Epoch: 26***
+Current epoch percent: 1.000, step: 2943
+Train loss: 0.00023178926
+Train epoch time: 37593.379 ms, per step time: 344.893 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 22 epochs (best acc = 1.0).
+***Epoch: 27***
+Current epoch percent: 1.000, step: 3052
+Train loss: 0.00022154229
+Train epoch time: 37584.958 ms, per step time: 344.816 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 23 epochs (best acc = 1.0).
+***Epoch: 28***
+Current epoch percent: 1.000, step: 3161
+Train loss: 0.00025151554
+Train epoch time: 37586.765 ms, per step time: 344.833 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 24 epochs (best acc = 1.0).
+***Epoch: 29***
+Current epoch percent: 1.000, step: 3270
+Train loss: 0.00021420508
+Train epoch time: 37581.982 ms, per step time: 344.789 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 25 epochs (best acc = 1.0).
+***Epoch: 30***
+Current epoch percent: 1.000, step: 3379
+Train loss: 0.00017631182
+Train epoch time: 37590.496 ms, per step time: 344.867 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 26 epochs (best acc = 1.0).
+***Epoch: 31***
+Current epoch percent: 1.000, step: 3488
+Train loss: 0.00015055282
+Train epoch time: 37586.193 ms, per step time: 344.827 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 27 epochs (best acc = 1.0).
+***Epoch: 32***
+Current epoch percent: 1.000, step: 3597
+Train loss: 0.00015551799
+Train epoch time: 37581.664 ms, per step time: 344.786 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 28 epochs (best acc = 1.0).
+***Epoch: 33***
+Current epoch percent: 1.000, step: 3706
+Train loss: 0.00013391842
+Train epoch time: 37596.602 ms, per step time: 344.923 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 29 epochs (best acc = 1.0).
+***Epoch: 34***
+Current epoch percent: 1.000, step: 3815
+Train loss: 0.0001581781
+Train epoch time: 37577.019 ms, per step time: 344.743 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 30 epochs (best acc = 1.0).
+***Epoch: 35***
+Current epoch percent: 1.000, step: 3924
+Train loss: 0.000112202186
+Train epoch time: 37582.637 ms, per step time: 344.795 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 31 epochs (best acc = 1.0).
+***Epoch: 36***
+Current epoch percent: 1.000, step: 4033
+Train loss: 0.00011252997
+Train epoch time: 37589.736 ms, per step time: 344.860 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 32 epochs (best acc = 1.0).
+***Epoch: 37***
+Current epoch percent: 1.000, step: 4142
+Train loss: 0.00010216024
+Train epoch time: 37585.335 ms, per step time: 344.820 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 33 epochs (best acc = 1.0).
+***Epoch: 38***
+Current epoch percent: 1.000, step: 4251
+Train loss: 8.727938e-05
+Train epoch time: 37580.388 ms, per step time: 344.774 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 34 epochs (best acc = 1.0).
+***Epoch: 39***
+Current epoch percent: 1.000, step: 4360
+Train loss: 9.640507e-05
+Train epoch time: 37584.369 ms, per step time: 344.811 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 35 epochs (best acc = 1.0).
+***Epoch: 40***
+Current epoch percent: 1.000, step: 4469
+Train loss: 9.642352e-05
+Train epoch time: 37581.442 ms, per step time: 344.784 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 36 epochs (best acc = 1.0).
+***Epoch: 41***
+Current epoch percent: 1.000, step: 4578
+Train loss: 8.624722e-05
+Train epoch time: 37587.306 ms, per step time: 344.838 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 37 epochs (best acc = 1.0).
+***Epoch: 42***
+Current epoch percent: 1.000, step: 4687
+Train loss: 7.6048695e-05
+Train epoch time: 37595.231 ms, per step time: 344.910 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 38 epochs (best acc = 1.0).
+***Epoch: 43***
+Current epoch percent: 1.000, step: 4796
+Train loss: 6.98126e-05
+Train epoch time: 37589.370 ms, per step time: 344.857 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 39 epochs (best acc = 1.0).
+***Epoch: 44***
+Current epoch percent: 1.000, step: 4905
+Train loss: 6.013543e-05
+Train epoch time: 37582.887 ms, per step time: 344.797 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 40 epochs (best acc = 1.0).
+***Epoch: 45***
+Current epoch percent: 1.000, step: 5014
+Train loss: 6.0772447e-05
+Train epoch time: 37588.478 ms, per step time: 344.848 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 41 epochs (best acc = 1.0).
+***Epoch: 46***
+Current epoch percent: 1.000, step: 5123
+Train loss: 5.9170692e-05
+Train epoch time: 37597.293 ms, per step time: 344.929 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 42 epochs (best acc = 1.0).
+***Epoch: 47***
+Current epoch percent: 1.000, step: 5232
+Train loss: 5.7803496e-05
+Train epoch time: 37569.738 ms, per step time: 344.676 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 43 epochs (best acc = 1.0).
+***Epoch: 48***
+Current epoch percent: 1.000, step: 5341
+Train loss: 6.090592e-05
+Train epoch time: 37582.065 ms, per step time: 344.790 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 44 epochs (best acc = 1.0).
+***Epoch: 49***
+Current epoch percent: 1.000, step: 5450
+Train loss: 5.6846147e-05
+Train epoch time: 37591.453 ms, per step time: 344.876 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 45 epochs (best acc = 1.0).
+***Epoch: 50***
+Current epoch percent: 1.000, step: 5559
+Train loss: 6.169773e-05
+Train epoch time: 37583.483 ms, per step time: 344.803 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 46 epochs (best acc = 1.0).
+***Epoch: 51***
+Current epoch percent: 1.000, step: 5668
+Train loss: 5.0025345e-05
+Train epoch time: 37584.748 ms, per step time: 344.814 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 47 epochs (best acc = 1.0).
+***Epoch: 52***
+Current epoch percent: 1.000, step: 5777
+Train loss: 4.4177177e-05
+Train epoch time: 37582.120 ms, per step time: 344.790 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 48 epochs (best acc = 1.0).
+***Epoch: 53***
+Current epoch percent: 1.000, step: 5886
+Train loss: 4.1029467e-05
+Train epoch time: 37582.665 ms, per step time: 344.795 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 49 epochs (best acc = 1.0).
+***Epoch: 54***
+Current epoch percent: 1.000, step: 5995
+Train loss: 4.2515578e-05
+Train epoch time: 37589.365 ms, per step time: 344.857 ms
+
+Validation accuracy: 1.0
+No improvement in accuracy for 50 epochs (best acc = 1.0).
+Early stopping due to no improvement.
+Find the newest checkpoint:  /data2/xuguoshun/Enzymes/BM_works/Bert_Casp80/01A__Swiss_BM__equal/BM-Swiss/fold_4/saved_models/Swiss_Best_Model.ckpt
+======Val======
+** BM-Swiss/fold_4/mr_data/val.mindrecord
+
+========================================
+                  model data  AUC  ACC  precision  Recall   F1  MCC  Sensitivity  Specificity
+model  Swiss_Best_Model       1.0  1.0        1.0     1.0  1.0  1.0          1.0          1.0
+========================================
+
+======Test======
+** BM-Swiss/fold_4/mr_data/test.mindrecord
+
+========================================
+                  model data  AUC  ACC  precision  Recall   F1  MCC  Sensitivity  Specificity
+model  Swiss_Best_Model       1.0  1.0        1.0     1.0  1.0  1.0          1.0          1.0
+========================================
+
+FINISH !!!
+
+Done!
+	>>> BM dir: BM-Swiss
+	>>> Target dir: ['fold_5', 'fold_6', 'fold_7', 'fold_8', 'fold_9']
+
+
+
+
+@@@ fold_5 @@@
+python /data2/xuguoshun/MPBert3/mpbert_classification_1x_v3.py --config_path /data2/xuguoshun/MPBert3/config_2048.yaml --do_train True --do_eval True --description classification --num_class 2 --epoch_num 200 --early_stopping_rounds 50 --frozen_bert False --device_id 7 --data_url BM-Swiss/fold_5/mr_data/ --load_checkpoint_url /data2/xuguoshun/MPBert3/uniref_50_2048.ckpt --output_url BM-Swiss/fold_5/saved_models --task_name Swiss --train_batch_size 32
+3 <src.bert_model.BertConfig object at 0xfffdbaf60910>
+{'bert_net_cfg': <src.bert_model.BertConfig object at 0xfffdbaf60910>,
+ 'concat_hidden_size': 512,
+ 'concat_layer_num': 1,
+ 'config_path': '/data2/xuguoshun/MPBert3/config_2048.yaml',
+ 'cut_layer_num': 0,
+ 'data_spilt_num': 3,
+ 'data_url': 'BM-Swiss/fold_5/mr_data/',
+ 'dataset_format': 'mindrecord',
+ 'description': 'classification',
+ 'device_id': 7,
+ 'device_target': 'Ascend',
+ 'do_eval': True,
+ 'do_predict': False,
+ 'do_train': True,
+ 'dssp_hidden_size': 128,
+ 'dssp_layer_num': 1,
+ 'early_stopping_rounds': 50,
+ 'enable_modelarts': False,
+ 'enable_profiling': False,
+ 'epoch_num': 200,
+ 'eval_batch_size': 1,
+ 'eval_data_shuffle': 'false',
+ 'file_format': 'MINDIR',
+ 'frozen_bert': False,
+ 'label_percent': '1:1',
+ 'load_checkpoint_url': '/data2/xuguoshun/MPBert3/uniref_50_2048.ckpt',
+ 'load_pretrain': True,
+ 'loss_gamma': 2.0,
+ 'loss_name': 'CrossEntropy',
+ 'metrics': 'ACC',
+ 'num_class': 2,
+ 'optimizer_cfg': {'AdamWeightDecay': {'decay_filter': <function extra_operations.<locals>.create_filter_fun.<locals>.<lambda> at 0xfffdbb047ef0>,
+ 'end_learning_rate': 1e-10,
+ 'eps': 1e-06,
+ 'learning_rate': 1e-05,
+ 'power': 1.0,
+ 'weight_decay': 1e-05},
+ 'Lamb': {'decay_filter': <function extra_operations.<locals>.create_filter_fun.<locals>.<lambda> at 0xfffdbb047dd0>,
+ 'end_learning_rate': 1e-10,
+ 'learning_rate': 2e-05,
+ 'power': 1.0,
+ 'weight_decay': 0.01},
+ 'Momentum': {'learning_rate': 2e-05, 'momentum': 0.9},
+ 'optimizer': 'AdamWeightDecay'},
+ 'output_url': 'BM-Swiss/fold_5/saved_models',
+ 'print_predict': False,
+ 'pssm_hidden_size': 128,
+ 'pssm_layer_num': 1,
+ 'return_csv': False,
+ 'return_sequence': False,
+ 'task_name': 'Swiss',
+ 'train_batch_size': 32,
+ 'train_data_shuffle': 'true',
+ 'use_pynative_mode': False,
+ 'vocab_file': '',
+ 'with_lstm': False}
+ >>> Eval: Val file is val.mindrecord.
+ >>> Eval: Test file is test.mindrecord.
+==============================================================
+processor_name: Ascend
+test_name: Swiss
+batch_size: 32
+ >>> Train: Train file is train.mindrecord.
+ >>> Train: Val file is val.mindrecord.
+***Epoch: 0***
+Current epoch percent: 1.000, step: 109
+Train loss: 0.5377363
+Train epoch time: 90927.132 ms, per step time: 834.194 ms
+Validation accuracy: 0.9230769230769231
+New best accuracy: 0.9230769230769231, saved best model to :
+BM-Swiss/fold_5/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 1***
+Current epoch percent: 1.000, step: 218
+Train loss: 0.25356117
+Train epoch time: 37685.019 ms, per step time: 345.734 ms
+Validation accuracy: 0.9794871794871794
+New best accuracy: 0.9794871794871794, saved best model to :
+BM-Swiss/fold_5/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 2***
+Current epoch percent: 1.000, step: 327
+Train loss: 0.072777525
+Train epoch time: 37671.529 ms, per step time: 345.610 ms
+Validation accuracy: 0.9846153846153847
+New best accuracy: 0.9846153846153847, saved best model to :
+BM-Swiss/fold_5/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 3***
+Current epoch percent: 1.000, step: 436
+Train loss: 0.032375075
+Train epoch time: 37681.204 ms, per step time: 345.699 ms
+Validation accuracy: 0.9897435897435898
+New best accuracy: 0.9897435897435898, saved best model to :
+BM-Swiss/fold_5/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 4***
+Current epoch percent: 1.000, step: 545
+Train loss: 0.015210173
+Train epoch time: 37688.344 ms, per step time: 345.765 ms
+Validation accuracy: 0.9897435897435898
+No improvement in accuracy for 1 epochs (best acc = 0.9897435897435898).
+***Epoch: 5***
+Current epoch percent: 1.000, step: 654
+Train loss: 0.010754832
+Train epoch time: 37686.529 ms, per step time: 345.748 ms
+Validation accuracy: 0.9923076923076923
+New best accuracy: 0.9923076923076923, saved best model to :
+BM-Swiss/fold_5/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 6***
+Current epoch percent: 1.000, step: 763
+Train loss: 0.006150529
+Train epoch time: 37690.596 ms, per step time: 345.785 ms
+Validation accuracy: 0.9923076923076923
+No improvement in accuracy for 1 epochs (best acc = 0.9923076923076923).
+***Epoch: 7***
+Current epoch percent: 1.000, step: 872
+Train loss: 0.005491575
+Train epoch time: 37697.942 ms, per step time: 345.853 ms
+Validation accuracy: 0.9923076923076923
+No improvement in accuracy for 2 epochs (best acc = 0.9923076923076923).
+***Epoch: 8***
+Current epoch percent: 1.000, step: 981
+Train loss: 0.0039060127
+Train epoch time: 37697.347 ms, per step time: 345.847 ms
+Validation accuracy: 0.9897435897435898
+No improvement in accuracy for 3 epochs (best acc = 0.9923076923076923).
+***Epoch: 9***
+Current epoch percent: 1.000, step: 1090
+Train loss: 0.0032738112
+Train epoch time: 37689.411 ms, per step time: 345.774 ms
+Validation accuracy: 0.9923076923076923
+No improvement in accuracy for 4 epochs (best acc = 0.9923076923076923).
+***Epoch: 10***
+Current epoch percent: 1.000, step: 1199
+Train loss: 0.0032678372
+Train epoch time: 37679.282 ms, per step time: 345.681 ms
+Validation accuracy: 0.9923076923076923
+No improvement in accuracy for 5 epochs (best acc = 0.9923076923076923).
+***Epoch: 11***
+Current epoch percent: 1.000, step: 1308
+Train loss: 0.0018204581
+Train epoch time: 37691.138 ms, per step time: 345.790 ms
+Validation accuracy: 0.9923076923076923
+No improvement in accuracy for 6 epochs (best acc = 0.9923076923076923).
+***Epoch: 12***
+Current epoch percent: 1.000, step: 1417
+Train loss: 0.0026549855
+Train epoch time: 37682.995 ms, per step time: 345.716 ms
+Validation accuracy: 0.9948717948717949
+New best accuracy: 0.9948717948717949, saved best model to :
+BM-Swiss/fold_5/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 13***
+Current epoch percent: 1.000, step: 1526
+Train loss: 0.0032530702
+Train epoch time: 37684.447 ms, per step time: 345.729 ms
+Validation accuracy: 0.9923076923076923
+No improvement in accuracy for 1 epochs (best acc = 0.9948717948717949).
+***Epoch: 14***
+Current epoch percent: 1.000, step: 1635
+Train loss: 0.0026923325
+Train epoch time: 37676.439 ms, per step time: 345.655 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 2 epochs (best acc = 0.9948717948717949).
+***Epoch: 15***
+Current epoch percent: 1.000, step: 1744
+Train loss: 0.0019027055
+Train epoch time: 37670.510 ms, per step time: 345.601 ms
+Validation accuracy: 0.9897435897435898
+No improvement in accuracy for 3 epochs (best acc = 0.9948717948717949).
+***Epoch: 16***
+Current epoch percent: 1.000, step: 1853
+Train loss: 0.00074158993
+Train epoch time: 37686.780 ms, per step time: 345.750 ms
+Validation accuracy: 0.9897435897435898
+No improvement in accuracy for 4 epochs (best acc = 0.9948717948717949).
+***Epoch: 17***
+Current epoch percent: 1.000, step: 1962
+Train loss: 0.00069199596
+Train epoch time: 37675.602 ms, per step time: 345.648 ms
+Validation accuracy: 0.9923076923076923
+No improvement in accuracy for 5 epochs (best acc = 0.9948717948717949).
+***Epoch: 18***
+Current epoch percent: 1.000, step: 2071
+Train loss: 0.00059817376
+Train epoch time: 37693.455 ms, per step time: 345.812 ms
+Validation accuracy: 0.9923076923076923
+No improvement in accuracy for 6 epochs (best acc = 0.9948717948717949).
+***Epoch: 19***
+Current epoch percent: 1.000, step: 2180
+Train loss: 0.00046455793
+Train epoch time: 37683.659 ms, per step time: 345.722 ms
+Validation accuracy: 0.9923076923076923
+No improvement in accuracy for 7 epochs (best acc = 0.9948717948717949).
+***Epoch: 20***
+Current epoch percent: 1.000, step: 2289
+Train loss: 0.000353595
+Train epoch time: 37687.130 ms, per step time: 345.753 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 8 epochs (best acc = 0.9948717948717949).
+***Epoch: 21***
+Current epoch percent: 1.000, step: 2398
+Train loss: 0.00038721715
+Train epoch time: 37688.745 ms, per step time: 345.768 ms
+Validation accuracy: 0.9923076923076923
+No improvement in accuracy for 9 epochs (best acc = 0.9948717948717949).
+***Epoch: 22***
+Current epoch percent: 1.000, step: 2507
+Train loss: 0.00030857
+Train epoch time: 37691.084 ms, per step time: 345.790 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 10 epochs (best acc = 0.9948717948717949).
+***Epoch: 23***
+Current epoch percent: 1.000, step: 2616
+Train loss: 0.00027581776
+Train epoch time: 37678.840 ms, per step time: 345.677 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 11 epochs (best acc = 0.9948717948717949).
+***Epoch: 24***
+Current epoch percent: 1.000, step: 2725
+Train loss: 0.0003065427
+Train epoch time: 37684.681 ms, per step time: 345.731 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 12 epochs (best acc = 0.9948717948717949).
+***Epoch: 25***
+Current epoch percent: 1.000, step: 2834
+Train loss: 0.00024144517
+Train epoch time: 37686.086 ms, per step time: 345.744 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 13 epochs (best acc = 0.9948717948717949).
+***Epoch: 26***
+Current epoch percent: 1.000, step: 2943
+Train loss: 0.00019956933
+Train epoch time: 37682.502 ms, per step time: 345.711 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 14 epochs (best acc = 0.9948717948717949).
+***Epoch: 27***
+Current epoch percent: 1.000, step: 3052
+Train loss: 0.0001878629
+Train epoch time: 37684.944 ms, per step time: 345.733 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 15 epochs (best acc = 0.9948717948717949).
+***Epoch: 28***
+Current epoch percent: 1.000, step: 3161
+Train loss: 0.00018172541
+Train epoch time: 37684.139 ms, per step time: 345.726 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 16 epochs (best acc = 0.9948717948717949).
+***Epoch: 29***
+Current epoch percent: 1.000, step: 3270
+Train loss: 0.00018401371
+Train epoch time: 37683.715 ms, per step time: 345.722 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 17 epochs (best acc = 0.9948717948717949).
+***Epoch: 30***
+Current epoch percent: 1.000, step: 3379
+Train loss: 0.00014385258
+Train epoch time: 37687.422 ms, per step time: 345.756 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 18 epochs (best acc = 0.9948717948717949).
+***Epoch: 31***
+Current epoch percent: 1.000, step: 3488
+Train loss: 0.00015807868
+Train epoch time: 37686.683 ms, per step time: 345.749 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 19 epochs (best acc = 0.9948717948717949).
+***Epoch: 32***
+Current epoch percent: 1.000, step: 3597
+Train loss: 0.00012836498
+Train epoch time: 37682.226 ms, per step time: 345.708 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 20 epochs (best acc = 0.9948717948717949).
+***Epoch: 33***
+Current epoch percent: 1.000, step: 3706
+Train loss: 0.00012249454
+Train epoch time: 37676.488 ms, per step time: 345.656 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 21 epochs (best acc = 0.9948717948717949).
+***Epoch: 34***
+Current epoch percent: 1.000, step: 3815
+Train loss: 0.000114013004
+Train epoch time: 37686.215 ms, per step time: 345.745 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 22 epochs (best acc = 0.9948717948717949).
+***Epoch: 35***
+Current epoch percent: 1.000, step: 3924
+Train loss: 0.00010257785
+Train epoch time: 37680.924 ms, per step time: 345.697 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 23 epochs (best acc = 0.9948717948717949).
+***Epoch: 36***
+Current epoch percent: 1.000, step: 4033
+Train loss: 0.000110045905
+Train epoch time: 37688.466 ms, per step time: 345.766 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 24 epochs (best acc = 0.9948717948717949).
+***Epoch: 37***
+Current epoch percent: 1.000, step: 4142
+Train loss: 9.497534e-05
+Train epoch time: 37690.114 ms, per step time: 345.781 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 25 epochs (best acc = 0.9948717948717949).
+***Epoch: 38***
+Current epoch percent: 1.000, step: 4251
+Train loss: 0.00010795044
+Train epoch time: 37682.485 ms, per step time: 345.711 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 26 epochs (best acc = 0.9948717948717949).
+***Epoch: 39***
+Current epoch percent: 1.000, step: 4360
+Train loss: 8.0317564e-05
+Train epoch time: 37689.109 ms, per step time: 345.772 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 27 epochs (best acc = 0.9948717948717949).
+***Epoch: 40***
+Current epoch percent: 1.000, step: 4469
+Train loss: 9.184931e-05
+Train epoch time: 37698.028 ms, per step time: 345.853 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 28 epochs (best acc = 0.9948717948717949).
+***Epoch: 41***
+Current epoch percent: 1.000, step: 4578
+Train loss: 8.265296e-05
+Train epoch time: 37752.220 ms, per step time: 346.351 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 29 epochs (best acc = 0.9948717948717949).
+***Epoch: 42***
+Current epoch percent: 1.000, step: 4687
+Train loss: 6.978703e-05
+Train epoch time: 37703.835 ms, per step time: 345.907 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 30 epochs (best acc = 0.9948717948717949).
+***Epoch: 43***
+Current epoch percent: 1.000, step: 4796
+Train loss: 6.5097236e-05
+Train epoch time: 37681.146 ms, per step time: 345.699 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 31 epochs (best acc = 0.9948717948717949).
+***Epoch: 44***
+Current epoch percent: 1.000, step: 4905
+Train loss: 5.8209633e-05
+Train epoch time: 37685.991 ms, per step time: 345.743 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 32 epochs (best acc = 0.9948717948717949).
+***Epoch: 45***
+Current epoch percent: 1.000, step: 5014
+Train loss: 6.2757776e-05
+Train epoch time: 37688.242 ms, per step time: 345.764 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 33 epochs (best acc = 0.9948717948717949).
+***Epoch: 46***
+Current epoch percent: 1.000, step: 5123
+Train loss: 5.529659e-05
+Train epoch time: 37684.290 ms, per step time: 345.727 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 34 epochs (best acc = 0.9948717948717949).
+***Epoch: 47***
+Current epoch percent: 1.000, step: 5232
+Train loss: 5.673447e-05
+Train epoch time: 37671.620 ms, per step time: 345.611 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 35 epochs (best acc = 0.9948717948717949).
+***Epoch: 48***
+Current epoch percent: 1.000, step: 5341
+Train loss: 5.3624062e-05
+Train epoch time: 37679.319 ms, per step time: 345.682 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 36 epochs (best acc = 0.9948717948717949).
+***Epoch: 49***
+Current epoch percent: 1.000, step: 5450
+Train loss: 4.575665e-05
+Train epoch time: 37688.313 ms, per step time: 345.764 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 37 epochs (best acc = 0.9948717948717949).
+***Epoch: 50***
+Current epoch percent: 1.000, step: 5559
+Train loss: 4.4717322e-05
+Train epoch time: 37693.319 ms, per step time: 345.810 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 38 epochs (best acc = 0.9948717948717949).
+***Epoch: 51***
+Current epoch percent: 1.000, step: 5668
+Train loss: 4.406542e-05
+Train epoch time: 37682.674 ms, per step time: 345.713 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 39 epochs (best acc = 0.9948717948717949).
+***Epoch: 52***
+Current epoch percent: 1.000, step: 5777
+Train loss: 4.075747e-05
+Train epoch time: 37688.676 ms, per step time: 345.768 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 40 epochs (best acc = 0.9948717948717949).
+***Epoch: 53***
+Current epoch percent: 1.000, step: 5886
+Train loss: 3.7769758e-05
+Train epoch time: 37687.891 ms, per step time: 345.760 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 41 epochs (best acc = 0.9948717948717949).
+***Epoch: 54***
+Current epoch percent: 1.000, step: 5995
+Train loss: 3.8850147e-05
+Train epoch time: 37672.494 ms, per step time: 345.619 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 42 epochs (best acc = 0.9948717948717949).
+***Epoch: 55***
+Current epoch percent: 1.000, step: 6104
+Train loss: 3.3657405e-05
+Train epoch time: 37675.854 ms, per step time: 345.650 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 43 epochs (best acc = 0.9948717948717949).
+***Epoch: 56***
+Current epoch percent: 1.000, step: 6213
+Train loss: 3.357166e-05
+Train epoch time: 37690.694 ms, per step time: 345.786 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 44 epochs (best acc = 0.9948717948717949).
+***Epoch: 57***
+Current epoch percent: 1.000, step: 6322
+Train loss: 3.2428088e-05
+Train epoch time: 37694.602 ms, per step time: 345.822 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 45 epochs (best acc = 0.9948717948717949).
+***Epoch: 58***
+Current epoch percent: 1.000, step: 6431
+Train loss: 3.5638957e-05
+Train epoch time: 37683.674 ms, per step time: 345.722 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 46 epochs (best acc = 0.9948717948717949).
+***Epoch: 59***
+Current epoch percent: 1.000, step: 6540
+Train loss: 3.0516963e-05
+Train epoch time: 37673.010 ms, per step time: 345.624 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 47 epochs (best acc = 0.9948717948717949).
+***Epoch: 60***
+Current epoch percent: 1.000, step: 6649
+Train loss: 2.899349e-05
+Train epoch time: 37702.001 ms, per step time: 345.890 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 48 epochs (best acc = 0.9948717948717949).
+***Epoch: 61***
+Current epoch percent: 1.000, step: 6758
+Train loss: 3.1585827e-05
+Train epoch time: 37670.495 ms, per step time: 345.601 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 49 epochs (best acc = 0.9948717948717949).
+***Epoch: 62***
+Current epoch percent: 1.000, step: 6867
+Train loss: 2.4187993e-05
+Train epoch time: 37675.252 ms, per step time: 345.645 ms
+
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 50 epochs (best acc = 0.9948717948717949).
+Early stopping due to no improvement.
+Find the newest checkpoint:  /data2/xuguoshun/Enzymes/BM_works/Bert_Casp80/01A__Swiss_BM__equal/BM-Swiss/fold_5/saved_models/Swiss_Best_Model.ckpt
+======Val======
+** BM-Swiss/fold_5/mr_data/val.mindrecord
+
+========================================
+                  model data       AUC       ACC  precision    Recall        F1       MCC  Sensitivity  Specificity
+model  Swiss_Best_Model       0.999632  0.994872   0.994924  0.994872  0.994872  0.989796     0.989744          1.0
+========================================
+
+======Test======
+** BM-Swiss/fold_5/mr_data/test.mindrecord
+
+========================================
+                  model data       AUC       ACC  precision    Recall        F1       MCC  Sensitivity  Specificity
+model  Swiss_Best_Model       0.999632  0.994872   0.994924  0.994872  0.994872  0.989796     0.989744          1.0
+========================================
+
+FINISH !!!
+
+
+
+@@@ fold_6 @@@
+python /data2/xuguoshun/MPBert3/mpbert_classification_1x_v3.py --config_path /data2/xuguoshun/MPBert3/config_2048.yaml --do_train True --do_eval True --description classification --num_class 2 --epoch_num 200 --early_stopping_rounds 50 --frozen_bert False --device_id 7 --data_url BM-Swiss/fold_6/mr_data/ --load_checkpoint_url /data2/xuguoshun/MPBert3/uniref_50_2048.ckpt --output_url BM-Swiss/fold_6/saved_models --task_name Swiss --train_batch_size 32
+3 <src.bert_model.BertConfig object at 0xfffc8d5bfc10>
+{'bert_net_cfg': <src.bert_model.BertConfig object at 0xfffc8d5bfc10>,
+ 'concat_hidden_size': 512,
+ 'concat_layer_num': 1,
+ 'config_path': '/data2/xuguoshun/MPBert3/config_2048.yaml',
+ 'cut_layer_num': 0,
+ 'data_spilt_num': 3,
+ 'data_url': 'BM-Swiss/fold_6/mr_data/',
+ 'dataset_format': 'mindrecord',
+ 'description': 'classification',
+ 'device_id': 7,
+ 'device_target': 'Ascend',
+ 'do_eval': True,
+ 'do_predict': False,
+ 'do_train': True,
+ 'dssp_hidden_size': 128,
+ 'dssp_layer_num': 1,
+ 'early_stopping_rounds': 50,
+ 'enable_modelarts': False,
+ 'enable_profiling': False,
+ 'epoch_num': 200,
+ 'eval_batch_size': 1,
+ 'eval_data_shuffle': 'false',
+ 'file_format': 'MINDIR',
+ 'frozen_bert': False,
+ 'label_percent': '1:1',
+ 'load_checkpoint_url': '/data2/xuguoshun/MPBert3/uniref_50_2048.ckpt',
+ 'load_pretrain': True,
+ 'loss_gamma': 2.0,
+ 'loss_name': 'CrossEntropy',
+ 'metrics': 'ACC',
+ 'num_class': 2,
+ 'optimizer_cfg': {'AdamWeightDecay': {'decay_filter': <function extra_operations.<locals>.create_filter_fun.<locals>.<lambda> at 0xfffc8d6a7ef0>,
+ 'end_learning_rate': 1e-10,
+ 'eps': 1e-06,
+ 'learning_rate': 1e-05,
+ 'power': 1.0,
+ 'weight_decay': 1e-05},
+ 'Lamb': {'decay_filter': <function extra_operations.<locals>.create_filter_fun.<locals>.<lambda> at 0xfffc8d6a7dd0>,
+ 'end_learning_rate': 1e-10,
+ 'learning_rate': 2e-05,
+ 'power': 1.0,
+ 'weight_decay': 0.01},
+ 'Momentum': {'learning_rate': 2e-05, 'momentum': 0.9},
+ 'optimizer': 'AdamWeightDecay'},
+ 'output_url': 'BM-Swiss/fold_6/saved_models',
+ 'print_predict': False,
+ 'pssm_hidden_size': 128,
+ 'pssm_layer_num': 1,
+ 'return_csv': False,
+ 'return_sequence': False,
+ 'task_name': 'Swiss',
+ 'train_batch_size': 32,
+ 'train_data_shuffle': 'true',
+ 'use_pynative_mode': False,
+ 'vocab_file': '',
+ 'with_lstm': False}
+ >>> Eval: Val file is val.mindrecord.
+ >>> Eval: Test file is test.mindrecord.
+==============================================================
+processor_name: Ascend
+test_name: Swiss
+batch_size: 32
+ >>> Train: Train file is train.mindrecord.
+ >>> Train: Val file is val.mindrecord.
+***Epoch: 0***
+Current epoch percent: 1.000, step: 109
+Train loss: 0.5862262
+Train epoch time: 73157.226 ms, per step time: 671.167 ms
+Validation accuracy: 0.9333333333333333
+New best accuracy: 0.9333333333333333, saved best model to :
+BM-Swiss/fold_6/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 1***
+Current epoch percent: 1.000, step: 218
+Train loss: 0.21973592
+Train epoch time: 37582.362 ms, per step time: 344.792 ms
+Validation accuracy: 0.9871794871794872
+New best accuracy: 0.9871794871794872, saved best model to :
+BM-Swiss/fold_6/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 2***
+Current epoch percent: 1.000, step: 327
+Train loss: 0.06004503
+Train epoch time: 37588.783 ms, per step time: 344.851 ms
+Validation accuracy: 0.9974358974358974
+New best accuracy: 0.9974358974358974, saved best model to :
+BM-Swiss/fold_6/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 3***
+Current epoch percent: 1.000, step: 436
+Train loss: 0.042459693
+Train epoch time: 37592.571 ms, per step time: 344.886 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 1 epochs (best acc = 0.9974358974358974).
+***Epoch: 4***
+Current epoch percent: 1.000, step: 545
+Train loss: 0.023554184
+Train epoch time: 37594.429 ms, per step time: 344.903 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 2 epochs (best acc = 0.9974358974358974).
+***Epoch: 5***
+Current epoch percent: 1.000, step: 654
+Train loss: 0.025846552
+Train epoch time: 37589.430 ms, per step time: 344.857 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 3 epochs (best acc = 0.9974358974358974).
+***Epoch: 6***
+Current epoch percent: 1.000, step: 763
+Train loss: 0.006278349
+Train epoch time: 37596.882 ms, per step time: 344.926 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 4 epochs (best acc = 0.9974358974358974).
+***Epoch: 7***
+Current epoch percent: 1.000, step: 872
+Train loss: 0.0053157695
+Train epoch time: 37607.987 ms, per step time: 345.027 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 5 epochs (best acc = 0.9974358974358974).
+***Epoch: 8***
+Current epoch percent: 1.000, step: 981
+Train loss: 0.003956807
+Train epoch time: 37608.913 ms, per step time: 345.036 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 6 epochs (best acc = 0.9974358974358974).
+***Epoch: 9***
+Current epoch percent: 1.000, step: 1090
+Train loss: 0.003265421
+Train epoch time: 37604.726 ms, per step time: 344.997 ms
+Validation accuracy: 0.9923076923076923
+No improvement in accuracy for 7 epochs (best acc = 0.9974358974358974).
+***Epoch: 10***
+Current epoch percent: 1.000, step: 1199
+Train loss: 0.0021654135
+Train epoch time: 37607.615 ms, per step time: 345.024 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 8 epochs (best acc = 0.9974358974358974).
+***Epoch: 11***
+Current epoch percent: 1.000, step: 1308
+Train loss: 0.002192182
+Train epoch time: 37595.427 ms, per step time: 344.912 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 9 epochs (best acc = 0.9974358974358974).
+***Epoch: 12***
+Current epoch percent: 1.000, step: 1417
+Train loss: 0.0018299929
+Train epoch time: 37595.396 ms, per step time: 344.912 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 10 epochs (best acc = 0.9974358974358974).
+***Epoch: 13***
+Current epoch percent: 1.000, step: 1526
+Train loss: 0.001218952
+Train epoch time: 37595.834 ms, per step time: 344.916 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 11 epochs (best acc = 0.9974358974358974).
+***Epoch: 14***
+Current epoch percent: 1.000, step: 1635
+Train loss: 0.000999765
+Train epoch time: 37597.214 ms, per step time: 344.929 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 12 epochs (best acc = 0.9974358974358974).
+***Epoch: 15***
+Current epoch percent: 1.000, step: 1744
+Train loss: 0.0008084675
+Train epoch time: 37590.086 ms, per step time: 344.863 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 13 epochs (best acc = 0.9974358974358974).
+***Epoch: 16***
+Current epoch percent: 1.000, step: 1853
+Train loss: 0.0021839684
+Train epoch time: 37585.499 ms, per step time: 344.821 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 14 epochs (best acc = 0.9974358974358974).
+***Epoch: 17***
+Current epoch percent: 1.000, step: 1962
+Train loss: 0.0010075148
+Train epoch time: 37596.773 ms, per step time: 344.925 ms
+Validation accuracy: 1.0
+New best accuracy: 1.0, saved best model to :
+BM-Swiss/fold_6/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 18***
+Current epoch percent: 1.000, step: 2071
+Train loss: 0.0005607463
+Train epoch time: 37590.576 ms, per step time: 344.868 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 1 epochs (best acc = 1.0).
+***Epoch: 19***
+Current epoch percent: 1.000, step: 2180
+Train loss: 0.0004993563
+Train epoch time: 37601.075 ms, per step time: 344.964 ms
+Validation accuracy: 0.9948717948717949
+No improvement in accuracy for 2 epochs (best acc = 1.0).
+***Epoch: 20***
+Current epoch percent: 1.000, step: 2289
+Train loss: 0.00044859858
+Train epoch time: 37601.254 ms, per step time: 344.966 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 3 epochs (best acc = 1.0).
+***Epoch: 21***
+Current epoch percent: 1.000, step: 2398
+Train loss: 0.00035559546
+Train epoch time: 37599.782 ms, per step time: 344.952 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 4 epochs (best acc = 1.0).
+***Epoch: 22***
+Current epoch percent: 1.000, step: 2507
+Train loss: 0.0003789736
+Train epoch time: 37600.744 ms, per step time: 344.961 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 5 epochs (best acc = 1.0).
+***Epoch: 23***
+Current epoch percent: 1.000, step: 2616
+Train loss: 0.0004105389
+Train epoch time: 37610.379 ms, per step time: 345.049 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 6 epochs (best acc = 1.0).
+***Epoch: 24***
+Current epoch percent: 1.000, step: 2725
+Train loss: 0.0002945127
+Train epoch time: 37605.896 ms, per step time: 345.008 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 7 epochs (best acc = 1.0).
+***Epoch: 25***
+Current epoch percent: 1.000, step: 2834
+Train loss: 0.00026801604
+Train epoch time: 37615.771 ms, per step time: 345.099 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 8 epochs (best acc = 1.0).
+***Epoch: 26***
+Current epoch percent: 1.000, step: 2943
+Train loss: 0.00026391435
+Train epoch time: 37601.048 ms, per step time: 344.964 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 9 epochs (best acc = 1.0).
+***Epoch: 27***
+Current epoch percent: 1.000, step: 3052
+Train loss: 0.00021500335
+Train epoch time: 37616.514 ms, per step time: 345.106 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 10 epochs (best acc = 1.0).
+***Epoch: 28***
+Current epoch percent: 1.000, step: 3161
+Train loss: 0.0002218785
+Train epoch time: 37611.438 ms, per step time: 345.059 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 11 epochs (best acc = 1.0).
+***Epoch: 29***
+Current epoch percent: 1.000, step: 3270
+Train loss: 0.00017931481
+Train epoch time: 37610.045 ms, per step time: 345.046 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 12 epochs (best acc = 1.0).
+***Epoch: 30***
+Current epoch percent: 1.000, step: 3379
+Train loss: 0.00017166471
+Train epoch time: 37618.681 ms, per step time: 345.126 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 13 epochs (best acc = 1.0).
+***Epoch: 31***
+Current epoch percent: 1.000, step: 3488
+Train loss: 0.00021251597
+Train epoch time: 37605.692 ms, per step time: 345.006 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 14 epochs (best acc = 1.0).
+***Epoch: 32***
+Current epoch percent: 1.000, step: 3597
+Train loss: 0.00016896271
+Train epoch time: 37612.749 ms, per step time: 345.071 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 15 epochs (best acc = 1.0).
+***Epoch: 33***
+Current epoch percent: 1.000, step: 3706
+Train loss: 0.00014771095
+Train epoch time: 37604.940 ms, per step time: 344.999 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 16 epochs (best acc = 1.0).
+***Epoch: 34***
+Current epoch percent: 1.000, step: 3815
+Train loss: 0.00013687083
+Train epoch time: 37603.562 ms, per step time: 344.987 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 17 epochs (best acc = 1.0).
+***Epoch: 35***
+Current epoch percent: 1.000, step: 3924
+Train loss: 0.0001318495
+Train epoch time: 37618.555 ms, per step time: 345.124 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 18 epochs (best acc = 1.0).
+***Epoch: 36***
+Current epoch percent: 1.000, step: 4033
+Train loss: 0.00011503385
+Train epoch time: 37603.890 ms, per step time: 344.990 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 19 epochs (best acc = 1.0).
+***Epoch: 37***
+Current epoch percent: 1.000, step: 4142
+Train loss: 0.000117889365
+Train epoch time: 37616.877 ms, per step time: 345.109 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 20 epochs (best acc = 1.0).
+***Epoch: 38***
+Current epoch percent: 1.000, step: 4251
+Train loss: 9.723254e-05
+Train epoch time: 37611.637 ms, per step time: 345.061 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 21 epochs (best acc = 1.0).
+***Epoch: 39***
+Current epoch percent: 1.000, step: 4360
+Train loss: 9.315745e-05
+Train epoch time: 37605.385 ms, per step time: 345.004 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 22 epochs (best acc = 1.0).
+***Epoch: 40***
+Current epoch percent: 1.000, step: 4469
+Train loss: 8.7238644e-05
+Train epoch time: 37605.376 ms, per step time: 345.003 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 23 epochs (best acc = 1.0).
+***Epoch: 41***
+Current epoch percent: 1.000, step: 4578
+Train loss: 8.319307e-05
+Train epoch time: 37610.050 ms, per step time: 345.046 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 24 epochs (best acc = 1.0).
+***Epoch: 42***
+Current epoch percent: 1.000, step: 4687
+Train loss: 7.934167e-05
+Train epoch time: 37606.103 ms, per step time: 345.010 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 25 epochs (best acc = 1.0).
+***Epoch: 43***
+Current epoch percent: 1.000, step: 4796
+Train loss: 7.3660965e-05
+Train epoch time: 37603.173 ms, per step time: 344.983 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 26 epochs (best acc = 1.0).
+***Epoch: 44***
+Current epoch percent: 1.000, step: 4905
+Train loss: 7.138876e-05
+Train epoch time: 37604.757 ms, per step time: 344.998 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 27 epochs (best acc = 1.0).
+***Epoch: 45***
+Current epoch percent: 1.000, step: 5014
+Train loss: 6.996587e-05
+Train epoch time: 37629.297 ms, per step time: 345.223 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 28 epochs (best acc = 1.0).
+***Epoch: 46***
+Current epoch percent: 1.000, step: 5123
+Train loss: 6.249341e-05
+Train epoch time: 37676.572 ms, per step time: 345.657 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 29 epochs (best acc = 1.0).
+***Epoch: 47***
+Current epoch percent: 1.000, step: 5232
+Train loss: 6.406907e-05
+Train epoch time: 37659.245 ms, per step time: 345.498 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 30 epochs (best acc = 1.0).
+***Epoch: 48***
+Current epoch percent: 1.000, step: 5341
+Train loss: 5.4961383e-05
+Train epoch time: 37654.946 ms, per step time: 345.458 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 31 epochs (best acc = 1.0).
+***Epoch: 49***
+Current epoch percent: 1.000, step: 5450
+Train loss: 5.924888e-05
+Train epoch time: 37650.830 ms, per step time: 345.420 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 32 epochs (best acc = 1.0).
+***Epoch: 50***
+Current epoch percent: 1.000, step: 5559
+Train loss: 5.5661632e-05
+Train epoch time: 37625.352 ms, per step time: 345.187 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 33 epochs (best acc = 1.0).
+***Epoch: 51***
+Current epoch percent: 1.000, step: 5668
+Train loss: 4.9075694e-05
+Train epoch time: 37600.659 ms, per step time: 344.960 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 34 epochs (best acc = 1.0).
+***Epoch: 52***
+Current epoch percent: 1.000, step: 5777
+Train loss: 4.5160607e-05
+Train epoch time: 37618.639 ms, per step time: 345.125 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 35 epochs (best acc = 1.0).
+***Epoch: 53***
+Current epoch percent: 1.000, step: 5886
+Train loss: 5.0126073e-05
+Train epoch time: 37620.316 ms, per step time: 345.141 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 36 epochs (best acc = 1.0).
+***Epoch: 54***
+Current epoch percent: 1.000, step: 5995
+Train loss: 4.4218115e-05
+Train epoch time: 37634.175 ms, per step time: 345.268 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 37 epochs (best acc = 1.0).
+***Epoch: 55***
+Current epoch percent: 1.000, step: 6104
+Train loss: 3.9055143e-05
+Train epoch time: 37622.704 ms, per step time: 345.162 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 38 epochs (best acc = 1.0).
+***Epoch: 56***
+Current epoch percent: 1.000, step: 6213
+Train loss: 3.486063e-05
+Train epoch time: 37619.147 ms, per step time: 345.130 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 39 epochs (best acc = 1.0).
+***Epoch: 57***
+Current epoch percent: 1.000, step: 6322
+Train loss: 3.759862e-05
+Train epoch time: 37619.920 ms, per step time: 345.137 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 40 epochs (best acc = 1.0).
+***Epoch: 58***
+Current epoch percent: 1.000, step: 6431
+Train loss: 3.3530756e-05
+Train epoch time: 37618.584 ms, per step time: 345.125 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 41 epochs (best acc = 1.0).
+***Epoch: 59***
+Current epoch percent: 1.000, step: 6540
+Train loss: 3.0271236e-05
+Train epoch time: 37616.882 ms, per step time: 345.109 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 42 epochs (best acc = 1.0).
+***Epoch: 60***
+Current epoch percent: 1.000, step: 6649
+Train loss: 3.0628857e-05
+Train epoch time: 37616.083 ms, per step time: 345.102 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 43 epochs (best acc = 1.0).
+***Epoch: 61***
+Current epoch percent: 1.000, step: 6758
+Train loss: 2.8367673e-05
+Train epoch time: 37631.578 ms, per step time: 345.244 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 44 epochs (best acc = 1.0).
+***Epoch: 62***
+Current epoch percent: 1.000, step: 6867
+Train loss: 2.9015844e-05
+Train epoch time: 37616.870 ms, per step time: 345.109 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 45 epochs (best acc = 1.0).
+***Epoch: 63***
+Current epoch percent: 1.000, step: 6976
+Train loss: 2.4486024e-05
+Train epoch time: 37611.938 ms, per step time: 345.064 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 46 epochs (best acc = 1.0).
+***Epoch: 64***
+Current epoch percent: 1.000, step: 7085
+Train loss: 2.5629648e-05
+Train epoch time: 37631.363 ms, per step time: 345.242 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 47 epochs (best acc = 1.0).
+***Epoch: 65***
+Current epoch percent: 1.000, step: 7194
+Train loss: 2.4236433e-05
+Train epoch time: 37605.497 ms, per step time: 345.005 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 48 epochs (best acc = 1.0).
+***Epoch: 66***
+Current epoch percent: 1.000, step: 7303
+Train loss: 2.31971e-05
+Train epoch time: 37617.543 ms, per step time: 345.115 ms
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 49 epochs (best acc = 1.0).
+***Epoch: 67***
+Current epoch percent: 1.000, step: 7412
+Train loss: 2.3051816e-05
+Train epoch time: 37630.913 ms, per step time: 345.238 ms
+
+Validation accuracy: 0.9974358974358974
+No improvement in accuracy for 50 epochs (best acc = 1.0).
+Early stopping due to no improvement.
+Find the newest checkpoint:  /data2/xuguoshun/Enzymes/BM_works/Bert_Casp80/01A__Swiss_BM__equal/BM-Swiss/fold_6/saved_models/Swiss_Best_Model.ckpt
+======Val======
+** BM-Swiss/fold_6/mr_data/val.mindrecord
+
+========================================
+                  model data  AUC  ACC  precision  Recall   F1  MCC  Sensitivity  Specificity
+model  Swiss_Best_Model       1.0  1.0        1.0     1.0  1.0  1.0          1.0          1.0
+========================================
+
+======Test======
+** BM-Swiss/fold_6/mr_data/test.mindrecord
+
+========================================
+                  model data  AUC  ACC  precision  Recall   F1  MCC  Sensitivity  Specificity
+model  Swiss_Best_Model       1.0  1.0        1.0     1.0  1.0  1.0          1.0          1.0
+========================================
+
+FINISH !!!
+
+
+
+@@@ fold_7 @@@
+python /data2/xuguoshun/MPBert3/mpbert_classification_1x_v3.py --config_path /data2/xuguoshun/MPBert3/config_2048.yaml --do_train True --do_eval True --description classification --num_class 2 --epoch_num 200 --early_stopping_rounds 50 --frozen_bert False --device_id 7 --data_url BM-Swiss/fold_7/mr_data/ --load_checkpoint_url /data2/xuguoshun/MPBert3/uniref_50_2048.ckpt --output_url BM-Swiss/fold_7/saved_models --task_name Swiss --train_batch_size 32
+3 <src.bert_model.BertConfig object at 0xfffc6d1dea90>
+{'bert_net_cfg': <src.bert_model.BertConfig object at 0xfffc6d1dea90>,
+ 'concat_hidden_size': 512,
+ 'concat_layer_num': 1,
+ 'config_path': '/data2/xuguoshun/MPBert3/config_2048.yaml',
+ 'cut_layer_num': 0,
+ 'data_spilt_num': 3,
+ 'data_url': 'BM-Swiss/fold_7/mr_data/',
+ 'dataset_format': 'mindrecord',
+ 'description': 'classification',
+ 'device_id': 7,
+ 'device_target': 'Ascend',
+ 'do_eval': True,
+ 'do_predict': False,
+ 'do_train': True,
+ 'dssp_hidden_size': 128,
+ 'dssp_layer_num': 1,
+ 'early_stopping_rounds': 50,
+ 'enable_modelarts': False,
+ 'enable_profiling': False,
+ 'epoch_num': 200,
+ 'eval_batch_size': 1,
+ 'eval_data_shuffle': 'false',
+ 'file_format': 'MINDIR',
+ 'frozen_bert': False,
+ 'label_percent': '1:1',
+ 'load_checkpoint_url': '/data2/xuguoshun/MPBert3/uniref_50_2048.ckpt',
+ 'load_pretrain': True,
+ 'loss_gamma': 2.0,
+ 'loss_name': 'CrossEntropy',
+ 'metrics': 'ACC',
+ 'num_class': 2,
+ 'optimizer_cfg': {'AdamWeightDecay': {'decay_filter': <function extra_operations.<locals>.create_filter_fun.<locals>.<lambda> at 0xfffc6d2c7ef0>,
+ 'end_learning_rate': 1e-10,
+ 'eps': 1e-06,
+ 'learning_rate': 1e-05,
+ 'power': 1.0,
+ 'weight_decay': 1e-05},
+ 'Lamb': {'decay_filter': <function extra_operations.<locals>.create_filter_fun.<locals>.<lambda> at 0xfffc6d2c7dd0>,
+ 'end_learning_rate': 1e-10,
+ 'learning_rate': 2e-05,
+ 'power': 1.0,
+ 'weight_decay': 0.01},
+ 'Momentum': {'learning_rate': 2e-05, 'momentum': 0.9},
+ 'optimizer': 'AdamWeightDecay'},
+ 'output_url': 'BM-Swiss/fold_7/saved_models',
+ 'print_predict': False,
+ 'pssm_hidden_size': 128,
+ 'pssm_layer_num': 1,
+ 'return_csv': False,
+ 'return_sequence': False,
+ 'task_name': 'Swiss',
+ 'train_batch_size': 32,
+ 'train_data_shuffle': 'true',
+ 'use_pynative_mode': False,
+ 'vocab_file': '',
+ 'with_lstm': False}
+ >>> Eval: Val file is val.mindrecord.
+ >>> Eval: Test file is test.mindrecord.
+==============================================================
+processor_name: Ascend
+test_name: Swiss
+batch_size: 32
+ >>> Train: Train file is train.mindrecord.
+ >>> Train: Val file is val.mindrecord.
+***Epoch: 0***
+Current epoch percent: 1.000, step: 109
+Train loss: 0.58502895
+Train epoch time: 73266.527 ms, per step time: 672.170 ms
+Validation accuracy: 0.8298969072164949
+New best accuracy: 0.8298969072164949, saved best model to :
+BM-Swiss/fold_7/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 1***
+Current epoch percent: 1.000, step: 218
+Train loss: 0.2791348
+Train epoch time: 37693.819 ms, per step time: 345.815 ms
+Validation accuracy: 0.9922680412371134
+New best accuracy: 0.9922680412371134, saved best model to :
+BM-Swiss/fold_7/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 2***
+Current epoch percent: 1.000, step: 327
+Train loss: 0.07303709
+Train epoch time: 37691.891 ms, per step time: 345.797 ms
+Validation accuracy: 0.9922680412371134
+No improvement in accuracy for 1 epochs (best acc = 0.9922680412371134).
+***Epoch: 3***
+Current epoch percent: 1.000, step: 436
+Train loss: 0.028532255
+Train epoch time: 37704.906 ms, per step time: 345.917 ms
+Validation accuracy: 0.9896907216494846
+No improvement in accuracy for 2 epochs (best acc = 0.9922680412371134).
+***Epoch: 4***
+Current epoch percent: 1.000, step: 545
+Train loss: 0.014046976
+Train epoch time: 37694.633 ms, per step time: 345.822 ms
+Validation accuracy: 0.9948453608247423
+New best accuracy: 0.9948453608247423, saved best model to :
+BM-Swiss/fold_7/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 5***
+Current epoch percent: 1.000, step: 654
+Train loss: 0.010284231
+Train epoch time: 37730.117 ms, per step time: 346.148 ms
+Validation accuracy: 0.9922680412371134
+No improvement in accuracy for 1 epochs (best acc = 0.9948453608247423).
+***Epoch: 6***
+Current epoch percent: 1.000, step: 763
+Train loss: 0.012136801
+Train epoch time: 37747.387 ms, per step time: 346.306 ms
+Validation accuracy: 0.9922680412371134
+No improvement in accuracy for 2 epochs (best acc = 0.9948453608247423).
+***Epoch: 7***
+Current epoch percent: 1.000, step: 872
+Train loss: 0.0051754443
+Train epoch time: 37772.422 ms, per step time: 346.536 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 3 epochs (best acc = 0.9948453608247423).
+***Epoch: 8***
+Current epoch percent: 1.000, step: 981
+Train loss: 0.0039636027
+Train epoch time: 37720.461 ms, per step time: 346.059 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 4 epochs (best acc = 0.9948453608247423).
+***Epoch: 9***
+Current epoch percent: 1.000, step: 1090
+Train loss: 0.0030853837
+Train epoch time: 37738.597 ms, per step time: 346.226 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 5 epochs (best acc = 0.9948453608247423).
+***Epoch: 10***
+Current epoch percent: 1.000, step: 1199
+Train loss: 0.003142314
+Train epoch time: 37717.594 ms, per step time: 346.033 ms
+Validation accuracy: 0.9974226804123711
+New best accuracy: 0.9974226804123711, saved best model to :
+BM-Swiss/fold_7/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 11***
+Current epoch percent: 1.000, step: 1308
+Train loss: 0.002364124
+Train epoch time: 37710.623 ms, per step time: 345.969 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 1 epochs (best acc = 0.9974226804123711).
+***Epoch: 12***
+Current epoch percent: 1.000, step: 1417
+Train loss: 0.001940013
+Train epoch time: 37702.935 ms, per step time: 345.898 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 2 epochs (best acc = 0.9974226804123711).
+***Epoch: 13***
+Current epoch percent: 1.000, step: 1526
+Train loss: 0.0013258719
+Train epoch time: 37697.829 ms, per step time: 345.852 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 3 epochs (best acc = 0.9974226804123711).
+***Epoch: 14***
+Current epoch percent: 1.000, step: 1635
+Train loss: 0.0012080388
+Train epoch time: 37726.799 ms, per step time: 346.117 ms
+Validation accuracy: 0.9922680412371134
+No improvement in accuracy for 4 epochs (best acc = 0.9974226804123711).
+***Epoch: 15***
+Current epoch percent: 1.000, step: 1744
+Train loss: 0.0011579201
+Train epoch time: 37720.319 ms, per step time: 346.058 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 5 epochs (best acc = 0.9974226804123711).
+***Epoch: 16***
+Current epoch percent: 1.000, step: 1853
+Train loss: 0.00089498394
+Train epoch time: 37687.826 ms, per step time: 345.760 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 6 epochs (best acc = 0.9974226804123711).
+***Epoch: 17***
+Current epoch percent: 1.000, step: 1962
+Train loss: 0.00089266826
+Train epoch time: 37683.806 ms, per step time: 345.723 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 7 epochs (best acc = 0.9974226804123711).
+***Epoch: 18***
+Current epoch percent: 1.000, step: 2071
+Train loss: 0.00054421625
+Train epoch time: 37686.562 ms, per step time: 345.748 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 8 epochs (best acc = 0.9974226804123711).
+***Epoch: 19***
+Current epoch percent: 1.000, step: 2180
+Train loss: 0.0006096788
+Train epoch time: 37688.314 ms, per step time: 345.764 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 9 epochs (best acc = 0.9974226804123711).
+***Epoch: 20***
+Current epoch percent: 1.000, step: 2289
+Train loss: 0.0004956196
+Train epoch time: 37689.112 ms, per step time: 345.772 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 10 epochs (best acc = 0.9974226804123711).
+***Epoch: 21***
+Current epoch percent: 1.000, step: 2398
+Train loss: 0.0003540502
+Train epoch time: 37685.760 ms, per step time: 345.741 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 11 epochs (best acc = 0.9974226804123711).
+***Epoch: 22***
+Current epoch percent: 1.000, step: 2507
+Train loss: 0.00033613396
+Train epoch time: 37691.759 ms, per step time: 345.796 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 12 epochs (best acc = 0.9974226804123711).
+***Epoch: 23***
+Current epoch percent: 1.000, step: 2616
+Train loss: 0.0003827873
+Train epoch time: 37678.859 ms, per step time: 345.678 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 13 epochs (best acc = 0.9974226804123711).
+***Epoch: 24***
+Current epoch percent: 1.000, step: 2725
+Train loss: 0.0002713033
+Train epoch time: 37678.852 ms, per step time: 345.678 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 14 epochs (best acc = 0.9974226804123711).
+***Epoch: 25***
+Current epoch percent: 1.000, step: 2834
+Train loss: 0.00029251396
+Train epoch time: 37682.746 ms, per step time: 345.713 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 15 epochs (best acc = 0.9974226804123711).
+***Epoch: 26***
+Current epoch percent: 1.000, step: 2943
+Train loss: 0.00026502123
+Train epoch time: 37686.102 ms, per step time: 345.744 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 16 epochs (best acc = 0.9974226804123711).
+***Epoch: 27***
+Current epoch percent: 1.000, step: 3052
+Train loss: 0.00027100707
+Train epoch time: 37687.531 ms, per step time: 345.757 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 17 epochs (best acc = 0.9974226804123711).
+***Epoch: 28***
+Current epoch percent: 1.000, step: 3161
+Train loss: 0.0002109765
+Train epoch time: 37701.386 ms, per step time: 345.884 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 18 epochs (best acc = 0.9974226804123711).
+***Epoch: 29***
+Current epoch percent: 1.000, step: 3270
+Train loss: 0.00017763118
+Train epoch time: 37747.624 ms, per step time: 346.308 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 19 epochs (best acc = 0.9974226804123711).
+***Epoch: 30***
+Current epoch percent: 1.000, step: 3379
+Train loss: 0.00016774585
+Train epoch time: 37719.213 ms, per step time: 346.048 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 20 epochs (best acc = 0.9974226804123711).
+***Epoch: 31***
+Current epoch percent: 1.000, step: 3488
+Train loss: 0.00015390184
+Train epoch time: 37710.988 ms, per step time: 345.972 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 21 epochs (best acc = 0.9974226804123711).
+***Epoch: 32***
+Current epoch percent: 1.000, step: 3597
+Train loss: 0.00014360918
+Train epoch time: 37708.902 ms, per step time: 345.953 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 22 epochs (best acc = 0.9974226804123711).
+***Epoch: 33***
+Current epoch percent: 1.000, step: 3706
+Train loss: 0.00014064436
+Train epoch time: 37694.370 ms, per step time: 345.820 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 23 epochs (best acc = 0.9974226804123711).
+***Epoch: 34***
+Current epoch percent: 1.000, step: 3815
+Train loss: 0.00013674883
+Train epoch time: 37701.977 ms, per step time: 345.890 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 24 epochs (best acc = 0.9974226804123711).
+***Epoch: 35***
+Current epoch percent: 1.000, step: 3924
+Train loss: 0.0001780431
+Train epoch time: 37681.685 ms, per step time: 345.704 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 25 epochs (best acc = 0.9974226804123711).
+***Epoch: 36***
+Current epoch percent: 1.000, step: 4033
+Train loss: 0.00011827339
+Train epoch time: 37688.040 ms, per step time: 345.762 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 26 epochs (best acc = 0.9974226804123711).
+***Epoch: 37***
+Current epoch percent: 1.000, step: 4142
+Train loss: 0.00010659307
+Train epoch time: 37692.019 ms, per step time: 345.798 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 27 epochs (best acc = 0.9974226804123711).
+***Epoch: 38***
+Current epoch percent: 1.000, step: 4251
+Train loss: 9.888177e-05
+Train epoch time: 37702.133 ms, per step time: 345.891 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 28 epochs (best acc = 0.9974226804123711).
+***Epoch: 39***
+Current epoch percent: 1.000, step: 4360
+Train loss: 0.000100435085
+Train epoch time: 37675.847 ms, per step time: 345.650 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 29 epochs (best acc = 0.9974226804123711).
+***Epoch: 40***
+Current epoch percent: 1.000, step: 4469
+Train loss: 8.131552e-05
+Train epoch time: 37685.169 ms, per step time: 345.735 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 30 epochs (best acc = 0.9974226804123711).
+***Epoch: 41***
+Current epoch percent: 1.000, step: 4578
+Train loss: 7.301661e-05
+Train epoch time: 37683.280 ms, per step time: 345.718 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 31 epochs (best acc = 0.9974226804123711).
+***Epoch: 42***
+Current epoch percent: 1.000, step: 4687
+Train loss: 7.613783e-05
+Train epoch time: 37691.943 ms, per step time: 345.798 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 32 epochs (best acc = 0.9974226804123711).
+***Epoch: 43***
+Current epoch percent: 1.000, step: 4796
+Train loss: 8.036198e-05
+Train epoch time: 37687.042 ms, per step time: 345.753 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 33 epochs (best acc = 0.9974226804123711).
+***Epoch: 44***
+Current epoch percent: 1.000, step: 4905
+Train loss: 6.014292e-05
+Train epoch time: 37685.833 ms, per step time: 345.742 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 34 epochs (best acc = 0.9974226804123711).
+***Epoch: 45***
+Current epoch percent: 1.000, step: 5014
+Train loss: 5.820959e-05
+Train epoch time: 37688.801 ms, per step time: 345.769 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 35 epochs (best acc = 0.9974226804123711).
+***Epoch: 46***
+Current epoch percent: 1.000, step: 5123
+Train loss: 5.798611e-05
+Train epoch time: 37685.611 ms, per step time: 345.740 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 36 epochs (best acc = 0.9974226804123711).
+***Epoch: 47***
+Current epoch percent: 1.000, step: 5232
+Train loss: 5.6488516e-05
+Train epoch time: 37689.697 ms, per step time: 345.777 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 37 epochs (best acc = 0.9974226804123711).
+***Epoch: 48***
+Current epoch percent: 1.000, step: 5341
+Train loss: 5.6280027e-05
+Train epoch time: 37677.293 ms, per step time: 345.663 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 38 epochs (best acc = 0.9974226804123711).
+***Epoch: 49***
+Current epoch percent: 1.000, step: 5450
+Train loss: 4.6136585e-05
+Train epoch time: 37695.395 ms, per step time: 345.829 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 39 epochs (best acc = 0.9974226804123711).
+***Epoch: 50***
+Current epoch percent: 1.000, step: 5559
+Train loss: 5.377559e-05
+Train epoch time: 37687.244 ms, per step time: 345.755 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 40 epochs (best acc = 0.9974226804123711).
+***Epoch: 51***
+Current epoch percent: 1.000, step: 5668
+Train loss: 5.356691e-05
+Train epoch time: 37692.060 ms, per step time: 345.799 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 41 epochs (best acc = 0.9974226804123711).
+***Epoch: 52***
+Current epoch percent: 1.000, step: 5777
+Train loss: 4.708267e-05
+Train epoch time: 37683.010 ms, per step time: 345.716 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 42 epochs (best acc = 0.9974226804123711).
+***Epoch: 53***
+Current epoch percent: 1.000, step: 5886
+Train loss: 3.9375504e-05
+Train epoch time: 37675.747 ms, per step time: 345.649 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 43 epochs (best acc = 0.9974226804123711).
+***Epoch: 54***
+Current epoch percent: 1.000, step: 5995
+Train loss: 3.907e-05
+Train epoch time: 37686.475 ms, per step time: 345.747 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 44 epochs (best acc = 0.9974226804123711).
+***Epoch: 55***
+Current epoch percent: 1.000, step: 6104
+Train loss: 4.4436598e-05
+Train epoch time: 37682.058 ms, per step time: 345.707 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 45 epochs (best acc = 0.9974226804123711).
+***Epoch: 56***
+Current epoch percent: 1.000, step: 6213
+Train loss: 3.4577468e-05
+Train epoch time: 37710.449 ms, per step time: 345.967 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 46 epochs (best acc = 0.9974226804123711).
+***Epoch: 57***
+Current epoch percent: 1.000, step: 6322
+Train loss: 3.294957e-05
+Train epoch time: 37695.337 ms, per step time: 345.829 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 47 epochs (best acc = 0.9974226804123711).
+***Epoch: 58***
+Current epoch percent: 1.000, step: 6431
+Train loss: 3.012595e-05
+Train epoch time: 37689.202 ms, per step time: 345.772 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 48 epochs (best acc = 0.9974226804123711).
+***Epoch: 59***
+Current epoch percent: 1.000, step: 6540
+Train loss: 2.7674789e-05
+Train epoch time: 37707.413 ms, per step time: 345.940 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 49 epochs (best acc = 0.9974226804123711).
+***Epoch: 60***
+Current epoch percent: 1.000, step: 6649
+Train loss: 2.9231825e-05
+Train epoch time: 37716.812 ms, per step time: 346.026 ms
+
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 50 epochs (best acc = 0.9974226804123711).
+Early stopping due to no improvement.
+Find the newest checkpoint:  /data2/xuguoshun/Enzymes/BM_works/Bert_Casp80/01A__Swiss_BM__equal/BM-Swiss/fold_7/saved_models/Swiss_Best_Model.ckpt
+======Val======
+** BM-Swiss/fold_7/mr_data/val.mindrecord
+
+========================================
+                  model data       AUC       ACC  precision    Recall        F1       MCC  Sensitivity  Specificity
+model  Swiss_Best_Model       0.999973  0.997423   0.997436  0.997423  0.997423  0.994859     0.994845          1.0
+========================================
+
+======Test======
+** BM-Swiss/fold_7/mr_data/test.mindrecord
+
+========================================
+                  model data       AUC       ACC  precision    Recall        F1       MCC  Sensitivity  Specificity
+model  Swiss_Best_Model       0.999973  0.997423   0.997436  0.997423  0.997423  0.994859     0.994845          1.0
+========================================
+
+FINISH !!!
+
+
+
+@@@ fold_8 @@@
+python /data2/xuguoshun/MPBert3/mpbert_classification_1x_v3.py --config_path /data2/xuguoshun/MPBert3/config_2048.yaml --do_train True --do_eval True --description classification --num_class 2 --epoch_num 200 --early_stopping_rounds 50 --frozen_bert False --device_id 7 --data_url BM-Swiss/fold_8/mr_data/ --load_checkpoint_url /data2/xuguoshun/MPBert3/uniref_50_2048.ckpt --output_url BM-Swiss/fold_8/saved_models --task_name Swiss --train_batch_size 32
+3 <src.bert_model.BertConfig object at 0xfffc39370ad0>
+{'bert_net_cfg': <src.bert_model.BertConfig object at 0xfffc39370ad0>,
+ 'concat_hidden_size': 512,
+ 'concat_layer_num': 1,
+ 'config_path': '/data2/xuguoshun/MPBert3/config_2048.yaml',
+ 'cut_layer_num': 0,
+ 'data_spilt_num': 3,
+ 'data_url': 'BM-Swiss/fold_8/mr_data/',
+ 'dataset_format': 'mindrecord',
+ 'description': 'classification',
+ 'device_id': 7,
+ 'device_target': 'Ascend',
+ 'do_eval': True,
+ 'do_predict': False,
+ 'do_train': True,
+ 'dssp_hidden_size': 128,
+ 'dssp_layer_num': 1,
+ 'early_stopping_rounds': 50,
+ 'enable_modelarts': False,
+ 'enable_profiling': False,
+ 'epoch_num': 200,
+ 'eval_batch_size': 1,
+ 'eval_data_shuffle': 'false',
+ 'file_format': 'MINDIR',
+ 'frozen_bert': False,
+ 'label_percent': '1:1',
+ 'load_checkpoint_url': '/data2/xuguoshun/MPBert3/uniref_50_2048.ckpt',
+ 'load_pretrain': True,
+ 'loss_gamma': 2.0,
+ 'loss_name': 'CrossEntropy',
+ 'metrics': 'ACC',
+ 'num_class': 2,
+ 'optimizer_cfg': {'AdamWeightDecay': {'decay_filter': <function extra_operations.<locals>.create_filter_fun.<locals>.<lambda> at 0xfffc39457ef0>,
+ 'end_learning_rate': 1e-10,
+ 'eps': 1e-06,
+ 'learning_rate': 1e-05,
+ 'power': 1.0,
+ 'weight_decay': 1e-05},
+ 'Lamb': {'decay_filter': <function extra_operations.<locals>.create_filter_fun.<locals>.<lambda> at 0xfffc39457dd0>,
+ 'end_learning_rate': 1e-10,
+ 'learning_rate': 2e-05,
+ 'power': 1.0,
+ 'weight_decay': 0.01},
+ 'Momentum': {'learning_rate': 2e-05, 'momentum': 0.9},
+ 'optimizer': 'AdamWeightDecay'},
+ 'output_url': 'BM-Swiss/fold_8/saved_models',
+ 'print_predict': False,
+ 'pssm_hidden_size': 128,
+ 'pssm_layer_num': 1,
+ 'return_csv': False,
+ 'return_sequence': False,
+ 'task_name': 'Swiss',
+ 'train_batch_size': 32,
+ 'train_data_shuffle': 'true',
+ 'use_pynative_mode': False,
+ 'vocab_file': '',
+ 'with_lstm': False}
+ >>> Eval: Val file is val.mindrecord.
+ >>> Eval: Test file is test.mindrecord.
+==============================================================
+processor_name: Ascend
+test_name: Swiss
+batch_size: 32
+ >>> Train: Train file is train.mindrecord.
+ >>> Train: Val file is val.mindrecord.
+***Epoch: 0***
+Current epoch percent: 1.000, step: 109
+Train loss: 0.5135284
+Train epoch time: 72688.878 ms, per step time: 666.870 ms
+Validation accuracy: 0.8814432989690721
+New best accuracy: 0.8814432989690721, saved best model to :
+BM-Swiss/fold_8/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 1***
+Current epoch percent: 1.000, step: 218
+Train loss: 0.23396431
+Train epoch time: 37612.338 ms, per step time: 345.067 ms
+Validation accuracy: 0.9871134020618557
+New best accuracy: 0.9871134020618557, saved best model to :
+BM-Swiss/fold_8/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 2***
+Current epoch percent: 1.000, step: 327
+Train loss: 0.15497851
+Train epoch time: 37614.804 ms, per step time: 345.090 ms
+Validation accuracy: 0.9948453608247423
+New best accuracy: 0.9948453608247423, saved best model to :
+BM-Swiss/fold_8/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 3***
+Current epoch percent: 1.000, step: 436
+Train loss: 0.029966237
+Train epoch time: 37610.669 ms, per step time: 345.052 ms
+Validation accuracy: 0.9974226804123711
+New best accuracy: 0.9974226804123711, saved best model to :
+BM-Swiss/fold_8/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 4***
+Current epoch percent: 1.000, step: 545
+Train loss: 0.015893186
+Train epoch time: 37625.231 ms, per step time: 345.186 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 1 epochs (best acc = 0.9974226804123711).
+***Epoch: 5***
+Current epoch percent: 1.000, step: 654
+Train loss: 0.009012505
+Train epoch time: 37607.389 ms, per step time: 345.022 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 2 epochs (best acc = 0.9974226804123711).
+***Epoch: 6***
+Current epoch percent: 1.000, step: 763
+Train loss: 0.006431107
+Train epoch time: 37603.197 ms, per step time: 344.983 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 3 epochs (best acc = 0.9974226804123711).
+***Epoch: 7***
+Current epoch percent: 1.000, step: 872
+Train loss: 0.005208753
+Train epoch time: 37599.824 ms, per step time: 344.953 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 4 epochs (best acc = 0.9974226804123711).
+***Epoch: 8***
+Current epoch percent: 1.000, step: 981
+Train loss: 0.0036886674
+Train epoch time: 37608.340 ms, per step time: 345.031 ms
+Validation accuracy: 0.9819587628865979
+No improvement in accuracy for 5 epochs (best acc = 0.9974226804123711).
+***Epoch: 9***
+Current epoch percent: 1.000, step: 1090
+Train loss: 0.15814269
+Train epoch time: 37613.711 ms, per step time: 345.080 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 6 epochs (best acc = 0.9974226804123711).
+***Epoch: 10***
+Current epoch percent: 1.000, step: 1199
+Train loss: 0.0024557253
+Train epoch time: 37606.029 ms, per step time: 345.009 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 7 epochs (best acc = 0.9974226804123711).
+***Epoch: 11***
+Current epoch percent: 1.000, step: 1308
+Train loss: 0.0020852285
+Train epoch time: 37618.137 ms, per step time: 345.121 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 8 epochs (best acc = 0.9974226804123711).
+***Epoch: 12***
+Current epoch percent: 1.000, step: 1417
+Train loss: 0.0018480041
+Train epoch time: 37612.511 ms, per step time: 345.069 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 9 epochs (best acc = 0.9974226804123711).
+***Epoch: 13***
+Current epoch percent: 1.000, step: 1526
+Train loss: 0.001350854
+Train epoch time: 37615.170 ms, per step time: 345.093 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 10 epochs (best acc = 0.9974226804123711).
+***Epoch: 14***
+Current epoch percent: 1.000, step: 1635
+Train loss: 0.0037769764
+Train epoch time: 37610.109 ms, per step time: 345.047 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 11 epochs (best acc = 0.9974226804123711).
+***Epoch: 15***
+Current epoch percent: 1.000, step: 1744
+Train loss: 0.001261601
+Train epoch time: 37607.132 ms, per step time: 345.020 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 12 epochs (best acc = 0.9974226804123711).
+***Epoch: 16***
+Current epoch percent: 1.000, step: 1853
+Train loss: 0.0015824642
+Train epoch time: 37608.334 ms, per step time: 345.031 ms
+Validation accuracy: 0.9896907216494846
+No improvement in accuracy for 13 epochs (best acc = 0.9974226804123711).
+***Epoch: 17***
+Current epoch percent: 1.000, step: 1962
+Train loss: 0.00076608127
+Train epoch time: 37615.503 ms, per step time: 345.096 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 14 epochs (best acc = 0.9974226804123711).
+***Epoch: 18***
+Current epoch percent: 1.000, step: 2071
+Train loss: 0.0018581103
+Train epoch time: 37617.032 ms, per step time: 345.110 ms
+Validation accuracy: 0.9896907216494846
+No improvement in accuracy for 15 epochs (best acc = 0.9974226804123711).
+***Epoch: 19***
+Current epoch percent: 1.000, step: 2180
+Train loss: 0.0010899442
+Train epoch time: 37641.671 ms, per step time: 345.336 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 16 epochs (best acc = 0.9974226804123711).
+***Epoch: 20***
+Current epoch percent: 1.000, step: 2289
+Train loss: 0.0004948428
+Train epoch time: 37625.591 ms, per step time: 345.189 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 17 epochs (best acc = 0.9974226804123711).
+***Epoch: 21***
+Current epoch percent: 1.000, step: 2398
+Train loss: 0.0004310946
+Train epoch time: 37596.223 ms, per step time: 344.919 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 18 epochs (best acc = 0.9974226804123711).
+***Epoch: 22***
+Current epoch percent: 1.000, step: 2507
+Train loss: 0.00047656815
+Train epoch time: 37619.275 ms, per step time: 345.131 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 19 epochs (best acc = 0.9974226804123711).
+***Epoch: 23***
+Current epoch percent: 1.000, step: 2616
+Train loss: 0.00044097856
+Train epoch time: 37596.143 ms, per step time: 344.919 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 20 epochs (best acc = 0.9974226804123711).
+***Epoch: 24***
+Current epoch percent: 1.000, step: 2725
+Train loss: 0.0004345877
+Train epoch time: 37599.542 ms, per step time: 344.950 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 21 epochs (best acc = 0.9974226804123711).
+***Epoch: 25***
+Current epoch percent: 1.000, step: 2834
+Train loss: 0.00028205453
+Train epoch time: 37614.575 ms, per step time: 345.088 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 22 epochs (best acc = 0.9974226804123711).
+***Epoch: 26***
+Current epoch percent: 1.000, step: 2943
+Train loss: 0.00030709253
+Train epoch time: 37618.697 ms, per step time: 345.126 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 23 epochs (best acc = 0.9974226804123711).
+***Epoch: 27***
+Current epoch percent: 1.000, step: 3052
+Train loss: 0.00026359415
+Train epoch time: 37608.608 ms, per step time: 345.033 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 24 epochs (best acc = 0.9974226804123711).
+***Epoch: 28***
+Current epoch percent: 1.000, step: 3161
+Train loss: 0.0002493554
+Train epoch time: 37610.797 ms, per step time: 345.053 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 25 epochs (best acc = 0.9974226804123711).
+***Epoch: 29***
+Current epoch percent: 1.000, step: 3270
+Train loss: 0.0002145265
+Train epoch time: 37612.538 ms, per step time: 345.069 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 26 epochs (best acc = 0.9974226804123711).
+***Epoch: 30***
+Current epoch percent: 1.000, step: 3379
+Train loss: 0.00018671226
+Train epoch time: 37625.852 ms, per step time: 345.191 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 27 epochs (best acc = 0.9974226804123711).
+***Epoch: 31***
+Current epoch percent: 1.000, step: 3488
+Train loss: 0.00017424577
+Train epoch time: 37630.417 ms, per step time: 345.233 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 28 epochs (best acc = 0.9974226804123711).
+***Epoch: 32***
+Current epoch percent: 1.000, step: 3597
+Train loss: 0.00034971035
+Train epoch time: 37666.253 ms, per step time: 345.562 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 29 epochs (best acc = 0.9974226804123711).
+***Epoch: 33***
+Current epoch percent: 1.000, step: 3706
+Train loss: 0.00014369967
+Train epoch time: 37611.252 ms, per step time: 345.057 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 30 epochs (best acc = 0.9974226804123711).
+***Epoch: 34***
+Current epoch percent: 1.000, step: 3815
+Train loss: 0.0001320004
+Train epoch time: 37616.530 ms, per step time: 345.106 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 31 epochs (best acc = 0.9974226804123711).
+***Epoch: 35***
+Current epoch percent: 1.000, step: 3924
+Train loss: 0.00013500231
+Train epoch time: 37614.378 ms, per step time: 345.086 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 32 epochs (best acc = 0.9974226804123711).
+***Epoch: 36***
+Current epoch percent: 1.000, step: 4033
+Train loss: 0.00011285841
+Train epoch time: 37606.969 ms, per step time: 345.018 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 33 epochs (best acc = 0.9974226804123711).
+***Epoch: 37***
+Current epoch percent: 1.000, step: 4142
+Train loss: 0.00011930961
+Train epoch time: 37601.689 ms, per step time: 344.970 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 34 epochs (best acc = 0.9974226804123711).
+***Epoch: 38***
+Current epoch percent: 1.000, step: 4251
+Train loss: 0.0001055577
+Train epoch time: 37617.369 ms, per step time: 345.113 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 35 epochs (best acc = 0.9974226804123711).
+***Epoch: 39***
+Current epoch percent: 1.000, step: 4360
+Train loss: 9.5779826e-05
+Train epoch time: 37610.071 ms, per step time: 345.047 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 36 epochs (best acc = 0.9974226804123711).
+***Epoch: 40***
+Current epoch percent: 1.000, step: 4469
+Train loss: 9.4699586e-05
+Train epoch time: 37606.504 ms, per step time: 345.014 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 37 epochs (best acc = 0.9974226804123711).
+***Epoch: 41***
+Current epoch percent: 1.000, step: 4578
+Train loss: 0.00010639162
+Train epoch time: 37605.920 ms, per step time: 345.008 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 38 epochs (best acc = 0.9974226804123711).
+***Epoch: 42***
+Current epoch percent: 1.000, step: 4687
+Train loss: 8.637432e-05
+Train epoch time: 37606.493 ms, per step time: 345.014 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 39 epochs (best acc = 0.9974226804123711).
+***Epoch: 43***
+Current epoch percent: 1.000, step: 4796
+Train loss: 7.821295e-05
+Train epoch time: 37612.210 ms, per step time: 345.066 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 40 epochs (best acc = 0.9974226804123711).
+***Epoch: 44***
+Current epoch percent: 1.000, step: 4905
+Train loss: 7.667085e-05
+Train epoch time: 37618.488 ms, per step time: 345.124 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 41 epochs (best acc = 0.9974226804123711).
+***Epoch: 45***
+Current epoch percent: 1.000, step: 5014
+Train loss: 7.355673e-05
+Train epoch time: 37608.229 ms, per step time: 345.030 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 42 epochs (best acc = 0.9974226804123711).
+***Epoch: 46***
+Current epoch percent: 1.000, step: 5123
+Train loss: 6.629669e-05
+Train epoch time: 37604.867 ms, per step time: 344.999 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 43 epochs (best acc = 0.9974226804123711).
+***Epoch: 47***
+Current epoch percent: 1.000, step: 5232
+Train loss: 5.836236e-05
+Train epoch time: 37598.496 ms, per step time: 344.940 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 44 epochs (best acc = 0.9974226804123711).
+***Epoch: 48***
+Current epoch percent: 1.000, step: 5341
+Train loss: 5.981513e-05
+Train epoch time: 37605.489 ms, per step time: 345.004 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 45 epochs (best acc = 0.9974226804123711).
+***Epoch: 49***
+Current epoch percent: 1.000, step: 5450
+Train loss: 5.4208853e-05
+Train epoch time: 37603.782 ms, per step time: 344.989 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 46 epochs (best acc = 0.9974226804123711).
+***Epoch: 50***
+Current epoch percent: 1.000, step: 5559
+Train loss: 5.1694446e-05
+Train epoch time: 37605.671 ms, per step time: 345.006 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 47 epochs (best acc = 0.9974226804123711).
+***Epoch: 51***
+Current epoch percent: 1.000, step: 5668
+Train loss: 5.6421555e-05
+Train epoch time: 37596.224 ms, per step time: 344.919 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 48 epochs (best acc = 0.9974226804123711).
+***Epoch: 52***
+Current epoch percent: 1.000, step: 5777
+Train loss: 4.7984253e-05
+Train epoch time: 37610.389 ms, per step time: 345.049 ms
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 49 epochs (best acc = 0.9974226804123711).
+***Epoch: 53***
+Current epoch percent: 1.000, step: 5886
+Train loss: 4.6028596e-05
+Train epoch time: 37590.409 ms, per step time: 344.866 ms
+
+Validation accuracy: 0.9974226804123711
+No improvement in accuracy for 50 epochs (best acc = 0.9974226804123711).
+Early stopping due to no improvement.
+Find the newest checkpoint:  /data2/xuguoshun/Enzymes/BM_works/Bert_Casp80/01A__Swiss_BM__equal/BM-Swiss/fold_8/saved_models/Swiss_Best_Model.ckpt
+======Val======
+** BM-Swiss/fold_8/mr_data/val.mindrecord
+
+========================================
+                  model data       AUC       ACC  precision    Recall        F1       MCC  Sensitivity  Specificity
+model  Swiss_Best_Model       0.999017  0.997423   0.997436  0.997423  0.997423  0.994859     0.994845          1.0
+========================================
+
+======Test======
+** BM-Swiss/fold_8/mr_data/test.mindrecord
+
+========================================
+                  model data       AUC       ACC  precision    Recall        F1       MCC  Sensitivity  Specificity
+model  Swiss_Best_Model       0.999017  0.997423   0.997436  0.997423  0.997423  0.994859     0.994845          1.0
+========================================
+
+FINISH !!!
+
+
+
+@@@ fold_9 @@@
+python /data2/xuguoshun/MPBert3/mpbert_classification_1x_v3.py --config_path /data2/xuguoshun/MPBert3/config_2048.yaml --do_train True --do_eval True --description classification --num_class 2 --epoch_num 200 --early_stopping_rounds 50 --frozen_bert False --device_id 7 --data_url BM-Swiss/fold_9/mr_data/ --load_checkpoint_url /data2/xuguoshun/MPBert3/uniref_50_2048.ckpt --output_url BM-Swiss/fold_9/saved_models --task_name Swiss --train_batch_size 32
+3 <src.bert_model.BertConfig object at 0xfffbb7eefd50>
+{'bert_net_cfg': <src.bert_model.BertConfig object at 0xfffbb7eefd50>,
+ 'concat_hidden_size': 512,
+ 'concat_layer_num': 1,
+ 'config_path': '/data2/xuguoshun/MPBert3/config_2048.yaml',
+ 'cut_layer_num': 0,
+ 'data_spilt_num': 3,
+ 'data_url': 'BM-Swiss/fold_9/mr_data/',
+ 'dataset_format': 'mindrecord',
+ 'description': 'classification',
+ 'device_id': 7,
+ 'device_target': 'Ascend',
+ 'do_eval': True,
+ 'do_predict': False,
+ 'do_train': True,
+ 'dssp_hidden_size': 128,
+ 'dssp_layer_num': 1,
+ 'early_stopping_rounds': 50,
+ 'enable_modelarts': False,
+ 'enable_profiling': False,
+ 'epoch_num': 200,
+ 'eval_batch_size': 1,
+ 'eval_data_shuffle': 'false',
+ 'file_format': 'MINDIR',
+ 'frozen_bert': False,
+ 'label_percent': '1:1',
+ 'load_checkpoint_url': '/data2/xuguoshun/MPBert3/uniref_50_2048.ckpt',
+ 'load_pretrain': True,
+ 'loss_gamma': 2.0,
+ 'loss_name': 'CrossEntropy',
+ 'metrics': 'ACC',
+ 'num_class': 2,
+ 'optimizer_cfg': {'AdamWeightDecay': {'decay_filter': <function extra_operations.<locals>.create_filter_fun.<locals>.<lambda> at 0xfffbb7fd7ef0>,
+ 'end_learning_rate': 1e-10,
+ 'eps': 1e-06,
+ 'learning_rate': 1e-05,
+ 'power': 1.0,
+ 'weight_decay': 1e-05},
+ 'Lamb': {'decay_filter': <function extra_operations.<locals>.create_filter_fun.<locals>.<lambda> at 0xfffbb7fd7dd0>,
+ 'end_learning_rate': 1e-10,
+ 'learning_rate': 2e-05,
+ 'power': 1.0,
+ 'weight_decay': 0.01},
+ 'Momentum': {'learning_rate': 2e-05, 'momentum': 0.9},
+ 'optimizer': 'AdamWeightDecay'},
+ 'output_url': 'BM-Swiss/fold_9/saved_models',
+ 'print_predict': False,
+ 'pssm_hidden_size': 128,
+ 'pssm_layer_num': 1,
+ 'return_csv': False,
+ 'return_sequence': False,
+ 'task_name': 'Swiss',
+ 'train_batch_size': 32,
+ 'train_data_shuffle': 'true',
+ 'use_pynative_mode': False,
+ 'vocab_file': '',
+ 'with_lstm': False}
+ >>> Eval: Val file is val.mindrecord.
+ >>> Eval: Test file is test.mindrecord.
+==============================================================
+processor_name: Ascend
+test_name: Swiss
+batch_size: 32
+ >>> Train: Train file is train.mindrecord.
+ >>> Train: Val file is val.mindrecord.
+***Epoch: 0***
+Current epoch percent: 1.000, step: 109
+Train loss: 0.58783484
+Train epoch time: 69239.266 ms, per step time: 635.223 ms
+Validation accuracy: 0.9149484536082474
+New best accuracy: 0.9149484536082474, saved best model to :
+BM-Swiss/fold_9/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 1***
+Current epoch percent: 1.000, step: 218
+Train loss: 0.20566466
+Train epoch time: 37661.139 ms, per step time: 345.515 ms
+Validation accuracy: 0.9845360824742269
+New best accuracy: 0.9845360824742269, saved best model to :
+BM-Swiss/fold_9/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 2***
+Current epoch percent: 1.000, step: 327
+Train loss: 0.09216907
+Train epoch time: 37660.029 ms, per step time: 345.505 ms
+Validation accuracy: 0.9896907216494846
+New best accuracy: 0.9896907216494846, saved best model to :
+BM-Swiss/fold_9/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 3***
+Current epoch percent: 1.000, step: 436
+Train loss: 0.02657949
+Train epoch time: 37666.159 ms, per step time: 345.561 ms
+Validation accuracy: 0.9896907216494846
+No improvement in accuracy for 1 epochs (best acc = 0.9896907216494846).
+***Epoch: 4***
+Current epoch percent: 1.000, step: 545
+Train loss: 0.012946196
+Train epoch time: 37666.183 ms, per step time: 345.561 ms
+Validation accuracy: 0.9896907216494846
+No improvement in accuracy for 2 epochs (best acc = 0.9896907216494846).
+***Epoch: 5***
+Current epoch percent: 1.000, step: 654
+Train loss: 0.01058463
+Train epoch time: 37654.518 ms, per step time: 345.454 ms
+Validation accuracy: 0.9922680412371134
+New best accuracy: 0.9922680412371134, saved best model to :
+BM-Swiss/fold_9/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 6***
+Current epoch percent: 1.000, step: 763
+Train loss: 0.007207264
+Train epoch time: 37659.740 ms, per step time: 345.502 ms
+Validation accuracy: 0.9948453608247423
+New best accuracy: 0.9948453608247423, saved best model to :
+BM-Swiss/fold_9/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 7***
+Current epoch percent: 1.000, step: 872
+Train loss: 0.018810324
+Train epoch time: 37649.076 ms, per step time: 345.404 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 1 epochs (best acc = 0.9948453608247423).
+***Epoch: 8***
+Current epoch percent: 1.000, step: 981
+Train loss: 0.0044520567
+Train epoch time: 37644.570 ms, per step time: 345.363 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 2 epochs (best acc = 0.9948453608247423).
+***Epoch: 9***
+Current epoch percent: 1.000, step: 1090
+Train loss: 0.0029875003
+Train epoch time: 37662.450 ms, per step time: 345.527 ms
+Validation accuracy: 0.9922680412371134
+No improvement in accuracy for 3 epochs (best acc = 0.9948453608247423).
+***Epoch: 10***
+Current epoch percent: 1.000, step: 1199
+Train loss: 0.0029715272
+Train epoch time: 37651.504 ms, per step time: 345.427 ms
+Validation accuracy: 0.9922680412371134
+No improvement in accuracy for 4 epochs (best acc = 0.9948453608247423).
+***Epoch: 11***
+Current epoch percent: 1.000, step: 1308
+Train loss: 0.0014474848
+Train epoch time: 37651.515 ms, per step time: 345.427 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 5 epochs (best acc = 0.9948453608247423).
+***Epoch: 12***
+Current epoch percent: 1.000, step: 1417
+Train loss: 0.0015705337
+Train epoch time: 37650.887 ms, per step time: 345.421 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 6 epochs (best acc = 0.9948453608247423).
+***Epoch: 13***
+Current epoch percent: 1.000, step: 1526
+Train loss: 0.0011189266
+Train epoch time: 37662.970 ms, per step time: 345.532 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 7 epochs (best acc = 0.9948453608247423).
+***Epoch: 14***
+Current epoch percent: 1.000, step: 1635
+Train loss: 0.0010738213
+Train epoch time: 37674.461 ms, per step time: 345.637 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 8 epochs (best acc = 0.9948453608247423).
+***Epoch: 15***
+Current epoch percent: 1.000, step: 1744
+Train loss: 0.00070827093
+Train epoch time: 37655.700 ms, per step time: 345.465 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 9 epochs (best acc = 0.9948453608247423).
+***Epoch: 16***
+Current epoch percent: 1.000, step: 1853
+Train loss: 0.0005714663
+Train epoch time: 37654.881 ms, per step time: 345.458 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 10 epochs (best acc = 0.9948453608247423).
+***Epoch: 17***
+Current epoch percent: 1.000, step: 1962
+Train loss: 0.0005118497
+Train epoch time: 37666.716 ms, per step time: 345.566 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 11 epochs (best acc = 0.9948453608247423).
+***Epoch: 18***
+Current epoch percent: 1.000, step: 2071
+Train loss: 0.00045833367
+Train epoch time: 37646.786 ms, per step time: 345.383 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 12 epochs (best acc = 0.9948453608247423).
+***Epoch: 19***
+Current epoch percent: 1.000, step: 2180
+Train loss: 0.00043797324
+Train epoch time: 37674.810 ms, per step time: 345.640 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 13 epochs (best acc = 0.9948453608247423).
+***Epoch: 20***
+Current epoch percent: 1.000, step: 2289
+Train loss: 0.00033053194
+Train epoch time: 37642.491 ms, per step time: 345.344 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 14 epochs (best acc = 0.9948453608247423).
+***Epoch: 21***
+Current epoch percent: 1.000, step: 2398
+Train loss: 0.00031156483
+Train epoch time: 37659.620 ms, per step time: 345.501 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 15 epochs (best acc = 0.9948453608247423).
+***Epoch: 22***
+Current epoch percent: 1.000, step: 2507
+Train loss: 0.00026258582
+Train epoch time: 37652.520 ms, per step time: 345.436 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 16 epochs (best acc = 0.9948453608247423).
+***Epoch: 23***
+Current epoch percent: 1.000, step: 2616
+Train loss: 0.00025012472
+Train epoch time: 37651.468 ms, per step time: 345.426 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 17 epochs (best acc = 0.9948453608247423).
+***Epoch: 24***
+Current epoch percent: 1.000, step: 2725
+Train loss: 0.0002176816
+Train epoch time: 37658.023 ms, per step time: 345.486 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 18 epochs (best acc = 0.9948453608247423).
+***Epoch: 25***
+Current epoch percent: 1.000, step: 2834
+Train loss: 0.00022322629
+Train epoch time: 37653.023 ms, per step time: 345.441 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 19 epochs (best acc = 0.9948453608247423).
+***Epoch: 26***
+Current epoch percent: 1.000, step: 2943
+Train loss: 0.00019460094
+Train epoch time: 37643.719 ms, per step time: 345.355 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 20 epochs (best acc = 0.9948453608247423).
+***Epoch: 27***
+Current epoch percent: 1.000, step: 3052
+Train loss: 0.0001858443
+Train epoch time: 37644.798 ms, per step time: 345.365 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 21 epochs (best acc = 0.9948453608247423).
+***Epoch: 28***
+Current epoch percent: 1.000, step: 3161
+Train loss: 0.00015660202
+Train epoch time: 37694.289 ms, per step time: 345.819 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 22 epochs (best acc = 0.9948453608247423).
+***Epoch: 29***
+Current epoch percent: 1.000, step: 3270
+Train loss: 0.00015944763
+Train epoch time: 37677.433 ms, per step time: 345.665 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 23 epochs (best acc = 0.9948453608247423).
+***Epoch: 30***
+Current epoch percent: 1.000, step: 3379
+Train loss: 0.0001504
+Train epoch time: 37649.590 ms, per step time: 345.409 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 24 epochs (best acc = 0.9948453608247423).
+***Epoch: 31***
+Current epoch percent: 1.000, step: 3488
+Train loss: 0.0001393264
+Train epoch time: 37658.707 ms, per step time: 345.493 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 25 epochs (best acc = 0.9948453608247423).
+***Epoch: 32***
+Current epoch percent: 1.000, step: 3597
+Train loss: 0.000120788776
+Train epoch time: 37657.432 ms, per step time: 345.481 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 26 epochs (best acc = 0.9948453608247423).
+***Epoch: 33***
+Current epoch percent: 1.000, step: 3706
+Train loss: 0.000113424685
+Train epoch time: 37661.071 ms, per step time: 345.514 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 27 epochs (best acc = 0.9948453608247423).
+***Epoch: 34***
+Current epoch percent: 1.000, step: 3815
+Train loss: 0.000119197684
+Train epoch time: 37667.909 ms, per step time: 345.577 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 28 epochs (best acc = 0.9948453608247423).
+***Epoch: 35***
+Current epoch percent: 1.000, step: 3924
+Train loss: 0.00010763983
+Train epoch time: 37668.769 ms, per step time: 345.585 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 29 epochs (best acc = 0.9948453608247423).
+***Epoch: 36***
+Current epoch percent: 1.000, step: 4033
+Train loss: 9.969848e-05
+Train epoch time: 37671.955 ms, per step time: 345.614 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 30 epochs (best acc = 0.9948453608247423).
+***Epoch: 37***
+Current epoch percent: 1.000, step: 4142
+Train loss: 8.601686e-05
+Train epoch time: 37669.343 ms, per step time: 345.590 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 31 epochs (best acc = 0.9948453608247423).
+***Epoch: 38***
+Current epoch percent: 1.000, step: 4251
+Train loss: 8.8635396e-05
+Train epoch time: 37672.545 ms, per step time: 345.620 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 32 epochs (best acc = 0.9948453608247423).
+***Epoch: 39***
+Current epoch percent: 1.000, step: 4360
+Train loss: 8.10365e-05
+Train epoch time: 37692.246 ms, per step time: 345.800 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 33 epochs (best acc = 0.9948453608247423).
+***Epoch: 40***
+Current epoch percent: 1.000, step: 4469
+Train loss: 8.257484e-05
+Train epoch time: 37672.064 ms, per step time: 345.615 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 34 epochs (best acc = 0.9948453608247423).
+***Epoch: 41***
+Current epoch percent: 1.000, step: 4578
+Train loss: 7.587745e-05
+Train epoch time: 37694.110 ms, per step time: 345.818 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 35 epochs (best acc = 0.9948453608247423).
+***Epoch: 42***
+Current epoch percent: 1.000, step: 4687
+Train loss: 6.434849e-05
+Train epoch time: 37705.707 ms, per step time: 345.924 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 36 epochs (best acc = 0.9948453608247423).
+***Epoch: 43***
+Current epoch percent: 1.000, step: 4796
+Train loss: 7.0558e-05
+Train epoch time: 37683.503 ms, per step time: 345.720 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 37 epochs (best acc = 0.9948453608247423).
+***Epoch: 44***
+Current epoch percent: 1.000, step: 4905
+Train loss: 6.634045e-05
+Train epoch time: 37692.685 ms, per step time: 345.804 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 38 epochs (best acc = 0.9948453608247423).
+***Epoch: 45***
+Current epoch percent: 1.000, step: 5014
+Train loss: 6.492211e-05
+Train epoch time: 37706.778 ms, per step time: 345.934 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 39 epochs (best acc = 0.9948453608247423).
+***Epoch: 46***
+Current epoch percent: 1.000, step: 5123
+Train loss: 5.7389916e-05
+Train epoch time: 37698.233 ms, per step time: 345.855 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 40 epochs (best acc = 0.9948453608247423).
+***Epoch: 47***
+Current epoch percent: 1.000, step: 5232
+Train loss: 8.101294e-05
+Train epoch time: 37712.232 ms, per step time: 345.984 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 41 epochs (best acc = 0.9948453608247423).
+***Epoch: 48***
+Current epoch percent: 1.000, step: 5341
+Train loss: 4.9329014e-05
+Train epoch time: 37718.754 ms, per step time: 346.044 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 42 epochs (best acc = 0.9948453608247423).
+***Epoch: 49***
+Current epoch percent: 1.000, step: 5450
+Train loss: 4.2269945e-05
+Train epoch time: 37714.096 ms, per step time: 346.001 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 43 epochs (best acc = 0.9948453608247423).
+***Epoch: 50***
+Current epoch percent: 1.000, step: 5559
+Train loss: 4.465773e-05
+Train epoch time: 37716.167 ms, per step time: 346.020 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 44 epochs (best acc = 0.9948453608247423).
+***Epoch: 51***
+Current epoch percent: 1.000, step: 5668
+Train loss: 4.1364736e-05
+Train epoch time: 37702.875 ms, per step time: 345.898 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 45 epochs (best acc = 0.9948453608247423).
+***Epoch: 52***
+Current epoch percent: 1.000, step: 5777
+Train loss: 3.8451668e-05
+Train epoch time: 37692.618 ms, per step time: 345.804 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 46 epochs (best acc = 0.9948453608247423).
+***Epoch: 53***
+Current epoch percent: 1.000, step: 5886
+Train loss: 3.8999162e-05
+Train epoch time: 37689.801 ms, per step time: 345.778 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 47 epochs (best acc = 0.9948453608247423).
+***Epoch: 54***
+Current epoch percent: 1.000, step: 5995
+Train loss: 3.9565224e-05
+Train epoch time: 37687.887 ms, per step time: 345.760 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 48 epochs (best acc = 0.9948453608247423).
+***Epoch: 55***
+Current epoch percent: 1.000, step: 6104
+Train loss: 3.3135875e-05
+Train epoch time: 37675.037 ms, per step time: 345.643 ms
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 49 epochs (best acc = 0.9948453608247423).
+***Epoch: 56***
+Current epoch percent: 1.000, step: 6213
+Train loss: 3.119879e-05
+Train epoch time: 37659.407 ms, per step time: 345.499 ms
+
+Validation accuracy: 0.9948453608247423
+No improvement in accuracy for 50 epochs (best acc = 0.9948453608247423).
+Early stopping due to no improvement.
+Find the newest checkpoint:  /data2/xuguoshun/Enzymes/BM_works/Bert_Casp80/01A__Swiss_BM__equal/BM-Swiss/fold_9/saved_models/Swiss_Best_Model.ckpt
+======Val======
+** BM-Swiss/fold_9/mr_data/val.mindrecord
+
+========================================
+                  model data       AUC       ACC  precision    Recall        F1       MCC  Sensitivity  Specificity
+model  Swiss_Best_Model       0.998725  0.994845   0.994898  0.994845  0.994845  0.989743     0.989691          1.0
+========================================
+
+======Test======
+** BM-Swiss/fold_9/mr_data/test.mindrecord
+
+========================================
+                  model data       AUC       ACC  precision    Recall        F1       MCC  Sensitivity  Specificity
+model  Swiss_Best_Model       0.998725  0.994845   0.994898  0.994845  0.994845  0.989743     0.989691          1.0
+========================================
+
+FINISH !!!
+
+Done!

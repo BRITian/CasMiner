@@ -1,0 +1,2173 @@
+	>>> BM dir: BM-Swiss
+	>>> Target dir: ['fold_1']
+
+
+
+
+@@@ fold_1 @@@
+python /data2/xuguoshun/MPBert3/mpbert_classification_1x_v3.py --config_path /data2/xuguoshun/MPBert3/config_2048.yaml --do_train True --do_eval True --description classification --num_class 2 --epoch_num 20 --early_stopping_rounds 50 --frozen_bert False --device_id 1 --data_url BM-Swiss/fold_1/mr_data/ --load_checkpoint_url /data2/xuguoshun/MPBert3/uniref_50_2048.ckpt --output_url BM-Swiss/fold_1/saved_models --task_name Swiss --train_batch_size 32
+3 <src.bert_model.BertConfig object at 0xfffe20a9ee90>
+{'bert_net_cfg': <src.bert_model.BertConfig object at 0xfffe20a9ee90>,
+ 'concat_hidden_size': 512,
+ 'concat_layer_num': 1,
+ 'config_path': '/data2/xuguoshun/MPBert3/config_2048.yaml',
+ 'cut_layer_num': 0,
+ 'data_spilt_num': 3,
+ 'data_url': 'BM-Swiss/fold_1/mr_data/',
+ 'dataset_format': 'mindrecord',
+ 'description': 'classification',
+ 'device_id': 1,
+ 'device_target': 'Ascend',
+ 'do_eval': True,
+ 'do_predict': False,
+ 'do_train': True,
+ 'dssp_hidden_size': 128,
+ 'dssp_layer_num': 1,
+ 'early_stopping_rounds': 50,
+ 'enable_modelarts': False,
+ 'enable_profiling': False,
+ 'epoch_num': 20,
+ 'eval_batch_size': 1,
+ 'eval_data_shuffle': 'false',
+ 'file_format': 'MINDIR',
+ 'frozen_bert': False,
+ 'label_percent': '1:1',
+ 'load_checkpoint_url': '/data2/xuguoshun/MPBert3/uniref_50_2048.ckpt',
+ 'load_pretrain': True,
+ 'loss_gamma': 2.0,
+ 'loss_name': 'CrossEntropy',
+ 'metrics': 'ACC',
+ 'num_class': 2,
+ 'optimizer_cfg': {'AdamWeightDecay': {'decay_filter': <function extra_operations.<locals>.create_filter_fun.<locals>.<lambda> at 0xfffe20b86ef0>,
+ 'end_learning_rate': 1e-10,
+ 'eps': 1e-06,
+ 'learning_rate': 1e-05,
+ 'power': 1.0,
+ 'weight_decay': 1e-05},
+ 'Lamb': {'decay_filter': <function extra_operations.<locals>.create_filter_fun.<locals>.<lambda> at 0xfffe20b86dd0>,
+ 'end_learning_rate': 1e-10,
+ 'learning_rate': 2e-05,
+ 'power': 1.0,
+ 'weight_decay': 0.01},
+ 'Momentum': {'learning_rate': 2e-05, 'momentum': 0.9},
+ 'optimizer': 'AdamWeightDecay'},
+ 'output_url': 'BM-Swiss/fold_1/saved_models',
+ 'print_predict': False,
+ 'pssm_hidden_size': 128,
+ 'pssm_layer_num': 1,
+ 'return_csv': False,
+ 'return_sequence': False,
+ 'task_name': 'Swiss',
+ 'train_batch_size': 32,
+ 'train_data_shuffle': 'true',
+ 'use_pynative_mode': False,
+ 'vocab_file': '',
+ 'with_lstm': False}
+ >>> Eval: Val file is val.mindrecord.
+ >>> Eval: Test file is test.mindrecord.
+==============================================================
+processor_name: Ascend
+test_name: Swiss
+batch_size: 32
+ >>> Train: Train file is train.mindrecord.
+ >>> Train: Val file is val.mindrecord.
+***Epoch: 0***
+Current epoch percent: 1.000, step: 968
+Train loss: 0.0030983684
+Train epoch time: 366520.974 ms, per step time: 378.637 ms
+Validation accuracy: 0.9991289198606271
+New best accuracy: 0.9991289198606271, saved best model to :
+BM-Swiss/fold_1/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 1***
+Current epoch percent: 1.000, step: 1936
+Train loss: 0.0010537932
+Train epoch time: 333925.925 ms, per step time: 344.965 ms
+Validation accuracy: 0.9982578397212544
+No improvement in accuracy for 1 epochs (best acc = 0.9991289198606271).
+***Epoch: 2***
+Current epoch percent: 1.000, step: 2904
+Train loss: 0.00030567386
+Train epoch time: 333895.379 ms, per step time: 344.933 ms
+Validation accuracy: 0.9997096399535423
+New best accuracy: 0.9997096399535423, saved best model to :
+BM-Swiss/fold_1/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 3***
+Current epoch percent: 1.000, step: 3872
+Train loss: 0.00022976103
+Train epoch time: 333877.866 ms, per step time: 344.915 ms
+Validation accuracy: 0.9988385598141696
+No improvement in accuracy for 1 epochs (best acc = 0.9997096399535423).
+***Epoch: 4***
+Current epoch percent: 1.000, step: 4840
+Train loss: 0.00046387885
+Train epoch time: 333829.932 ms, per step time: 344.866 ms
+Validation accuracy: 0.9997096399535423
+No improvement in accuracy for 2 epochs (best acc = 0.9997096399535423).
+***Epoch: 5***
+Current epoch percent: 1.000, step: 5808
+Train loss: 0.00013800053
+Train epoch time: 333872.716 ms, per step time: 344.910 ms
+Validation accuracy: 1.0
+New best accuracy: 1.0, saved best model to :
+BM-Swiss/fold_1/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 6***
+Current epoch percent: 1.000, step: 6776
+Train loss: 0.00029268197
+Train epoch time: 333849.527 ms, per step time: 344.886 ms
+Validation accuracy: 0.9994192799070848
+No improvement in accuracy for 1 epochs (best acc = 1.0).
+***Epoch: 7***
+Current epoch percent: 1.000, step: 7744
+Train loss: 0.000102130456
+Train epoch time: 333845.113 ms, per step time: 344.881 ms
+Validation accuracy: 0.9994192799070848
+No improvement in accuracy for 2 epochs (best acc = 1.0).
+***Epoch: 8***
+Current epoch percent: 1.000, step: 8712
+Train loss: 7.7015226e-05
+Train epoch time: 333838.181 ms, per step time: 344.874 ms
+Validation accuracy: 0.9997096399535423
+No improvement in accuracy for 3 epochs (best acc = 1.0).
+***Epoch: 9***
+Current epoch percent: 1.000, step: 9680
+Train loss: 4.9998896e-05
+Train epoch time: 333858.806 ms, per step time: 344.895 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 4 epochs (best acc = 1.0).
+***Epoch: 10***
+Current epoch percent: 1.000, step: 10648
+Train loss: 0.004116161
+Train epoch time: 333855.479 ms, per step time: 344.892 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 5 epochs (best acc = 1.0).
+***Epoch: 11***
+Current epoch percent: 1.000, step: 11616
+Train loss: 2.1014112e-05
+Train epoch time: 333845.117 ms, per step time: 344.881 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 6 epochs (best acc = 1.0).
+***Epoch: 12***
+Current epoch percent: 1.000, step: 12584
+Train loss: 1.5269787e-05
+Train epoch time: 333878.024 ms, per step time: 344.915 ms
+Validation accuracy: 0.9997096399535423
+No improvement in accuracy for 7 epochs (best acc = 1.0).
+***Epoch: 13***
+Current epoch percent: 1.000, step: 13552
+Train loss: 1.0825627e-05
+Train epoch time: 333871.878 ms, per step time: 344.909 ms
+Validation accuracy: 0.9997096399535423
+No improvement in accuracy for 8 epochs (best acc = 1.0).
+***Epoch: 14***
+Current epoch percent: 1.000, step: 14520
+Train loss: 7.726221e-06
+Train epoch time: 333894.877 ms, per step time: 344.933 ms
+Validation accuracy: 0.9997096399535423
+No improvement in accuracy for 9 epochs (best acc = 1.0).
+***Epoch: 15***
+Current epoch percent: 1.000, step: 15488
+Train loss: 6.4819824e-06
+Train epoch time: 333863.348 ms, per step time: 344.900 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 10 epochs (best acc = 1.0).
+***Epoch: 16***
+Current epoch percent: 1.000, step: 16456
+Train loss: 5.4240068e-06
+Train epoch time: 333843.965 ms, per step time: 344.880 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 11 epochs (best acc = 1.0).
+***Epoch: 17***
+Current epoch percent: 1.000, step: 17424
+Train loss: 4.4442604e-06
+Train epoch time: 333877.769 ms, per step time: 344.915 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 12 epochs (best acc = 1.0).
+***Epoch: 18***
+Current epoch percent: 1.000, step: 18392
+Train loss: 3.680579e-06
+Train epoch time: 333844.920 ms, per step time: 344.881 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 13 epochs (best acc = 1.0).
+***Epoch: 19***
+Current epoch percent: 1.000, step: 19360
+Train loss: 3.7662594e-06
+Train epoch time: 333839.322 ms, per step time: 344.875 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 14 epochs (best acc = 1.0).
+Find the newest checkpoint:  /data2/xuguoshun/Enzymes/BM_works/Bert_Casp80/01A__Swiss_BM_all/BM-Swiss/fold_1/saved_models/Swiss_Best_Model.ckpt
+======Val======
+** BM-Swiss/fold_1/mr_data/val.mindrecord
+
+========================================
+                  model data  AUC  ACC  precision  Recall   F1  MCC  Sensitivity  Specificity
+model  Swiss_Best_Model       1.0  1.0        1.0     1.0  1.0  1.0          1.0          1.0
+========================================
+
+======Test======
+** BM-Swiss/fold_1/mr_data/test.mindrecord
+
+========================================
+                  model data  AUC  ACC  precision  Recall   F1  MCC  Sensitivity  Specificity
+model  Swiss_Best_Model       1.0  1.0        1.0     1.0  1.0  1.0          1.0          1.0
+========================================
+
+FINISH !!!
+
+
+Done!
+	>>> BM dir: BM-Swiss
+	>>> Target dir: ['fold_2']
+
+
+
+
+@@@ fold_2 @@@
+python /data2/xuguoshun/MPBert3/mpbert_classification_1x_v3.py --config_path /data2/xuguoshun/MPBert3/config_2048.yaml --do_train True --do_eval True --description classification --num_class 2 --epoch_num 20 --early_stopping_rounds 50 --frozen_bert False --device_id 2 --data_url BM-Swiss/fold_2/mr_data/ --load_checkpoint_url /data2/xuguoshun/MPBert3/uniref_50_2048.ckpt --output_url BM-Swiss/fold_2/saved_models --task_name Swiss --train_batch_size 32
+3 <src.bert_model.BertConfig object at 0xfffcf3a8ff10>
+{'bert_net_cfg': <src.bert_model.BertConfig object at 0xfffcf3a8ff10>,
+ 'concat_hidden_size': 512,
+ 'concat_layer_num': 1,
+ 'config_path': '/data2/xuguoshun/MPBert3/config_2048.yaml',
+ 'cut_layer_num': 0,
+ 'data_spilt_num': 3,
+ 'data_url': 'BM-Swiss/fold_2/mr_data/',
+ 'dataset_format': 'mindrecord',
+ 'description': 'classification',
+ 'device_id': 2,
+ 'device_target': 'Ascend',
+ 'do_eval': True,
+ 'do_predict': False,
+ 'do_train': True,
+ 'dssp_hidden_size': 128,
+ 'dssp_layer_num': 1,
+ 'early_stopping_rounds': 50,
+ 'enable_modelarts': False,
+ 'enable_profiling': False,
+ 'epoch_num': 20,
+ 'eval_batch_size': 1,
+ 'eval_data_shuffle': 'false',
+ 'file_format': 'MINDIR',
+ 'frozen_bert': False,
+ 'label_percent': '1:1',
+ 'load_checkpoint_url': '/data2/xuguoshun/MPBert3/uniref_50_2048.ckpt',
+ 'load_pretrain': True,
+ 'loss_gamma': 2.0,
+ 'loss_name': 'CrossEntropy',
+ 'metrics': 'ACC',
+ 'num_class': 2,
+ 'optimizer_cfg': {'AdamWeightDecay': {'decay_filter': <function extra_operations.<locals>.create_filter_fun.<locals>.<lambda> at 0xfffcf3b76ef0>,
+ 'end_learning_rate': 1e-10,
+ 'eps': 1e-06,
+ 'learning_rate': 1e-05,
+ 'power': 1.0,
+ 'weight_decay': 1e-05},
+ 'Lamb': {'decay_filter': <function extra_operations.<locals>.create_filter_fun.<locals>.<lambda> at 0xfffcf3b76dd0>,
+ 'end_learning_rate': 1e-10,
+ 'learning_rate': 2e-05,
+ 'power': 1.0,
+ 'weight_decay': 0.01},
+ 'Momentum': {'learning_rate': 2e-05, 'momentum': 0.9},
+ 'optimizer': 'AdamWeightDecay'},
+ 'output_url': 'BM-Swiss/fold_2/saved_models',
+ 'print_predict': False,
+ 'pssm_hidden_size': 128,
+ 'pssm_layer_num': 1,
+ 'return_csv': False,
+ 'return_sequence': False,
+ 'task_name': 'Swiss',
+ 'train_batch_size': 32,
+ 'train_data_shuffle': 'true',
+ 'use_pynative_mode': False,
+ 'vocab_file': '',
+ 'with_lstm': False}
+ >>> Eval: Val file is val.mindrecord.
+ >>> Eval: Test file is test.mindrecord.
+==============================================================
+processor_name: Ascend
+test_name: Swiss
+batch_size: 32
+ >>> Train: Train file is train.mindrecord.
+ >>> Train: Val file is val.mindrecord.
+***Epoch: 0***
+Current epoch percent: 1.000, step: 968
+Train loss: 0.0030019942
+Train epoch time: 369922.232 ms, per step time: 382.151 ms
+Validation accuracy: 0.9988385598141696
+New best accuracy: 0.9988385598141696, saved best model to :
+BM-Swiss/fold_2/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 1***
+Current epoch percent: 1.000, step: 1936
+Train loss: 0.0014678042
+Train epoch time: 333437.949 ms, per step time: 344.461 ms
+Validation accuracy: 0.9988385598141696
+No improvement in accuracy for 1 epochs (best acc = 0.9988385598141696).
+***Epoch: 2***
+Current epoch percent: 1.000, step: 2904
+Train loss: 0.0002729249
+Train epoch time: 333475.499 ms, per step time: 344.499 ms
+Validation accuracy: 0.9994192799070848
+New best accuracy: 0.9994192799070848, saved best model to :
+BM-Swiss/fold_2/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 3***
+Current epoch percent: 1.000, step: 3872
+Train loss: 0.00018070202
+Train epoch time: 333429.304 ms, per step time: 344.452 ms
+Validation accuracy: 1.0
+New best accuracy: 1.0, saved best model to :
+BM-Swiss/fold_2/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 4***
+Current epoch percent: 1.000, step: 4840
+Train loss: 9.44086e-05
+Train epoch time: 333490.604 ms, per step time: 344.515 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 1 epochs (best acc = 1.0).
+***Epoch: 5***
+Current epoch percent: 1.000, step: 5808
+Train loss: 8.4637475e-05
+Train epoch time: 333433.349 ms, per step time: 344.456 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 2 epochs (best acc = 1.0).
+***Epoch: 6***
+Current epoch percent: 1.000, step: 6776
+Train loss: 0.00020167069
+Train epoch time: 333412.406 ms, per step time: 344.434 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 3 epochs (best acc = 1.0).
+***Epoch: 7***
+Current epoch percent: 1.000, step: 7744
+Train loss: 0.00010805155
+Train epoch time: 333434.952 ms, per step time: 344.458 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 4 epochs (best acc = 1.0).
+***Epoch: 8***
+Current epoch percent: 1.000, step: 8712
+Train loss: 2.9861367e-05
+Train epoch time: 333449.937 ms, per step time: 344.473 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 5 epochs (best acc = 1.0).
+***Epoch: 9***
+Current epoch percent: 1.000, step: 9680
+Train loss: 2.3349756e-05
+Train epoch time: 333455.304 ms, per step time: 344.479 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 6 epochs (best acc = 1.0).
+***Epoch: 10***
+Current epoch percent: 1.000, step: 10648
+Train loss: 3.8884555e-05
+Train epoch time: 333412.763 ms, per step time: 344.435 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 7 epochs (best acc = 1.0).
+***Epoch: 11***
+Current epoch percent: 1.000, step: 11616
+Train loss: 3.3688895e-05
+Train epoch time: 333387.003 ms, per step time: 344.408 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 8 epochs (best acc = 1.0).
+***Epoch: 12***
+Current epoch percent: 1.000, step: 12584
+Train loss: 1.3872853e-05
+Train epoch time: 333407.639 ms, per step time: 344.429 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 9 epochs (best acc = 1.0).
+***Epoch: 13***
+Current epoch percent: 1.000, step: 13552
+Train loss: 9.432379e-06
+Train epoch time: 333463.907 ms, per step time: 344.488 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 10 epochs (best acc = 1.0).
+***Epoch: 14***
+Current epoch percent: 1.000, step: 14520
+Train loss: 8.173248e-06
+Train epoch time: 333408.181 ms, per step time: 344.430 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 11 epochs (best acc = 1.0).
+***Epoch: 15***
+Current epoch percent: 1.000, step: 15488
+Train loss: 6.4670803e-06
+Train epoch time: 333413.047 ms, per step time: 344.435 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 12 epochs (best acc = 1.0).
+***Epoch: 16***
+Current epoch percent: 1.000, step: 16456
+Train loss: 5.081282e-06
+Train epoch time: 333431.207 ms, per step time: 344.454 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 13 epochs (best acc = 1.0).
+***Epoch: 17***
+Current epoch percent: 1.000, step: 17424
+Train loss: 4.768359e-06
+Train epoch time: 333396.554 ms, per step time: 344.418 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 14 epochs (best acc = 1.0).
+***Epoch: 18***
+Current epoch percent: 1.000, step: 18392
+Train loss: 4.362304e-06
+Train epoch time: 333491.852 ms, per step time: 344.516 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 15 epochs (best acc = 1.0).
+***Epoch: 19***
+Current epoch percent: 1.000, step: 19360
+Train loss: 5.572999e-06
+Train epoch time: 333401.635 ms, per step time: 344.423 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 16 epochs (best acc = 1.0).
+Find the newest checkpoint:  /data2/xuguoshun/Enzymes/BM_works/Bert_Casp80/01A__Swiss_BM_all/BM-Swiss/fold_2/saved_models/Swiss_Best_Model.ckpt
+======Val======
+** BM-Swiss/fold_2/mr_data/val.mindrecord
+
+========================================
+                  model data  AUC  ACC  precision  Recall   F1  MCC  Sensitivity  Specificity
+model  Swiss_Best_Model       1.0  1.0        1.0     1.0  1.0  1.0          1.0          1.0
+========================================
+
+======Test======
+** BM-Swiss/fold_2/mr_data/test.mindrecord
+
+========================================
+                  model data  AUC  ACC  precision  Recall   F1  MCC  Sensitivity  Specificity
+model  Swiss_Best_Model       1.0  1.0        1.0     1.0  1.0  1.0          1.0          1.0
+========================================
+
+FINISH !!!
+
+
+Done!
+	>>> BM dir: BM-Swiss
+	>>> Target dir: ['fold_3']
+
+
+
+
+@@@ fold_3 @@@
+python /data2/xuguoshun/MPBert3/mpbert_classification_1x_v3.py --config_path /data2/xuguoshun/MPBert3/config_2048.yaml --do_train True --do_eval True --description classification --num_class 2 --epoch_num 20 --early_stopping_rounds 50 --frozen_bert False --device_id 3 --data_url BM-Swiss/fold_3/mr_data/ --load_checkpoint_url /data2/xuguoshun/MPBert3/uniref_50_2048.ckpt --output_url BM-Swiss/fold_3/saved_models --task_name Swiss --train_batch_size 32
+3 <src.bert_model.BertConfig object at 0xfffe96fa1350>
+{'bert_net_cfg': <src.bert_model.BertConfig object at 0xfffe96fa1350>,
+ 'concat_hidden_size': 512,
+ 'concat_layer_num': 1,
+ 'config_path': '/data2/xuguoshun/MPBert3/config_2048.yaml',
+ 'cut_layer_num': 0,
+ 'data_spilt_num': 3,
+ 'data_url': 'BM-Swiss/fold_3/mr_data/',
+ 'dataset_format': 'mindrecord',
+ 'description': 'classification',
+ 'device_id': 3,
+ 'device_target': 'Ascend',
+ 'do_eval': True,
+ 'do_predict': False,
+ 'do_train': True,
+ 'dssp_hidden_size': 128,
+ 'dssp_layer_num': 1,
+ 'early_stopping_rounds': 50,
+ 'enable_modelarts': False,
+ 'enable_profiling': False,
+ 'epoch_num': 20,
+ 'eval_batch_size': 1,
+ 'eval_data_shuffle': 'false',
+ 'file_format': 'MINDIR',
+ 'frozen_bert': False,
+ 'label_percent': '1:1',
+ 'load_checkpoint_url': '/data2/xuguoshun/MPBert3/uniref_50_2048.ckpt',
+ 'load_pretrain': True,
+ 'loss_gamma': 2.0,
+ 'loss_name': 'CrossEntropy',
+ 'metrics': 'ACC',
+ 'num_class': 2,
+ 'optimizer_cfg': {'AdamWeightDecay': {'decay_filter': <function extra_operations.<locals>.create_filter_fun.<locals>.<lambda> at 0xfffe97086ef0>,
+ 'end_learning_rate': 1e-10,
+ 'eps': 1e-06,
+ 'learning_rate': 1e-05,
+ 'power': 1.0,
+ 'weight_decay': 1e-05},
+ 'Lamb': {'decay_filter': <function extra_operations.<locals>.create_filter_fun.<locals>.<lambda> at 0xfffe97086dd0>,
+ 'end_learning_rate': 1e-10,
+ 'learning_rate': 2e-05,
+ 'power': 1.0,
+ 'weight_decay': 0.01},
+ 'Momentum': {'learning_rate': 2e-05, 'momentum': 0.9},
+ 'optimizer': 'AdamWeightDecay'},
+ 'output_url': 'BM-Swiss/fold_3/saved_models',
+ 'print_predict': False,
+ 'pssm_hidden_size': 128,
+ 'pssm_layer_num': 1,
+ 'return_csv': False,
+ 'return_sequence': False,
+ 'task_name': 'Swiss',
+ 'train_batch_size': 32,
+ 'train_data_shuffle': 'true',
+ 'use_pynative_mode': False,
+ 'vocab_file': '',
+ 'with_lstm': False}
+ >>> Eval: Val file is val.mindrecord.
+ >>> Eval: Test file is test.mindrecord.
+==============================================================
+processor_name: Ascend
+test_name: Swiss
+batch_size: 32
+ >>> Train: Train file is train.mindrecord.
+ >>> Train: Val file is val.mindrecord.
+***Epoch: 0***
+Current epoch percent: 1.000, step: 968
+Train loss: 0.0026867427
+Train epoch time: 370610.053 ms, per step time: 382.862 ms
+Validation accuracy: 0.9982578397212544
+New best accuracy: 0.9982578397212544, saved best model to :
+BM-Swiss/fold_3/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 1***
+Current epoch percent: 1.000, step: 1936
+Train loss: 0.00071376277
+Train epoch time: 334373.260 ms, per step time: 345.427 ms
+Validation accuracy: 0.9988385598141696
+New best accuracy: 0.9988385598141696, saved best model to :
+BM-Swiss/fold_3/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 2***
+Current epoch percent: 1.000, step: 2904
+Train loss: 0.0004939618
+Train epoch time: 334578.437 ms, per step time: 345.639 ms
+Validation accuracy: 0.9994192799070848
+New best accuracy: 0.9994192799070848, saved best model to :
+BM-Swiss/fold_3/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 3***
+Current epoch percent: 1.000, step: 3872
+Train loss: 0.00018407645
+Train epoch time: 334472.517 ms, per step time: 345.529 ms
+Validation accuracy: 0.9991289198606271
+No improvement in accuracy for 1 epochs (best acc = 0.9994192799070848).
+***Epoch: 4***
+Current epoch percent: 1.000, step: 4840
+Train loss: 0.0001028531
+Train epoch time: 334479.149 ms, per step time: 345.536 ms
+Validation accuracy: 0.9994192799070848
+No improvement in accuracy for 2 epochs (best acc = 0.9994192799070848).
+***Epoch: 5***
+Current epoch percent: 1.000, step: 5808
+Train loss: 8.38475e-05
+Train epoch time: 334331.452 ms, per step time: 345.384 ms
+Validation accuracy: 1.0
+New best accuracy: 1.0, saved best model to :
+BM-Swiss/fold_3/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 6***
+Current epoch percent: 1.000, step: 6776
+Train loss: 0.00015297401
+Train epoch time: 334541.930 ms, per step time: 345.601 ms
+Validation accuracy: 0.9988385598141696
+No improvement in accuracy for 1 epochs (best acc = 1.0).
+***Epoch: 7***
+Current epoch percent: 1.000, step: 7744
+Train loss: 6.793457e-05
+Train epoch time: 334400.430 ms, per step time: 345.455 ms
+Validation accuracy: 0.9985481997677119
+No improvement in accuracy for 2 epochs (best acc = 1.0).
+***Epoch: 8***
+Current epoch percent: 1.000, step: 8712
+Train loss: 4.0175997e-05
+Train epoch time: 334413.034 ms, per step time: 345.468 ms
+Validation accuracy: 0.9988385598141696
+No improvement in accuracy for 3 epochs (best acc = 1.0).
+***Epoch: 9***
+Current epoch percent: 1.000, step: 9680
+Train loss: 5.964221e-05
+Train epoch time: 334392.634 ms, per step time: 345.447 ms
+Validation accuracy: 0.9991289198606271
+No improvement in accuracy for 4 epochs (best acc = 1.0).
+***Epoch: 10***
+Current epoch percent: 1.000, step: 10648
+Train loss: 2.1058808e-05
+Train epoch time: 334593.157 ms, per step time: 345.654 ms
+Validation accuracy: 0.9988385598141696
+No improvement in accuracy for 5 epochs (best acc = 1.0).
+***Epoch: 11***
+Current epoch percent: 1.000, step: 11616
+Train loss: 1.7430386e-05
+Train epoch time: 334488.705 ms, per step time: 345.546 ms
+Validation accuracy: 0.9997096399535423
+No improvement in accuracy for 6 epochs (best acc = 1.0).
+***Epoch: 12***
+Current epoch percent: 1.000, step: 12584
+Train loss: 1.5120799e-05
+Train epoch time: 334486.274 ms, per step time: 345.544 ms
+Validation accuracy: 0.9994192799070848
+No improvement in accuracy for 7 epochs (best acc = 1.0).
+***Epoch: 13***
+Current epoch percent: 1.000, step: 13552
+Train loss: 9.447287e-06
+Train epoch time: 334520.655 ms, per step time: 345.579 ms
+Validation accuracy: 0.9994192799070848
+No improvement in accuracy for 8 epochs (best acc = 1.0).
+***Epoch: 14***
+Current epoch percent: 1.000, step: 14520
+Train loss: 8.247753e-06
+Train epoch time: 334394.504 ms, per step time: 345.449 ms
+Validation accuracy: 0.9994192799070848
+No improvement in accuracy for 9 epochs (best acc = 1.0).
+***Epoch: 15***
+Current epoch percent: 1.000, step: 15488
+Train loss: 6.50806e-06
+Train epoch time: 334388.890 ms, per step time: 345.443 ms
+Validation accuracy: 0.9994192799070848
+No improvement in accuracy for 10 epochs (best acc = 1.0).
+***Epoch: 16***
+Current epoch percent: 1.000, step: 16456
+Train loss: 6.027499e-06
+Train epoch time: 334623.972 ms, per step time: 345.686 ms
+Validation accuracy: 0.9994192799070848
+No improvement in accuracy for 11 epochs (best acc = 1.0).
+***Epoch: 17***
+Current epoch percent: 1.000, step: 17424
+Train loss: 6.470779e-06
+Train epoch time: 334471.360 ms, per step time: 345.528 ms
+Validation accuracy: 0.9994192799070848
+No improvement in accuracy for 12 epochs (best acc = 1.0).
+***Epoch: 18***
+Current epoch percent: 1.000, step: 18392
+Train loss: 4.0158534e-06
+Train epoch time: 334303.933 ms, per step time: 345.355 ms
+Validation accuracy: 0.9991289198606271
+No improvement in accuracy for 13 epochs (best acc = 1.0).
+***Epoch: 19***
+Current epoch percent: 1.000, step: 19360
+Train loss: 3.416085e-06
+Train epoch time: 334318.517 ms, per step time: 345.370 ms
+Validation accuracy: 0.9991289198606271
+No improvement in accuracy for 14 epochs (best acc = 1.0).
+Find the newest checkpoint:  /data2/xuguoshun/Enzymes/BM_works/Bert_Casp80/01A__Swiss_BM_all/BM-Swiss/fold_3/saved_models/Swiss_Best_Model.ckpt
+======Val======
+** BM-Swiss/fold_3/mr_data/val.mindrecord
+
+========================================
+                  model data  AUC  ACC  precision  Recall   F1  MCC  Sensitivity  Specificity
+model  Swiss_Best_Model       1.0  1.0        1.0     1.0  1.0  1.0          1.0          1.0
+========================================
+
+======Test======
+** BM-Swiss/fold_3/mr_data/test.mindrecord
+
+========================================
+                  model data  AUC  ACC  precision  Recall   F1  MCC  Sensitivity  Specificity
+model  Swiss_Best_Model       1.0  1.0        1.0     1.0  1.0  1.0          1.0          1.0
+========================================
+
+FINISH !!!
+
+
+Done!
+	>>> BM dir: BM-Swiss
+	>>> Target dir: ['fold_4']
+
+
+
+
+@@@ fold_4 @@@
+python /data2/xuguoshun/MPBert3/mpbert_classification_1x_v3.py --config_path /data2/xuguoshun/MPBert3/config_2048.yaml --do_train True --do_eval True --description classification --num_class 2 --epoch_num 20 --early_stopping_rounds 50 --frozen_bert False --device_id 4 --data_url BM-Swiss/fold_4/mr_data/ --load_checkpoint_url /data2/xuguoshun/MPBert3/uniref_50_2048.ckpt --output_url BM-Swiss/fold_4/saved_models --task_name Swiss --train_batch_size 32
+3 <src.bert_model.BertConfig object at 0xfffec35aedd0>
+{'bert_net_cfg': <src.bert_model.BertConfig object at 0xfffec35aedd0>,
+ 'concat_hidden_size': 512,
+ 'concat_layer_num': 1,
+ 'config_path': '/data2/xuguoshun/MPBert3/config_2048.yaml',
+ 'cut_layer_num': 0,
+ 'data_spilt_num': 3,
+ 'data_url': 'BM-Swiss/fold_4/mr_data/',
+ 'dataset_format': 'mindrecord',
+ 'description': 'classification',
+ 'device_id': 4,
+ 'device_target': 'Ascend',
+ 'do_eval': True,
+ 'do_predict': False,
+ 'do_train': True,
+ 'dssp_hidden_size': 128,
+ 'dssp_layer_num': 1,
+ 'early_stopping_rounds': 50,
+ 'enable_modelarts': False,
+ 'enable_profiling': False,
+ 'epoch_num': 20,
+ 'eval_batch_size': 1,
+ 'eval_data_shuffle': 'false',
+ 'file_format': 'MINDIR',
+ 'frozen_bert': False,
+ 'label_percent': '1:1',
+ 'load_checkpoint_url': '/data2/xuguoshun/MPBert3/uniref_50_2048.ckpt',
+ 'load_pretrain': True,
+ 'loss_gamma': 2.0,
+ 'loss_name': 'CrossEntropy',
+ 'metrics': 'ACC',
+ 'num_class': 2,
+ 'optimizer_cfg': {'AdamWeightDecay': {'decay_filter': <function extra_operations.<locals>.create_filter_fun.<locals>.<lambda> at 0xfffec3696ef0>,
+ 'end_learning_rate': 1e-10,
+ 'eps': 1e-06,
+ 'learning_rate': 1e-05,
+ 'power': 1.0,
+ 'weight_decay': 1e-05},
+ 'Lamb': {'decay_filter': <function extra_operations.<locals>.create_filter_fun.<locals>.<lambda> at 0xfffec3696dd0>,
+ 'end_learning_rate': 1e-10,
+ 'learning_rate': 2e-05,
+ 'power': 1.0,
+ 'weight_decay': 0.01},
+ 'Momentum': {'learning_rate': 2e-05, 'momentum': 0.9},
+ 'optimizer': 'AdamWeightDecay'},
+ 'output_url': 'BM-Swiss/fold_4/saved_models',
+ 'print_predict': False,
+ 'pssm_hidden_size': 128,
+ 'pssm_layer_num': 1,
+ 'return_csv': False,
+ 'return_sequence': False,
+ 'task_name': 'Swiss',
+ 'train_batch_size': 32,
+ 'train_data_shuffle': 'true',
+ 'use_pynative_mode': False,
+ 'vocab_file': '',
+ 'with_lstm': False}
+ >>> Eval: Val file is val.mindrecord.
+ >>> Eval: Test file is test.mindrecord.
+==============================================================
+processor_name: Ascend
+test_name: Swiss
+batch_size: 32
+ >>> Train: Train file is train.mindrecord.
+ >>> Train: Val file is val.mindrecord.
+***Epoch: 0***
+Current epoch percent: 1.000, step: 968
+Train loss: 0.0025936293
+Train epoch time: 371410.915 ms, per step time: 383.689 ms
+Validation accuracy: 0.9985481997677119
+New best accuracy: 0.9985481997677119, saved best model to :
+BM-Swiss/fold_4/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 1***
+Current epoch percent: 1.000, step: 1936
+Train loss: 0.00061848166
+Train epoch time: 334553.074 ms, per step time: 345.613 ms
+Validation accuracy: 0.9979674796747967
+No improvement in accuracy for 1 epochs (best acc = 0.9985481997677119).
+***Epoch: 2***
+Current epoch percent: 1.000, step: 2904
+Train loss: 0.00026813254
+Train epoch time: 334565.263 ms, per step time: 345.625 ms
+Validation accuracy: 0.9982578397212544
+No improvement in accuracy for 2 epochs (best acc = 0.9985481997677119).
+***Epoch: 3***
+Current epoch percent: 1.000, step: 3872
+Train loss: 0.00018882085
+Train epoch time: 334499.084 ms, per step time: 345.557 ms
+Validation accuracy: 0.9994192799070848
+New best accuracy: 0.9994192799070848, saved best model to :
+BM-Swiss/fold_4/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 4***
+Current epoch percent: 1.000, step: 4840
+Train loss: 0.00024509052
+Train epoch time: 334493.501 ms, per step time: 345.551 ms
+Validation accuracy: 0.9997096399535423
+New best accuracy: 0.9997096399535423, saved best model to :
+BM-Swiss/fold_4/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 5***
+Current epoch percent: 1.000, step: 5808
+Train loss: 0.00011642602
+Train epoch time: 334484.605 ms, per step time: 345.542 ms
+Validation accuracy: 0.9994192799070848
+No improvement in accuracy for 1 epochs (best acc = 0.9997096399535423).
+***Epoch: 6***
+Current epoch percent: 1.000, step: 6776
+Train loss: 0.00010626542
+Train epoch time: 334483.398 ms, per step time: 345.541 ms
+Validation accuracy: 0.9991289198606271
+No improvement in accuracy for 2 epochs (best acc = 0.9997096399535423).
+***Epoch: 7***
+Current epoch percent: 1.000, step: 7744
+Train loss: 6.268331e-05
+Train epoch time: 334471.866 ms, per step time: 345.529 ms
+Validation accuracy: 0.9994192799070848
+No improvement in accuracy for 3 epochs (best acc = 0.9997096399535423).
+***Epoch: 8***
+Current epoch percent: 1.000, step: 8712
+Train loss: 0.00036731857
+Train epoch time: 334453.016 ms, per step time: 345.509 ms
+Validation accuracy: 0.9994192799070848
+No improvement in accuracy for 4 epochs (best acc = 0.9997096399535423).
+***Epoch: 9***
+Current epoch percent: 1.000, step: 9680
+Train loss: 0.00054133625
+Train epoch time: 334477.577 ms, per step time: 345.535 ms
+Validation accuracy: 0.9985481997677119
+No improvement in accuracy for 5 epochs (best acc = 0.9997096399535423).
+***Epoch: 10***
+Current epoch percent: 1.000, step: 10648
+Train loss: 4.972011e-05
+Train epoch time: 334473.273 ms, per step time: 345.530 ms
+Validation accuracy: 0.9979674796747967
+No improvement in accuracy for 6 epochs (best acc = 0.9997096399535423).
+***Epoch: 11***
+Current epoch percent: 1.000, step: 11616
+Train loss: 4.5730383e-05
+Train epoch time: 334475.366 ms, per step time: 345.532 ms
+Validation accuracy: 0.9997096399535423
+No improvement in accuracy for 7 epochs (best acc = 0.9997096399535423).
+***Epoch: 12***
+Current epoch percent: 1.000, step: 12584
+Train loss: 3.1899042e-05
+Train epoch time: 334502.735 ms, per step time: 345.561 ms
+Validation accuracy: 0.9994192799070848
+No improvement in accuracy for 8 epochs (best acc = 0.9997096399535423).
+***Epoch: 13***
+Current epoch percent: 1.000, step: 13552
+Train loss: 2.676576e-05
+Train epoch time: 334464.412 ms, per step time: 345.521 ms
+Validation accuracy: 0.9991289198606271
+No improvement in accuracy for 9 epochs (best acc = 0.9997096399535423).
+***Epoch: 14***
+Current epoch percent: 1.000, step: 14520
+Train loss: 4.2754735e-05
+Train epoch time: 334491.079 ms, per step time: 345.549 ms
+Validation accuracy: 0.9991289198606271
+No improvement in accuracy for 10 epochs (best acc = 0.9997096399535423).
+***Epoch: 15***
+Current epoch percent: 1.000, step: 15488
+Train loss: 1.4535967e-05
+Train epoch time: 334465.967 ms, per step time: 345.523 ms
+Validation accuracy: 0.9991289198606271
+No improvement in accuracy for 11 epochs (best acc = 0.9997096399535423).
+***Epoch: 16***
+Current epoch percent: 1.000, step: 16456
+Train loss: 1.3064485e-05
+Train epoch time: 334504.862 ms, per step time: 345.563 ms
+Validation accuracy: 0.9991289198606271
+No improvement in accuracy for 12 epochs (best acc = 0.9997096399535423).
+***Epoch: 17***
+Current epoch percent: 1.000, step: 17424
+Train loss: 9.681971e-06
+Train epoch time: 334485.197 ms, per step time: 345.543 ms
+Validation accuracy: 0.9991289198606271
+No improvement in accuracy for 13 epochs (best acc = 0.9997096399535423).
+***Epoch: 18***
+Current epoch percent: 1.000, step: 18392
+Train loss: 9.290827e-06
+Train epoch time: 334495.850 ms, per step time: 345.554 ms
+Validation accuracy: 0.9991289198606271
+No improvement in accuracy for 14 epochs (best acc = 0.9997096399535423).
+***Epoch: 19***
+Current epoch percent: 1.000, step: 19360
+Train loss: 7.774649e-06
+Train epoch time: 334513.128 ms, per step time: 345.571 ms
+Validation accuracy: 0.9991289198606271
+No improvement in accuracy for 15 epochs (best acc = 0.9997096399535423).
+Find the newest checkpoint:  /data2/xuguoshun/Enzymes/BM_works/Bert_Casp80/01A__Swiss_BM_all/BM-Swiss/fold_4/saved_models/Swiss_Best_Model.ckpt
+======Val======
+** BM-Swiss/fold_4/mr_data/val.mindrecord
+
+========================================
+                  model data  AUC      ACC  precision    Recall        F1       MCC  Sensitivity  Specificity
+model  Swiss_Best_Model       1.0  0.99971   0.999846  0.997436  0.998638  0.997279     0.994872          1.0
+========================================
+
+======Test======
+** BM-Swiss/fold_4/mr_data/test.mindrecord
+
+========================================
+                  model data  AUC      ACC  precision    Recall        F1       MCC  Sensitivity  Specificity
+model  Swiss_Best_Model       1.0  0.99971   0.999846  0.997436  0.998638  0.997279     0.994872          1.0
+========================================
+
+FINISH !!!
+
+
+Done!
+	>>> BM dir: BM-Swiss
+	>>> Target dir: ['fold_5']
+
+
+
+
+@@@ fold_5 @@@
+python /data2/xuguoshun/MPBert3/mpbert_classification_1x_v3.py --config_path /data2/xuguoshun/MPBert3/config_2048.yaml --do_train True --do_eval True --description classification --num_class 2 --epoch_num 20 --early_stopping_rounds 50 --frozen_bert False --device_id 5 --data_url BM-Swiss/fold_5/mr_data/ --load_checkpoint_url /data2/xuguoshun/MPBert3/uniref_50_2048.ckpt --output_url BM-Swiss/fold_5/saved_models --task_name Swiss --train_batch_size 32
+3 <src.bert_model.BertConfig object at 0xfffd9a469550>
+{'bert_net_cfg': <src.bert_model.BertConfig object at 0xfffd9a469550>,
+ 'concat_hidden_size': 512,
+ 'concat_layer_num': 1,
+ 'config_path': '/data2/xuguoshun/MPBert3/config_2048.yaml',
+ 'cut_layer_num': 0,
+ 'data_spilt_num': 3,
+ 'data_url': 'BM-Swiss/fold_5/mr_data/',
+ 'dataset_format': 'mindrecord',
+ 'description': 'classification',
+ 'device_id': 5,
+ 'device_target': 'Ascend',
+ 'do_eval': True,
+ 'do_predict': False,
+ 'do_train': True,
+ 'dssp_hidden_size': 128,
+ 'dssp_layer_num': 1,
+ 'early_stopping_rounds': 50,
+ 'enable_modelarts': False,
+ 'enable_profiling': False,
+ 'epoch_num': 20,
+ 'eval_batch_size': 1,
+ 'eval_data_shuffle': 'false',
+ 'file_format': 'MINDIR',
+ 'frozen_bert': False,
+ 'label_percent': '1:1',
+ 'load_checkpoint_url': '/data2/xuguoshun/MPBert3/uniref_50_2048.ckpt',
+ 'load_pretrain': True,
+ 'loss_gamma': 2.0,
+ 'loss_name': 'CrossEntropy',
+ 'metrics': 'ACC',
+ 'num_class': 2,
+ 'optimizer_cfg': {'AdamWeightDecay': {'decay_filter': <function extra_operations.<locals>.create_filter_fun.<locals>.<lambda> at 0xfffd99f97ef0>,
+ 'end_learning_rate': 1e-10,
+ 'eps': 1e-06,
+ 'learning_rate': 1e-05,
+ 'power': 1.0,
+ 'weight_decay': 1e-05},
+ 'Lamb': {'decay_filter': <function extra_operations.<locals>.create_filter_fun.<locals>.<lambda> at 0xfffd99f97dd0>,
+ 'end_learning_rate': 1e-10,
+ 'learning_rate': 2e-05,
+ 'power': 1.0,
+ 'weight_decay': 0.01},
+ 'Momentum': {'learning_rate': 2e-05, 'momentum': 0.9},
+ 'optimizer': 'AdamWeightDecay'},
+ 'output_url': 'BM-Swiss/fold_5/saved_models',
+ 'print_predict': False,
+ 'pssm_hidden_size': 128,
+ 'pssm_layer_num': 1,
+ 'return_csv': False,
+ 'return_sequence': False,
+ 'task_name': 'Swiss',
+ 'train_batch_size': 32,
+ 'train_data_shuffle': 'true',
+ 'use_pynative_mode': False,
+ 'vocab_file': '',
+ 'with_lstm': False}
+ >>> Eval: Val file is val.mindrecord.
+ >>> Eval: Test file is test.mindrecord.
+==============================================================
+processor_name: Ascend
+test_name: Swiss
+batch_size: 32
+ >>> Train: Train file is train.mindrecord.
+ >>> Train: Val file is val.mindrecord.
+***Epoch: 0***
+Current epoch percent: 1.000, step: 968
+Train loss: 0.0025420107
+Train epoch time: 370843.737 ms, per step time: 383.103 ms
+Validation accuracy: 0.9973867595818815
+New best accuracy: 0.9973867595818815, saved best model to :
+BM-Swiss/fold_5/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 1***
+Current epoch percent: 1.000, step: 1936
+Train loss: 0.000525375
+Train epoch time: 333691.213 ms, per step time: 344.722 ms
+Validation accuracy: 0.9979674796747967
+New best accuracy: 0.9979674796747967, saved best model to :
+BM-Swiss/fold_5/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 2***
+Current epoch percent: 1.000, step: 2904
+Train loss: 0.00036656897
+Train epoch time: 333509.646 ms, per step time: 344.535 ms
+Validation accuracy: 0.9982578397212544
+New best accuracy: 0.9982578397212544, saved best model to :
+BM-Swiss/fold_5/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 3***
+Current epoch percent: 1.000, step: 3872
+Train loss: 0.00017426649
+Train epoch time: 333537.680 ms, per step time: 344.564 ms
+Validation accuracy: 0.9988385598141696
+New best accuracy: 0.9988385598141696, saved best model to :
+BM-Swiss/fold_5/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 4***
+Current epoch percent: 1.000, step: 4840
+Train loss: 0.00015378432
+Train epoch time: 333478.032 ms, per step time: 344.502 ms
+Validation accuracy: 0.9991289198606271
+New best accuracy: 0.9991289198606271, saved best model to :
+BM-Swiss/fold_5/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 5***
+Current epoch percent: 1.000, step: 5808
+Train loss: 0.00011824518
+Train epoch time: 333494.676 ms, per step time: 344.519 ms
+Validation accuracy: 0.9985481997677119
+No improvement in accuracy for 1 epochs (best acc = 0.9991289198606271).
+***Epoch: 6***
+Current epoch percent: 1.000, step: 6776
+Train loss: 9.1569724e-05
+Train epoch time: 333495.384 ms, per step time: 344.520 ms
+Validation accuracy: 0.9991289198606271
+No improvement in accuracy for 2 epochs (best acc = 0.9991289198606271).
+***Epoch: 7***
+Current epoch percent: 1.000, step: 7744
+Train loss: 9.4091025e-05
+Train epoch time: 333514.676 ms, per step time: 344.540 ms
+Validation accuracy: 0.9982578397212544
+No improvement in accuracy for 3 epochs (best acc = 0.9991289198606271).
+***Epoch: 8***
+Current epoch percent: 1.000, step: 8712
+Train loss: 5.935302e-05
+Train epoch time: 333467.729 ms, per step time: 344.491 ms
+Validation accuracy: 0.9991289198606271
+No improvement in accuracy for 4 epochs (best acc = 0.9991289198606271).
+***Epoch: 9***
+Current epoch percent: 1.000, step: 9680
+Train loss: 7.7641256e-05
+Train epoch time: 333489.142 ms, per step time: 344.514 ms
+Validation accuracy: 0.9991289198606271
+No improvement in accuracy for 5 epochs (best acc = 0.9991289198606271).
+***Epoch: 10***
+Current epoch percent: 1.000, step: 10648
+Train loss: 3.6968988e-05
+Train epoch time: 333518.191 ms, per step time: 344.544 ms
+Validation accuracy: 0.9991289198606271
+No improvement in accuracy for 6 epochs (best acc = 0.9991289198606271).
+***Epoch: 11***
+Current epoch percent: 1.000, step: 11616
+Train loss: 3.0200099e-05
+Train epoch time: 333472.039 ms, per step time: 344.496 ms
+Validation accuracy: 0.9991289198606271
+No improvement in accuracy for 7 epochs (best acc = 0.9991289198606271).
+***Epoch: 12***
+Current epoch percent: 1.000, step: 12584
+Train loss: 1.7594364e-05
+Train epoch time: 333450.804 ms, per step time: 344.474 ms
+Validation accuracy: 0.9994192799070848
+New best accuracy: 0.9994192799070848, saved best model to :
+BM-Swiss/fold_5/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 13***
+Current epoch percent: 1.000, step: 13552
+Train loss: 1.3317806e-05
+Train epoch time: 333519.017 ms, per step time: 344.544 ms
+Validation accuracy: 0.9991289198606271
+No improvement in accuracy for 1 epochs (best acc = 0.9994192799070848).
+***Epoch: 14***
+Current epoch percent: 1.000, step: 14520
+Train loss: 1.0229586e-05
+Train epoch time: 333529.156 ms, per step time: 344.555 ms
+Validation accuracy: 0.9991289198606271
+No improvement in accuracy for 2 epochs (best acc = 0.9994192799070848).
+***Epoch: 15***
+Current epoch percent: 1.000, step: 15488
+Train loss: 8.929474e-06
+Train epoch time: 333467.029 ms, per step time: 344.491 ms
+Validation accuracy: 0.9991289198606271
+No improvement in accuracy for 3 epochs (best acc = 0.9994192799070848).
+***Epoch: 16***
+Current epoch percent: 1.000, step: 16456
+Train loss: 5.803983e-06
+Train epoch time: 333639.055 ms, per step time: 344.668 ms
+Validation accuracy: 0.9991289198606271
+No improvement in accuracy for 4 epochs (best acc = 0.9994192799070848).
+***Epoch: 17***
+Current epoch percent: 1.000, step: 17424
+Train loss: 5.0738317e-06
+Train epoch time: 333587.004 ms, per step time: 344.615 ms
+Validation accuracy: 0.9991289198606271
+No improvement in accuracy for 5 epochs (best acc = 0.9994192799070848).
+***Epoch: 18***
+Current epoch percent: 1.000, step: 18392
+Train loss: 5.0440285e-06
+Train epoch time: 333491.014 ms, per step time: 344.516 ms
+Validation accuracy: 0.9991289198606271
+No improvement in accuracy for 6 epochs (best acc = 0.9994192799070848).
+***Epoch: 19***
+Current epoch percent: 1.000, step: 19360
+Train loss: 4.731104e-06
+Train epoch time: 333483.721 ms, per step time: 344.508 ms
+Validation accuracy: 0.9991289198606271
+No improvement in accuracy for 7 epochs (best acc = 0.9994192799070848).
+Find the newest checkpoint:  /data2/xuguoshun/Enzymes/BM_works/Bert_Casp80/01A__Swiss_BM_all/BM-Swiss/fold_5/saved_models/Swiss_Best_Model.ckpt
+======Val======
+** BM-Swiss/fold_5/mr_data/val.mindrecord
+
+========================================
+                  model data      AUC       ACC  precision    Recall        F1       MCC  Sensitivity  Specificity
+model  Swiss_Best_Model       0.99852  0.999419   0.999692  0.994872  0.997269  0.994553     0.989744          1.0
+========================================
+
+======Test======
+** BM-Swiss/fold_5/mr_data/test.mindrecord
+
+========================================
+                  model data      AUC       ACC  precision    Recall        F1       MCC  Sensitivity  Specificity
+model  Swiss_Best_Model       0.99852  0.999419   0.999692  0.994872  0.997269  0.994553     0.989744          1.0
+========================================
+
+FINISH !!!
+
+
+Done!
+	>>> BM dir: BM-Swiss
+	>>> Target dir: ['fold_6']
+
+
+
+
+@@@ fold_6 @@@
+python /data2/xuguoshun/MPBert3/mpbert_classification_1x_v3.py --config_path /data2/xuguoshun/MPBert3/config_2048.yaml --do_train True --do_eval True --description classification --num_class 2 --epoch_num 20 --early_stopping_rounds 50 --frozen_bert False --device_id 6 --data_url BM-Swiss/fold_6/mr_data/ --load_checkpoint_url /data2/xuguoshun/MPBert3/uniref_50_2048.ckpt --output_url BM-Swiss/fold_6/saved_models --task_name Swiss --train_batch_size 32
+3 <src.bert_model.BertConfig object at 0xfffd87271310>
+{'bert_net_cfg': <src.bert_model.BertConfig object at 0xfffd87271310>,
+ 'concat_hidden_size': 512,
+ 'concat_layer_num': 1,
+ 'config_path': '/data2/xuguoshun/MPBert3/config_2048.yaml',
+ 'cut_layer_num': 0,
+ 'data_spilt_num': 3,
+ 'data_url': 'BM-Swiss/fold_6/mr_data/',
+ 'dataset_format': 'mindrecord',
+ 'description': 'classification',
+ 'device_id': 6,
+ 'device_target': 'Ascend',
+ 'do_eval': True,
+ 'do_predict': False,
+ 'do_train': True,
+ 'dssp_hidden_size': 128,
+ 'dssp_layer_num': 1,
+ 'early_stopping_rounds': 50,
+ 'enable_modelarts': False,
+ 'enable_profiling': False,
+ 'epoch_num': 20,
+ 'eval_batch_size': 1,
+ 'eval_data_shuffle': 'false',
+ 'file_format': 'MINDIR',
+ 'frozen_bert': False,
+ 'label_percent': '1:1',
+ 'load_checkpoint_url': '/data2/xuguoshun/MPBert3/uniref_50_2048.ckpt',
+ 'load_pretrain': True,
+ 'loss_gamma': 2.0,
+ 'loss_name': 'CrossEntropy',
+ 'metrics': 'ACC',
+ 'num_class': 2,
+ 'optimizer_cfg': {'AdamWeightDecay': {'decay_filter': <function extra_operations.<locals>.create_filter_fun.<locals>.<lambda> at 0xfffd87356ef0>,
+ 'end_learning_rate': 1e-10,
+ 'eps': 1e-06,
+ 'learning_rate': 1e-05,
+ 'power': 1.0,
+ 'weight_decay': 1e-05},
+ 'Lamb': {'decay_filter': <function extra_operations.<locals>.create_filter_fun.<locals>.<lambda> at 0xfffd87356dd0>,
+ 'end_learning_rate': 1e-10,
+ 'learning_rate': 2e-05,
+ 'power': 1.0,
+ 'weight_decay': 0.01},
+ 'Momentum': {'learning_rate': 2e-05, 'momentum': 0.9},
+ 'optimizer': 'AdamWeightDecay'},
+ 'output_url': 'BM-Swiss/fold_6/saved_models',
+ 'print_predict': False,
+ 'pssm_hidden_size': 128,
+ 'pssm_layer_num': 1,
+ 'return_csv': False,
+ 'return_sequence': False,
+ 'task_name': 'Swiss',
+ 'train_batch_size': 32,
+ 'train_data_shuffle': 'true',
+ 'use_pynative_mode': False,
+ 'vocab_file': '',
+ 'with_lstm': False}
+ >>> Eval: Val file is val.mindrecord.
+ >>> Eval: Test file is test.mindrecord.
+==============================================================
+processor_name: Ascend
+test_name: Swiss
+batch_size: 32
+ >>> Train: Train file is train.mindrecord.
+ >>> Train: Val file is val.mindrecord.
+***Epoch: 0***
+Current epoch percent: 1.000, step: 968
+Train loss: 0.021392632
+Train epoch time: 369105.489 ms, per step time: 381.307 ms
+Validation accuracy: 0.9994192799070848
+New best accuracy: 0.9994192799070848, saved best model to :
+BM-Swiss/fold_6/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 1***
+Current epoch percent: 1.000, step: 1936
+Train loss: 0.00057280296
+Train epoch time: 334181.938 ms, per step time: 345.229 ms
+Validation accuracy: 0.9979674796747967
+No improvement in accuracy for 1 epochs (best acc = 0.9994192799070848).
+***Epoch: 2***
+Current epoch percent: 1.000, step: 2904
+Train loss: 0.00033490744
+Train epoch time: 334180.682 ms, per step time: 345.228 ms
+Validation accuracy: 0.9997096399535423
+New best accuracy: 0.9997096399535423, saved best model to :
+BM-Swiss/fold_6/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 3***
+Current epoch percent: 1.000, step: 3872
+Train loss: 0.00014900693
+Train epoch time: 334224.741 ms, per step time: 345.273 ms
+Validation accuracy: 0.9997096399535423
+No improvement in accuracy for 1 epochs (best acc = 0.9997096399535423).
+***Epoch: 4***
+Current epoch percent: 1.000, step: 4840
+Train loss: 0.00016669533
+Train epoch time: 334311.893 ms, per step time: 345.364 ms
+Validation accuracy: 0.9994192799070848
+No improvement in accuracy for 2 epochs (best acc = 0.9997096399535423).
+***Epoch: 5***
+Current epoch percent: 1.000, step: 5808
+Train loss: 9.636817e-05
+Train epoch time: 334193.215 ms, per step time: 345.241 ms
+Validation accuracy: 0.9985481997677119
+No improvement in accuracy for 3 epochs (best acc = 0.9997096399535423).
+***Epoch: 6***
+Current epoch percent: 1.000, step: 6776
+Train loss: 0.00028963183
+Train epoch time: 334173.841 ms, per step time: 345.221 ms
+Validation accuracy: 0.9994192799070848
+No improvement in accuracy for 4 epochs (best acc = 0.9997096399535423).
+***Epoch: 7***
+Current epoch percent: 1.000, step: 7744
+Train loss: 0.00022111429
+Train epoch time: 334202.843 ms, per step time: 345.251 ms
+Validation accuracy: 0.9994192799070848
+No improvement in accuracy for 5 epochs (best acc = 0.9997096399535423).
+***Epoch: 8***
+Current epoch percent: 1.000, step: 8712
+Train loss: 0.00015820177
+Train epoch time: 334190.142 ms, per step time: 345.238 ms
+Validation accuracy: 0.9994192799070848
+No improvement in accuracy for 6 epochs (best acc = 0.9997096399535423).
+***Epoch: 9***
+Current epoch percent: 1.000, step: 9680
+Train loss: 5.432009e-05
+Train epoch time: 334243.944 ms, per step time: 345.293 ms
+Validation accuracy: 0.9997096399535423
+No improvement in accuracy for 7 epochs (best acc = 0.9997096399535423).
+***Epoch: 10***
+Current epoch percent: 1.000, step: 10648
+Train loss: 3.564635e-05
+Train epoch time: 334174.335 ms, per step time: 345.221 ms
+Validation accuracy: 0.9997096399535423
+No improvement in accuracy for 8 epochs (best acc = 0.9997096399535423).
+***Epoch: 11***
+Current epoch percent: 1.000, step: 11616
+Train loss: 2.075332e-05
+Train epoch time: 334234.931 ms, per step time: 345.284 ms
+Validation accuracy: 0.9997096399535423
+No improvement in accuracy for 9 epochs (best acc = 0.9997096399535423).
+***Epoch: 12***
+Current epoch percent: 1.000, step: 12584
+Train loss: 1.608192e-05
+Train epoch time: 334245.290 ms, per step time: 345.295 ms
+Validation accuracy: 0.9994192799070848
+No improvement in accuracy for 10 epochs (best acc = 0.9997096399535423).
+***Epoch: 13***
+Current epoch percent: 1.000, step: 13552
+Train loss: 1.8588857e-05
+Train epoch time: 334214.965 ms, per step time: 345.263 ms
+Validation accuracy: 0.9994192799070848
+No improvement in accuracy for 11 epochs (best acc = 0.9997096399535423).
+***Epoch: 14***
+Current epoch percent: 1.000, step: 14520
+Train loss: 1.6722643e-05
+Train epoch time: 334180.286 ms, per step time: 345.228 ms
+Validation accuracy: 0.9997096399535423
+No improvement in accuracy for 12 epochs (best acc = 0.9997096399535423).
+***Epoch: 15***
+Current epoch percent: 1.000, step: 15488
+Train loss: 1.1652626e-05
+Train epoch time: 334146.017 ms, per step time: 345.192 ms
+Validation accuracy: 0.9997096399535423
+No improvement in accuracy for 13 epochs (best acc = 0.9997096399535423).
+***Epoch: 16***
+Current epoch percent: 1.000, step: 16456
+Train loss: 1.1961824e-05
+Train epoch time: 334175.514 ms, per step time: 345.223 ms
+Validation accuracy: 0.9997096399535423
+No improvement in accuracy for 14 epochs (best acc = 0.9997096399535423).
+***Epoch: 17***
+Current epoch percent: 1.000, step: 17424
+Train loss: 9.883142e-06
+Train epoch time: 334180.718 ms, per step time: 345.228 ms
+Validation accuracy: 0.9997096399535423
+No improvement in accuracy for 15 epochs (best acc = 0.9997096399535423).
+***Epoch: 18***
+Current epoch percent: 1.000, step: 18392
+Train loss: 9.819811e-06
+Train epoch time: 334209.708 ms, per step time: 345.258 ms
+Validation accuracy: 0.9997096399535423
+No improvement in accuracy for 16 epochs (best acc = 0.9997096399535423).
+***Epoch: 19***
+Current epoch percent: 1.000, step: 19360
+Train loss: 1.0866597e-05
+Train epoch time: 334197.035 ms, per step time: 345.245 ms
+Validation accuracy: 0.9997096399535423
+No improvement in accuracy for 17 epochs (best acc = 0.9997096399535423).
+Find the newest checkpoint:  /data2/xuguoshun/Enzymes/BM_works/Bert_Casp80/01A__Swiss_BM_all/BM-Swiss/fold_6/saved_models/Swiss_Best_Model.ckpt
+======Val======
+** BM-Swiss/fold_6/mr_data/val.mindrecord
+
+========================================
+                  model data       AUC      ACC  precision    Recall        F1       MCC  Sensitivity  Specificity
+model  Swiss_Best_Model       0.999998  0.99971   0.999846  0.997436  0.998638  0.997279     0.994872          1.0
+========================================
+
+======Test======
+** BM-Swiss/fold_6/mr_data/test.mindrecord
+
+========================================
+                  model data       AUC      ACC  precision    Recall        F1       MCC  Sensitivity  Specificity
+model  Swiss_Best_Model       0.999998  0.99971   0.999846  0.997436  0.998638  0.997279     0.994872          1.0
+========================================
+
+FINISH !!!
+
+
+Done!
+	>>> BM dir: BM-Swiss
+	>>> Target dir: ['fold_7']
+
+
+
+
+@@@ fold_7 @@@
+python /data2/xuguoshun/MPBert3/mpbert_classification_1x_v3.py --config_path /data2/xuguoshun/MPBert3/config_2048.yaml --do_train True --do_eval True --description classification --num_class 2 --epoch_num 20 --early_stopping_rounds 50 --frozen_bert False --device_id 7 --data_url BM-Swiss/fold_7/mr_data/ --load_checkpoint_url /data2/xuguoshun/MPBert3/uniref_50_2048.ckpt --output_url BM-Swiss/fold_7/saved_models --task_name Swiss --train_batch_size 32
+3 <src.bert_model.BertConfig object at 0xfffce7e41190>
+{'bert_net_cfg': <src.bert_model.BertConfig object at 0xfffce7e41190>,
+ 'concat_hidden_size': 512,
+ 'concat_layer_num': 1,
+ 'config_path': '/data2/xuguoshun/MPBert3/config_2048.yaml',
+ 'cut_layer_num': 0,
+ 'data_spilt_num': 3,
+ 'data_url': 'BM-Swiss/fold_7/mr_data/',
+ 'dataset_format': 'mindrecord',
+ 'description': 'classification',
+ 'device_id': 7,
+ 'device_target': 'Ascend',
+ 'do_eval': True,
+ 'do_predict': False,
+ 'do_train': True,
+ 'dssp_hidden_size': 128,
+ 'dssp_layer_num': 1,
+ 'early_stopping_rounds': 50,
+ 'enable_modelarts': False,
+ 'enable_profiling': False,
+ 'epoch_num': 20,
+ 'eval_batch_size': 1,
+ 'eval_data_shuffle': 'false',
+ 'file_format': 'MINDIR',
+ 'frozen_bert': False,
+ 'label_percent': '1:1',
+ 'load_checkpoint_url': '/data2/xuguoshun/MPBert3/uniref_50_2048.ckpt',
+ 'load_pretrain': True,
+ 'loss_gamma': 2.0,
+ 'loss_name': 'CrossEntropy',
+ 'metrics': 'ACC',
+ 'num_class': 2,
+ 'optimizer_cfg': {'AdamWeightDecay': {'decay_filter': <function extra_operations.<locals>.create_filter_fun.<locals>.<lambda> at 0xfffce7f25ef0>,
+ 'end_learning_rate': 1e-10,
+ 'eps': 1e-06,
+ 'learning_rate': 1e-05,
+ 'power': 1.0,
+ 'weight_decay': 1e-05},
+ 'Lamb': {'decay_filter': <function extra_operations.<locals>.create_filter_fun.<locals>.<lambda> at 0xfffce7f25dd0>,
+ 'end_learning_rate': 1e-10,
+ 'learning_rate': 2e-05,
+ 'power': 1.0,
+ 'weight_decay': 0.01},
+ 'Momentum': {'learning_rate': 2e-05, 'momentum': 0.9},
+ 'optimizer': 'AdamWeightDecay'},
+ 'output_url': 'BM-Swiss/fold_7/saved_models',
+ 'print_predict': False,
+ 'pssm_hidden_size': 128,
+ 'pssm_layer_num': 1,
+ 'return_csv': False,
+ 'return_sequence': False,
+ 'task_name': 'Swiss',
+ 'train_batch_size': 32,
+ 'train_data_shuffle': 'true',
+ 'use_pynative_mode': False,
+ 'vocab_file': '',
+ 'with_lstm': False}
+ >>> Eval: Val file is val.mindrecord.
+ >>> Eval: Test file is test.mindrecord.
+==============================================================
+processor_name: Ascend
+test_name: Swiss
+batch_size: 32
+ >>> Train: Train file is train.mindrecord.
+ >>> Train: Val file is val.mindrecord.
+***Epoch: 0***
+Current epoch percent: 1.000, step: 968
+Train loss: 0.010151167
+Train epoch time: 367115.876 ms, per step time: 379.252 ms
+Validation accuracy: 0.9979668893406912
+New best accuracy: 0.9979668893406912, saved best model to :
+BM-Swiss/fold_7/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 1***
+Current epoch percent: 1.000, step: 1936
+Train loss: 0.0022738893
+Train epoch time: 334097.726 ms, per step time: 345.142 ms
+Validation accuracy: 0.9982573337205926
+New best accuracy: 0.9982573337205926, saved best model to :
+BM-Swiss/fold_7/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 2***
+Current epoch percent: 1.000, step: 2904
+Train loss: 0.00047463592
+Train epoch time: 334021.023 ms, per step time: 345.063 ms
+Validation accuracy: 0.9973860005808888
+No improvement in accuracy for 1 epochs (best acc = 0.9982573337205926).
+***Epoch: 3***
+Current epoch percent: 1.000, step: 3872
+Train loss: 0.00023450369
+Train epoch time: 333965.908 ms, per step time: 345.006 ms
+Validation accuracy: 0.9997095556200988
+New best accuracy: 0.9997095556200988, saved best model to :
+BM-Swiss/fold_7/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 4***
+Current epoch percent: 1.000, step: 4840
+Train loss: 0.00016041467
+Train epoch time: 333974.838 ms, per step time: 345.015 ms
+Validation accuracy: 0.9997095556200988
+No improvement in accuracy for 1 epochs (best acc = 0.9997095556200988).
+***Epoch: 5***
+Current epoch percent: 1.000, step: 5808
+Train loss: 8.794969e-05
+Train epoch time: 333888.647 ms, per step time: 344.926 ms
+Validation accuracy: 0.9997095556200988
+No improvement in accuracy for 2 epochs (best acc = 0.9997095556200988).
+***Epoch: 6***
+Current epoch percent: 1.000, step: 6776
+Train loss: 0.00024064168
+Train epoch time: 333925.177 ms, per step time: 344.964 ms
+Validation accuracy: 0.9997095556200988
+No improvement in accuracy for 3 epochs (best acc = 0.9997095556200988).
+***Epoch: 7***
+Current epoch percent: 1.000, step: 7744
+Train loss: 4.6415815e-05
+Train epoch time: 333877.126 ms, per step time: 344.914 ms
+Validation accuracy: 0.9997095556200988
+No improvement in accuracy for 4 epochs (best acc = 0.9997095556200988).
+***Epoch: 8***
+Current epoch percent: 1.000, step: 8712
+Train loss: 0.00039849713
+Train epoch time: 333915.939 ms, per step time: 344.954 ms
+Validation accuracy: 0.9994191112401976
+No improvement in accuracy for 5 epochs (best acc = 0.9997095556200988).
+***Epoch: 9***
+Current epoch percent: 1.000, step: 9680
+Train loss: 4.4244152e-05
+Train epoch time: 333837.954 ms, per step time: 344.874 ms
+Validation accuracy: 0.9985477781004938
+No improvement in accuracy for 6 epochs (best acc = 0.9997095556200988).
+***Epoch: 10***
+Current epoch percent: 1.000, step: 10648
+Train loss: 6.8240435e-05
+Train epoch time: 334024.204 ms, per step time: 345.066 ms
+Validation accuracy: 1.0
+New best accuracy: 1.0, saved best model to :
+BM-Swiss/fold_7/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 11***
+Current epoch percent: 1.000, step: 11616
+Train loss: 8.006469e-05
+Train epoch time: 333972.344 ms, per step time: 345.013 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 1 epochs (best acc = 1.0).
+***Epoch: 12***
+Current epoch percent: 1.000, step: 12584
+Train loss: 0.0016216582
+Train epoch time: 333911.843 ms, per step time: 344.950 ms
+Validation accuracy: 0.9994191112401976
+No improvement in accuracy for 2 epochs (best acc = 1.0).
+***Epoch: 13***
+Current epoch percent: 1.000, step: 13552
+Train loss: 2.4377929e-05
+Train epoch time: 333859.100 ms, per step time: 344.896 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 3 epochs (best acc = 1.0).
+***Epoch: 14***
+Current epoch percent: 1.000, step: 14520
+Train loss: 1.6506609e-05
+Train epoch time: 333962.519 ms, per step time: 345.003 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 4 epochs (best acc = 1.0).
+***Epoch: 15***
+Current epoch percent: 1.000, step: 15488
+Train loss: 1.3712683e-05
+Train epoch time: 333850.091 ms, per step time: 344.886 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 5 epochs (best acc = 1.0).
+***Epoch: 16***
+Current epoch percent: 1.000, step: 16456
+Train loss: 1.2289644e-05
+Train epoch time: 333905.147 ms, per step time: 344.943 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 6 epochs (best acc = 1.0).
+***Epoch: 17***
+Current epoch percent: 1.000, step: 17424
+Train loss: 9.331805e-06
+Train epoch time: 333918.921 ms, per step time: 344.958 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 7 epochs (best acc = 1.0).
+***Epoch: 18***
+Current epoch percent: 1.000, step: 18392
+Train loss: 8.106196e-06
+Train epoch time: 333875.991 ms, per step time: 344.913 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 8 epochs (best acc = 1.0).
+***Epoch: 19***
+Current epoch percent: 1.000, step: 19360
+Train loss: 8.422843e-06
+Train epoch time: 333845.331 ms, per step time: 344.882 ms
+Validation accuracy: 1.0
+No improvement in accuracy for 9 epochs (best acc = 1.0).
+Find the newest checkpoint:  /data2/xuguoshun/Enzymes/BM_works/Bert_Casp80/01A__Swiss_BM_all/BM-Swiss/fold_7/saved_models/Swiss_Best_Model.ckpt
+======Val======
+** BM-Swiss/fold_7/mr_data/val.mindrecord
+
+========================================
+                  model data  AUC  ACC  precision  Recall   F1  MCC  Sensitivity  Specificity
+model  Swiss_Best_Model       1.0  1.0        1.0     1.0  1.0  1.0          1.0          1.0
+========================================
+
+======Test======
+** BM-Swiss/fold_7/mr_data/test.mindrecord
+
+========================================
+                  model data  AUC  ACC  precision  Recall   F1  MCC  Sensitivity  Specificity
+model  Swiss_Best_Model       1.0  1.0        1.0     1.0  1.0  1.0          1.0          1.0
+========================================
+
+FINISH !!!
+
+
+Done!
+	>>> BM dir: BM-Swiss
+	>>> Target dir: ['fold_8']
+
+
+
+
+@@@ fold_8 @@@
+python /data2/xuguoshun/MPBert3/mpbert_classification_1x_v3.py --config_path /data2/xuguoshun/MPBert3/config_2048.yaml --do_train True --do_eval True --description classification --num_class 2 --epoch_num 20 --early_stopping_rounds 50 --frozen_bert False --device_id 5 --data_url BM-Swiss/fold_8/mr_data/ --load_checkpoint_url /data2/xuguoshun/MPBert3/uniref_50_2048.ckpt --output_url BM-Swiss/fold_8/saved_models --task_name Swiss --train_batch_size 32
+3 <src.bert_model.BertConfig object at 0xfffec4caef90>
+{'bert_net_cfg': <src.bert_model.BertConfig object at 0xfffec4caef90>,
+ 'concat_hidden_size': 512,
+ 'concat_layer_num': 1,
+ 'config_path': '/data2/xuguoshun/MPBert3/config_2048.yaml',
+ 'cut_layer_num': 0,
+ 'data_spilt_num': 3,
+ 'data_url': 'BM-Swiss/fold_8/mr_data/',
+ 'dataset_format': 'mindrecord',
+ 'description': 'classification',
+ 'device_id': 5,
+ 'device_target': 'Ascend',
+ 'do_eval': True,
+ 'do_predict': False,
+ 'do_train': True,
+ 'dssp_hidden_size': 128,
+ 'dssp_layer_num': 1,
+ 'early_stopping_rounds': 50,
+ 'enable_modelarts': False,
+ 'enable_profiling': False,
+ 'epoch_num': 20,
+ 'eval_batch_size': 1,
+ 'eval_data_shuffle': 'false',
+ 'file_format': 'MINDIR',
+ 'frozen_bert': False,
+ 'label_percent': '1:1',
+ 'load_checkpoint_url': '/data2/xuguoshun/MPBert3/uniref_50_2048.ckpt',
+ 'load_pretrain': True,
+ 'loss_gamma': 2.0,
+ 'loss_name': 'CrossEntropy',
+ 'metrics': 'ACC',
+ 'num_class': 2,
+ 'optimizer_cfg': {'AdamWeightDecay': {'decay_filter': <function extra_operations.<locals>.create_filter_fun.<locals>.<lambda> at 0xfffec4d96ef0>,
+ 'end_learning_rate': 1e-10,
+ 'eps': 1e-06,
+ 'learning_rate': 1e-05,
+ 'power': 1.0,
+ 'weight_decay': 1e-05},
+ 'Lamb': {'decay_filter': <function extra_operations.<locals>.create_filter_fun.<locals>.<lambda> at 0xfffec4d96dd0>,
+ 'end_learning_rate': 1e-10,
+ 'learning_rate': 2e-05,
+ 'power': 1.0,
+ 'weight_decay': 0.01},
+ 'Momentum': {'learning_rate': 2e-05, 'momentum': 0.9},
+ 'optimizer': 'AdamWeightDecay'},
+ 'output_url': 'BM-Swiss/fold_8/saved_models',
+ 'print_predict': False,
+ 'pssm_hidden_size': 128,
+ 'pssm_layer_num': 1,
+ 'return_csv': False,
+ 'return_sequence': False,
+ 'task_name': 'Swiss',
+ 'train_batch_size': 32,
+ 'train_data_shuffle': 'true',
+ 'use_pynative_mode': False,
+ 'vocab_file': '',
+ 'with_lstm': False}
+ >>> Eval: Val file is val.mindrecord.
+ >>> Eval: Test file is test.mindrecord.
+==============================================================
+processor_name: Ascend
+test_name: Swiss
+batch_size: 32
+ >>> Train: Train file is train.mindrecord.
+ >>> Train: Val file is val.mindrecord.
+***Epoch: 0***
+Current epoch percent: 1.000, step: 968
+Train loss: 0.003456009
+Train epoch time: 370409.607 ms, per step time: 382.655 ms
+Validation accuracy: 0.9982568274259151
+New best accuracy: 0.9982568274259151, saved best model to :
+BM-Swiss/fold_8/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 1***
+Current epoch percent: 1.000, step: 1936
+Train loss: 0.00081461086
+Train epoch time: 333749.519 ms, per step time: 344.783 ms
+Validation accuracy: 0.9991284137129576
+New best accuracy: 0.9991284137129576, saved best model to :
+BM-Swiss/fold_8/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 2***
+Current epoch percent: 1.000, step: 2904
+Train loss: 0.00054463174
+Train epoch time: 333752.507 ms, per step time: 344.786 ms
+Validation accuracy: 0.9997094712376525
+New best accuracy: 0.9997094712376525, saved best model to :
+BM-Swiss/fold_8/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 3***
+Current epoch percent: 1.000, step: 3872
+Train loss: 0.02836148
+Train epoch time: 333728.486 ms, per step time: 344.761 ms
+Validation accuracy: 0.9982568274259151
+No improvement in accuracy for 1 epochs (best acc = 0.9997094712376525).
+***Epoch: 4***
+Current epoch percent: 1.000, step: 4840
+Train loss: 0.00013790747
+Train epoch time: 333792.472 ms, per step time: 344.827 ms
+Validation accuracy: 0.9997094712376525
+No improvement in accuracy for 2 epochs (best acc = 0.9997094712376525).
+***Epoch: 5***
+Current epoch percent: 1.000, step: 5808
+Train loss: 0.00010339102
+Train epoch time: 333875.977 ms, per step time: 344.913 ms
+Validation accuracy: 0.9997094712376525
+No improvement in accuracy for 3 epochs (best acc = 0.9997094712376525).
+***Epoch: 6***
+Current epoch percent: 1.000, step: 6776
+Train loss: 6.36442e-05
+Train epoch time: 333859.023 ms, per step time: 344.896 ms
+Validation accuracy: 0.9997094712376525
+No improvement in accuracy for 4 epochs (best acc = 0.9997094712376525).
+***Epoch: 7***
+Current epoch percent: 1.000, step: 7744
+Train loss: 8.561394e-05
+Train epoch time: 333858.999 ms, per step time: 344.896 ms
+Validation accuracy: 0.9997094712376525
+No improvement in accuracy for 5 epochs (best acc = 0.9997094712376525).
+***Epoch: 8***
+Current epoch percent: 1.000, step: 8712
+Train loss: 5.5490123e-05
+Train epoch time: 333786.389 ms, per step time: 344.821 ms
+Validation accuracy: 0.9988378849506101
+No improvement in accuracy for 6 epochs (best acc = 0.9997094712376525).
+***Epoch: 9***
+Current epoch percent: 1.000, step: 9680
+Train loss: 6.2798455e-05
+Train epoch time: 333765.810 ms, per step time: 344.799 ms
+Validation accuracy: 0.999418942475305
+No improvement in accuracy for 7 epochs (best acc = 0.9997094712376525).
+***Epoch: 10***
+Current epoch percent: 1.000, step: 10648
+Train loss: 4.415449e-05
+Train epoch time: 333781.995 ms, per step time: 344.816 ms
+Validation accuracy: 0.9997094712376525
+No improvement in accuracy for 8 epochs (best acc = 0.9997094712376525).
+***Epoch: 11***
+Current epoch percent: 1.000, step: 11616
+Train loss: 2.6970674e-05
+Train epoch time: 333806.755 ms, per step time: 344.842 ms
+Validation accuracy: 0.9997094712376525
+No improvement in accuracy for 9 epochs (best acc = 0.9997094712376525).
+***Epoch: 12***
+Current epoch percent: 1.000, step: 12584
+Train loss: 2.0280238e-05
+Train epoch time: 333879.950 ms, per step time: 344.917 ms
+Validation accuracy: 0.9997094712376525
+No improvement in accuracy for 10 epochs (best acc = 0.9997094712376525).
+***Epoch: 13***
+Current epoch percent: 1.000, step: 13552
+Train loss: 1.7888575e-05
+Train epoch time: 333870.154 ms, per step time: 344.907 ms
+Validation accuracy: 0.9997094712376525
+No improvement in accuracy for 11 epochs (best acc = 0.9997094712376525).
+***Epoch: 14***
+Current epoch percent: 1.000, step: 14520
+Train loss: 2.3673741e-05
+Train epoch time: 333861.669 ms, per step time: 344.898 ms
+Validation accuracy: 0.999418942475305
+No improvement in accuracy for 12 epochs (best acc = 0.9997094712376525).
+***Epoch: 15***
+Current epoch percent: 1.000, step: 15488
+Train loss: 1.7955661e-05
+Train epoch time: 333900.900 ms, per step time: 344.939 ms
+Validation accuracy: 0.999418942475305
+No improvement in accuracy for 13 epochs (best acc = 0.9997094712376525).
+***Epoch: 16***
+Current epoch percent: 1.000, step: 16456
+Train loss: 1.3053275e-05
+Train epoch time: 333889.467 ms, per step time: 344.927 ms
+Validation accuracy: 0.9997094712376525
+No improvement in accuracy for 14 epochs (best acc = 0.9997094712376525).
+***Epoch: 17***
+Current epoch percent: 1.000, step: 17424
+Train loss: 1.0255665e-05
+Train epoch time: 333866.899 ms, per step time: 344.904 ms
+Validation accuracy: 0.9997094712376525
+No improvement in accuracy for 15 epochs (best acc = 0.9997094712376525).
+***Epoch: 18***
+Current epoch percent: 1.000, step: 18392
+Train loss: 1.0065671e-05
+Train epoch time: 333845.161 ms, per step time: 344.881 ms
+Validation accuracy: 0.9997094712376525
+No improvement in accuracy for 16 epochs (best acc = 0.9997094712376525).
+***Epoch: 19***
+Current epoch percent: 1.000, step: 19360
+Train loss: 7.685242e-06
+Train epoch time: 333821.116 ms, per step time: 344.857 ms
+Validation accuracy: 0.9997094712376525
+No improvement in accuracy for 17 epochs (best acc = 0.9997094712376525).
+Find the newest checkpoint:  /data2/xuguoshun/Enzymes/BM_works/Bert_Casp80/01A__Swiss_BM_all/BM-Swiss/fold_8/saved_models/Swiss_Best_Model.ckpt
+======Val======
+** BM-Swiss/fold_8/mr_data/val.mindrecord
+
+========================================
+                  model data       AUC       ACC  precision    Recall        F1       MCC  Sensitivity  Specificity
+model  Swiss_Best_Model       0.997991  0.999709   0.999846  0.997423  0.998631  0.997266     0.994845          1.0
+========================================
+
+======Test======
+** BM-Swiss/fold_8/mr_data/test.mindrecord
+
+========================================
+                  model data       AUC       ACC  precision    Recall        F1       MCC  Sensitivity  Specificity
+model  Swiss_Best_Model       0.997991  0.999709   0.999846  0.997423  0.998631  0.997266     0.994845          1.0
+========================================
+
+FINISH !!!
+
+
+Done!
+	>>> BM dir: BM-Swiss
+	>>> Target dir: ['fold_9']
+
+
+
+
+@@@ fold_9 @@@
+python /data2/xuguoshun/MPBert3/mpbert_classification_1x_v3.py --config_path /data2/xuguoshun/MPBert3/config_2048.yaml --do_train True --do_eval True --description classification --num_class 2 --epoch_num 20 --early_stopping_rounds 50 --frozen_bert False --device_id 6 --data_url BM-Swiss/fold_9/mr_data/ --load_checkpoint_url /data2/xuguoshun/MPBert3/uniref_50_2048.ckpt --output_url BM-Swiss/fold_9/saved_models --task_name Swiss --train_batch_size 32
+3 <src.bert_model.BertConfig object at 0xfffd47ac1290>
+{'bert_net_cfg': <src.bert_model.BertConfig object at 0xfffd47ac1290>,
+ 'concat_hidden_size': 512,
+ 'concat_layer_num': 1,
+ 'config_path': '/data2/xuguoshun/MPBert3/config_2048.yaml',
+ 'cut_layer_num': 0,
+ 'data_spilt_num': 3,
+ 'data_url': 'BM-Swiss/fold_9/mr_data/',
+ 'dataset_format': 'mindrecord',
+ 'description': 'classification',
+ 'device_id': 6,
+ 'device_target': 'Ascend',
+ 'do_eval': True,
+ 'do_predict': False,
+ 'do_train': True,
+ 'dssp_hidden_size': 128,
+ 'dssp_layer_num': 1,
+ 'early_stopping_rounds': 50,
+ 'enable_modelarts': False,
+ 'enable_profiling': False,
+ 'epoch_num': 20,
+ 'eval_batch_size': 1,
+ 'eval_data_shuffle': 'false',
+ 'file_format': 'MINDIR',
+ 'frozen_bert': False,
+ 'label_percent': '1:1',
+ 'load_checkpoint_url': '/data2/xuguoshun/MPBert3/uniref_50_2048.ckpt',
+ 'load_pretrain': True,
+ 'loss_gamma': 2.0,
+ 'loss_name': 'CrossEntropy',
+ 'metrics': 'ACC',
+ 'num_class': 2,
+ 'optimizer_cfg': {'AdamWeightDecay': {'decay_filter': <function extra_operations.<locals>.create_filter_fun.<locals>.<lambda> at 0xfffd47ba6ef0>,
+ 'end_learning_rate': 1e-10,
+ 'eps': 1e-06,
+ 'learning_rate': 1e-05,
+ 'power': 1.0,
+ 'weight_decay': 1e-05},
+ 'Lamb': {'decay_filter': <function extra_operations.<locals>.create_filter_fun.<locals>.<lambda> at 0xfffd47ba6dd0>,
+ 'end_learning_rate': 1e-10,
+ 'learning_rate': 2e-05,
+ 'power': 1.0,
+ 'weight_decay': 0.01},
+ 'Momentum': {'learning_rate': 2e-05, 'momentum': 0.9},
+ 'optimizer': 'AdamWeightDecay'},
+ 'output_url': 'BM-Swiss/fold_9/saved_models',
+ 'print_predict': False,
+ 'pssm_hidden_size': 128,
+ 'pssm_layer_num': 1,
+ 'return_csv': False,
+ 'return_sequence': False,
+ 'task_name': 'Swiss',
+ 'train_batch_size': 32,
+ 'train_data_shuffle': 'true',
+ 'use_pynative_mode': False,
+ 'vocab_file': '',
+ 'with_lstm': False}
+ >>> Eval: Val file is val.mindrecord.
+ >>> Eval: Test file is test.mindrecord.
+==============================================================
+processor_name: Ascend
+test_name: Swiss
+batch_size: 32
+ >>> Train: Train file is train.mindrecord.
+ >>> Train: Val file is val.mindrecord.
+***Epoch: 0***
+Current epoch percent: 1.000, step: 968
+Train loss: 0.009913976
+Train epoch time: 371485.039 ms, per step time: 383.766 ms
+Validation accuracy: 0.9988378849506101
+New best accuracy: 0.9988378849506101, saved best model to :
+BM-Swiss/fold_9/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 1***
+Current epoch percent: 1.000, step: 1936
+Train loss: 0.00072885014
+Train epoch time: 334950.490 ms, per step time: 346.023 ms
+Validation accuracy: 0.9991284137129576
+New best accuracy: 0.9991284137129576, saved best model to :
+BM-Swiss/fold_9/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 2***
+Current epoch percent: 1.000, step: 2904
+Train loss: 0.00030089146
+Train epoch time: 334821.641 ms, per step time: 345.890 ms
+Validation accuracy: 0.999418942475305
+New best accuracy: 0.999418942475305, saved best model to :
+BM-Swiss/fold_9/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 3***
+Current epoch percent: 1.000, step: 3872
+Train loss: 0.00022790865
+Train epoch time: 334725.997 ms, per step time: 345.791 ms
+Validation accuracy: 0.9982568274259151
+No improvement in accuracy for 1 epochs (best acc = 0.999418942475305).
+***Epoch: 4***
+Current epoch percent: 1.000, step: 4840
+Train loss: 0.014756962
+Train epoch time: 334747.812 ms, per step time: 345.814 ms
+Validation accuracy: 0.9991284137129576
+No improvement in accuracy for 2 epochs (best acc = 0.999418942475305).
+***Epoch: 5***
+Current epoch percent: 1.000, step: 5808
+Train loss: 0.00016875888
+Train epoch time: 334693.673 ms, per step time: 345.758 ms
+Validation accuracy: 0.9985473561882626
+No improvement in accuracy for 3 epochs (best acc = 0.999418942475305).
+***Epoch: 6***
+Current epoch percent: 1.000, step: 6776
+Train loss: 8.1091915e-05
+Train epoch time: 334706.771 ms, per step time: 345.771 ms
+Validation accuracy: 0.999418942475305
+No improvement in accuracy for 4 epochs (best acc = 0.999418942475305).
+***Epoch: 7***
+Current epoch percent: 1.000, step: 7744
+Train loss: 7.1980954e-05
+Train epoch time: 334597.105 ms, per step time: 345.658 ms
+Validation accuracy: 0.9991284137129576
+No improvement in accuracy for 5 epochs (best acc = 0.999418942475305).
+***Epoch: 8***
+Current epoch percent: 1.000, step: 8712
+Train loss: 5.780319e-05
+Train epoch time: 334689.034 ms, per step time: 345.753 ms
+Validation accuracy: 0.9991284137129576
+No improvement in accuracy for 6 epochs (best acc = 0.999418942475305).
+***Epoch: 9***
+Current epoch percent: 1.000, step: 9680
+Train loss: 4.4471308e-05
+Train epoch time: 334729.040 ms, per step time: 345.794 ms
+Validation accuracy: 0.9991284137129576
+No improvement in accuracy for 7 epochs (best acc = 0.999418942475305).
+***Epoch: 10***
+Current epoch percent: 1.000, step: 10648
+Train loss: 5.4713804e-05
+Train epoch time: 334580.412 ms, per step time: 345.641 ms
+Validation accuracy: 0.9991284137129576
+No improvement in accuracy for 8 epochs (best acc = 0.999418942475305).
+***Epoch: 11***
+Current epoch percent: 1.000, step: 11616
+Train loss: 2.9097759e-05
+Train epoch time: 334684.052 ms, per step time: 345.748 ms
+Validation accuracy: 0.999418942475305
+No improvement in accuracy for 9 epochs (best acc = 0.999418942475305).
+***Epoch: 12***
+Current epoch percent: 1.000, step: 12584
+Train loss: 9.521516e-05
+Train epoch time: 334741.687 ms, per step time: 345.808 ms
+Validation accuracy: 0.999418942475305
+No improvement in accuracy for 10 epochs (best acc = 0.999418942475305).
+***Epoch: 13***
+Current epoch percent: 1.000, step: 13552
+Train loss: 2.4608758e-05
+Train epoch time: 334928.930 ms, per step time: 346.001 ms
+Validation accuracy: 0.9988378849506101
+No improvement in accuracy for 11 epochs (best acc = 0.999418942475305).
+***Epoch: 14***
+Current epoch percent: 1.000, step: 14520
+Train loss: 2.254888e-05
+Train epoch time: 334842.878 ms, per step time: 345.912 ms
+Validation accuracy: 0.9991284137129576
+No improvement in accuracy for 12 epochs (best acc = 0.999418942475305).
+***Epoch: 15***
+Current epoch percent: 1.000, step: 15488
+Train loss: 2.5875195e-05
+Train epoch time: 335181.523 ms, per step time: 346.262 ms
+Validation accuracy: 0.9991284137129576
+No improvement in accuracy for 13 epochs (best acc = 0.999418942475305).
+***Epoch: 16***
+Current epoch percent: 1.000, step: 16456
+Train loss: 2.1587719e-05
+Train epoch time: 334926.316 ms, per step time: 345.998 ms
+Validation accuracy: 0.9988378849506101
+No improvement in accuracy for 14 epochs (best acc = 0.999418942475305).
+***Epoch: 17***
+Current epoch percent: 1.000, step: 17424
+Train loss: 1.3012339e-05
+Train epoch time: 334852.987 ms, per step time: 345.923 ms
+Validation accuracy: 0.9988378849506101
+No improvement in accuracy for 15 epochs (best acc = 0.999418942475305).
+***Epoch: 18***
+Current epoch percent: 1.000, step: 18392
+Train loss: 1.37387415e-05
+Train epoch time: 334801.199 ms, per step time: 345.869 ms
+Validation accuracy: 0.9988378849506101
+No improvement in accuracy for 16 epochs (best acc = 0.999418942475305).
+***Epoch: 19***
+Current epoch percent: 1.000, step: 19360
+Train loss: 2.6759579e-05
+Train epoch time: 334713.172 ms, per step time: 345.778 ms
+Validation accuracy: 0.9988378849506101
+No improvement in accuracy for 17 epochs (best acc = 0.999418942475305).
+Find the newest checkpoint:  /data2/xuguoshun/Enzymes/BM_works/Bert_Casp80/01A__Swiss_BM_all/BM-Swiss/fold_9/saved_models/Swiss_Best_Model.ckpt
+======Val======
+** BM-Swiss/fold_9/mr_data/val.mindrecord
+
+========================================
+                  model data       AUC       ACC  precision    Recall        F1       MCC  Sensitivity  Specificity
+model  Swiss_Best_Model       0.995221  0.999419   0.999692  0.994845  0.997255  0.994526     0.989691          1.0
+========================================
+
+======Test======
+** BM-Swiss/fold_9/mr_data/test.mindrecord
+
+========================================
+                  model data       AUC       ACC  precision    Recall        F1       MCC  Sensitivity  Specificity
+model  Swiss_Best_Model       0.995221  0.999419   0.999692  0.994845  0.997255  0.994526     0.989691          1.0
+========================================
+
+FINISH !!!
+
+
+Done!
+	>>> BM dir: BM-Swiss
+	>>> Target dir: ['fold_10']
+
+
+
+
+@@@ fold_10 @@@
+python /data2/xuguoshun/MPBert3/mpbert_classification_1x_v3.py --config_path /data2/xuguoshun/MPBert3/config_2048.yaml --do_train True --do_eval True --description classification --num_class 2 --epoch_num 20 --early_stopping_rounds 50 --frozen_bert False --device_id 7 --data_url BM-Swiss/fold_10/mr_data/ --load_checkpoint_url /data2/xuguoshun/MPBert3/uniref_50_2048.ckpt --output_url BM-Swiss/fold_10/saved_models --task_name Swiss --train_batch_size 32
+3 <src.bert_model.BertConfig object at 0xfffd5f8f13d0>
+{'bert_net_cfg': <src.bert_model.BertConfig object at 0xfffd5f8f13d0>,
+ 'concat_hidden_size': 512,
+ 'concat_layer_num': 1,
+ 'config_path': '/data2/xuguoshun/MPBert3/config_2048.yaml',
+ 'cut_layer_num': 0,
+ 'data_spilt_num': 3,
+ 'data_url': 'BM-Swiss/fold_10/mr_data/',
+ 'dataset_format': 'mindrecord',
+ 'description': 'classification',
+ 'device_id': 7,
+ 'device_target': 'Ascend',
+ 'do_eval': True,
+ 'do_predict': False,
+ 'do_train': True,
+ 'dssp_hidden_size': 128,
+ 'dssp_layer_num': 1,
+ 'early_stopping_rounds': 50,
+ 'enable_modelarts': False,
+ 'enable_profiling': False,
+ 'epoch_num': 20,
+ 'eval_batch_size': 1,
+ 'eval_data_shuffle': 'false',
+ 'file_format': 'MINDIR',
+ 'frozen_bert': False,
+ 'label_percent': '1:1',
+ 'load_checkpoint_url': '/data2/xuguoshun/MPBert3/uniref_50_2048.ckpt',
+ 'load_pretrain': True,
+ 'loss_gamma': 2.0,
+ 'loss_name': 'CrossEntropy',
+ 'metrics': 'ACC',
+ 'num_class': 2,
+ 'optimizer_cfg': {'AdamWeightDecay': {'decay_filter': <function extra_operations.<locals>.create_filter_fun.<locals>.<lambda> at 0xfffd5f9d6ef0>,
+ 'end_learning_rate': 1e-10,
+ 'eps': 1e-06,
+ 'learning_rate': 1e-05,
+ 'power': 1.0,
+ 'weight_decay': 1e-05},
+ 'Lamb': {'decay_filter': <function extra_operations.<locals>.create_filter_fun.<locals>.<lambda> at 0xfffd5f9d6dd0>,
+ 'end_learning_rate': 1e-10,
+ 'learning_rate': 2e-05,
+ 'power': 1.0,
+ 'weight_decay': 0.01},
+ 'Momentum': {'learning_rate': 2e-05, 'momentum': 0.9},
+ 'optimizer': 'AdamWeightDecay'},
+ 'output_url': 'BM-Swiss/fold_10/saved_models',
+ 'print_predict': False,
+ 'pssm_hidden_size': 128,
+ 'pssm_layer_num': 1,
+ 'return_csv': False,
+ 'return_sequence': False,
+ 'task_name': 'Swiss',
+ 'train_batch_size': 32,
+ 'train_data_shuffle': 'true',
+ 'use_pynative_mode': False,
+ 'vocab_file': '',
+ 'with_lstm': False}
+ >>> Eval: Val file is val.mindrecord.
+ >>> Eval: Test file is test.mindrecord.
+==============================================================
+processor_name: Ascend
+test_name: Swiss
+batch_size: 32
+ >>> Train: Train file is train.mindrecord.
+ >>> Train: Val file is val.mindrecord.
+***Epoch: 0***
+Current epoch percent: 1.000, step: 968
+Train loss: 0.0035900841
+Train epoch time: 368748.296 ms, per step time: 380.938 ms
+Validation accuracy: 0.9991284137129576
+New best accuracy: 0.9991284137129576, saved best model to :
+BM-Swiss/fold_10/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 1***
+Current epoch percent: 1.000, step: 1936
+Train loss: 0.0014741174
+Train epoch time: 334147.077 ms, per step time: 345.193 ms
+Validation accuracy: 0.9988378849506101
+No improvement in accuracy for 1 epochs (best acc = 0.9991284137129576).
+***Epoch: 2***
+Current epoch percent: 1.000, step: 2904
+Train loss: 0.00025579092
+Train epoch time: 334090.588 ms, per step time: 345.135 ms
+Validation accuracy: 1.0
+New best accuracy: 1.0, saved best model to :
+BM-Swiss/fold_10/saved_models/Swiss_Best_Model.ckpt
+***Epoch: 3***
+Current epoch percent: 1.000, step: 3872
+Train loss: 0.00068714604
+Train epoch time: 334217.498 ms, per step time: 345.266 ms
+Validation accuracy: 0.9997094712376525
+No improvement in accuracy for 1 epochs (best acc = 1.0).
+***Epoch: 4***
+Current epoch percent: 1.000, step: 4840
+Train loss: 0.00012212966
+Train epoch time: 334149.112 ms, per step time: 345.195 ms
+Validation accuracy: 0.9997094712376525
+No improvement in accuracy for 2 epochs (best acc = 1.0).
+***Epoch: 5***
+Current epoch percent: 1.000, step: 5808
+Train loss: 8.0839105e-05
+Train epoch time: 334212.370 ms, per step time: 345.261 ms
+Validation accuracy: 0.9997094712376525
+No improvement in accuracy for 3 epochs (best acc = 1.0).
+***Epoch: 6***
+Current epoch percent: 1.000, step: 6776
+Train loss: 9.1700276e-05
+Train epoch time: 334189.410 ms, per step time: 345.237 ms
+Validation accuracy: 0.9997094712376525
+No improvement in accuracy for 4 epochs (best acc = 1.0).
+***Epoch: 7***
+Current epoch percent: 1.000, step: 7744
+Train loss: 9.7809185e-05
+Train epoch time: 334041.733 ms, per step time: 345.084 ms
+Validation accuracy: 0.999418942475305
+No improvement in accuracy for 5 epochs (best acc = 1.0).
+***Epoch: 8***
+Current epoch percent: 1.000, step: 8712
+Train loss: 7.8895886e-05
+Train epoch time: 334118.155 ms, per step time: 345.163 ms
+Validation accuracy: 0.9997094712376525
+No improvement in accuracy for 6 epochs (best acc = 1.0).
+***Epoch: 9***
+Current epoch percent: 1.000, step: 9680
+Train loss: 0.00013362826
+Train epoch time: 334056.269 ms, per step time: 345.099 ms
+Validation accuracy: 0.9997094712376525
+No improvement in accuracy for 7 epochs (best acc = 1.0).
+***Epoch: 10***
+Current epoch percent: 1.000, step: 10648
+Train loss: 4.65087e-05
+Train epoch time: 334069.485 ms, per step time: 345.113 ms
+Validation accuracy: 0.9997094712376525
+No improvement in accuracy for 8 epochs (best acc = 1.0).
+***Epoch: 11***
+Current epoch percent: 1.000, step: 11616
+Train loss: 2.97906e-05
+Train epoch time: 334016.150 ms, per step time: 345.058 ms
+Validation accuracy: 0.9997094712376525
+No improvement in accuracy for 9 epochs (best acc = 1.0).
+***Epoch: 12***
+Current epoch percent: 1.000, step: 12584
+Train loss: 2.6974249e-05
+Train epoch time: 334021.688 ms, per step time: 345.064 ms
+Validation accuracy: 0.9997094712376525
+No improvement in accuracy for 10 epochs (best acc = 1.0).
+***Epoch: 13***
+Current epoch percent: 1.000, step: 13552
+Train loss: 1.5348067e-05
+Train epoch time: 334045.434 ms, per step time: 345.088 ms
+Validation accuracy: 0.9997094712376525
+No improvement in accuracy for 11 epochs (best acc = 1.0).
+***Epoch: 14***
+Current epoch percent: 1.000, step: 14520
+Train loss: 1.1935742e-05
+Train epoch time: 334119.790 ms, per step time: 345.165 ms
+Validation accuracy: 0.999418942475305
+No improvement in accuracy for 12 epochs (best acc = 1.0).
+***Epoch: 15***
+Current epoch percent: 1.000, step: 15488
+Train loss: 9.067311e-06
+Train epoch time: 334516.286 ms, per step time: 345.575 ms
+Validation accuracy: 0.9997094712376525
+No improvement in accuracy for 13 epochs (best acc = 1.0).
+***Epoch: 16***
+Current epoch percent: 1.000, step: 16456
+Train loss: 7.543675e-06
+Train epoch time: 334145.284 ms, per step time: 345.191 ms
+Validation accuracy: 0.9997094712376525
+No improvement in accuracy for 14 epochs (best acc = 1.0).
+***Epoch: 17***
+Current epoch percent: 1.000, step: 17424
+Train loss: 7.5697017e-06
+Train epoch time: 334049.349 ms, per step time: 345.092 ms
+Validation accuracy: 0.9997094712376525
+No improvement in accuracy for 15 epochs (best acc = 1.0).
+***Epoch: 18***
+Current epoch percent: 1.000, step: 18392
+Train loss: 5.2638197e-06
+Train epoch time: 334153.671 ms, per step time: 345.200 ms
+Validation accuracy: 0.9997094712376525
+No improvement in accuracy for 16 epochs (best acc = 1.0).
+***Epoch: 19***
+Current epoch percent: 1.000, step: 19360
+Train loss: 4.4144585e-06
+Train epoch time: 334014.358 ms, per step time: 345.056 ms
+Validation accuracy: 0.9997094712376525
+No improvement in accuracy for 17 epochs (best acc = 1.0).
+Find the newest checkpoint:  /data2/xuguoshun/Enzymes/BM_works/Bert_Casp80/01A__Swiss_BM_all/BM-Swiss/fold_10/saved_models/Swiss_Best_Model.ckpt
+======Val======
+** BM-Swiss/fold_10/mr_data/val.mindrecord
+
+========================================
+                  model data  AUC  ACC  precision  Recall   F1  MCC  Sensitivity  Specificity
+model  Swiss_Best_Model       1.0  1.0        1.0     1.0  1.0  1.0          1.0          1.0
+========================================
+
+======Test======
+** BM-Swiss/fold_10/mr_data/test.mindrecord
+
+========================================
+                  model data  AUC  ACC  precision  Recall   F1  MCC  Sensitivity  Specificity
+model  Swiss_Best_Model       1.0  1.0        1.0     1.0  1.0  1.0          1.0          1.0
+========================================
+
+FINISH !!!
+
+
+Done!
