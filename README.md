@@ -7,7 +7,7 @@
 >> (1) CasMiner(p80) model (**./01_CasMiner/p80/*.h5**);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2) Homology models (**./02_homology_models/**);  
 >> (3) Training datasets (**./03_Model_training/**); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(4) Model training logs (**./04_Model_logs/**);  
 >> (5) Generalization ability (**./05_Model_Generalization/**);&nbsp;&nbsp;&nbsp;&nbsp;(6) Model prediction (**./06_Model_prediction/**);  
->> (7) Supplementary tables(**./07_Supplementary_tables/**);&nbsp;&nbsp;&nbsp;&nbsp;(8) Model prediction (**08_Resource_monitoring**).
+>> (7) Supplementary tables(**./07_Supplementary_tables/**);&nbsp;&nbsp;&nbsp;&nbsp;(8) Resource monitoring (**08_Resource_monitoring**).
   
 And the `operating environment`, `model construction`, `powerful generalization capability`, and implementation with `**CasMiner** prediction` were presented.
 
