@@ -1,0 +1,24 @@
+Optimal Hyperparameters: {'kernel': 'rbf', 'gamma': 'scale', 'degree': 4, 'coef0': 0.1, 'C': 1}
+Fold: 4
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0   0.784753  0.897436  0.837321       195
+           1   0.880240  0.753846  0.812155       195
+
+    accuracy                       0.825641       390
+   macro avg   0.832496  0.825641  0.824738       390
+weighted avg   0.832496  0.825641  0.824738       390
+
+Prediction Probabilities (first 10 samples):
+Sample 0: [0.96750143 0.03249857]
+Sample 1: [0.35378655 0.64621345]
+Sample 2: [0.98330474 0.01669526]
+Sample 3: [0.05561477 0.94438523]
+Sample 4: [0.46042059 0.53957941]
+Sample 5: [0.0676707 0.9323293]
+Sample 6: [0.70209617 0.29790383]
+Sample 7: [0.06044428 0.93955572]
+Sample 8: [0.95955968 0.04044032]
+Sample 9: [0.01453358 0.98546642]
