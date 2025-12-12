@@ -1,0 +1,1282 @@
+nohup: 忽略输入
+开始运行10个模型的训练...
+Python路径: /home/xuguoshun/anaconda3/envs/esm_long/bin/python
+脚本路径: ESM-long_FT.py
+======================================
+正在运行 Fold 1...
+/data1/xuguoshun/lab_work/CRISPR-Cas9/0__coment_ana/2_1__sw_model/ESML-FT_all/ESM-long_FT.py:93: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(model_file, map_location='cpu')
+/data1/xuguoshun/lab_work/CRISPR-Cas9/0__coment_ana/2_1__sw_model/ESML-FT_all/ESM-long_FT.py:155: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = GradScaler()
+/home/xuguoshun/anaconda3/envs/esm_long/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+==================== Fold 1 ====================
+Parameters: EPOCHS=10, BATCH_SIZE=6, LR=1e-05, MAX_LEN=2048
+Using device: cuda
+Loading ESM-long model...
+加载ESM-long权重从: /data1/xuguoshun/lab_work/CRISPR-Cas9/0__coment_ana/1_2__new_model/ESM-long/esm-long/esm2_t6_long/pytorch_model.bin
+ESM-long权重加载完成
+ESM model loaded: ESM2
+Model layers: 6, Embedding dim: 320
+Classifier model created
+Total parameters: 7,810,204
+Trainable parameters: 7,810,204
+Loading data...
+Train samples: 31005, Validation samples: 3446
+Train batches: 5168, Val batches: 575
+Starting training...
+
+  with autocast():
+
+
+
+Epoch 1/10
+Train Loss: 0.672196
+Val Acc: 0.8517, Precision: 0.2730, Recall: 0.9744, F1: 0.4265
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.4265 ***
+
+  with autocast():
+
+
+
+Epoch 2/10
+Train Loss: 0.546070
+Val Acc: 0.9791, Precision: 0.7470, Recall: 0.9538, F1: 0.8378
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.8378 ***
+
+  with autocast():
+
+
+
+Epoch 3/10
+Train Loss: 0.462746
+Val Acc: 0.9869, Precision: 0.8378, Recall: 0.9538, F1: 0.8921
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.8921 ***
+
+  with autocast():
+
+
+
+Epoch 4/10
+Train Loss: 0.390448
+Val Acc: 0.9939, Precision: 0.9485, Recall: 0.9436, F1: 0.9460
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9460 ***
+
+  with autocast():
+
+
+
+Epoch 5/10
+Train Loss: 0.323419
+Val Acc: 0.9951, Precision: 0.9837, Recall: 0.9282, F1: 0.9551
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9551 ***
+
+  with autocast():
+
+
+
+Epoch 6/10
+Train Loss: 0.260979
+Val Acc: 0.9959, Precision: 0.9840, Recall: 0.9436, F1: 0.9634
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9634 ***
+
+  with autocast():
+
+
+
+Epoch 7/10
+Train Loss: 0.205660
+Val Acc: 0.9962, Precision: 1.0000, Recall: 0.9333, F1: 0.9655
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9655 ***
+
+  with autocast():
+
+
+
+Epoch 8/10
+Train Loss: 0.158719
+Val Acc: 0.9962, Precision: 1.0000, Recall: 0.9333, F1: 0.9655
+Current LR: 1.00e-06
+
+  with autocast():
+
+
+
+Epoch 9/10
+Train Loss: 0.120607
+Val Acc: 0.9962, Precision: 1.0000, Recall: 0.9333, F1: 0.9655
+Current LR: 1.00e-06
+
+  with autocast():
+
+
+
+Epoch 10/10
+Train Loss: 0.090425
+Val Acc: 0.9962, Precision: 1.0000, Recall: 0.9333, F1: 0.9655
+Current LR: 1.00e-06
+
+Training complete! Best Val Acc: 0.9962, Best F1: 0.9655
+Training completed in 34327.73 seconds (572.13 minutes)
+
+Final evaluation on validation set:
+
+Final Val Metrics - Acc: 0.9962, Precision: 1.0000, Recall: 0.9333, F1: 0.9655
+Fold 1 完成
+--------------------------------------
+正在运行 Fold 2...
+/data1/xuguoshun/lab_work/CRISPR-Cas9/0__coment_ana/2_1__sw_model/ESML-FT_all/ESM-long_FT.py:93: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(model_file, map_location='cpu')
+/data1/xuguoshun/lab_work/CRISPR-Cas9/0__coment_ana/2_1__sw_model/ESML-FT_all/ESM-long_FT.py:155: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = GradScaler()
+/home/xuguoshun/anaconda3/envs/esm_long/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+==================== Fold 2 ====================
+Parameters: EPOCHS=10, BATCH_SIZE=6, LR=1e-05, MAX_LEN=2048
+Using device: cuda
+Loading ESM-long model...
+加载ESM-long权重从: /data1/xuguoshun/lab_work/CRISPR-Cas9/0__coment_ana/1_2__new_model/ESM-long/esm-long/esm2_t6_long/pytorch_model.bin
+ESM-long权重加载完成
+ESM model loaded: ESM2
+Model layers: 6, Embedding dim: 320
+Classifier model created
+Total parameters: 7,810,204
+Trainable parameters: 7,810,204
+Loading data...
+Train samples: 31005, Validation samples: 3446
+Train batches: 5168, Val batches: 575
+Starting training...
+
+  with autocast():
+
+
+
+Epoch 1/10
+Train Loss: 0.671721
+Val Acc: 0.8537, Precision: 0.2771, Recall: 0.9846, F1: 0.4324
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.4324 ***
+
+  with autocast():
+
+
+
+Epoch 2/10
+Train Loss: 0.545637
+Val Acc: 0.9797, Precision: 0.7432, Recall: 0.9795, F1: 0.8451
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.8451 ***
+
+  with autocast():
+
+
+
+Epoch 3/10
+Train Loss: 0.462478
+Val Acc: 0.9890, Precision: 0.8489, Recall: 0.9795, F1: 0.9095
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9095 ***
+
+  with autocast():
+
+
+
+Epoch 4/10
+Train Loss: 0.390643
+Val Acc: 0.9942, Precision: 0.9310, Recall: 0.9692, F1: 0.9497
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9497 ***
+
+  with autocast():
+
+
+
+Epoch 5/10
+Train Loss: 0.323567
+Val Acc: 0.9965, Precision: 0.9791, Recall: 0.9590, F1: 0.9689
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9689 ***
+
+  with autocast():
+
+
+
+Epoch 6/10
+Train Loss: 0.261870
+Val Acc: 0.9968, Precision: 0.9792, Recall: 0.9641, F1: 0.9716
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9716 ***
+
+  with autocast():
+
+
+
+Epoch 7/10
+Train Loss: 0.205693
+Val Acc: 0.9974, Precision: 0.9947, Recall: 0.9590, F1: 0.9765
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9765 ***
+
+  with autocast():
+
+
+
+Epoch 8/10
+Train Loss: 0.159593
+Val Acc: 0.9974, Precision: 0.9947, Recall: 0.9590, F1: 0.9765
+Current LR: 1.00e-06
+
+  with autocast():
+
+
+
+Epoch 9/10
+Train Loss: 0.120707
+Val Acc: 0.9974, Precision: 0.9947, Recall: 0.9590, F1: 0.9765
+Current LR: 1.00e-06
+
+  with autocast():
+
+
+
+Epoch 10/10
+Train Loss: 0.090953
+Val Acc: 0.9974, Precision: 0.9947, Recall: 0.9590, F1: 0.9765
+Current LR: 1.00e-06
+
+Training complete! Best Val Acc: 0.9974, Best F1: 0.9765
+Training completed in 31393.86 seconds (523.23 minutes)
+
+Final evaluation on validation set:
+
+Final Val Metrics - Acc: 0.9974, Precision: 0.9947, Recall: 0.9590, F1: 0.9765
+Fold 2 完成
+--------------------------------------
+正在运行 Fold 3...
+/data1/xuguoshun/lab_work/CRISPR-Cas9/0__coment_ana/2_1__sw_model/ESML-FT_all/ESM-long_FT.py:93: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(model_file, map_location='cpu')
+/data1/xuguoshun/lab_work/CRISPR-Cas9/0__coment_ana/2_1__sw_model/ESML-FT_all/ESM-long_FT.py:155: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = GradScaler()
+/home/xuguoshun/anaconda3/envs/esm_long/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+==================== Fold 3 ====================
+Parameters: EPOCHS=10, BATCH_SIZE=6, LR=1e-05, MAX_LEN=2048
+Using device: cuda
+Loading ESM-long model...
+加载ESM-long权重从: /data1/xuguoshun/lab_work/CRISPR-Cas9/0__coment_ana/1_2__new_model/ESM-long/esm-long/esm2_t6_long/pytorch_model.bin
+ESM-long权重加载完成
+ESM model loaded: ESM2
+Model layers: 6, Embedding dim: 320
+Classifier model created
+Total parameters: 7,810,204
+Trainable parameters: 7,810,204
+Loading data...
+Train samples: 31005, Validation samples: 3446
+Train batches: 5168, Val batches: 575
+Starting training...
+
+  with autocast():
+
+
+
+Epoch 1/10
+Train Loss: 0.669912
+Val Acc: 0.8555, Precision: 0.2782, Recall: 0.9744, F1: 0.4328
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.4328 ***
+
+  with autocast():
+
+
+
+Epoch 2/10
+Train Loss: 0.545611
+Val Acc: 0.9806, Precision: 0.7735, Recall: 0.9282, F1: 0.8438
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.8438 ***
+
+  with autocast():
+
+
+
+Epoch 3/10
+Train Loss: 0.460466
+Val Acc: 0.9913, Precision: 0.9146, Recall: 0.9333, F1: 0.9239
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9239 ***
+
+  with autocast():
+
+
+
+Epoch 4/10
+Train Loss: 0.389717
+Val Acc: 0.9939, Precision: 0.9579, Recall: 0.9333, F1: 0.9455
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9455 ***
+
+  with autocast():
+
+
+
+Epoch 5/10
+Train Loss: 0.322095
+Val Acc: 0.9945, Precision: 0.9783, Recall: 0.9231, F1: 0.9499
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9499 ***
+
+  with autocast():
+
+
+
+Epoch 6/10
+Train Loss: 0.259522
+Val Acc: 0.9954, Precision: 0.9838, Recall: 0.9333, F1: 0.9579
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9579 ***
+
+  with autocast():
+
+
+
+Epoch 7/10
+Train Loss: 0.204673
+Val Acc: 0.9954, Precision: 0.9891, Recall: 0.9282, F1: 0.9577
+Current LR: 1.00e-06
+
+  with autocast():
+
+
+
+Epoch 8/10
+Train Loss: 0.158295
+Val Acc: 0.9956, Precision: 0.9945, Recall: 0.9282, F1: 0.9602
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9602 ***
+
+  with autocast():
+
+
+
+Epoch 9/10
+Train Loss: 0.118974
+Val Acc: 0.9959, Precision: 0.9945, Recall: 0.9333, F1: 0.9630
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9630 ***
+
+  with autocast():
+
+
+
+Epoch 10/10
+Train Loss: 0.089409
+Val Acc: 0.9959, Precision: 0.9945, Recall: 0.9333, F1: 0.9630
+Current LR: 1.00e-06
+
+Training complete! Best Val Acc: 0.9959, Best F1: 0.9630
+Training completed in 23856.92 seconds (397.62 minutes)
+
+Final evaluation on validation set:
+
+Final Val Metrics - Acc: 0.9959, Precision: 0.9945, Recall: 0.9333, F1: 0.9630
+Fold 3 完成
+--------------------------------------
+正在运行 Fold 4...
+/data1/xuguoshun/lab_work/CRISPR-Cas9/0__coment_ana/2_1__sw_model/ESML-FT_all/ESM-long_FT.py:93: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(model_file, map_location='cpu')
+/data1/xuguoshun/lab_work/CRISPR-Cas9/0__coment_ana/2_1__sw_model/ESML-FT_all/ESM-long_FT.py:155: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = GradScaler()
+/home/xuguoshun/anaconda3/envs/esm_long/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+==================== Fold 4 ====================
+Parameters: EPOCHS=10, BATCH_SIZE=6, LR=1e-05, MAX_LEN=2048
+Using device: cuda
+Loading ESM-long model...
+加载ESM-long权重从: /data1/xuguoshun/lab_work/CRISPR-Cas9/0__coment_ana/1_2__new_model/ESM-long/esm-long/esm2_t6_long/pytorch_model.bin
+ESM-long权重加载完成
+ESM model loaded: ESM2
+Model layers: 6, Embedding dim: 320
+Classifier model created
+Total parameters: 7,810,204
+Trainable parameters: 7,810,204
+Loading data...
+Train samples: 31005, Validation samples: 3446
+Train batches: 5168, Val batches: 575
+Starting training...
+
+  with autocast():
+
+
+
+Epoch 1/10
+Train Loss: 0.670986
+Val Acc: 0.8331, Precision: 0.2520, Recall: 0.9897, F1: 0.4017
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.4017 ***
+
+  with autocast():
+
+
+
+Epoch 2/10
+Train Loss: 0.545765
+Val Acc: 0.9768, Precision: 0.7154, Recall: 0.9795, F1: 0.8268
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.8268 ***
+
+  with autocast():
+
+
+
+Epoch 3/10
+Train Loss: 0.461777
+Val Acc: 0.9907, Precision: 0.8863, Recall: 0.9590, F1: 0.9212
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9212 ***
+
+  with autocast():
+
+
+
+Epoch 4/10
+Train Loss: 0.390750
+Val Acc: 0.9956, Precision: 0.9639, Recall: 0.9590, F1: 0.9614
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9614 ***
+
+  with autocast():
+
+
+
+Epoch 5/10
+Train Loss: 0.322931
+Val Acc: 0.9965, Precision: 0.9841, Recall: 0.9538, F1: 0.9688
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9688 ***
+
+  with autocast():
+
+
+
+Epoch 6/10
+Train Loss: 0.260470
+Val Acc: 0.9971, Precision: 0.9894, Recall: 0.9590, F1: 0.9740
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9740 ***
+
+  with autocast():
+
+
+
+Epoch 7/10
+Train Loss: 0.204872
+Val Acc: 0.9977, Precision: 1.0000, Recall: 0.9590, F1: 0.9791
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9791 ***
+
+  with autocast():
+
+
+
+Epoch 8/10
+Train Loss: 0.158436
+Val Acc: 0.9977, Precision: 1.0000, Recall: 0.9590, F1: 0.9791
+Current LR: 1.00e-06
+
+  with autocast():
+
+
+
+Epoch 9/10
+Train Loss: 0.119819
+Val Acc: 0.9977, Precision: 1.0000, Recall: 0.9590, F1: 0.9791
+Current LR: 1.00e-06
+
+  with autocast():
+
+
+
+Epoch 10/10
+Train Loss: 0.089030
+Val Acc: 0.9977, Precision: 1.0000, Recall: 0.9590, F1: 0.9791
+Current LR: 1.00e-06
+
+Training complete! Best Val Acc: 0.9977, Best F1: 0.9791
+Training completed in 17371.39 seconds (289.52 minutes)
+
+Final evaluation on validation set:
+
+Final Val Metrics - Acc: 0.9977, Precision: 1.0000, Recall: 0.9590, F1: 0.9791
+Fold 4 完成
+--------------------------------------
+正在运行 Fold 5...
+/data1/xuguoshun/lab_work/CRISPR-Cas9/0__coment_ana/2_1__sw_model/ESML-FT_all/ESM-long_FT.py:93: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(model_file, map_location='cpu')
+/data1/xuguoshun/lab_work/CRISPR-Cas9/0__coment_ana/2_1__sw_model/ESML-FT_all/ESM-long_FT.py:155: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = GradScaler()
+/home/xuguoshun/anaconda3/envs/esm_long/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+==================== Fold 5 ====================
+Parameters: EPOCHS=10, BATCH_SIZE=6, LR=1e-05, MAX_LEN=2048
+Using device: cuda
+Loading ESM-long model...
+加载ESM-long权重从: /data1/xuguoshun/lab_work/CRISPR-Cas9/0__coment_ana/1_2__new_model/ESM-long/esm-long/esm2_t6_long/pytorch_model.bin
+ESM-long权重加载完成
+ESM model loaded: ESM2
+Model layers: 6, Embedding dim: 320
+Classifier model created
+Total parameters: 7,810,204
+Trainable parameters: 7,810,204
+Loading data...
+Train samples: 31005, Validation samples: 3446
+Train batches: 5168, Val batches: 575
+Starting training...
+
+  with autocast():
+
+
+
+Epoch 1/10
+Train Loss: 0.670465
+Val Acc: 0.8546, Precision: 0.2776, Recall: 0.9795, F1: 0.4326
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.4326 ***
+
+  with autocast():
+
+
+
+Epoch 2/10
+Train Loss: 0.545688
+Val Acc: 0.9777, Precision: 0.7305, Recall: 0.9590, F1: 0.8293
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.8293 ***
+
+  with autocast():
+
+
+
+Epoch 3/10
+Train Loss: 0.461596
+Val Acc: 0.9893, Precision: 0.8657, Recall: 0.9590, F1: 0.9100
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9100 ***
+
+  with autocast():
+
+
+
+Epoch 4/10
+Train Loss: 0.391084
+Val Acc: 0.9959, Precision: 0.9738, Recall: 0.9538, F1: 0.9637
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9637 ***
+
+  with autocast():
+
+
+
+Epoch 5/10
+Train Loss: 0.322430
+Val Acc: 0.9968, Precision: 0.9946, Recall: 0.9487, F1: 0.9711
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9711 ***
+
+  with autocast():
+
+
+
+Epoch 6/10
+Train Loss: 0.260830
+Val Acc: 0.9971, Precision: 0.9947, Recall: 0.9538, F1: 0.9738
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9738 ***
+
+  with autocast():
+
+
+
+Epoch 7/10
+Train Loss: 0.204697
+Val Acc: 0.9974, Precision: 1.0000, Recall: 0.9538, F1: 0.9764
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9764 ***
+
+  with autocast():
+
+
+
+Epoch 8/10
+Train Loss: 0.159066
+Val Acc: 0.9974, Precision: 1.0000, Recall: 0.9538, F1: 0.9764
+Current LR: 1.00e-06
+
+  with autocast():
+
+
+
+Epoch 9/10
+Train Loss: 0.118902
+Val Acc: 0.9974, Precision: 1.0000, Recall: 0.9538, F1: 0.9764
+Current LR: 1.00e-06
+
+  with autocast():
+
+
+
+Epoch 10/10
+Train Loss: 0.089711
+Val Acc: 0.9974, Precision: 1.0000, Recall: 0.9538, F1: 0.9764
+Current LR: 1.00e-06
+
+Training complete! Best Val Acc: 0.9974, Best F1: 0.9764
+Training completed in 25614.77 seconds (426.91 minutes)
+
+Final evaluation on validation set:
+
+Final Val Metrics - Acc: 0.9974, Precision: 1.0000, Recall: 0.9538, F1: 0.9764
+Fold 5 完成
+--------------------------------------
+正在运行 Fold 6...
+/data1/xuguoshun/lab_work/CRISPR-Cas9/0__coment_ana/2_1__sw_model/ESML-FT_all/ESM-long_FT.py:93: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(model_file, map_location='cpu')
+/data1/xuguoshun/lab_work/CRISPR-Cas9/0__coment_ana/2_1__sw_model/ESML-FT_all/ESM-long_FT.py:155: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = GradScaler()
+/home/xuguoshun/anaconda3/envs/esm_long/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+==================== Fold 6 ====================
+Parameters: EPOCHS=10, BATCH_SIZE=6, LR=1e-05, MAX_LEN=2048
+Using device: cuda
+Loading ESM-long model...
+加载ESM-long权重从: /data1/xuguoshun/lab_work/CRISPR-Cas9/0__coment_ana/1_2__new_model/ESM-long/esm-long/esm2_t6_long/pytorch_model.bin
+ESM-long权重加载完成
+ESM model loaded: ESM2
+Model layers: 6, Embedding dim: 320
+Classifier model created
+Total parameters: 7,810,204
+Trainable parameters: 7,810,204
+Loading data...
+Train samples: 31006, Validation samples: 3445
+Train batches: 5168, Val batches: 575
+Starting training...
+
+  with autocast():
+
+
+
+Epoch 1/10
+Train Loss: 0.672007
+Val Acc: 0.8943, Precision: 0.3466, Recall: 0.9795, F1: 0.5121
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.5121 ***
+
+  with autocast():
+
+
+
+Epoch 2/10
+Train Loss: 0.546644
+Val Acc: 0.9901, Precision: 0.8779, Recall: 0.9590, F1: 0.9167
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9167 ***
+
+  with autocast():
+
+
+
+Epoch 3/10
+Train Loss: 0.463787
+Val Acc: 0.9948, Precision: 0.9492, Recall: 0.9590, F1: 0.9541
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9541 ***
+
+  with autocast():
+
+
+
+Epoch 4/10
+Train Loss: 0.391458
+Val Acc: 0.9959, Precision: 0.9738, Recall: 0.9538, F1: 0.9637
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9637 ***
+
+  with autocast():
+
+
+
+Epoch 5/10
+Train Loss: 0.322832
+Val Acc: 0.9954, Precision: 0.9543, Recall: 0.9641, F1: 0.9592
+Current LR: 1.00e-06
+
+  with autocast():
+
+
+
+Epoch 6/10
+Train Loss: 0.260303
+Val Acc: 0.9968, Precision: 0.9894, Recall: 0.9538, F1: 0.9713
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9713 ***
+
+  with autocast():
+
+
+
+Epoch 7/10
+Train Loss: 0.204989
+Val Acc: 0.9971, Precision: 0.9947, Recall: 0.9538, F1: 0.9738
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9738 ***
+
+  with autocast():
+
+
+
+Epoch 8/10
+Train Loss: 0.157790
+Val Acc: 0.9971, Precision: 0.9894, Recall: 0.9590, F1: 0.9740
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9740 ***
+
+  with autocast():
+
+
+
+Epoch 9/10
+Train Loss: 0.119765
+Val Acc: 0.9977, Precision: 1.0000, Recall: 0.9590, F1: 0.9791
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9791 ***
+
+  with autocast():
+
+
+
+Epoch 10/10
+Train Loss: 0.091128
+Val Acc: 0.9974, Precision: 1.0000, Recall: 0.9538, F1: 0.9764
+Current LR: 1.00e-06
+
+Training complete! Best Val Acc: 0.9977, Best F1: 0.9791
+Training completed in 33057.72 seconds (550.96 minutes)
+
+Final evaluation on validation set:
+
+Final Val Metrics - Acc: 0.9974, Precision: 1.0000, Recall: 0.9538, F1: 0.9764
+Fold 6 完成
+--------------------------------------
+正在运行 Fold 7...
+/data1/xuguoshun/lab_work/CRISPR-Cas9/0__coment_ana/2_1__sw_model/ESML-FT_all/ESM-long_FT.py:93: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(model_file, map_location='cpu')
+/data1/xuguoshun/lab_work/CRISPR-Cas9/0__coment_ana/2_1__sw_model/ESML-FT_all/ESM-long_FT.py:155: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = GradScaler()
+/home/xuguoshun/anaconda3/envs/esm_long/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+==================== Fold 7 ====================
+Parameters: EPOCHS=10, BATCH_SIZE=6, LR=1e-05, MAX_LEN=2048
+Using device: cuda
+Loading ESM-long model...
+加载ESM-long权重从: /data1/xuguoshun/lab_work/CRISPR-Cas9/0__coment_ana/1_2__new_model/ESM-long/esm-long/esm2_t6_long/pytorch_model.bin
+ESM-long权重加载完成
+ESM model loaded: ESM2
+Model layers: 6, Embedding dim: 320
+Classifier model created
+Total parameters: 7,810,204
+Trainable parameters: 7,810,204
+Loading data...
+Train samples: 31007, Validation samples: 3444
+Train batches: 5168, Val batches: 574
+Starting training...
+
+  with autocast():
+
+
+
+Epoch 1/10
+Train Loss: 0.670997
+Val Acc: 0.8470, Precision: 0.2678, Recall: 0.9897, F1: 0.4215
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.4215 ***
+
+  with autocast():
+
+
+
+Epoch 2/10
+Train Loss: 0.546861
+Val Acc: 0.9768, Precision: 0.7192, Recall: 0.9639, F1: 0.8238
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.8238 ***
+
+  with autocast():
+
+
+
+Epoch 3/10
+Train Loss: 0.462264
+Val Acc: 0.9945, Precision: 0.9487, Recall: 0.9536, F1: 0.9512
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9512 ***
+
+  with autocast():
+
+
+
+Epoch 4/10
+Train Loss: 0.387456
+Val Acc: 0.9942, Precision: 0.9439, Recall: 0.9536, F1: 0.9487
+Current LR: 1.00e-06
+
+  with autocast():
+
+
+
+Epoch 5/10
+Train Loss: 0.322493
+Val Acc: 0.9959, Precision: 0.9737, Recall: 0.9536, F1: 0.9635
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9635 ***
+
+  with autocast():
+
+
+
+Epoch 6/10
+Train Loss: 0.259829
+Val Acc: 0.9965, Precision: 0.9840, Recall: 0.9536, F1: 0.9686
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9686 ***
+
+  with autocast():
+
+
+
+Epoch 7/10
+Train Loss: 0.207291
+Val Acc: 0.9974, Precision: 1.0000, Recall: 0.9536, F1: 0.9763
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9763 ***
+
+  with autocast():
+
+
+
+Epoch 8/10
+Train Loss: 0.159467
+Val Acc: 0.9974, Precision: 1.0000, Recall: 0.9536, F1: 0.9763
+Current LR: 1.00e-06
+
+  with autocast():
+
+
+
+Epoch 9/10
+Train Loss: 0.119880
+Val Acc: 0.9974, Precision: 1.0000, Recall: 0.9536, F1: 0.9763
+Current LR: 1.00e-06
+
+  with autocast():
+
+
+
+Epoch 10/10
+Train Loss: 0.087748
+Val Acc: 0.9977, Precision: 1.0000, Recall: 0.9588, F1: 0.9789
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9789 ***
+
+Training complete! Best Val Acc: 0.9977, Best F1: 0.9789
+Training completed in 26652.43 seconds (444.21 minutes)
+
+Final evaluation on validation set:
+
+Final Val Metrics - Acc: 0.9977, Precision: 1.0000, Recall: 0.9588, F1: 0.9789
+Fold 7 完成
+--------------------------------------
+正在运行 Fold 8...
+/data1/xuguoshun/lab_work/CRISPR-Cas9/0__coment_ana/2_1__sw_model/ESML-FT_all/ESM-long_FT.py:93: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(model_file, map_location='cpu')
+/data1/xuguoshun/lab_work/CRISPR-Cas9/0__coment_ana/2_1__sw_model/ESML-FT_all/ESM-long_FT.py:155: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = GradScaler()
+/home/xuguoshun/anaconda3/envs/esm_long/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+==================== Fold 8 ====================
+Parameters: EPOCHS=10, BATCH_SIZE=6, LR=1e-05, MAX_LEN=2048
+Using device: cuda
+Loading ESM-long model...
+加载ESM-long权重从: /data1/xuguoshun/lab_work/CRISPR-Cas9/0__coment_ana/1_2__new_model/ESM-long/esm-long/esm2_t6_long/pytorch_model.bin
+ESM-long权重加载完成
+ESM model loaded: ESM2
+Model layers: 6, Embedding dim: 320
+Classifier model created
+Total parameters: 7,810,204
+Trainable parameters: 7,810,204
+Loading data...
+Train samples: 31007, Validation samples: 3444
+Train batches: 5168, Val batches: 574
+Starting training...
+
+  with autocast():
+
+
+
+Epoch 1/10
+Train Loss: 0.670922
+Val Acc: 0.8659, Precision: 0.2945, Recall: 0.9897, F1: 0.4539
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.4539 ***
+
+  with autocast():
+
+
+
+Epoch 2/10
+Train Loss: 0.547936
+Val Acc: 0.9733, Precision: 0.6835, Recall: 0.9794, F1: 0.8051
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.8051 ***
+
+  with autocast():
+
+
+
+Epoch 3/10
+Train Loss: 0.462661
+Val Acc: 0.9974, Precision: 0.9894, Recall: 0.9639, F1: 0.9765
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9765 ***
+
+  with autocast():
+
+
+
+Epoch 4/10
+Train Loss: 0.388091
+Val Acc: 0.9968, Precision: 0.9791, Recall: 0.9639, F1: 0.9714
+Current LR: 1.00e-06
+
+  with autocast():
+
+
+
+Epoch 5/10
+Train Loss: 0.320745
+Val Acc: 0.9974, Precision: 0.9894, Recall: 0.9639, F1: 0.9765
+Current LR: 1.00e-06
+
+  with autocast():
+
+
+
+Epoch 6/10
+Train Loss: 0.260220
+Val Acc: 0.9980, Precision: 1.0000, Recall: 0.9639, F1: 0.9816
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9816 ***
+
+  with autocast():
+
+
+
+Epoch 7/10
+Train Loss: 0.207099
+Val Acc: 0.9971, Precision: 1.0000, Recall: 0.9485, F1: 0.9735
+Current LR: 1.00e-06
+
+  with autocast():
+
+
+
+Epoch 8/10
+Train Loss: 0.159315
+Val Acc: 0.9974, Precision: 1.0000, Recall: 0.9536, F1: 0.9763
+Current LR: 1.00e-06
+
+  with autocast():
+
+
+
+Epoch 9/10
+Train Loss: 0.120271
+Val Acc: 0.9971, Precision: 1.0000, Recall: 0.9485, F1: 0.9735
+Current LR: 1.00e-06
+
+  with autocast():
+
+
+
+Epoch 10/10
+Train Loss: 0.088664
+Val Acc: 0.9983, Precision: 1.0000, Recall: 0.9691, F1: 0.9843
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9843 ***
+
+Training complete! Best Val Acc: 0.9983, Best F1: 0.9843
+Training completed in 18036.05 seconds (300.60 minutes)
+
+Final evaluation on validation set:
+
+Final Val Metrics - Acc: 0.9983, Precision: 1.0000, Recall: 0.9691, F1: 0.9843
+Fold 8 完成
+--------------------------------------
+正在运行 Fold 9...
+/data1/xuguoshun/lab_work/CRISPR-Cas9/0__coment_ana/2_1__sw_model/ESML-FT_all/ESM-long_FT.py:93: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(model_file, map_location='cpu')
+/data1/xuguoshun/lab_work/CRISPR-Cas9/0__coment_ana/2_1__sw_model/ESML-FT_all/ESM-long_FT.py:155: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = GradScaler()
+/home/xuguoshun/anaconda3/envs/esm_long/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+==================== Fold 9 ====================
+Parameters: EPOCHS=10, BATCH_SIZE=6, LR=1e-05, MAX_LEN=2048
+Using device: cuda
+Loading ESM-long model...
+加载ESM-long权重从: /data1/xuguoshun/lab_work/CRISPR-Cas9/0__coment_ana/1_2__new_model/ESM-long/esm-long/esm2_t6_long/pytorch_model.bin
+ESM-long权重加载完成
+ESM model loaded: ESM2
+Model layers: 6, Embedding dim: 320
+Classifier model created
+Total parameters: 7,810,204
+Trainable parameters: 7,810,204
+Loading data...
+Train samples: 31007, Validation samples: 3444
+Train batches: 5168, Val batches: 574
+Starting training...
+
+  with autocast():
+
+
+
+Epoch 1/10
+Train Loss: 0.672377
+Val Acc: 0.8359, Precision: 0.2523, Recall: 0.9742, F1: 0.4008
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.4008 ***
+
+  with autocast():
+
+
+
+Epoch 2/10
+Train Loss: 0.548684
+Val Acc: 0.9684, Precision: 0.6471, Recall: 0.9639, F1: 0.7743
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.7743 ***
+
+  with autocast():
+
+
+
+Epoch 3/10
+Train Loss: 0.462856
+Val Acc: 0.9962, Precision: 0.9738, Recall: 0.9588, F1: 0.9662
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9662 ***
+
+  with autocast():
+
+
+
+Epoch 4/10
+Train Loss: 0.387745
+Val Acc: 0.9936, Precision: 0.9300, Recall: 0.9588, F1: 0.9442
+Current LR: 1.00e-06
+
+  with autocast():
+
+
+
+Epoch 5/10
+Train Loss: 0.321767
+Val Acc: 0.9971, Precision: 0.9894, Recall: 0.9588, F1: 0.9738
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9738 ***
+
+  with autocast():
+
+
+
+Epoch 6/10
+Train Loss: 0.259416
+Val Acc: 0.9971, Precision: 0.9894, Recall: 0.9588, F1: 0.9738
+Current LR: 1.00e-06
+
+  with autocast():
+
+
+
+Epoch 7/10
+Train Loss: 0.207377
+Val Acc: 0.9974, Precision: 1.0000, Recall: 0.9536, F1: 0.9763
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9763 ***
+
+  with autocast():
+
+
+
+Epoch 8/10
+Train Loss: 0.157980
+Val Acc: 0.9974, Precision: 1.0000, Recall: 0.9536, F1: 0.9763
+Current LR: 1.00e-06
+
+  with autocast():
+
+
+
+Epoch 9/10
+Train Loss: 0.120308
+Val Acc: 0.9974, Precision: 1.0000, Recall: 0.9536, F1: 0.9763
+Current LR: 1.00e-06
+
+  with autocast():
+
+
+
+Epoch 10/10
+Train Loss: 0.088025
+Val Acc: 0.9977, Precision: 1.0000, Recall: 0.9588, F1: 0.9789
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9789 ***
+
+Training complete! Best Val Acc: 0.9977, Best F1: 0.9789
+Training completed in 32086.27 seconds (534.77 minutes)
+
+Final evaluation on validation set:
+
+Final Val Metrics - Acc: 0.9977, Precision: 1.0000, Recall: 0.9588, F1: 0.9789
+Fold 9 完成
+--------------------------------------
+正在运行 Fold 10...
+/data1/xuguoshun/lab_work/CRISPR-Cas9/0__coment_ana/2_1__sw_model/ESML-FT_all/ESM-long_FT.py:93: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(model_file, map_location='cpu')
+/data1/xuguoshun/lab_work/CRISPR-Cas9/0__coment_ana/2_1__sw_model/ESML-FT_all/ESM-long_FT.py:155: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = GradScaler()
+/home/xuguoshun/anaconda3/envs/esm_long/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+==================== Fold 10 ====================
+Parameters: EPOCHS=10, BATCH_SIZE=6, LR=1e-05, MAX_LEN=2048
+Using device: cuda
+Loading ESM-long model...
+加载ESM-long权重从: /data1/xuguoshun/lab_work/CRISPR-Cas9/0__coment_ana/1_2__new_model/ESM-long/esm-long/esm2_t6_long/pytorch_model.bin
+ESM-long权重加载完成
+ESM model loaded: ESM2
+Model layers: 6, Embedding dim: 320
+Classifier model created
+Total parameters: 7,810,204
+Trainable parameters: 7,810,204
+Loading data...
+Train samples: 31007, Validation samples: 3444
+Train batches: 5168, Val batches: 574
+Starting training...
+
+  with autocast():
+
+
+
+Epoch 1/10
+Train Loss: 0.670893
+Val Acc: 0.8603, Precision: 0.2868, Recall: 0.9948, F1: 0.4452
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.4452 ***
+
+  with autocast():
+
+
+
+Epoch 2/10
+Train Loss: 0.546916
+Val Acc: 0.9782, Precision: 0.7297, Recall: 0.9742, F1: 0.8344
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.8344 ***
+
+  with autocast():
+
+
+
+Epoch 3/10
+Train Loss: 0.461051
+Val Acc: 0.9971, Precision: 0.9842, Recall: 0.9639, F1: 0.9740
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9740 ***
+
+  with autocast():
+
+
+
+Epoch 4/10
+Train Loss: 0.386454
+Val Acc: 0.9954, Precision: 0.9541, Recall: 0.9639, F1: 0.9590
+Current LR: 1.00e-06
+
+  with autocast():
+
+
+
+Epoch 5/10
+Train Loss: 0.321028
+Val Acc: 0.9971, Precision: 0.9842, Recall: 0.9639, F1: 0.9740
+Current LR: 1.00e-06
+
+  with autocast():
+
+
+
+Epoch 6/10
+Train Loss: 0.259587
+Val Acc: 0.9980, Precision: 1.0000, Recall: 0.9639, F1: 0.9816
+Current LR: 1.00e-06
+*** New best model saved with F1: 0.9816 ***
+
+  with autocast():
+
+
+
+Epoch 7/10
+Train Loss: 0.207446
+Val Acc: 0.9974, Precision: 1.0000, Recall: 0.9536, F1: 0.9763
+Current LR: 1.00e-06
+
+  with autocast():
+
+
+
+Epoch 8/10
+Train Loss: 0.158276
+Val Acc: 0.9977, Precision: 1.0000, Recall: 0.9588, F1: 0.9789
+Current LR: 1.00e-06
+
+  with autocast():
+
+
+
+Epoch 9/10
+Train Loss: 0.121028
+Val Acc: 0.9974, Precision: 1.0000, Recall: 0.9536, F1: 0.9763
+Current LR: 1.00e-06
+
+  with autocast():
+
+
+
+Epoch 10/10
+Train Loss: 0.089158
+Val Acc: 0.9977, Precision: 1.0000, Recall: 0.9588, F1: 0.9789
+Current LR: 5.00e-07
+
+Training complete! Best Val Acc: 0.9980, Best F1: 0.9816
+Training completed in 30732.90 seconds (512.21 minutes)
+
+Final evaluation on validation set:
+
+Final Val Metrics - Acc: 0.9977, Precision: 1.0000, Recall: 0.9588, F1: 0.9789
+Fold 10 完成
+--------------------------------------
+所有10个fold的训练已完成！
