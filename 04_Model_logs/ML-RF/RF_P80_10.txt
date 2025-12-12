@@ -1,0 +1,37 @@
+Optimal Hyperparameters: {'bootstrap': False, 'criterion': 'entropy', 'max_depth': 50, 'max_features': 0.5, 'min_samples_leaf': 1, 'min_samples_split': 6, 'n_estimators': 122}
+Fold: 10
+Using n_jobs=16 for parallel processing
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0   0.994737  0.974227  0.984375       194
+           1   0.974747  0.994845  0.984694       194
+
+    accuracy                       0.984536       388
+   macro avg   0.984742  0.984536  0.984534       388
+weighted avg   0.984742  0.984536  0.984534       388
+
+Top 10 Feature Importances:
+Feature 0: 0.759059
+Feature 15: 0.040718
+Feature 16: 0.025741
+Feature 8: 0.012996
+Feature 61: 0.012756
+Feature 9: 0.010849
+Feature 63: 0.008632
+Feature 7: 0.005473
+Feature 12: 0.004687
+Feature 69: 0.002857
+
+Prediction Probabilities (first 10 samples):
+Sample 0: [1. 0.]
+Sample 1: [0.00409836 0.99590164]
+Sample 2: [1. 0.]
+Sample 3: [0. 1.]
+Sample 4: [0.99453552 0.00546448]
+Sample 5: [0.0307377 0.9692623]
+Sample 6: [0.98565574 0.01434426]
+Sample 7: [0.00819672 0.99180328]
+Sample 8: [1. 0.]
+Sample 9: [0.1045082 0.8954918]
